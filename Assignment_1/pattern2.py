@@ -1,7 +1,7 @@
 n=int(input("Enter no of lines:"))
 for i in range(n,0,-1):
     for j in range(1,i):
-        print(' ')
+        print(' ',end='')
     for k in range(n,i-1,-1):
         print(k)
     for l in range(i+1,n+1):
