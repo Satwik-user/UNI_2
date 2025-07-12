@@ -7,4 +7,4 @@ pos=int(input("Enter positioni of element:"))
 arr[pos]=ele
 print("Modified array:",end=' ')
 for i in range(n):
-    print(arr[i])
+    print(arr[i],end=' ')
