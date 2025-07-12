@@ -1,1 +1,1 @@
-n=int()
+n=int(input(""))
