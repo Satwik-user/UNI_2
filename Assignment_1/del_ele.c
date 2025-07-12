@@ -20,8 +20,9 @@ int main()
     printf("Modified array:");
     for(int i=0;i<n-1;i++)
     {
-        printf("%d",arr[i])
+        printf("%d",arr[i]);
     }
+    printf("\n");
     
     return 0;
 }
