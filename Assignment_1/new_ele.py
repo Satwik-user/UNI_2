@@ -5,4 +5,4 @@ for i in range(n):
 ele=int(input("Enter new element:"))
 pos=int(input("Enter positioni of element:"))
 arr[pos]=ele
-print("")
+print("Modified array:",end=' ')
