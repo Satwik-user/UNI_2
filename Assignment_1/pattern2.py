@@ -5,7 +5,7 @@ for i in range(n,0,-1):
     for k in range(n,i-1,-1):
         print(kend='')
     for l in range(i+1,n+1):
-        print(l)
+        print(l,end='')
     print()
 
 for i in range(n,0,-1):
