@@ -4,4 +4,4 @@ for i in range(n):
     arr.append(int(input("Enter element:")))
 pos=int(input("Enter position of element to be deleted:"))
 del(arr[pos])
-print("")
+print("Modified array:",end)
