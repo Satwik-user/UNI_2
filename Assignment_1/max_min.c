@@ -19,5 +19,6 @@ int main()
         min=arr[i];
     }
     
+    
     return 0;
 }
