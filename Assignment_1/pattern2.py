@@ -3,7 +3,7 @@ for i in range(n,0,-1):
     for j in range(1,i):
         print(' ',end='')
     for k in range(n,i-1,-1):
-        print(k)
+        print(kend='')
     for l in range(i+1,n+1):
         print(l)
     print()
