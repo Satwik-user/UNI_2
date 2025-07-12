@@ -10,7 +10,7 @@ int main()
         printf("Enter element:");
         scanf("%d",&arr[i]);
     }
-    
+    int max=arr[0], miin=arr[0];
     
     return 0;
 }
