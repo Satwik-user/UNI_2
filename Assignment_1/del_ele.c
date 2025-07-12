@@ -13,7 +13,7 @@ int main()
     int del_pos;
     pritnf("Enter position of element to be deleted:");
     scanf("%d",&del_pos);
-    for(int i=del;i<n;i++)
+    for(int i=del_pos;i<n;i++)
     {
 
     }
