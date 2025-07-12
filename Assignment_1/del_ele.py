@@ -5,6 +5,6 @@ for i in range(n):
 pos=int(input("Enter position of element to be deleted:"))
 del(arr[pos])
 print("Modified array:",end=' ')
-for i in range(n):
+for i in range(n-1):
     print(arr[i],end=' ')
 print()
