@@ -11,7 +11,7 @@ int main()
         scanf("%d",&arr[i]);
     }
     int del_pos;
-    pritnf("Enter position of element to be deleted:");
+    printf("Enter position of element to be deleted:");
     scanf("%d",&del_pos);
     for(int i=del_pos;i<n-1;i++)
     {
