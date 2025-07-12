@@ -3,4 +3,4 @@ arr=[]
 for i in range(n):
     arr.append(int(input("Enter element:")))
 ele=int(input("Enter element to be inserted:"))
-pos=
+pos=int()
