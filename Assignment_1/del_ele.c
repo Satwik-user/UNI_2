@@ -15,7 +15,7 @@ int main()
     scanf("%d",&del_pos);
     for(int i=del_pos;i<n;i++)
     {
-
+        
     }
     
     return 0;
