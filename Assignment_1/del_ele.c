@@ -10,7 +10,8 @@ int main()
         printf("Enter element:");
         scanf("%d",&arr[i]);
     }
-    
+    int del_pos;
+    pritnf("Enter position of element to be deleted:");
     
     return 0;
 }
