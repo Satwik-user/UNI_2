@@ -4,4 +4,5 @@ print(a,' ', b,end=' ')
 for i in range(n-2):
     c=a+b
     print(c,end=' ')
-    a=
+    a=b
+    b=c
