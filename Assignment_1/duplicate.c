@@ -20,6 +20,7 @@ int main()
                 {
                     arr[k]=arr[k+1];
                 }
+                
             }
         }
     }
