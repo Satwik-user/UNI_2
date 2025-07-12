@@ -8,3 +8,4 @@ arr[pos]=ele
 print("Modified array:",end=' ')
 for i in range(n):
     print(arr[i],end=' ')
+print()
