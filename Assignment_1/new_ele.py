@@ -1,1 +1,1 @@
-n=int(input("Enter a "))
+n=int(input("Enter size of array:"))
