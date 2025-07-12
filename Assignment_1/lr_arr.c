@@ -6,5 +6,6 @@ int main()
     scanf("%d",&n);
     int arr[n];
     
+    
     return 0;
 }
