@@ -10,6 +10,7 @@ int main()
         printf("Enter element:");
         scanf("%d",&arr[i]);
     }
+    
     int k;
     printf("Enter value of k:");
     scanf("%d",&k);
