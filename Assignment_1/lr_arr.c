@@ -13,6 +13,7 @@ int main()
     for(int i=0;i<n;i++)
     {
         l_arr[i]=arr[i];
+        r_arr[i]=arr[i];
     }
     int k, cpy_k;
     printf("Enter value of k:");
