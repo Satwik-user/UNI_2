@@ -21,7 +21,7 @@ int main()
     cpy_k=k;
     while(k>0)
     {
-        int temp=arr[0];
+        int temp=l_arr[0];
         for(int j=0;j<n-1;j++)
         {
             l_arr[j]=arr[j+1];
