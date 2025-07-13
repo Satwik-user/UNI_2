@@ -5,4 +5,4 @@ for i in range(1,n+1):
 if c==2:
     print("Prime Number")
 else:
-    print("")
+    print("Composite number")
