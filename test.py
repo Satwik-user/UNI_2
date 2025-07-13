@@ -6,4 +6,5 @@ while n>0:
     n//=10
 if rev==cpy:
     print("Palindrome number")
-else
+else:
+    print("")
