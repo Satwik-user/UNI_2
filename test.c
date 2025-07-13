@@ -5,7 +5,7 @@ int main()
     printf("Enter three numbers:");
     scanf("%d %d %d",&a,&b,&c);
     if(a>b && a>c)
-    printf("Largest:",a);
+    printf("Largest:^d",a);
     
     return 0;
 }
