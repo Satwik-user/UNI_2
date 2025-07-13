@@ -7,9 +7,10 @@ int main()
     int arr[n];
     for(int i=0;i<n;i++)
     {
-        printf("enter element:");
+        printf("Enter element:");
         scanf("%d",&arr[i]);
     }
+    
     
     return 0;
 }
