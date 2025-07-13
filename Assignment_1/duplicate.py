@@ -7,6 +7,7 @@ for i in range(n):
         if arr[i]==arr[j]:
             del(arr[j])
             n-=1
+            j
 print("Modified array:",end='')
 for i in range(n):
     print(arr[i],end=' ')
