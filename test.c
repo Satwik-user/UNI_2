@@ -6,7 +6,7 @@ int main()
     scanf("%d %d %d",&a,&b,&c);
     if(a>b && a>c)
     printf("Largest:%d\n",a);
-    
+    else if(b>c && b)
     
     return 0;
 }
