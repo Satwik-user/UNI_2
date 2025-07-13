@@ -1,1 +1,4 @@
-n=int(input("Enter size of arra"))
+n=int(input("Enter size of array:"))
+arr=[]
+for i in range(n):
+    
