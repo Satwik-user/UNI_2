@@ -10,4 +10,4 @@ for i in range(n):
             j-=1
 print("Modified array:",end='')
 for i in range(n):
-    print(arr[i],end)
+    print(arr[i],end=' ')
