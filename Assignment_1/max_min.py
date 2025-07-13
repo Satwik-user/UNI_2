@@ -9,3 +9,4 @@ for item in arr:
         max=item
     if item<min:
         min=item
+print("")
