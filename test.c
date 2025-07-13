@@ -9,7 +9,8 @@ int main()
     {
         c=a+b;
         printf("%d ",c);
-        a=b
+        a=b;
+        b=c;
     }
     
     return 0;
