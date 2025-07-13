@@ -24,7 +24,7 @@ int main()
 
         }
         l_arr[n-1]=temp_l;
-        r_arr[0]=
+        r_arr[0]=temp_r;
         k--;
     }
     printf("Left rotation array:");
