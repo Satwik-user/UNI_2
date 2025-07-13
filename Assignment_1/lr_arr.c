@@ -38,6 +38,8 @@ int main()
         arr[0]=temp;
         k--;
     }
+    printf("Right rotation array:");
+    
     
     return 0;
 }
