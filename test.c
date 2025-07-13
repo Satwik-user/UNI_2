@@ -11,7 +11,7 @@ int main()
         n/=10;
     }
     if(rev==cpy)
-    printf("Palindrome number:\n");
+    printf("Palindrome number\n");
     else
     printf("Not a palindrome number:\n");
     
