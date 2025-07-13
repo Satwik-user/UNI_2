@@ -5,6 +5,9 @@ int main()
     printf("Enter size of array:");
     scanf("%d",&n);
     for(int i=0;i<n;i++)
+    {
+        
+    }
     
     return 0;
 }
