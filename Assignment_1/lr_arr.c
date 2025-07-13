@@ -35,7 +35,7 @@ int main()
         {
             r_arr[j+1]=arr[j];
         }
-        arr[0]=temp;
+        r_arr[0]=temp;
         k--;
     }
     printf("Right rotation array:");
