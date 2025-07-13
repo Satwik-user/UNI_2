@@ -10,7 +10,9 @@ int main()
         printf("Enter element:");
         scanf("%d",&arr[i]);
     }
-    int rot;
+    int k;
+    printf("Enter value of k:");
+    scanf("%d",&k);
     
     
     return 0;
