@@ -32,16 +32,7 @@ int main()
     {
         printf("%d ",&l_arr[i]);
     }
-    while(k>0)
-    {
-        int temp=arr[n];
-        for(int j=0;j<n-1;j++)
-        {
-            r_arr[j+1]=arr[j];
-        }
-        r_arr[0]=temp;
-        k--;
-    }
+  
     printf("Right rotation array:");
     for(int i=0;i<n;i++)
     {
