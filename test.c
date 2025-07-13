@@ -5,5 +5,6 @@ int main()
     printf("Enter number of terms:");
     scanf("%d",&n);
     
+    
     return 0;
 }
