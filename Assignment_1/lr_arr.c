@@ -40,7 +40,7 @@ int main()
         int temp=r_arr[n-1];
         for(int j=n-1;j>0;j--)
         {
-            r_arr[j]=r_arr[j];
+            r_arr[j]=r_arr[j-1];
         }
         r_arr[0]=temp;
         cpy_k--;
