@@ -11,7 +11,8 @@ int main()
     }
     if(c==2)
     printf("Prime number\n");
-    
+    else
+    printf("Composite number\n");
     
     return 0;
 }
