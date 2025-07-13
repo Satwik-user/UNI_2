@@ -4,7 +4,7 @@ int main()
     int n;
     printf("Enter size of array:");
     scanf("%d",&n);
-    int arr[n], l_arr[n], r_arr[n];
+    int arr[n],cpy_arr[n], l_arr[n], r_arr[n];
     for(int i=0;i<n;i++)
     {
         printf("Enter element:");
@@ -12,7 +12,7 @@ int main()
     }
     for(int i=0;i<n;i++)
     {
-        
+        cpy_arr[i]=arr[i];
     }
     int k;
     printf("Enter value of k:");
@@ -30,16 +30,16 @@ int main()
     printf("Left rotation array:");
     for(int i=0;i<n;i++)
     {
-        printf("%d ",&arr[i]);
+        printf("%d ",arr[i]);
     }
     while(k>0)
     {
-        int temp=arr[n];
+        int temp=cpy_arr[n];
         for(int j=0;j<n-1;j++)
         {
-            r_arr[j+1]=arr[j];
+            r_arr[j+1]=cpy_arr[j];
         }
-        arr[0]=temp;
+        r_arr[0]=temp;
         k--;
     }
     printf("Right rotation array:");
