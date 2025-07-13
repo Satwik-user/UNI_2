@@ -17,8 +17,8 @@ int main()
     int k, cpy_k;
     printf("Enter value of k:");
     scanf("%d",&k);
-    
-    while(k>0)
+    cpy_k=k;
+    while(cpy_k>0)
     {
         int temp=arr[0];
         for(int j=0;j<n-1;j++)
