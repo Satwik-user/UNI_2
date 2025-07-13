@@ -35,7 +35,6 @@ int main()
         {
             arr[j]=arr[j+1];
         }
-        arr[0]=temp;
         k--;
     }
     
