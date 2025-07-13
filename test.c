@@ -10,6 +10,8 @@ int main()
         c++;
     }
     if(c==2)
+    printf("Prime number\n");
+    
     
     return 0;
 }
