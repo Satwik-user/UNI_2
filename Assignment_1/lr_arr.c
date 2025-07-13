@@ -4,7 +4,7 @@ int main()
     int n;
     printf("Enter size of array:");
     scanf("%d",&n);
-    int arr[n];
+    int arr[n], l_arr[n], r_arr[n];
     for(int i=0;i<n;i++)
     {
         printf("Enter element:");
@@ -18,7 +18,7 @@ int main()
         int temp=arr[0];
         for(int j=0;j<n-1;j++)
         {
-            arr[j]=arr[j+1];
+            l_arr[j]=arr[j+1];
         }
         arr[n-1]=temp;
         k--;
