@@ -4,7 +4,8 @@ int main()
     int a,b,c;
     printf("Enter three numbers:");
     scanf("%d %d %d",&a,&b,&c);
-    if(a>b)
+    if(a>b && a>c)
+    printf("Largest:",a);
     
     return 0;
 }
