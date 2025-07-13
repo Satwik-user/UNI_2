@@ -7,7 +7,7 @@ int main()
     int arr[n];
     for(int i=0;i<n;i++)
     {
-        
+        printf("enter element:");
     }
     
     return 0;
