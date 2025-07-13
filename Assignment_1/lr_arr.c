@@ -38,9 +38,9 @@ int main()
     while(cpy_k>0)
     {
         int temp=r_arr[n-1];
-        for(int j=n-1;j>0;j--)
+        for(int j=0;j<n;j++)
         {
-            r_arr[j]=r_arr[j-1];
+            r_arr[j+1]=r_arr[j];
         }
         r_arr[0]=temp;
         cpy_k--;
