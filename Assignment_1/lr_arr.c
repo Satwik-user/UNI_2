@@ -4,7 +4,7 @@ int main()
     int n;
     printf("Enter size of array:");
     scanf("%d",&n);
-    int arr[n],cpy_arr[n], l_arr[n], r_arr[n];
+    int arr[n], l_arr[n], r_arr[n];
     for(int i=0;i<n;i++)
     {
         printf("Enter element:");
@@ -37,10 +37,10 @@ int main()
     printf("\n");
     while(cpy_k>0)
     {
-        int temp=cpy_arr[n-1];
+        int temp=r_arr[n-1];
         for(int j=0;j<n-1;j++)
         {
-            r_arr[j+1]=cpy_arr[j];
+            r_arr[j+1]=r_arr[j];
         }
         r_arr[0]=temp;
         cpy_k--;
