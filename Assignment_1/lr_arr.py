@@ -11,4 +11,4 @@ while k>0:
     k-=1
 while cpy_k>0:
     r_arr[n-1]+r_arr[0:n-2]
-    c
+    cpy_k-=1
