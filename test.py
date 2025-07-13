@@ -7,4 +7,4 @@ while n>0:
 if rev==cpy:
     print("Palindrome number")
 else:
-    print("")
+    print("Not a palindrome number")
