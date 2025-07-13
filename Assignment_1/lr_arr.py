@@ -7,4 +7,4 @@ cpy_k=k
 l_arr=arr[:]
 r_arr=arr[:]
 while k>0:
-    
+    temp
