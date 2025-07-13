@@ -19,6 +19,8 @@ int main()
         for(int j=0;j<n-1;j++)
         {
             l_arr[j]=arr[j+1];
+                        r_arr[j+1]=arr[j];
+
         }
         l_arr[n-1]=temp;
         k--;
