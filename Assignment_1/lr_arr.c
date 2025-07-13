@@ -13,9 +13,9 @@ int main()
     int k;
     printf("Enter value of k:");
     scanf("%d",&k);
-    for(int i=0;i<n;i++)
+    for(int i=0;i<k;i++)
     {
-        
+
     }
     
     return 0;
