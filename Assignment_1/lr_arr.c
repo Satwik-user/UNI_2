@@ -15,14 +15,16 @@ int main()
     scanf("%d",&k);
     while(k>0)
     {
-        int temp=arr[0];
+        int temp_l=arr[0];
+        int temp_r=arr[n-1];
         for(int j=0;j<n-1;j++)
         {
             l_arr[j]=arr[j+1];
             r_arr[j+1]=arr[j];
 
         }
-        l_arr[n-1]=temp;
+        l_arr[n-1]=temp_l;
+        
         k--;
     }
     printf("Left rotation array:");
