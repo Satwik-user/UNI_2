@@ -1,2 +1,2 @@
 a=int(input("Enter first number:"))
-b
+b=int(i)
