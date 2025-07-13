@@ -49,6 +49,7 @@ int main()
     {
         printf("%d ",r_arr[i]);
     }
+    printf("\n");
     
     return 0;
 }
