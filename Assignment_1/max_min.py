@@ -7,3 +7,4 @@ min=arr[0]
 for item in arr:
     if item>max:
         max=item
+    if item<min:
