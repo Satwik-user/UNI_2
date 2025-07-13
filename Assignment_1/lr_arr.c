@@ -16,29 +16,36 @@ int main()
     while(k>0)
     {
         int temp_l=arr[0];
-        int temp_r=arr[n-1];
+        int temp_r=arr[]
         for(int j=0;j<n-1;j++)
         {
             l_arr[j]=arr[j+1];
             r_arr[j+1]=arr[j];
 
         }
-        l_arr[n-1]=temp_l;
-        r_arr[0]=temp_r;
+        l_arr[n-1]=temp;
         k--;
     }
     printf("Left rotation array:");
     for(int i=0;i<n;i++)
     {
-        printf("%d ",l_arr[i]);
+        printf("%d ",&l_arr[i]);
     }
-    printf("\n");
+    while(k>0)
+    {
+        int temp=arr[n];
+        for(int j=0;j<n-1;j++)
+        {
+            r_arr[j+1]=arr[j];
+        }
+        r_arr[0]=temp;
+        k--;
+    }
     printf("Right rotation array:");
     for(int i=0;i<n;i++)
     {
         printf("%d ",arr[i]);
     }
-    printf("\n");
     
     return 0;
 }
