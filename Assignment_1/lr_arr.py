@@ -7,4 +7,7 @@ cpy_k=k
 l_arr=arr[:]
 r_arr=arr[:]
 while k>0:
-    l_arr[1:]+l_arr[]
+    l_arr[1:]+l_arr[0]
+    k-=1
+while cpy_k>0:
+    
