@@ -13,7 +13,7 @@ int main()
     int k;
     printf("Enter value of k:");
     scanf("%d",&k);
-    
+    while(k>0)
     {
         int temp=arr[0];
         for(int j=0;j<n-1;j++)
