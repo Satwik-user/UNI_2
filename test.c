@@ -13,7 +13,7 @@ int main()
     if(rev==cpy)
     printf("Palindrome number\n");
     else
-    printf("Not a palindrome number:\n");
+    printf("Not a palindrome number\n");
     
     return 0;
 }
