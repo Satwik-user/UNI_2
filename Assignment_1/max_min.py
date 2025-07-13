@@ -8,3 +8,4 @@ for item in arr:
     if item>max:
         max=item
     if item<min:
+        min=item
