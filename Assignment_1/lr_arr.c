@@ -35,7 +35,7 @@ int main()
     }
     while(cpy_k>0)
     {
-        int temp=cpy_arr[n];
+        int temp=cpy_arr[n-1];
         for(int j=0;j<n-1;j++)
         {
             r_arr[j+1]=cpy_arr[j];
