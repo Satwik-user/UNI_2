@@ -6,3 +6,5 @@ k=int(input("Enter value of k:"))
 cpy_k=k
 l_arr=arr[:]
 r_arr=arr[:]
+while k>0:
+    
