@@ -9,7 +9,7 @@ int main()
         if(n%i==0)
         c++;
     }
-    
+    if(c==2)
     
     return 0;
 }
