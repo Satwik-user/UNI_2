@@ -2,4 +2,7 @@ n=int(input("Enter size of array:"))
 arr=[]
 for i in range(n):
     arr.append(int(input("Enter element:")))
-max=arr[]
+max=arr[0]
+min=arr[0]
+for item in arr:
+    if item>max
