@@ -41,7 +41,7 @@ int main()
             r_arr[j+1]=cpy_arr[j];
         }
         r_arr[0]=temp;
-        k--;
+        cpy_k--;
     }
     printf("Right rotation array:");
     for(int i=0;i<n;i++)
