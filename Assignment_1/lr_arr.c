@@ -32,11 +32,13 @@ int main()
     {
         printf("%d ",&l_arr[i]);
     }
+    pritnf("\n");
     printf("Right rotation array:");
     for(int i=0;i<n;i++)
     {
         printf("%d ",arr[i]);
     }
+    
     
     return 0;
 }
