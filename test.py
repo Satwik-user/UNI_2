@@ -6,4 +6,4 @@ if a>b and a>c:
 elif b>a and b>c:
     print("Largest:",b)
 elif c>a and c>b:
-    print("Lar")
+    print("Largest:",c)
