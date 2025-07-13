@@ -18,7 +18,7 @@ int main()
     printf("Enter value of k:");
     scanf("%d",&k);
     cpy_k=k;
-    while(cpy_k>0)
+    while(k>0)
     {
         int temp=arr[0];
         for(int j=0;j<n-1;j++)
@@ -26,7 +26,7 @@ int main()
             l_arr[j]=arr[j+1];
         }
         l_arr[n-1]=temp;
-        cpy_k--;
+        k--;
     }
     printf("Left rotation array:");
     for(int i=0;i<n;i++)
