@@ -7,6 +7,6 @@ for item in arr:
     if item not in res:
         res.append(item)
 print("Modified array:",end='')
-for i in res:
+for item in res:
     print(item,end=' ')
 print()
