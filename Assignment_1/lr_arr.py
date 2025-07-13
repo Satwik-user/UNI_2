@@ -12,4 +12,4 @@ while k>0:
 while cpy_k>0:
     r_arr[n-1]+r_arr[0:n-2]
     cpy_k-=1
-print()
+print("")
