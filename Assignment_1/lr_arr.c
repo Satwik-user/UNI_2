@@ -24,7 +24,7 @@ int main()
         int temp=l_arr[0];
         for(int j=0;j<n-1;j++)
         {
-            l_arr[j]=arr[j+1];
+            l_arr[j]=l_arr[j+1];
         }
         l_arr[n-1]=temp;
         k--;
