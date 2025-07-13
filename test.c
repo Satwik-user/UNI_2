@@ -7,6 +7,9 @@ int main()
     if(a>b && a>c)
     printf("Largest:%d\n",a);
     else if(b>a && b>c)
+    printf("Largest:%d\n",b);
+    else if(c>a && c>b)
+    printf("Largest:%d\n",c);
     
     return 0;
 }
