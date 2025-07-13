@@ -23,6 +23,11 @@ int main()
         arr[n-1]=temp;
         k--;
     }
+    printf("Left rotation array:");
+    for(int i=0;i<n;i++)
+    {
+        
+    }
     
     return 0;
 }
