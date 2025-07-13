@@ -14,4 +14,4 @@ while cpy_k>0:
     cpy_k-=1
 print("Left rotation array:")
 for item in l_arr:
-    
+    print()
