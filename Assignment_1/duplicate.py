@@ -8,5 +8,5 @@ for item in arr:
         res.append(item)
 print("Modified array:",end='')
 for i in res:
-    print(arr[i],end=' ')
+    print(item,end=' ')
 print()
