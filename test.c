@@ -8,6 +8,7 @@ int main()
     {
         fact*=i;
     }
+    printf("Factorial of the number:%d\n",fact);
     
     return 0;
 }
