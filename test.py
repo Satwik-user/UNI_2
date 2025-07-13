@@ -1,4 +1,4 @@
-n=int(input("Enter num ber of terms:"))
+n=int(input("Enter number of terms:"))
 a=0
 b=1
 print(a,b,end=' ')
