@@ -10,3 +10,4 @@ for item in arr:
     if item<min:
         min=item
 print("Maximum element in array:",max)
+print("Minimum element in array:")
