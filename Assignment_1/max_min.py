@@ -5,4 +5,5 @@ for i in range(n):
 max=arr[0]
 min=arr[0]
 for item in arr:
-    if item>max
+    if item>max:
+        max=item
