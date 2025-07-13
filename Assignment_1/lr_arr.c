@@ -39,7 +39,10 @@ int main()
         k--;
     }
     printf("Right rotation array:");
-    
+    for(int i=0;i<n;i++)
+    {
+        
+    }
     
     return 0;
 }
