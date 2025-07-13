@@ -21,6 +21,7 @@ int main()
             arr[j]=arr[j+1];
         }
         arr[n-1]=temp;
+        k--;
     }
     
     return 0;
