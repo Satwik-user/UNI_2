@@ -20,7 +20,7 @@ int main()
         {
             l_arr[j]=arr[j+1];
         }
-        arr[n-1]=temp;
+        l_arr[n-1]=temp;
         k--;
     }
     printf("Left rotation array:");
