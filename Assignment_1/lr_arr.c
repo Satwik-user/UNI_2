@@ -33,6 +33,7 @@ int main()
     {
         printf("%d ",l_arr[i]);
     }
+    printf("\n");
     while(cpy_k>0)
     {
         int temp=cpy_arr[n-1];
