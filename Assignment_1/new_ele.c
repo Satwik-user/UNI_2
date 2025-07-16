@@ -17,7 +17,7 @@ int main()
     {
         arr[i]=arr[i-1];
     }
-    
+    arr[pos]=ele;
     printf("Modified array:");
     for(int i=0;i<n;i++)
     {
