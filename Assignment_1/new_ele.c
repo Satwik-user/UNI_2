@@ -13,7 +13,7 @@ int main()
     int ele,pos;
     printf("Enter element and position:");
     scanf("%d %d",&ele,&pos);
-    
+    for(int i=n;i>pos)
     printf("Modified array:");
     for(int i=0;i<n;i++)
     {
