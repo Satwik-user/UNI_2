@@ -6,6 +6,6 @@ ele=int(input("Enter new element:"))
 pos=int(input("Enter position of element:"))
 arr.insert(pos, ele)
 print("Modified array:",end=' ')
-for i in range(ln):
+for i in range(len(arr)):
     print(arr[i],end=' ')
 print()
