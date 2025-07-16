@@ -4,7 +4,7 @@ for i in range(n):
     arr.append(int(input("Enter element:")))
 ele=int(input("Enter new element:"))
 pos=int(input("Enter position of element:"))
-arr[pos]=ele
+arr.insert(pos, ele)
 print("Modified array:",end=' ')
 for i in range(n):
     print(arr[i],end=' ')
