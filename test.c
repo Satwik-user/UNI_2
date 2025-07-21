@@ -1,21 +1,19 @@
 #include <stdio.h>
+#include <math.h>
 int main()
 {
-    int n;
-    printf("Enter size of array:");
+    int n,cpy=n,s=0;
+    pritnf("Enter a number:");
     scanf("%d",&n);
-    int arr[n];
-    for(int i=0;i<n;i++)
+    while(n>0)
     {
-        printf("Enter element:");
-        scanf("%d",&arr[i]);
+        s+=pow(n%10,3);
+        n/=10;
     }
-    printf("Array:");
-    for(int i=0;i<n;i++)
-    {
-        printf("%d ",arr[i]);
-    }
-    printf("\n");
+    if(cpy==s)
+    printf("Armstrong numner\n");
+    else
+    printf("Not a armstrong number\n");
     
     return 0;
 }
