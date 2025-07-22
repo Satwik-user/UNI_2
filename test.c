@@ -7,7 +7,7 @@ int main()
     scanf("%d",&n);
     while(n>0)
     {
-        s+=pow(n%10,3);
+        s+=pow(n%10,n);
         n/=10;
     }
     if(cpy==s)
