@@ -16,7 +16,7 @@ int main()
         s+=pow(n%10,c);
         n/=10;
     }
-    if(cpy==s)
+    if(s==cpy)
     printf("Armstrong number\n");
     else
     printf("Not a armstrong number\n");
