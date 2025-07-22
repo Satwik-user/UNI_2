@@ -13,7 +13,7 @@ int main()
     n=cpy;
     while(n>0)
     {
-        s+=pow(n%10,n);
+        s+=pow(n%10,c);
         n/=10;
     }
     if(cpy==s)
