@@ -17,7 +17,7 @@ int main()
         n/=10;
     }
     if(cpy==s)
-    printf("Armstrong numner\n");
+    printf("Armstrong number\n");
     else
     printf("Not a armstrong number\n");
     
