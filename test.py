@@ -6,4 +6,4 @@ while n>0:
     res+=(n%10)**c
     n//=10
 if cpy==res:
-    print("")
+    print("Armstrong number:")
