@@ -8,4 +8,4 @@ while n>0:
 if cpy==res:
     print("Armstrong number")
 else:
-    
+    print("Not a armstrong number")
