@@ -2,13 +2,15 @@
 #include <math.h>
 int main()
 {
-    int n,cpy=n,s=0;
+    int c=0,n,cpy=n,s=0;
     printf("Enter a number:");
     scanf("%d",&n);
     while(n>0)
     {
-        
+        n/=10;
+        c++;
     }
+    
     while(n>0)
     {
         s+=pow(n%10,n);
