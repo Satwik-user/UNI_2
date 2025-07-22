@@ -2,7 +2,7 @@
 #include <math.h>
 int main()
 {
-    int c=0,n,s=0;
+    int c=0,n,res=0;
     printf("Enter a number:");
     scanf("%d",&n);
     int cpy=n;
@@ -14,10 +14,10 @@ int main()
     n=cpy;
     while(n>0)
     {
-        s+=pow(n%10,c);
+        res+=pow(n%10,c);
         n/=10;
     }
-    if(s==cpy)
+    if(res==cpy)
     printf("Armstrong number\n");
     else
     printf("Not a armstrong number\n");
