@@ -10,7 +10,7 @@ int main()
         n/=10;
         c++;
     }
-     
+    n=cpy;
     while(n>0)
     {
         s+=pow(n%10,n);
