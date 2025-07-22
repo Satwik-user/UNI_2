@@ -6,6 +6,9 @@ int main()
     printf("Enter a number:");
     scanf("%d",&n);
     while(n>0)
+    {
+        
+    }
     while(n>0)
     {
         s+=pow(n%10,n);
