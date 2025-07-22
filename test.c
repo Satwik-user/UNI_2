@@ -2,9 +2,10 @@
 #include <math.h>
 int main()
 {
-    int c=0,n,cpy=n,s=0;
+    int c=0,n,s=0;
     printf("Enter a number:");
     scanf("%d",&n);
+    int cpy=n;
     while(n>0)
     {
         n/=10;
