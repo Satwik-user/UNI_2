@@ -5,3 +5,4 @@ for i in range(n):
 print("Original List:",l)
 index=int(input("Enter index to add new elemnt next to:"))
 new_ele=int(input("Enter element to be inserted:"))
+l
