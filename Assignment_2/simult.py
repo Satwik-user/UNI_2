@@ -1,1 +1,1 @@
-n1=int(input())
+n1=int(input("Enetr s"))
