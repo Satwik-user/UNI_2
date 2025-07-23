@@ -1,1 +1,1 @@
-n1=int(input("Enetr s"))
+n1=int(input("Enetr size of list1:"))
