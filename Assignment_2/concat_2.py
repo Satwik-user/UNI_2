@@ -7,4 +7,4 @@ l2=[]
 for i in range(n2):
     l2.append(int(input("Enter element of list2:")))
 for i in range(n2):
-    l1.append()
+    l1.append(l2)
