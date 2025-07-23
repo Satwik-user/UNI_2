@@ -1,1 +1,4 @@
-n=int(input("Enter a list "))
+n=int(input("Enter size of list:"))
+l=[]
+for i in range(n):
+    
