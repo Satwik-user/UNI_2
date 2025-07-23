@@ -4,5 +4,5 @@ for i in range(n):
     l.append(input("Enter string element:"))
 for i in l:
     if len(i)==0:
-        del l[i]
+        del i
 print("Modified List:",l)
