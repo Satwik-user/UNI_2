@@ -5,4 +5,4 @@ for i in range(n1):
 n2=int(input("Enter size of list2:"))
 l2=[]
 for i in range(n2):
-    l2.append()
+    l2.append(int())
