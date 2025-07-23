@@ -5,3 +5,4 @@ for i in range(n):
 for i in l:
     if len(i)==0:
         del l[i]
+print()
