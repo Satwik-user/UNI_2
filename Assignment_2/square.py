@@ -3,5 +3,5 @@ l=[]
 for i in range(n):
     l.append(int(input("Enter element:")))
 for i in range(n):
-    l[i]
+    l[i]=l
 print("Squared list:",l)
