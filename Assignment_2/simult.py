@@ -7,4 +7,4 @@ l2=[]
 for i in range(n2):
     l2.append(int(input("Enter element for list2:")))
 for i in range(max(n1,n2)):
-    print(f"Index:{i} List1={l1[i]}")
+    print(f"Index:{i} List1={l1[i]} list2")
