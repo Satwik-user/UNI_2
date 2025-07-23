@@ -7,4 +7,4 @@ l2=[]
 for i in range(n2):
     l2.append(int(input("Enter element of list2:")))
 concat=l1+l2
-print("Concatenated list:",l1)
+print("Concatenated list:",concat)
