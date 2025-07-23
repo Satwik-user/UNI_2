@@ -9,4 +9,4 @@ for i in range(n2):
 
 concat=[]
 for i in range(min(n1,n2)):
-    concat.
+    concat.append()
