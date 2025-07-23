@@ -1,1 +1,1 @@
-n=int(input("Enter size of list:"))
+n=int(input("Enter size of list1:"))
