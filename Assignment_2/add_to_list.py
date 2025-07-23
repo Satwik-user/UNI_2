@@ -3,6 +3,6 @@ l=[]
 for i in range(n):
     l.append(int(input("Enter element:")))
 print("Original List:",l)
-index=int(input("Enter index to add new element next to:"))
+index=int(input("Enter index to add new element:"))
 new_ele=int(input("Enter element to be inserted:"))
 l.insert
