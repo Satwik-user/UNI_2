@@ -3,4 +3,6 @@ l1=[]
 for i in range(n1):
     l1.append(int(input("Enter element of list1:")))
 n2=int(input("Enter size of list2:"))
-l
+l2=[]
+for i in range(n2):
+    
