@@ -9,6 +9,6 @@ for i in range(n2):
 
 concat=[]
 for i in range(min(n1,n2)):
-    concat.append(l1[i]+l2[i])
+    concat.append(l1[i],l2[i])
 
 print("Concatenated lists:",concat)
