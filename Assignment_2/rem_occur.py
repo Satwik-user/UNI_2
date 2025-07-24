@@ -6,5 +6,5 @@ print("Original List:",l)
 rem=int(input("Enter item to be removed:"))
 for i in l:
     if i==rem:
-        
+        l.remove()
 print("Moddified List:",l)
