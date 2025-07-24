@@ -6,3 +6,4 @@ for i in range(n1):
     for j in range(n2):
         l2.append(int(input("Enter element:")))
     l1.append(l2)
+l1
