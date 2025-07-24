@@ -7,3 +7,4 @@ rem=int(input("Enter item to be removed:"))
 for i in range(n):
     if l[i]==rem:
         del l[i]
+print("Moddified ")
