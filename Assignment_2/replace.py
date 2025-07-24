@@ -7,4 +7,4 @@ new_ele=int(input("Enter new value:"))
 for i in range(n):
     if l[i]==old_ele:
         l[i]=new_ele
-        
+print("Modified List:",l)
