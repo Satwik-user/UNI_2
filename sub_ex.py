@@ -4,4 +4,4 @@ l1=[]
 for i in range(n1):
     l2=[]
     for j in range(n2):
-        l2.append(int(input("")))
+        l2.append(int(input("Enter ")))
