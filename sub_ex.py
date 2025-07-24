@@ -6,7 +6,7 @@ for i in range(n1):
     for j in range(n2):
         l2.append(int(input("Enter element:")))
     l1.append(l2)
-print("Original List:")
+print("Original List:",l1)
 l3=[]
 for i in range(n2):
     l3.append(int(input("Enter extended list elements:")))
