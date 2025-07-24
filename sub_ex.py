@@ -1,1 +1,1 @@
-n1=int(i)
+n1=int(input("Enter "))
