@@ -1,1 +1,1 @@
-n1=int(input("Enter "))
+n1=int(input("Enter size of "))
