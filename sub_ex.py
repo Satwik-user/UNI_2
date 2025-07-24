@@ -8,4 +8,4 @@ for i in range(n1):
     l1.append(l2)
 l3=[]
 for i in range(n2):
-    l3.append()
+    l3.append(int9)
