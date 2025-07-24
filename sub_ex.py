@@ -9,4 +9,4 @@ for i in range(n1):
 l3=[]
 for i in range(n2):
     l3.append(int(input("Enter extended list elements:")))
-l1.extend()
+l1.extend(l3)
