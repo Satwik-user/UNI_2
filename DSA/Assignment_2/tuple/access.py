@@ -1,2 +1,2 @@
 tup=(10,20,30,40,50)
-index=
+index=tup.index(20)
