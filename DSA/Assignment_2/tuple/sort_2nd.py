@@ -4,7 +4,7 @@ tup=(
     ('Rohan',17,91),
     ('John',17,93),
 )
-print("Original tuple of tuples:",tup)
+print("Original tuple of tuples:\n",tup)
 
 sorted_tup=tuple(sorted(tup,key=lambda x:x[1]))
-print("Sorted by second item:",sorted_tup)
+print("Sorted by second item:\n",sorted_tup)
