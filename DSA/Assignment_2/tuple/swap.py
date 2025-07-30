@@ -6,4 +6,4 @@ print("tuple 2=",tup2)
 tup1,tup2=tup2,tup1
 print("After swapping:")
 print("tuple 1=",tup1)
-print()
+print("tuple 2=",tu)
