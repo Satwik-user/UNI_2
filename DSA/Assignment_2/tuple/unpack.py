@@ -1,2 +1,2 @@
 tup=('I','am','Satwik','Chowdhury')
-a,
+a,b,c,d=tup
