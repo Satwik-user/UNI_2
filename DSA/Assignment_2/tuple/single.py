@@ -1,3 +1,3 @@
 tup=(10,)
 print("Single item tuple:",tup)
-print("Data type:",)
+print("Data type:",type(tup))
