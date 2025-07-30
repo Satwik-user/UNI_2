@@ -1,2 +1,2 @@
 tup=(10,)
-print("")
+print("Single item tuple:",)
