@@ -1,3 +1,3 @@
 tup=(1,2,3,4,5)
 temp_list=list(tup)
-temp_list[2]
+temp_list[1]
