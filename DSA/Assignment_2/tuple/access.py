@@ -1,3 +1,3 @@
 tup=(10,20,30,40,50)
 index=tup.index(20)
-print(f"20 at position:")
+print("20 at position:",)
