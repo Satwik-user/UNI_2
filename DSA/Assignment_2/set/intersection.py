@@ -4,4 +4,4 @@ res=set1.intersection(set2)
 if res:
     print("Common elements:",res)
 else:
-    print("No comm")
+    print("No common elements")
