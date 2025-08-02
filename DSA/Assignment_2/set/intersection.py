@@ -3,3 +3,5 @@ set2={4,5,6,7,8}
 res=set1.intersection(set2)
 if res:
     print("Common elements:",res)
+else:
+    
