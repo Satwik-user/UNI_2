@@ -3,4 +3,4 @@ old_key=1
 new_key=0
 if old_key in dict0:
     dict0[new_key]=dict0[old_key]
-print()
+print("")
