@@ -12,4 +12,4 @@ person = {
         'languages': ['English', 'Spanish']
     }
 }
-person['address'][]
+person['address']['city']=
