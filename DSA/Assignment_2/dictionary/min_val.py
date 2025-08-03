@@ -1,1 +1,1 @@
-dict0={"Satwik"}
+dict0={"Satwik":0,}
