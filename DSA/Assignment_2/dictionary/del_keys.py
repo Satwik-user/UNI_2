@@ -3,3 +3,4 @@ del_keys=['a','c','e']
 for key in del_keys:
     if key in dict0:
         del dict0[key]
+print("")
