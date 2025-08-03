@@ -11,7 +11,7 @@ int main()
         s+=i;
     }
     if(cpy==s)
-    
+    printf("Perfect number:\n")
     
     return 0;
 }
