@@ -6,4 +6,4 @@ for i in range(1,n):
 if n==s:
     print("Perfect number")
 else:
-    print("Not a perfec")
+    print("Not a perfect number")
