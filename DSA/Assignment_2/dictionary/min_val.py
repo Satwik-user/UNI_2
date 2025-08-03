@@ -1,1 +1,1 @@
-dict0={""}
+dict0={"Physics":82,"Math":65,}
