@@ -2,4 +2,4 @@ dict0={'a':1,'b':2,'c':3,'d':4,'e':5}
 del_keys=['a','c','e']
 for key in del_keys:
     if key in dict0:
-        del my
+        del dict)
