@@ -10,6 +10,7 @@ int main()
         if(n%i==0)
         s+=i;
     }
+    if(cpy==s)
     
     
     return 0;
