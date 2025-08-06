@@ -18,7 +18,7 @@ int main()
     {
         for(int j=0;j<n;j++)
         {
-            rot[j][j]=arr[j][n-i-1];
+            rot[j][n-i-1]=arr[j][n-i-1];
         }
     }
 
