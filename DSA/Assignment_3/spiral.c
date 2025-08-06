@@ -27,7 +27,7 @@ int main()
         {
             for(int i=row_end;i>=row_start;i--)
             arr[i][col_start]=++num;
-            
+            col_start++;
         }
     }
     
