@@ -14,7 +14,7 @@ int main()
         for(int i=col_start;i<=col_end;i++)
         arr[row_start][i]=++num;
         row_start++;
-        for(int i=row_start;i<row_end;i++)
+        for(int i=row_start;i<=row_end;i++)
         arr[i][col_start]=++num;
         col_end--;
         if(row_start<=row_end)
