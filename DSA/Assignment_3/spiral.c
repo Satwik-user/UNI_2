@@ -21,7 +21,6 @@ int main()
         {
             for(int i=col_end;i>=col_start;i--)
             arr[row_end][i]==++num;
-            
 
         }
     }
