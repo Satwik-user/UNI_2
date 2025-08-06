@@ -21,6 +21,7 @@ int main()
             rot[i][j]=arr[j][n-i-1];
         }
     }
+    
 
     return 0;
 }
