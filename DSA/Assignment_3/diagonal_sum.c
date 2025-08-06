@@ -13,7 +13,9 @@ int main()
             scanf("%d",arr[i][j]);
         }
     }
-    if(m=)
+    if(m==n)
+    {
+        ]}
     
     return 0;
 }
