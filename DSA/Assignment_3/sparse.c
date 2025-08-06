@@ -26,7 +26,7 @@ int main()
     if(c>m*n/2)
     printf("Sparse matrix\n");
     else
-    printf("Not a sparse matrix");
+    printf("Not a sparse matrix\n");
     
     return 0;
 }
