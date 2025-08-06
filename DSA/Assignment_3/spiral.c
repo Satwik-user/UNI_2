@@ -36,7 +36,7 @@ int main()
     {
         for(int j=0;j<n;j++)
         {
-            printf("%d\n",arr[i][j]);
+            printf("%d",arr[i][j]);
         }
         printf("\n");
     }
