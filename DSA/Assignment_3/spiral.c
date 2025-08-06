@@ -5,13 +5,6 @@ int main()
     printf("Enter row and column size:");
     scanf("%d %d",&m,&n);
     int arr[m][n];
-    for(int i=0;i<m;i++)
-    {
-        for(int j=0;j<n;j++)
-        {
-            arr[i][j]=0;
-        }
-    }
     
     int row_start=0,row_end=m-1;
     int col_start=0,col_end=n-1;
@@ -21,7 +14,7 @@ int main()
         for(int i=col_start;i<=col_end;i++)
         arr[row_start][i]=++num;
         row_start++;
-        for(int i=row_start;i<=row_end;i++)
+        for(int i=row_start;i<row_end;i++)
         arr[i][col_start]=++num;
         col_end--;
         if(row_start<=row_end)
