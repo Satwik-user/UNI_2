@@ -15,12 +15,12 @@ int main()
         arr[row_start][i]=num++;
         row_start++;
         for(int i=row_start;i<=row_end;i++)
-        arr[i][col_start]=+num;
+        arr[i][col_start]=++num;
         col_end--;
         if(row_start<=row_end)
         {
             for(int i=col_end;i>=col_start;i--)
-            arr[row_end][i]=++num;
+            arr[row_end][i]=num;
             row_end--;
         }
         if(col_start<=col_end)
