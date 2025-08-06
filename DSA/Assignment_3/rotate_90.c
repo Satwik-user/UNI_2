@@ -15,7 +15,9 @@ int main()
     }
     printf("original matrix:\n");
     for(int i=0;i<m;i++)
-    {}
+    {
+        
+    }
 
     for(int i=0;i<m;i++)
     {
