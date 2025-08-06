@@ -13,15 +13,6 @@ int main()
             scanf("%d",&arr[i][j]);
         }
     }
-    printf("Matrix:\n");
-    for(int i=0;i<m;i++)
-    {
-        for(int j=0;j<n;j++)
-        {
-            printf("%d ",arr[i][j]);
-        }
-        printf("\n");
-    }
 
     int c=0;
     for(int i=0;i<m;i++)
@@ -32,7 +23,10 @@ int main()
             c++;
         }
     }
-    if(c>m)
+    if(c>m*n/2)
+    printf("Sparse matrix\n");
+    else
+    printf("Not a sparse matrix");
     
     return 0;
 }
