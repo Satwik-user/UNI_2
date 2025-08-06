@@ -12,7 +12,7 @@ int main()
     while(row_start<=row_end && col_start<=col_end)
     {
         for(int i=col_start;i<=col_end;i++)
-        arr[row_start][i]=num++;
+        arr[row_start][i]=++num;
         row_start++;
         for(int i=row_start;i<=row_end;i++)
         arr[i][col_end]=num++;
