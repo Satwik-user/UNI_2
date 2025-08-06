@@ -13,7 +13,7 @@ int main()
     {
         for(int i=col_start;i<col_end;i++)
         arr[row_start][i]=++num;
-        
+        row_start++;
     }
     
     return 0;
