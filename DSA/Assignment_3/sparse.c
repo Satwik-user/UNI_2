@@ -32,6 +32,7 @@ int main()
             c++;
         }
     }
+    if(c>m)
     
     return 0;
 }
