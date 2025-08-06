@@ -6,6 +6,7 @@ int main()
     scanf("%d %d",&m,&n);
     int arr[m][n];
     
+    int row_start=0,row_end=m-1
     
     return 0;
 }
