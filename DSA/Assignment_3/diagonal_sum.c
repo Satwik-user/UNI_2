@@ -20,7 +20,6 @@ int main()
             s+=arr[i][i];
         }
         printf("Sum of diagonal elements:%d\n",s);
-        
     }
     
     return 0;
