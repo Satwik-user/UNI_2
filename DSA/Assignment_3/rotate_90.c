@@ -21,6 +21,8 @@ int main()
             rot[i][j]=arr[j][n-i-1];
         }
     }
+
+    printf("Rotated matrix:\n");
     
 
     return 0;
