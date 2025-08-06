@@ -11,6 +11,8 @@ int main()
     int num=0;
     while(row_start<=row_end && col_start<=col_end)
     {
+        for(int i=col_start;i<col_end;i++)
+        arr[row_start][i]=++num;
         
     }
     
