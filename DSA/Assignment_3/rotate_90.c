@@ -23,7 +23,7 @@ int main()
     }
 
     printf("Rotated matrix:\n");
-    
+    for(int i=0;i<m)
 
     return 0;
 }
