@@ -19,6 +19,8 @@ int main()
         col_start++;
         if(row_start<=row_end)
         {
+            for(int i=col_end;i>=col_start;i--)
+            arr[row_end][i]==++num;
             
         }
     }
