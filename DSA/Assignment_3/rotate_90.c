@@ -27,7 +27,7 @@ int main()
     {
         for(int j=0;j<n;j++)
         {
-            printf("%d ",rot[i][j]);
+            printf("%2d ",rot[i][j]);
         }
         printf("\n");
     }
