@@ -26,7 +26,7 @@ int main()
         if(col_start<=col_end)
         {
             for(int i=row_end;i>=row_start;i--)
-            arr[i][col_start]=num++;
+            arr[i][col_start]=++num;
             col_start++;
         }
     }
