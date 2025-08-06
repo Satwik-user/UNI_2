@@ -3,7 +3,7 @@ int main()
 {
     int m,n,s=0;
     printf("Enter the row and column size:");
-    scnaf("%d %d",&m,&n);
+    scanf("%d %d",&m,&n);
     int arr[m][n];
     for(int i=0;i<m;i++)
     {
