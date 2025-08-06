@@ -13,10 +13,7 @@ int main()
             scanf("%d",arr[i][j]);
         }
     }
-    for(int i=0;i<((m>n)?m:n);i++)
-    {
-        
-    }
+    if(m=)
     
     return 0;
 }
