@@ -30,6 +30,8 @@ int main()
             col_start++;
         }
     }
+
+    printf("Spiral matrix:");
     
     
     return 0;
