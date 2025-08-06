@@ -18,7 +18,8 @@ int main()
     {
         for(int j=0;j<n;j++)
         {
-            ]}
+            
+        }
     }
     
     return 0;
