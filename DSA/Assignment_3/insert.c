@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int m,n;
+    int m,n,ele,pos;
     printf("Enter row and column size:");
     scnaf("%d %d",&m,&n);
     int arr[m][n];
@@ -13,7 +13,7 @@ int main()
             scanf("%d",&arr[i][j]);
         }
     }
-    
+
     
     return 0;
 }
