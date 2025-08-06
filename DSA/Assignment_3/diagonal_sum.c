@@ -15,7 +15,8 @@ int main()
     }
     if(m==n)
     {
-        
+        for(int i=0;i<m;i++)
+        {}
     }
     
     return 0;
