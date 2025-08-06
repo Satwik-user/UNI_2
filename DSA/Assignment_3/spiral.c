@@ -33,7 +33,9 @@ int main()
 
     printf("Spiral matrix:");
     for(int i=0;i<m;i++)
-    {]}
+    {
+        
+    }
     
     return 0;
 }
