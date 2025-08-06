@@ -21,6 +21,8 @@ int main()
         }
         printf("Sum of diagonal elements:%d\n",s);
     }
+    else
+    printf("Not a square matrix\nSum not possible");
     
     return 0;
 }
