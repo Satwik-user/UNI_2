@@ -10,7 +10,7 @@ int main()
         for(int j=0;j<n;j++)
         {
             printf("Enter element:");
-            scnf("%d",&arr[i][j]);
+            scanf("%d",&arr[i][j]);
         }
     }
     
