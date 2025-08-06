@@ -23,6 +23,10 @@ int main()
             arr[row_end][i]==++num;
             row_end--;
         }
+        if(col_start<=col_end)
+        {
+            
+        }
     }
     
     return 0;
