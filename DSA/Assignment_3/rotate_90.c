@@ -5,7 +5,10 @@ int main()
     printf("Enter row and column size:");
     scanf("%d %d",&m,&n);
     int arr[m][n];
-    fo
+    for(int i=0;i<m;i++)
+    {
+        
+    }
     
     return 0;
 }
