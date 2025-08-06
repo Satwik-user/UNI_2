@@ -20,7 +20,7 @@ int main()
         if(row_start<=row_end)
         {
             for(int i=col_end;i>=col_start;i--)
-            arr[row_end][i]=num++;
+            arr[row_end][i]=++num;
             row_end--;
         }
         if(col_start<=col_end)
