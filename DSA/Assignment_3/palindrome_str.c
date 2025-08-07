@@ -15,7 +15,10 @@ int main()
         l++;
         h--;
     }
-    if(strcmp(rev,str))
+    if(strcmp(rev,str)==0)
+    printf("Palindrome String:\n");
+    else
+    printf("Not a palindrome string\n");
     
     return 0;
 }
