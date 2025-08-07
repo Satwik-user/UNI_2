@@ -38,7 +38,7 @@ int main()
             else if(i==pos_row && j>pos_col)
             res[i][j]=(i<m && j-1<n)?arr[i][j-1]:0;
             else if(i>pos_row && j==pos_col)
-            res[i][j]=(i-1<m&&j)?arr[i-1][j]:0;
+            res[i][j]=(i-1<m&&j<n)?arr[i-1][j]:0;
             else if(i>pos_row && j>pos_col)
             res[i][j]=(i-1<m)?arr[i-1][j-1]:0;
             else
