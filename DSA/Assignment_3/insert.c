@@ -24,7 +24,6 @@ int main()
         printf("\n");
     }
 
-
     printf("Enter element to be inserted:");
     scanf("%d",&ele);
     printf("Enter row and column index of new element:");
