@@ -39,6 +39,8 @@ int main()
             res[i][j]=arr[i][j-1];
             else if(i>pos_row && j==pos_col)
             res[i][j]=arr[i-1][j];
+            else if(i>pos_row && j>pos_col)
+            res[i][j]=arr[i-1][j-1];
             else
             res[i][j]=arr[i][j];
         }
