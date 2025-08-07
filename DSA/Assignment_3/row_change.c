@@ -29,7 +29,8 @@ int main()
     for(int j=0;j<n;j++)
     {
         int temp=arr[r1][j];
-        
+        arr[r1][j]=arr[r2][j];
+        a
     }
     
     return 0;
