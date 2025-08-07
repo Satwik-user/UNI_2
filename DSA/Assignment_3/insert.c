@@ -19,8 +19,9 @@ int main()
     }
 
     for(int i=0;i<m;i++)
-
-    []
+    {
+        
+    }
     
     printf("Modified array:\n");
     for(int i=0;i<m;i++)
