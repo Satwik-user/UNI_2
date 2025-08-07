@@ -44,7 +44,7 @@ int main()
             if(i==pos_row && j==pos_col)
             res[i][j]=ele;
             else if(i==pos_row && j>pos_col)
-            res[i][j]=arr[i][j-1];
+            res[i][j]=(i<m && j-1<n)?arr[i][j-1]:0;
             else if(i>pos_row && j==pos_col)
             res[i][j]=arr[i-1][j];
             else if(i>pos_row && j>pos_col)
