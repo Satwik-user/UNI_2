@@ -6,7 +6,7 @@ int main()
     printf("Enetr a string:");
     fgets(str,sizeof(str),stdin);
     int len=strlen(str);
-    
+    int 
     
     return 0;
 }
