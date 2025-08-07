@@ -14,7 +14,7 @@ int main()
         l++;
         h--;
     }
-    printf("Reversed string:%s",str);
+    printf("Reversed string:%s\n",str);
     
     return 0;
 }
