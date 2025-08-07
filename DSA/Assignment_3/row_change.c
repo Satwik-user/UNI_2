@@ -30,7 +30,7 @@ int main()
     {
         int temp=arr[r1][j];
         arr[r1][j]=arr[r2][j];
-        a
+        arr[r2][j]=temp;
     }
     
     return 0;
