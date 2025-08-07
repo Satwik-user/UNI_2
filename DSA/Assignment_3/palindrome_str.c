@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    int n;
+    char str[50];
+    
     
     return 0;
 }
