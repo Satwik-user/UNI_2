@@ -32,6 +32,15 @@ int main()
         arr[r1][j]=arr[r2][j];
         arr[r2][j]=temp;
     }
+
+    printf("Modifiend matrix:\n");
+    for(int i=0;i<m;i++)
+    {
+        for(int j=0;j<n;j++)
+        {
+            printf("%d ",arr[i][j]);
+        }
+    }
     
     return 0;
 }
