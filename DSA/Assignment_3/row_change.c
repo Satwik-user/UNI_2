@@ -27,7 +27,9 @@ int main()
     printf("Enter rows to interchange:");
     scanf("%d %d",&r1,&r2);
     for(int j=0;j<n;j++)
-    
+    {
+        
+    }
     
     return 0;
 }
