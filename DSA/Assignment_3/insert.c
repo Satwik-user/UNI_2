@@ -40,6 +40,7 @@ int main()
         {
             printf("%d ",res[i][j]);
         }
+        printf("\n");
     }
     
     printf("Modified array:\n");
