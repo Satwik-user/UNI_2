@@ -13,6 +13,15 @@ int main()
             scanf("%d",&arr[i][j]);
         }
     }
+
+    printf("Original matrix:\n");
+    for(int i=0;i<m;i++)
+    {
+        for(int j=0;j<n;j++)
+        {
+            printf("%d ",arr[i][j]);
+        }
+    }
     
     return 0;
 }
