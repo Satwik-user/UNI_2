@@ -37,7 +37,7 @@ int main()
             res[i][j]=ele;
             else if(i==pos_row && j>pos_col)
             res[i][j]=arr[i][j-1];
-            else if(i>pos_row && j>pos_col)
+            else if(i>pos_row && j==pos_col)
             res[i][j]=arr[i-1][j];
             else
             res[i][j]=arr[i][j];
