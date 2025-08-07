@@ -33,6 +33,8 @@ int main()
         }
     }
     
+    printf("Original Array:\n");
+    
     
     printf("Modified array:\n");
     for(int i=0;i<m;i++)
