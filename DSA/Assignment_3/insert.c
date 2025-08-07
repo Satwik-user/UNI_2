@@ -42,7 +42,7 @@ int main()
             else if(i>pos_row && j>pos_col)
             res[i][j]=(i-1<m&&j<n)?arr[i-1][j-1]:0;
             else
-            res[i][j]=arr[i][j];
+            res[i][j]=(i<m&&j<n)?arr[i][j]:0;
         }
     }
     
