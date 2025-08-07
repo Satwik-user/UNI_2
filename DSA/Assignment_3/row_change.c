@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int m,n;
+    int m,n,r1,r2;
     printf("Enter row and column size:");
     scanf("%d %d",&m,&n);
     int arr[m][n];
@@ -25,7 +25,8 @@ int main()
     }
     
     printf("Enter rows to interchange:");
-    
+    scanf("%d %d",&r1,&r2);
+
     
     return 0;
 }
