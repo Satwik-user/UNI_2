@@ -22,7 +22,12 @@ int main()
     {
         for(int j=0;j<n;j++)
         {
-            
+            if(i==pos_row && j==pos_col)
+            res[i][j]=ele;
+            else if(i==pos_row && j>pos_col)
+            res[i][j]=arr[i][j-1];
+            else if(i>pos_row && j==pos_col)
+            res[i][j]=arr[i-1][j];
         }
     }
     
