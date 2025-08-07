@@ -11,8 +11,10 @@ int main()
         int temp=str[l];
         str[l]=str[h];
         str[h]=temp;
-        
+        l++;
+        h--;
     }
+    printf("Reversed string:%d\n",str);
     
     return 0;
 }
