@@ -19,16 +19,6 @@ int main()
     printf("Enter row and column index of new element:");
     scanf("%d %d",&pos_row,&pos_col);
 
-    printf("Original Array:\n");
-    for(int i=0;i<m;i++)
-    {
-        for(int j=0;j<n;j++)
-        {
-            printf("%d ",res[i][j]);
-        }
-        printf("\n");
-    }
-
     for(int i=0;i<m;i++)
     {
         for(int j=0;j<n;j++)
