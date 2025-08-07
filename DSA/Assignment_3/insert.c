@@ -17,6 +17,8 @@ int main()
             scanf("%d",&arr[i][j]);
         }
     }
+
+    
     
     printf("Modified array:\n");
     for(int i=0;i<m;i++)
