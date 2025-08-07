@@ -11,7 +11,10 @@ int main()
         char temp=str[l];
         str[l]=str[h];
         str[h]=temp;
+        l++;
+        h--;
     }
+    
     
     return 0;
 }
