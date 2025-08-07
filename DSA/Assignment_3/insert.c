@@ -38,7 +38,7 @@ int main()
     {
         for(int j=0;j<n;j++)
         {
-            
+            printf("%d ",res[i][j]);
         }
     }
     
@@ -47,7 +47,7 @@ int main()
     {
         for(int j=0;j<n;j++)
         {
-            printf("%d ",arr[i][j]);
+            printf("%d ",res[i][j]);
         }
         printf("\n");
     }
