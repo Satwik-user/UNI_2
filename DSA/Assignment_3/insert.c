@@ -34,16 +34,6 @@ int main()
         }
     }
     
-    printf("Original Array:\n");
-    for(int i=0;i<m;i++)
-    {
-        for(int j=0;j<n;j++)
-        {
-            printf("%d ",res[i][j]);
-        }
-        printf("\n");
-    }
-    
     printf("Modified array:\n");
     for(int i=0;i<m;i++)
     {
