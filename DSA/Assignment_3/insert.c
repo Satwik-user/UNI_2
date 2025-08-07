@@ -30,6 +30,9 @@ int main()
     scanf("%d %d",&pos_row,&pos_col);
 
     for(int i=0;i<=m;i++)
+    
+
+    for(int i=0;i<=m;i++)
     {
         for(int j=0;j<=n;j++)
         {
