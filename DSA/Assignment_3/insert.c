@@ -33,14 +33,6 @@ int main()
     {
         for(int j=0;j<=n;j++)
         {
-            res[i][j]=0;
-        }
-    }
-
-    for(int i=0;i<=m;i++)
-    {
-        for(int j=0;j<=n;j++)
-        {
             if(i==pos_row && j==pos_col)
             res[i][j]=ele;
             else if(i==pos_row && j>pos_col)
