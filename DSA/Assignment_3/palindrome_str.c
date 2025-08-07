@@ -8,7 +8,8 @@ int main()
     int l=0,h=strlen(str)-1;
     while(l<h)
     {
-        int 
+        char temp=str[l];
+        
     }
     
     return 0;
