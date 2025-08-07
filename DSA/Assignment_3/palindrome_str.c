@@ -5,7 +5,7 @@ int main()
     char str[50],rev[50];
     printf("Enter a string:");
     fgets(str,sizeof(str),stdin);
-    strcpy(str,rev);
+    strcpy(rev,str);
     int l=0,h=strlen(str)-1;
     while(l<h)
     {
