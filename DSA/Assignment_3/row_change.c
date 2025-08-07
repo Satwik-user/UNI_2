@@ -24,6 +24,8 @@ int main()
         printf("\n");
     }
     
+    printf("Enter rows to interchange:");
+    
     
     return 0;
 }
