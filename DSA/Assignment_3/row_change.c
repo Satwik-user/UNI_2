@@ -28,6 +28,7 @@ int main()
     scanf("%d %d",&r1,&r2);
     for(int j=0;j<n;j++)
     {
+        int temp=arr[r1][j];
         
     }
     
