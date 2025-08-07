@@ -14,6 +14,17 @@ int main()
         }
     }
 
+    printf("Original Array:\n");
+    for(int i=0;i<m;i++)
+    {
+        for(int j=0;j<n;j++)
+        {
+            printf("%d ",res[i][j]);
+        }
+        printf("\n");
+    }
+
+
     printf("Enter element to be inserted:");
     scanf("%d",&ele);
     printf("Enter row and column index of new element:");
