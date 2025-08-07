@@ -9,7 +9,8 @@ int main()
     while(l<h)
     {
         char temp=str[l];
-        
+        str[l]=str[h];
+        str[h]=temp;
     }
     
     return 0;
