@@ -11,7 +11,8 @@ int main()
     strcpy(str,temp);
     for(int i=0;i<sizeof(str);i++)
     {
-        
+        if(str[i]==' ')
+        printf("%c ",str[i+1]);
     }
     
     return 0;
