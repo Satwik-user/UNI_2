@@ -9,6 +9,7 @@ int main()
     temp[0]=' ';
     strcpy(temp+1,str);
     strcpy(str,temp);
+    printf("Abbreviation of words:");
     for(int i=0;i<sizeof(str);i++)
     {
         if(str[i]==' ')
