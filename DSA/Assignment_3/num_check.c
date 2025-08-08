@@ -20,7 +20,8 @@ int main()
     }
     printf("No. of positive numbers:%d\n",p);
     printf("No. of negative numbers:%d\n",n);
-    printf("N. of even numbers:%d\n",e);
+    printf("No. of even numbers:%d\n",e);
+    printf("No. of odd numbers:%d\n",o);
     
     return 0;
 }
