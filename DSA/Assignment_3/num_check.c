@@ -11,7 +11,7 @@ int main()
     }
     for(int i=0;i<25;i++)
     {
-        if(i>0)
+        if(a[i]>0)
         p++;
         if(i<0)
         n++;
