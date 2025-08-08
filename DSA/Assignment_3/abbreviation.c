@@ -6,7 +6,8 @@ int main()
     printf("Enter a sentence:");
     fgets(str,sizeof(str),stdin);
     str[strlen(str)-1]='\0';
-    temp[0]=' '
+    temp[0]=' ';
+    
     
     return 0;
 }
