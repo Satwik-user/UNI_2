@@ -13,7 +13,7 @@ int main()
     {
         if(a[i]>0)
         p++;
-        if(i<0)
+        if(a[i]<0)
         n++;
         if(i%2==0)
         e++;
