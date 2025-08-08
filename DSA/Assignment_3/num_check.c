@@ -17,7 +17,7 @@ int main()
         n++;
         if(a[i]%2==0)
         e++;
-        if(i%2!=0)
+        if(a[i]%2!=0)
         o++;
     }
     printf("No. of positive numbers:%d\n",p);
