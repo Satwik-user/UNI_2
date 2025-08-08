@@ -7,7 +7,8 @@ int main()
     fgets(str,sizeof(str),stdin);
     str[strlen(str)-1]='\0';
     temp[0]=' ';
-    
+    strcpy(temp+1,str);
+    strcpy(str,temp);
     
     return 0;
 }
