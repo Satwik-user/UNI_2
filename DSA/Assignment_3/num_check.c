@@ -18,7 +18,9 @@ int main()
         if(i%2!=0)
         o++;
     }
-    printf("No. of positive numbers:%d\n",p)
+    printf("No. of positive numbers:%d\n",p);
+    printf("No. of negative numbers:%d\n",n);
+    printf("NO. of even numbers:%d\n",e);
     
     return 0;
 }
