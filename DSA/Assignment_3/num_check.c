@@ -3,9 +3,11 @@ int main()
 {
     int p=0,n=0,e=0,o=0;
     printf("Enter 25 numbers-\n");
+    int a[25];
     for(int i=0;i<25;i++)
     {
         printf("Enter a number:");
+        scanf("%d",&a[i]);
     }
     for(int i=0;i<25;i++)
     {
