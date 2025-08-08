@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 {
+    int p=0,n=0,e=0,o=0;
     printf("Enter 25 numbers-\n");
     for(int i=0;i<25;i++)
     {
@@ -8,7 +9,14 @@ int main()
     }
     for(int i=0;i<25;i++)
     {
-        
+        if(i>0)
+        p++;
+        if(i<0)
+        n++;
+        if(i%2==0)
+        e++;
+        if(i%2!=0)
+        o++;
     }
     
     return 0;
