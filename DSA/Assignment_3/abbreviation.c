@@ -10,6 +10,9 @@ int main()
     strcpy(temp+1,str);
     strcpy(str,temp);
     for(int i=0;i<sizeof(str);i++)
+    {
+        
+    }
     
     return 0;
 }
