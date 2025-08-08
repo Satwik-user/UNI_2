@@ -18,6 +18,7 @@ int main()
         if(i%2!=0)
         o++;
     }
+    printf("No. of positive numbers:%d\n",p)
     
     return 0;
 }
