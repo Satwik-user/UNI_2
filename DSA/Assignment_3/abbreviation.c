@@ -15,6 +15,7 @@ int main()
         if(str[i]==' ')
         printf("%c ",str[i+1]);
     }
+    printf("\n");
     
     return 0;
 }
