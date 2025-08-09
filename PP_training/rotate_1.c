@@ -16,6 +16,7 @@ int main()
     {
         arr[i-1]=arr[i];
     }
+    arr[n-1]=first;
     
     return 0;
 }
