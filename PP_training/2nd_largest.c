@@ -8,8 +8,10 @@ int main()
     for(int i=0;i<n;i++)
     {
         printf("Enter element:");
-        scanf("%d")
+        scanf("%d",&arr[i]);
     }
+
+    
     
     return 0;
 }
