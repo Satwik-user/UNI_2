@@ -15,7 +15,7 @@ int main()
     for(int i=1;i<n;i++)
     {
         int temp=arr[i-1];
-        
+        arr[i-1]=arr[i]
     }
     
     return 0;
