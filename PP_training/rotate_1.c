@@ -11,7 +11,7 @@ int main()
         scanf("%d",&arr[i]);
     }
 
-    int temp=arr[0];
+    int first=arr[0];
     for(int i=1;i<n;i++)
     {
         int temp=arr[i-1];
