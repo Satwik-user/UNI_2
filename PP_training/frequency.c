@@ -25,6 +25,7 @@ int main()
                     freq[j]=0;
                 }
             }
+            
         }
     }
     
