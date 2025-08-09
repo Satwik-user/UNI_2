@@ -28,6 +28,8 @@ int main()
         {
         max2=max1;
         max1=arr[i];
+        }
+        
     }
     
     return 0;
