@@ -34,7 +34,7 @@ int main()
     {
         if(freq[i]!=0)
         {
-            
+            printf("Element:%d frequency:%d\n",arr[i],freq[i]);
         }
     }
     
