@@ -17,7 +17,10 @@ int main()
         if(freq[i]!=0)
         {
             int c=1;
-            
+            for(int j=i+1;j<n;j++)
+            {
+                
+            }
         }
     }
     
