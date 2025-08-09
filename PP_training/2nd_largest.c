@@ -11,7 +11,7 @@ int main()
         scanf("%d",&arr[i]);
     }
 
-    int max1=arr[0],max2=arr[0];
+    int max1=arr[0],max2;
     for(int i=0;i<n;i++)
     {
         if(arr[i]>max1)
