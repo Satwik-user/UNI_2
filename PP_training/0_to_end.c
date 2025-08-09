@@ -10,7 +10,8 @@ int main()
         printf("Enter element:");
         scanf("%d",&arr[i]);
     }
-    
+
+    for(int i=0;i)
     
     return 0;
 }
