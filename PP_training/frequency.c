@@ -29,7 +29,7 @@ int main()
         }
     }
     
-    printf("Frequencies of elements:");
+    printf("Frequencies of elements:\n");
     for(int i=0;i<n;i++)
     {
         if(freq[i]!=0)
