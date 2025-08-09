@@ -17,8 +17,10 @@ int main()
         max1=arr[0];
         max2=arr[1];
     }
-    else{
-        
+    else
+    {
+        max1=arr[1];
+        max2=arr[0];
     }
     for(int i=0;i<n;i++)
     {
