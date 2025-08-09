@@ -12,6 +12,7 @@ int main()
     }
 
     int max1,max2;
+    if(arr[0]>max1)
     for(int i=0;i<n;i++)
     {
         if(arr[i]>max1)
