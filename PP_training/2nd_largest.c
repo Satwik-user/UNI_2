@@ -17,6 +17,9 @@ int main()
         max1=arr[0];
         max2=arr[1];
     }
+    else{
+        
+    }
     for(int i=0;i<n;i++)
     {
         if(arr[i]>max1)
