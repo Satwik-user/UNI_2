@@ -17,6 +17,7 @@ int main()
         if(arr[i]>max)
         max=arr[i];
     }
+    printf("Largest element:%d\n",max);
     
     return 0;
 }
