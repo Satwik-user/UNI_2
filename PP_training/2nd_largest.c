@@ -32,6 +32,7 @@ int main()
         else if(arr[i]>max2 && arr[i]<max1)
         max2=arr[i];
     }
+    printf("Second Largest element:%d\n",max2);
     
     return 0;
 }
