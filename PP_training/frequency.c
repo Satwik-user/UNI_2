@@ -16,6 +16,7 @@ int main()
     {
         if(freq[i]!=0)
         {
+            int c=1;
             
         }
     }
