@@ -14,7 +14,7 @@ int main()
     int first=arr[0];
     for(int i=0;i<n;i++)
     {
-        int temp=arr[i-1];
+        int temp=arr[i];
     }
     
     return 0;
