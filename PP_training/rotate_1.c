@@ -17,6 +17,12 @@ int main()
         arr[i-1]=arr[i];
     }
     arr[n-1]=first;
+
+    printf("Modified Array:");
+    for(int i=0;i<n;i++)
+    {
+        
+    }
     
     return 0;
 }
