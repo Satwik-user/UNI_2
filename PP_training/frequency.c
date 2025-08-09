@@ -9,10 +9,10 @@ int main()
     {
         printf("Enter element:");
         scanf("%d",&arr[i]);
-        freq[i]=0;
+        freq[i]=-1;
     }
 
-    
+
     
     return 0;
 }
