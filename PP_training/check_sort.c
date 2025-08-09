@@ -19,7 +19,10 @@ int main()
             break;
         }
     }
-    if(f)
+    if(f==0)
+    printf("Sorted Array\n");
+    else
+    printf("Unsorted Array\n");
     
     return 0;
 }
