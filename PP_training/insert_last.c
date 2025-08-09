@@ -12,7 +12,7 @@ int main()
     }
     printf("Enter element to be inserted:");
     scanf("%d",&ele);
-    arr[n+1]=ele;
+    arr[n]=ele;
     printf("Modified Array:");
     for(int i=0;i<=n;i++)
     {
