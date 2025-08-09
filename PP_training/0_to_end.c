@@ -23,6 +23,9 @@ int main()
             }
         }
     }
+
+    printf("Modified Array:");
+    
     
     return 0;
 }
