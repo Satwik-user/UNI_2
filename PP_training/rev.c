@@ -19,7 +19,7 @@ int main()
     printf("Reversed Array:");
     for(int i=0;i<n;i++)
     {
-        
+        printf("%d ",rev[i]);
     }
     
     return 0;
