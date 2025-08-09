@@ -19,7 +19,7 @@ int main()
             break;
         }
     }
-    if("")
+    if(f)
     
     return 0;
 }
