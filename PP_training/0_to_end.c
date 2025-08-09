@@ -18,6 +18,7 @@ int main()
             for(int j=i+1;j<n;j++)
             {
                 int temp=arr[j-1];
+                arr[j]=temp;
                 
             }
         }
