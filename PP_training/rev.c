@@ -21,6 +21,7 @@ int main()
     {
         printf("%d ",rev[i]);
     }
+    printf("\n");
     
     return 0;
 }
