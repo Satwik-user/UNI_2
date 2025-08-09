@@ -11,9 +11,11 @@ int main()
         scanf("%d",&arr[i]);
     }
 
+    int max=
     for(int i=0;i<n;i++)
     {
-        
+        if(arr[i]>max)
+        max=arr[i];
     }
     
     return 0;
