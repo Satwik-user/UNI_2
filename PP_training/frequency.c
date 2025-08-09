@@ -12,7 +12,7 @@ int main()
         freq[i]=0;
     }
 
-
+    
     
     return 0;
 }
