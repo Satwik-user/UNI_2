@@ -22,7 +22,7 @@ int main()
                 if(arr[i]==arr[j])
                 {
                     c++;
-                    
+                    freq[j]=0;
                 }
             }
         }
