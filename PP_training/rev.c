@@ -15,6 +15,12 @@ int main()
     {
         rev[i]=arr[n-i-1];
     }
+
+    printf("Reversed Array:");
+    for(int i=0;i<n;i++)
+    {
+        
+    }
     
     return 0;
 }
