@@ -11,7 +11,10 @@ int main()
         scanf("%d",&arr[i]);
     }
 
-    for(int i=0;i)
+    for(int i=0;i<n;i++)
+    {
+        
+    }
     
     return 0;
 }
