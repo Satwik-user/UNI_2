@@ -11,10 +11,10 @@ int main()
         scanf("%d",&arr[i]);
     }
 
-    int first=arr[0];
+    int temp=arr[0];
     for(int i=0;i<n;i++)
     {
-        int temp=arr[i];
+
     }
     
     return 0;
