@@ -9,7 +9,7 @@ int main()
     {
         printf("Enter element:");
         scanf("%d",&arr[i]);
-        
+        freq[i]=0;
     }
 
 
