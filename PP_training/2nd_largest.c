@@ -15,7 +15,8 @@ int main()
     for(int i=0;i<n;i++)
     {
         if(arr[i]>max1)
-        max1=arr[i]
+        max1=arr[i];
+        
     }
     
     return 0;
