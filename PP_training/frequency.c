@@ -29,5 +29,14 @@ int main()
         }
     }
     
+    printf("Frequencies of elements:");
+    for(int i=0;i<n;i++)
+    {
+        if(freq[i]!=0)
+        {
+            
+        }
+    }
+    
     return 0;
 }
