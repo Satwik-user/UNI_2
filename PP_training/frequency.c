@@ -19,7 +19,7 @@ int main()
             int c=1;
             for(int j=i+1;j<n;j++)
             {
-                
+                if(arr[i]==arr[])
             }
         }
     }
