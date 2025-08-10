@@ -11,4 +11,4 @@ print("Original Matrix:")
 for i in arr:
     print(i)
 
-ele=int(input("Enter "))
+ele=int(input("Enter element to be inserted:"))
