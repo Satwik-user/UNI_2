@@ -26,6 +26,7 @@ int main()
     printf("Sum of polynomials:");
     for(int i=0;i<lesser;i++)
     {
+        printf("%d ",sum[i]);
         
     }
     
