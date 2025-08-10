@@ -27,3 +27,5 @@ while(row_start<=row_end and col_start<=col_end):
         num+=1
         arr[i][col_start]=num
     col_start-=1
+
+print()
