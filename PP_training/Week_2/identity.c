@@ -34,6 +34,7 @@ int main()
         else
         printf("Not an Identity matrix\n");
     }
+    else
     
     return 0;
 }
