@@ -17,9 +17,10 @@ int main()
     }
 
     int lesser=(m<n)?m:n;
+    int sum[lesser];
     for(int i=0;i<lesser;i++)
     {
-        
+        sum[i]=A[i]+B
     }
     
     return 0;
