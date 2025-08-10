@@ -22,7 +22,8 @@ int main()
             {
                 if(i==j && arr[i][j]!=1)
                 {
-                    f=1
+                    f=1;
+                    break;
                 }
                 else
                 {
