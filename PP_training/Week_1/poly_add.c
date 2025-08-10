@@ -22,7 +22,12 @@ int main()
         printf("%d ",A[i]);
     }
     printf("\n");
-    
+
+    printf("Array B:");
+    for(int i=0;i<m;i++)
+    {
+        printf("%d ")
+    }
 
     int lesser=(m<n)?m:n;
     int sum[lesser];
