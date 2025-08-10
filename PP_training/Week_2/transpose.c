@@ -31,6 +31,9 @@ int main()
             trans[i][j]=arr[j][i];
         }
     }
+
+    printf("Transpose Matrix:\n");
+    for(int i=0;i<m)
     
     return 0;
 }
