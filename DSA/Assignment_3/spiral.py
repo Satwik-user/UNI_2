@@ -10,4 +10,4 @@ num=0
 while(row_start<=row_end and col_start<=col_end):
     for i in range(col_start,col_end-1):
         num+=1
-        arr[ro]
+        arr[row_start][i]=
