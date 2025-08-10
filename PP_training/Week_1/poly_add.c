@@ -23,6 +23,7 @@ int main()
         sum[i]=A[i]+B[i];
     }
     
+
     
     return 0;
 }
