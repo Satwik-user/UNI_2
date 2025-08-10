@@ -22,6 +22,7 @@ int main()
             printf("%2d ",arr[i][j]);
         }
     }
+
     if(m==n)
     {
         for(int i=0;i<m;i++)
