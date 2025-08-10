@@ -4,7 +4,7 @@ int main()
     int m,n;
     printf("Enter row and column size:");
     scanf("%d %d",&m,&n);
-    int arr[m][n];
+    int arr[m][n],trans[m][n];
     for(int i=0;i<m;i++)
     {
         for(int j=0;j<n;j++)
@@ -28,7 +28,7 @@ int main()
     {
         for(int j=0;j<n;j++)
         {
-            
+            trans[i][j]=arr[j][i];
         }
     }
     
