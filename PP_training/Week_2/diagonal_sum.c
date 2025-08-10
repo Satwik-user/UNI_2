@@ -21,6 +21,7 @@ int main()
         {
             printf("%2d ",arr[i][j]);
         }
+        printf("\n");
     }
 
     if(m==n)
