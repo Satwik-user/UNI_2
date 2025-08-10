@@ -20,8 +20,9 @@ int main()
     int sum[lesser];
     for(int i=0;i<lesser;i++)
     {
-        sum[i]=A[i]+B
+        sum[i]=A[i]+B[i];
     }
+    
     
     return 0;
 }
