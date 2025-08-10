@@ -29,6 +29,10 @@ int main()
                 }
             }
         }
+        if(f==1)
+        printf("Identity Matrix\n");
+        else
+        printf("Not an Identity matrix\n");
     }
     
     return 0;
