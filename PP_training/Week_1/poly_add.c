@@ -16,6 +16,7 @@ int main()
         scanf("%d",&B[i]);
     }
 
+    
     printf("Array A:");
     for(int i=0;i<m;i++)
     {
@@ -29,7 +30,7 @@ int main()
         printf("%d ",B[i]);
     }
     printf("\n");
-    
+
 
     int lesser=(m<n)?m:n;
     int sum[lesser];
