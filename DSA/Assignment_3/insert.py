@@ -26,4 +26,4 @@ else:
                 if j==pos_col:
                     new_row.append(ele)
                 elif j<pos_col:
-                    n
+                    new_row.append(arr[i])
