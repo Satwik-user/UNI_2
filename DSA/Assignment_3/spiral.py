@@ -15,4 +15,4 @@ while(row_start<=row_end and col_start<=col_end):
 
     for i in range(row_start,row_end+1):
         num+=1
-        arr[i][col_end]
+        arr[i][col_end]=
