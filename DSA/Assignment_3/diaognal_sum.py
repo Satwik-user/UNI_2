@@ -5,3 +5,7 @@ for i in range(m):
     for j in range(n):
         arr[i][j]=int(input("Enter element:"))
 
+for i in range(m):
+    for j in range(n):
+        if i==j:
+            
