@@ -24,7 +24,7 @@ int main()
         printf("\n");
     }
 
-    
+    for(int i=0;i<)
     
     return 0;
 }
