@@ -26,8 +26,9 @@ int main()
     printf("Array B:");
     for(int i=0;i<m;i++)
     {
-        printf("%d ")
+        printf("%d ",B[i]);
     }
+    printf("\n");
 
     int lesser=(m<n)?m:n;
     int sum[lesser];
