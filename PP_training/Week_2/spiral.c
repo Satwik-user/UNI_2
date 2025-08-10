@@ -48,6 +48,7 @@ int main()
             col_start++;
         }
     }
+    p
     
     return 0;
 }
