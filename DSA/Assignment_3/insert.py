@@ -21,4 +21,5 @@ else:
     mod_arr=[]
     for i in range(m+1):
         if i==pos_row:
-            new_row
+            new_row=[]
+            
