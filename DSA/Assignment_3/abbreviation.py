@@ -1,2 +1,2 @@
 string=input("Enter a string:")
-words=string.s
+words=string.split
