@@ -4,4 +4,4 @@ arr=[]
 for i in range(m):
     for j in range(n):
         a.append(int(input("Enter element:")))
-    arr.append
+    arr.append(a)
