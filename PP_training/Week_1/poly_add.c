@@ -17,7 +17,10 @@ int main()
     }
 
     printf("Array A:");
-    
+    for(int i=0;i<m;i++)
+    {
+        printf("%d ",A[i]);
+    }
 
     int lesser=(m<n)?m:n;
     int sum[lesser];
