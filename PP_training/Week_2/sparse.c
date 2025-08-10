@@ -14,6 +14,8 @@ int main()
         }
     }
 
+    printf("Given Matrix:\n");
+
     int c=0;
     for(int i=0;i<m;i++)
     {
