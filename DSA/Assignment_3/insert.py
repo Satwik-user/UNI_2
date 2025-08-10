@@ -36,3 +36,5 @@ else:
             mod_arr.append(arr[i-1])
 
     print("Modified Matrix:")
+    for i in arr:
+        print()
