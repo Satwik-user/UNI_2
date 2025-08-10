@@ -10,7 +10,7 @@ int main()
         printf("Enter element of A[%d]:",i);
         scanf("%d",&A[i]);
     }
-    for(int i=0;i<m;i++)
+    for(int i=0;i<n;i++)
     {
         printf("Enter element of B[%d]:",i);
         scanf("%d",&B[i]);
