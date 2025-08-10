@@ -13,7 +13,10 @@ int main()
     for(int i=0;i<m;i++)
     {
         printf("ENter element of B[%d]:",i);
+        scanf("%d",&B[i]);
     }
+
+    
     
     return 0;
 }
