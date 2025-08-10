@@ -13,3 +13,4 @@ for i in arr:
 
 ele=int(input("Enter element to be inserted:"))
 pos_row=int(input("Enter row position:"))
+pos_col=int(inupt("Enter column position:"))
