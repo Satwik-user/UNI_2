@@ -12,4 +12,4 @@ for i in arr:
     print(i)
 
 ele=int(input("Enter element to be inserted:"))
-pos_row=int(input("Enter "))
+pos_row=int(input("Enter row o"))
