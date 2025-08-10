@@ -27,4 +27,5 @@ else:
                     new_row.append(ele)
                 elif j<pos_col:
                     new_row.append(arr[i][j])
-                else
+                else:
+                    
