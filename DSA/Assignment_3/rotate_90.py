@@ -15,4 +15,4 @@ for i in range(m):
 
 print("Rotated Matrix:")
 for i in rot:
-    
+    print(i)
