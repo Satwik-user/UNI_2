@@ -12,7 +12,6 @@ for i in range(m):
     for j in range(n):
         if arr[i][j]==0:
             c+=1
-
 print
 if c>m*n/2:
     print("Sprase matrix")
