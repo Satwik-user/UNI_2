@@ -12,7 +12,7 @@ int main()
     }
     for(int i=0;i<n;i++)
     {
-        printf("Enter element of B[%d]",i);
+        printf("Enter element of B[%d]:",i);
         scanf("%d",&B[i]);
     }
 
