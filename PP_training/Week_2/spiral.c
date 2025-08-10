@@ -38,13 +38,13 @@ int main()
         if(row_start<=row_end)
         {
             for(int i=col_end;i>=col_start;i--)
-            printf("%d",arr[row_end][i]);
+            printf("%d ",arr[row_end][i]);
             row_end--;
         }
         if(col_start<=col_end)
         {
             for(int i=row_end;i>=row_start;i--)
-            printf("%d",arr[i][col_start]);
+            printf("%d ",arr[i][col_start]);
             col_start++;
         }
     }
