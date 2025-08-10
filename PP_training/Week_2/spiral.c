@@ -47,17 +47,7 @@ int main()
             printf("%d",arr[i][col_start]);
             col_start++;
         }
-    }
-
-    printf("Spiral matrix:\n");
-    for(int i=0;i<m;i++)
-    {
-        for(int j=0;j<n;j++)
-        {
-            printf("%2d ",arr[i][j]);
-        }
-        printf("\n");
-    }
+    
     
     return 0;
 }
