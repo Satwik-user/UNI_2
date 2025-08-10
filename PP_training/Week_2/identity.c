@@ -29,6 +29,7 @@ int main()
                 }
                 else
                 {
+                    if(arr[i][j]!=0)
                     
                 }
             }
