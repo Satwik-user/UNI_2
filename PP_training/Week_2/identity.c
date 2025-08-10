@@ -21,8 +21,9 @@ int main()
             {
                 if(i==j)
                 {
-                    if(arr[i][j]==0){
-                        
+                    if(arr[i][j]==0)
+                    {
+                        if
                     }
                 }
             }
