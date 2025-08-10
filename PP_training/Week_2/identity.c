@@ -31,6 +31,8 @@ int main()
                     break;
                 }
             }
+            if(f==1)
+            break;
         }
         if(f==1)
         printf("Identity matrix\n");
