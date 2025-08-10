@@ -3,4 +3,5 @@ n=int(input("Enter column size:"))
 arr=[]
 for i in range(m):
     for j in range(n):
-        a.append(int(input("Enter element")))
+        a.append(int(input("Enter element:")))
+    arr.append
