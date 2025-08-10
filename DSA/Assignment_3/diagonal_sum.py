@@ -4,7 +4,7 @@ arr=[]
 sum=0
 for i in range(m):
     for j in range(n):
-        arrint(input("Enter element:"))
+        aint(input("Enter element:"))
 
 for i in range(m):
     for j in range(n):
