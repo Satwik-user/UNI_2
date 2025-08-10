@@ -13,4 +13,4 @@ for i in arr:
 
 r1,r2=int(input("Enter row to interchange:")).split(' ')
 for i in range(n):
-    arr[r1][i],arr[r2][i]=arr[]
+    arr[r1][i],arr[r2][i]=arr[r2][]
