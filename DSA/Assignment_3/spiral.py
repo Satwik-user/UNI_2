@@ -2,4 +2,4 @@ m=int(input("Enter row size:"))
 n=int(input("Enter column size:"))
 arr=[]
 
-arr=[{}]
+arr=[[0 for _ in range()]]
