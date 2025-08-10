@@ -12,3 +12,5 @@ for i in arr:
     print(i)
 
 r1,r2=int(input("Enter row to interchange:")).split(' ')
+for i in range(n):
+    arr[r1][]
