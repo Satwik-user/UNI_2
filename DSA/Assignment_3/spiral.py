@@ -30,4 +30,4 @@ while(row_start<=row_end and col_start<=col_end):
 
 print("Spiral Matrix:")
 for i in arr:
-    p
+    print(i)
