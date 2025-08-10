@@ -31,4 +31,4 @@ else:
                     new_row.append(arr[i][j-1])
             mod_arr.append(new_row)
         elif i<pos_row:
-            new_arr[]
+            mod
