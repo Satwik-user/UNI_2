@@ -3,6 +3,7 @@ n=int(input("Enter column size:"))
 arr=[]
 sum=0
 for i in range(m):
+    a=[]
     for j in range(n):
         aint(input("Enter element:"))
 
