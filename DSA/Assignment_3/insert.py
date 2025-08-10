@@ -8,4 +8,4 @@ for i in range(m):
     arr.append(a)
 
 ele=int(input("Enter element to be inserted:"))
-arr[m+1]
+arr[m+1][n]=e
