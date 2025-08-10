@@ -14,4 +14,5 @@ while(row_start<=row_end and col_start<=col_end):
     row_start+=1
 
     for i in range(row_start,row_end+1):
-        
+        num+=1
+        arr[i][c]
