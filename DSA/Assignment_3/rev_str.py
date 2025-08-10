@@ -1,2 +1,2 @@
 string=input("Enter a string:")
-rev_
+rev_str=
