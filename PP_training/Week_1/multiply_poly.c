@@ -33,5 +33,6 @@ int main()
         printf("%d ",multi[i]);
     }
     
+    
     return 0;
 }
