@@ -4,7 +4,7 @@ int main()
     int m,n;
     printf("Enter row and column size:");
     scanf("%d %d",&m,&n);
-    int arr[m][n];
+    int arr[m][n],spi[m][n];
 
     for(int i=0;i<m;i++)
     {
@@ -27,25 +27,24 @@ int main()
     
     int row_start=0,row_end=m-1;
     int col_start=0,col_end=n-1;
-    int num=0;
     while(row_start<=row_end && col_start<=col_end)
     {
         for(int i=col_start;i<=col_end;i++)
-        arr[row_start][i]=++num;
+        printf("%d ",arr[row_start][i]);
         row_start++;
         for(int i=row_start;i<=row_end;i++)
-        arr[i][col_end]=++num;
+        printf("%d ",arr[i][col_end]);
         col_end--;
         if(row_start<=row_end)
         {
             for(int i=col_end;i>=col_start;i--)
-            arr[row_end][i]=++num;
+            printf("%d",arr[row_end][i]);
             row_end--;
         }
         if(col_start<=col_end)
         {
             for(int i=row_end;i>=row_start;i--)
-            arr[i][col_start]=++num;
+            arr[i][col_start];
             col_start++;
         }
     }
