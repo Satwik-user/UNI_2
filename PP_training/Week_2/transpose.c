@@ -13,6 +13,7 @@ int main()
             scanf("%d",&arr[i][j]);
         }
     }
+
     
     
     return 0;
