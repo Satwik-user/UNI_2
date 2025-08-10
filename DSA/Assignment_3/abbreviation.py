@@ -1,1 +1,1 @@
-string=input("")
+string=input("Enter ")
