@@ -7,4 +7,6 @@ for i in range(m):
         a.append(int(input("Enter element:")))
     arr.append(a)
 
-ele=
+ele=int(input("Enter element to be inserted:"))
+for i in range(m+1):
+    for j in 
