@@ -35,9 +35,7 @@ int main()
         printf("Not an Identity matrix\n");
     }
     else
-    {
-        
-    }
+    printf("Enter square matrix for 'identity' check!");
     
     return 0;
 }
