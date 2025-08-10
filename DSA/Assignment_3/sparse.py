@@ -1,1 +1,1 @@
-m=int(ipnut())
+m=int(input())
