@@ -16,7 +16,7 @@ int main()
                 scanf("%d",&arr[i][j]);
             }
         }
-        
+
         for(int i=0;i<m;i++)
         {
             for(int j=0;j<n;j++)
@@ -35,7 +35,7 @@ int main()
             if(f==1)
             break;
         }
-        if(f==1)
+        if(f==0)
         printf("Identity matrix\n");
         else
         printf("Not an Identity matrix\n");
