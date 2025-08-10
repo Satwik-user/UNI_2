@@ -24,4 +24,6 @@ else:
             new_row=[]
             for j in range(n+1):
                 if j==pos_col:
-                    
+                    new_row.append(ele)
+                elif j<pos_col:
+                    n
