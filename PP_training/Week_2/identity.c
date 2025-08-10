@@ -30,7 +30,7 @@ int main()
             }
         }
         if(f==1)
-        printf("Identity Matrix\n");
+        printf("Identity matrix\n");
         else
         printf("Not an Identity matrix\n");
     }
