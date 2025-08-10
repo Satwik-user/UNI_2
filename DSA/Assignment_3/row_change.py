@@ -11,4 +11,4 @@ print("Original Matrix:")
 for i in arr:
     print(i)
 
-r1,r2=int
+r1,r2=int()
