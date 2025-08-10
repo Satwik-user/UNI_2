@@ -17,7 +17,9 @@ int main()
     }
 
     for(int i=0;i<m;i++)
-    
+    {
+        
+    }
     
     return 0;
 }
