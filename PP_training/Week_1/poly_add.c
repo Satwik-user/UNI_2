@@ -16,7 +16,11 @@ int main()
         scanf("%d",&B[i]);
     }
 
-    int greater=(m>n)?m:n;
+    int lesser=(m<n)?m:n;
+    for(int i=0;i<lesser;i++)
+    {
+        
+    }
     
     return 0;
 }
