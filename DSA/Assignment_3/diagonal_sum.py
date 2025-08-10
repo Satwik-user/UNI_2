@@ -8,7 +8,9 @@ for i in range(m):
         a.append(int(input("Enter element:")))
     arr.append(a)
 
-print("Given Array:",arr)
+print("Given Array:")
+for i in arr:
+    print()
 
 for i in range(m):
     for j in range(n):
