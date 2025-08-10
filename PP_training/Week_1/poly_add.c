@@ -15,6 +15,8 @@ int main()
         printf("Enter element of B[%d]",i);
         scanf("%d",&B[i]);
     }
+
+    
     
     return 0;
 }
