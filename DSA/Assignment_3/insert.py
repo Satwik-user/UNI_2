@@ -29,4 +29,4 @@ else:
                     new_row.append(arr[i][j])
                 else:
                     new_row.append(arr[i][j-1])
-                new
+                mod_arr.append()
