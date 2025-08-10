@@ -39,6 +39,7 @@ int main()
         {
             printf("%2d",trans[i][j]);
         }
+        printf("\n");
     }
     
     return 0;
