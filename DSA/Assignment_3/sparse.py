@@ -7,3 +7,11 @@ for i in range(m):
         a.append(int(input("Enter element:")))
     arr.append(a)
 
+c=0
+for i in range(m):
+    for j in range(n):
+        if arr[i][j]==0:
+            c+=1
+
+if c>m*n/2:
+    
