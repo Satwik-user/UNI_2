@@ -15,7 +15,7 @@ int main()
     }
 
     printf("Original Matrix:\n");
-    
+    for(int i=0;i<m;i++)
     
     return 0;
 }
