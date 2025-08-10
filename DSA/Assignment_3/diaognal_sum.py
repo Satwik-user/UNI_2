@@ -10,3 +10,5 @@ for i in range(m):
     for j in range(n):
         if i==j:
             sum+=arr[i][j]
+
+print("")
