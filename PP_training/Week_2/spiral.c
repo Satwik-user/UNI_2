@@ -5,6 +5,25 @@ int main()
     printf("Enter row and column size:");
     scanf("%d %d",&m,&n);
     int arr[m][n];
+
+    for(int i=0;i<m;i++)
+    {
+        for(int j=0;j<n;j++)
+        {
+            printf("Enter element:");
+            scanf("%d",&arr[i][j]);
+        }
+    }
+
+    printf("Original Matrix:\n");
+    for(int i=0;i<m;i++)
+    {
+        for(int j=0;j<n;j++)
+        {
+            printf("%d ",arr[i][j]);
+        }
+        printf("\n");
+    }
     
     int row_start=0,row_end=m-1;
     int col_start=0,col_end=n-1;
