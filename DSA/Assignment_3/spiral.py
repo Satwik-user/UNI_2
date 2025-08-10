@@ -25,4 +25,4 @@ while(row_start<=row_end and col_start<=col_end):
 
     for i in range(row_end-1,row_start-1,-1):
         num+=1
-        arr[i][]
+        arr[i][col_start]
