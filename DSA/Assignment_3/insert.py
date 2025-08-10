@@ -22,4 +22,6 @@ else:
     for i in range(m+1):
         if i==pos_row:
             new_row=[]
-            
+            for j in range(n+1):
+                if j==pos_col:
+                    
