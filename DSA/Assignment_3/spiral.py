@@ -21,7 +21,7 @@ while(row_start<=row_end and col_start<=col_end):
     for i in range(col_end-1,col_start-1,-1):
         num+=1
         arr[row_end][i]=num
-    cow_end-=1
+    col_end-=1
 
     for i in range(row_end-1,row_start-1,-1):
         num+=1
