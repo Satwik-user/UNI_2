@@ -7,7 +7,7 @@ int main()
     int A[m],B[n];
     for(int i=0;i<m;i++)
     {
-        printf("Enter element of A[%d]",i);
+        printf("Enter element of A[%d]:",i);
         scanf("%d",&A[i]);
     }
     for(int i=0;i<n;i++)
