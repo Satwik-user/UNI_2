@@ -1,1 +1,2 @@
-m=int(i)
+m=int(input("ENter row size:"))
+n=int()
