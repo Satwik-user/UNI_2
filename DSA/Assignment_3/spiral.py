@@ -3,4 +3,4 @@ n=int(input("Enter column size:"))
 arr=[]
 arr=[[0 for _ in range(m)] for _ in range(n)]
 
-row_start, row
+row_start, row_end=
