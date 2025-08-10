@@ -16,7 +16,7 @@ int main()
         scanf("%d",&B[i]);
     }
 
-    
+    for(int i=0;i<m;i++)
     
     return 0;
 }
