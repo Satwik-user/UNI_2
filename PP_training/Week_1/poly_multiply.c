@@ -16,6 +16,20 @@ int main()
         scanf("%d",&B[i]);
     }
 
+    printf("Array A: ");
+    for(int i=0;i<m;i++)
+    {
+        printf("%d ",A[i]);
+    }
+    printf("\n");
+
+    printf("Array B: ");
+    for(int i=0;i<n;i++)
+    {
+        printf("%d ",B[i]);
+    }
+    printf("\n");
+
     int multi[m+n-1];
     for(int i=0;i<m+n-1;i++)
     multi[i]=0;
