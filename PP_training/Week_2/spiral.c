@@ -44,7 +44,7 @@ int main()
         if(col_start<=col_end)
         {
             for(int i=row_end;i>=row_start;i--)
-            arr[i][col_start];
+            printf("%d",arr[i][col_start]);
             col_start++;
         }
     }
