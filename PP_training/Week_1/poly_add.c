@@ -21,6 +21,8 @@ int main()
     {
         printf("%d ",A[i]);
     }
+    printf("\n");
+    
 
     int lesser=(m<n)?m:n;
     int sum[lesser];
