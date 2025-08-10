@@ -5,7 +5,7 @@ int main()
     printf("Enter size of two polynomials:");
     scanf("%d %d",&m,&n);
     int A[m],B[n];
-    
+    for(int i=0;i<m;i++)
     
     return 0;
 }
