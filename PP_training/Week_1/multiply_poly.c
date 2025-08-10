@@ -28,7 +28,10 @@ int main()
     }
     
     printf("Multiplication Array:");
-    
+    for(int i=0;i<m+n-1;i++)
+    {
+        
+    }
     
     return 0;
 }
