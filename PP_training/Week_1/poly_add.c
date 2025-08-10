@@ -16,7 +16,7 @@ int main()
         scanf("%d",&B[i]);
     }
 
-    int great=(m>n)?m:n;
+    int greater=(m>n)?m:n;
     
     return 0;
 }
