@@ -1,2 +1,2 @@
 string=input("Enter a string:")
-wor
+words=string.s
