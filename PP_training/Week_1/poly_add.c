@@ -27,8 +27,8 @@ int main()
     for(int i=0;i<lesser;i++)
     {
         printf("%d ",sum[i]);
-        
     }
+    printf("\n");
     
     return 0;
 }
