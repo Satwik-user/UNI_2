@@ -11,4 +11,4 @@ for i in range(m):
         if i==j:
             sum+=arr[i][j]
 
-print("Sum of d")
+print("Sum of diagonal elements:")
