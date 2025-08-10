@@ -11,4 +11,4 @@ print("Original Matrix:")
 for i in arr:
     print(i)
 
-r1,r2=int(input("Enter row to interchange:")).split()
+r1,r2=int(input("Enter row to interchange:")).split(' ')
