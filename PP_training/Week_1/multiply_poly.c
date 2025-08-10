@@ -23,7 +23,7 @@ int main()
     {
         for(int j=0;j<n;j++)
         {
-            multi[i+j]=A[i]*B[j];
+            multi[i+j]+=A[i]*B[j];
         }
     }
     
