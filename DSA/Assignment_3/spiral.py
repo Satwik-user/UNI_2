@@ -28,4 +28,4 @@ while(row_start<=row_end and col_start<=col_end):
         arr[i][col_start]=num
     col_start-=1
 
-print("Spiral matrix")
+print("Spiral Matrix:")
