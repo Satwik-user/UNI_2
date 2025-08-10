@@ -16,7 +16,7 @@ int main()
         scanf("%d",&B[i]);
     }
 
-    
+
     printf("Array A:");
     for(int i=0;i<m;i++)
     {
@@ -25,7 +25,7 @@ int main()
     printf("\n");
 
     printf("Array B:");
-    for(int i=0;i<m;i++)
+    for(int i=0;i<n;i++)
     {
         printf("%d ",B[i]);
     }
