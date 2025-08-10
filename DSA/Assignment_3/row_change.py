@@ -7,3 +7,7 @@ for i in range(m):
         a.append(int(input("Enter element:")))
     arr.append(a)
 
+print("Original Matrix:")
+for i in arr:
+    print(i)
+
