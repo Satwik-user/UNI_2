@@ -28,4 +28,4 @@ else:
                 elif j<pos_col:
                     new_row.append(arr[i][j])
                 else:
-                    new_row.append(arr[i][])
+                    new_row.append(arr[i][j-1])
