@@ -9,4 +9,4 @@ for i in range(m):
 
 ele=int(input("Enter element to be inserted:"))
 arr[m+1][n]=ele
-print("E")
+print("")
