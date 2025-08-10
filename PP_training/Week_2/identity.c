@@ -25,13 +25,10 @@ int main()
                     f=1;
                     break;
                 }
-                else
+                else if(i!=j && arr[i][j]!=0)
                 {
-                    if(arr[i][j]!=0)
-                    {
-                        f=1;
-                        break;
-                    }
+                    f=1;
+                    break;
                 }
             }
         }
