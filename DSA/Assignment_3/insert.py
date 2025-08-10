@@ -37,4 +37,4 @@ else:
 
     print("Modified Matrix:")
     for i in arr:
-        print()
+        print(i)
