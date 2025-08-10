@@ -8,4 +8,4 @@ for i in range(m):
 for i in range(m):
     for j in range(n):
         if i==j:
-            sum+=
+            sum+=arr[i][j]
