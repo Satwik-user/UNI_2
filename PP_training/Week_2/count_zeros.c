@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int m,n;
+    int m,n,c=0;
     printf("Enter row and column sizes:");
     scanf("%d %d",&m,&n);
     int arr[m][n];
@@ -28,9 +28,11 @@ int main()
     {
         for(int j=0;j<n;j++)
         {
-            
+            if(arr[i][j]==0)
+            c++;
         }
     }
+    printf("Number of zeroes in matrix:%d\n",c);
     
     return 0;
 }
