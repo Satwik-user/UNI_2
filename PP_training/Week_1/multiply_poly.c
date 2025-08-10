@@ -16,11 +16,14 @@ int main()
         scanf("%d",&B[i]);
     }
 
+    int multi[m+n-1];
+    for(int i=0;i<m+n-1;i++)
+    multi[i]=0;
     for(int i=0;i<m;i++)
     {
         for(int j=0;j<n;j++)
         {
-            
+            multi[i+j]=A[i]*B[j]
         }
     }
     
