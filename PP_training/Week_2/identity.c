@@ -30,7 +30,10 @@ int main()
                 else
                 {
                     if(arr[i][j]!=0)
-                    
+                    {
+                        f=1;
+                        break;
+                    }
                 }
             }
         }
