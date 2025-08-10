@@ -27,6 +27,10 @@ int main()
                         break;
                     }
                 }
+                else
+                {
+                    
+                }
             }
         }
         if(f==1)
