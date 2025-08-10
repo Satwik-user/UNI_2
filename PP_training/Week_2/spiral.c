@@ -47,7 +47,8 @@ int main()
             printf("%d",arr[i][col_start]);
             col_start++;
         }
-    
+    }
+
     
     return 0;
 }
