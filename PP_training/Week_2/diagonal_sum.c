@@ -13,6 +13,9 @@ int main()
             scanf("%d",&arr[i][j]);
         }
     }
+
+    printf("Given Matrix:");
+    for(int i=0;i<m;i++)
     if(m==n)
     {
         for(int i=0;i<m;i++)
