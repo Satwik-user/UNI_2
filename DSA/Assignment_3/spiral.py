@@ -1,3 +1,6 @@
 m=int(input("Enter row size:"))
 n=int(input("Enter column size:"))
-a
+arr=[]
+for i in range(m):
+    for j in range(n):
+        a.append()
