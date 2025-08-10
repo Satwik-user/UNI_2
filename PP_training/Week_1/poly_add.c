@@ -23,7 +23,11 @@ int main()
         sum[i]=A[i]+B[i];
     }
 
-    printf("Sum of polynomials:")
+    printf("Sum of polynomials:");
+    for(int i=0;i<lesser;i++)
+    {
+        
+    }
     
     return 0;
 }
