@@ -4,4 +4,4 @@ arr=[]
 for i in range(m):
     a=[]
     for j in range(n):
-        arr
+        a.append(int(input("")))
