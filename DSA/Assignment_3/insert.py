@@ -14,3 +14,6 @@ for i in arr:
 ele=int(input("Enter element to be inserted:"))
 pos_row=int(input("Enter row position:"))
 pos_col=int(input("Enter column position:"))
+
+if pos_row<0 or pos_row>m or pos_col<0 or pos_col>n:
+    print()
