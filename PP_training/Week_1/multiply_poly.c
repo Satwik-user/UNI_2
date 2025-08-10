@@ -30,7 +30,7 @@ int main()
     printf("Multiplication Array:");
     for(int i=0;i<m+n-1;i++)
     {
-        
+        printf("%d ",multi[i]);
     }
     
     return 0;
