@@ -32,7 +32,7 @@ int main()
     {
         printf("%d ",multi[i]);
     }
-    
-    
+    printf("\n");
+
     return 0;
 }
