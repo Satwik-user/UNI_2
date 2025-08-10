@@ -2,6 +2,8 @@
 int main()
 {
     int m,n;
+    printf("Enter row and column sizes:");
+    scanf("%d %d",&m,&n);
     
     
     return 0;
