@@ -29,6 +29,7 @@ int main()
         printf("%d ",B[i]);
     }
     printf("\n");
+    
 
     int lesser=(m<n)?m:n;
     int sum[lesser];
