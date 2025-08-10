@@ -10,7 +10,7 @@ for i in range(m):
 
 print("Given Array:")
 for i in arr:
-    print()
+    print(i)
 
 for i in range(m):
     for j in range(n):
