@@ -48,7 +48,7 @@ int main()
             col_start++;
         }
     }
-    printf("\n")
+    printf("\n");
     
     return 0;
 }
