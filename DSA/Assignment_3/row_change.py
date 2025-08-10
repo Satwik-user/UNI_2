@@ -17,4 +17,4 @@ for i in range(n):
 
 print("Modified matrix:")
 for i in arr:
-    print("")
+    print(i)
