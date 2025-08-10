@@ -16,6 +16,8 @@ int main()
         scanf("%d",&B[i]);
     }
 
+    
+
     int lesser=(m<n)?m:n;
     int sum[lesser];
     for(int i=0;i<lesser;i++)
