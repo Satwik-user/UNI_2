@@ -13,6 +13,8 @@ int main()
             scanf("%d",&arr[i][j]);
         }
     }
+
+    printf("Given Matrix:\n")
     
     return 0;
 }
