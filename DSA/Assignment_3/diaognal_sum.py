@@ -3,4 +3,4 @@ n=int(input("Enter column size:"))
 arr=[]
 for i in range(m):
     for j in range(n):
-        arr[i][j]=
+        arr[i][j]=int(input(""))
