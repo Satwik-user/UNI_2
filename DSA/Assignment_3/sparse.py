@@ -16,4 +16,4 @@ for i in range(m):
 if c>m*n/2:
     print("Sprase Matrix")
 else:
-    print()
+    print("Not a sparse matrix")
