@@ -14,6 +14,7 @@ int main()
         }
     }
 
+    printf("Original Matrix:\n");
     
     
     return 0;
