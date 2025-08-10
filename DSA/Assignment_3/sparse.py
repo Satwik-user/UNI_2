@@ -14,4 +14,4 @@ for i in range(m):
             c+=1
 
 if c>m*n/2:
-    
+    print("")
