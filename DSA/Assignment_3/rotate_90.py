@@ -11,4 +11,4 @@ for i in range(m):
 rot=[[0 for _ in range(n)]for _ in range(m)]
 for i in range(m):
     for j in range(n):
-        rot[]
+        rot[j][n-i-1]=arr[i][j]
