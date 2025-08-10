@@ -7,7 +7,7 @@ int main()
     int A[m],B[n];
     for(int i=0;i<m;i++)
     {
-        printf("Enter element ")
+        printf("Enter element of A[%d]:",i)
     }
     
     return 0;
