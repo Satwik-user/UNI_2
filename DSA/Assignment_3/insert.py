@@ -7,6 +7,6 @@ for i in range(m+1):
         a.append(int(input("Enter element:")))
     arr.append(a)
 
-ele=int(input("Enter element to be inserted:"))
-arr[m+1][n]=ele
-print("Modified Array:",arr)
+print("Original Matrix:")
+for i in arr:
+    print(i)
