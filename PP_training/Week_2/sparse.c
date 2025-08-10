@@ -19,8 +19,9 @@ int main()
     {
         for(int j=0;j<n;j++)
         {
-            
+            printf("%2d",arr[i][j]);
         }
+        printf("\n");
     }
 
     int c=0;
