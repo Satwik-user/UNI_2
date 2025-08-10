@@ -27,5 +27,8 @@ int main()
         }
     }
     
+    printf("Multiplication Array:");
+    
+    
     return 0;
 }
