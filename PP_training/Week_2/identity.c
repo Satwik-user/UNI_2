@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int m,n;
+    int m,n,f=0;
     printf("Enter row and column sizes:");
     scanf("%d %d",&m,&n);
     if(m==n)
@@ -23,7 +23,8 @@ int main()
                 {
                     if(arr[i][j]!=0)
                     {
-                        
+                        f=1;
+                        break;
                     }
                 }
             }
