@@ -5,7 +5,7 @@ sum=0
 for i in range(m):
     a=[]
     for j in range(n):
-        aint(input("Enter element:"))
+        a.append(int(input("Enter element:")))
 
 for i in range(m):
     for j in range(n):
