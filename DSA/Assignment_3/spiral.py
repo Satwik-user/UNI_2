@@ -12,3 +12,6 @@ while(row_start<=row_end and col_start<=col_end):
         num+=1
         arr[row_start][i]=num
     row_start+=1
+
+    for i in range(row_start,row_end+1):
+        
