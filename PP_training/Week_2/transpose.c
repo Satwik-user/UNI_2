@@ -16,6 +16,15 @@ int main()
 
     printf("Original Matrix:\n");
     for(int i=0;i<m;i++)
+    {
+        for(int j=0;j<n;j++)
+        {
+            printf("%2d",arr[i][j]);
+        }
+        printf("\n");
+    }
+
+    
     
     return 0;
 }
