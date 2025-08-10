@@ -1,12 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    int m,n,f=0;
+    int m,n;
     printf("Enter row and column sizes:");
     scanf("%d %d",&m,&n);
     if(m==n)
     {
         int arr[m][n];
+        int f=0;
         for(int i=0;i<m;i++)
         {
             for(int j=0;j<n;j++)
