@@ -13,4 +13,4 @@ for i in range(m):
     for j in range(n):
         rot[j][n-i-1]=arr[i][j]
 
-print(R)
+print("Rotated Matrix:")
