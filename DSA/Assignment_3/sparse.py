@@ -1,1 +1,2 @@
-m=int(input("Enter "))
+m=int(input("Enter row size:"))
+n
