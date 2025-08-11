@@ -18,15 +18,17 @@ while(row_start<=row_end and col_start<=col_end):
         arr[i][col_end-1]=num
     col_end-=1
 
-    for i in range(col_end-1,col_start-1,-1):
-        num+=1
-        arr[row_end-1][i]=num
-    row_end-=1
+    if row_start<=row_end:
+        for i in range(col_end-1,col_start-1,-1):
+            num+=1
+            arr[row_end-1][i]=num
+        row_end-=1
 
-    for i in range(row_end-1,row_start-1,-1):
-        num+=1
-        arr[i][col_start]=num
-    col_start+=1
+    if col_start<=col_end:
+        for i in range(row_end-1,row_start-1,-1):
+            num+=1
+            arr[i][col_start]=num
+        col_start+=1
 
 print("Spiral Matrix:")
 for i in arr:
