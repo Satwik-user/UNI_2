@@ -1,4 +1,5 @@
 print("Enter 25 numbers:")
+
 for i in range(25):
     n=int(input("Enter a number:"))
     if n>0:
