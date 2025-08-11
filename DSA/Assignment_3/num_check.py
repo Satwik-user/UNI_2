@@ -1,5 +1,5 @@
 print("Enter 25 numbers:")
-
+pos,
 for i in range(25):
     n=int(input("Enter a number:"))
     if n>0:
