@@ -11,6 +11,7 @@ int main()
     head->data=10;
     Node *first=(Node *)malloc(sizeof(Node));
     first->data=20;
+    Node *second=(Node *)malloc(sizeof(Node));
     
     
     return 0;
