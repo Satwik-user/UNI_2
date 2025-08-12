@@ -34,7 +34,7 @@ int main()
 
     //Delete node at last
     Node *second_last=head;
-    while(second_last->next->next!=NULL)
+    while(second_last->next->next)
     {
         second_last=second_last->next;
     }
