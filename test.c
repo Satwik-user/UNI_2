@@ -34,7 +34,9 @@ int main()
 
     //Insert a Node at beginning
     int begindata;
-    printf("Enter data to append in begining:")
+    printf("Enter data to append in begining:");
+    scanf("%d",&begindata);
+    
 
     //Delete node at last
     Node *second_last=head;
