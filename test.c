@@ -9,7 +9,7 @@ int main()
 {
     Node *head=(Node *)malloc(sizeof(Node));
     head->data=10;
-    
+    Node *first=(Node *)malloc(sizeof(Node))
     
     return 0;
 }
