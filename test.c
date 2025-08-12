@@ -32,6 +32,10 @@ int main()
         }
     }
 
+    //Insert a Node at beginning
+    int begindata;
+    r
+
     //Delete node at last
     Node *second_last=head;
     while(second_last->next->next)
