@@ -17,6 +17,9 @@ int main()
     head->next=first;
     first->next=second;
     second->next=NULL;
+
+    Node *temp=head;
+    while(temp)
     
     return 0;
 }
