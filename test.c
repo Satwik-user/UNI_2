@@ -19,7 +19,11 @@ int main()
         scanf("%d",&current->data);
         current->next=NULL;
 
-        
+        if(head==NULL)
+        {
+            head=current;
+            
+        }
     }
 
 
