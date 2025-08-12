@@ -33,7 +33,7 @@ int main()
     }
 
     //Delete node at last
-    
+    Node *second_last=
 
     printf("Linked List Elements:");
     Node *temp=head;
