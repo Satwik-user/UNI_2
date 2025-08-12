@@ -1,18 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
+typedef struct Node
+{
+    int data;
+    struct Node *next;
+}Node;
 int main()
 {
-    int n,s=0;
-    printf("Enter a number:");
-    scanf("%d",&n);
-    for(int i=1;i<n;i++)
-    {
-        if(n%i==0)
-        s+=i;
-    }
-    if(n==s)
-    printf("Perfect number\n");
-    else
-    printf("Not a perfect number\n");
+    struct Node *head=(struct Node *)malloc(sizeof(struct Node));
+
     
     return 0;
 }
