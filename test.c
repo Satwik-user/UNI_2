@@ -15,7 +15,8 @@ int main()
     second->data=30;
 
     head->next=first;
-    
+    first->next=second;
+    second->next=NULL;
     
     return 0;
 }
