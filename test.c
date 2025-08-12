@@ -38,6 +38,7 @@ int main()
     scanf("%d",&begindata);
     Node *newNode=(Node *)malloc(sizeof(newNode));
     newNode->data=begindata;
+    newNode->next=head;
     
 
     //Delete node at last
