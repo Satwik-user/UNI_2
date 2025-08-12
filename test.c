@@ -8,6 +8,7 @@ typedef struct Node
 int main()
 {
     Node *head=(Node *)malloc(sizeof(Node));
+    head->data=10;
     
     
     return 0;
