@@ -31,6 +31,7 @@ int main()
             tail=current;
         }
     }
+    printf("")
 
     //Delete node at last
     Node *second_last=head;
