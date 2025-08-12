@@ -42,7 +42,7 @@ int main()
     printf("\n");
 
     Node *temp=head;
-    while(temp!=N)
+    while(temp)
     
     return 0;
 }
