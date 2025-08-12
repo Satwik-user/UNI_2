@@ -40,6 +40,8 @@ int main()
         temp=temp->next;
     }
     printf("\n");
+
+    Node *temp=head;
     
     return 0;
 }
