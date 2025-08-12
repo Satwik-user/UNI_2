@@ -38,7 +38,8 @@ int main()
     {
         second_last=second_last->next;
     }
-    
+    free(second_last->next);
+    second_last->next=NULL;
 
     printf("Linked List Elements:");
     Node *temp=head;
