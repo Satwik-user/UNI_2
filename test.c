@@ -7,7 +7,7 @@ typedef struct Node
 }Node;
 int main()
 {
-    struct Node *head=(struct Node *)malloc(sizeof(struct Node));
+    Node *head=(struct Node *)malloc(sizeof(struct Node));
 
     
     return 0;
