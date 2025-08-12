@@ -45,7 +45,8 @@ int main()
     while(temp)
     {
         Node *next_node=temp->next;
-        
+        free(temp);
+        temp=next_node;
     }
     
     return 0;
