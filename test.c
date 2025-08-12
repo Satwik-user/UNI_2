@@ -31,7 +31,6 @@ int main()
             tail=current;
         }
     }
-    printf("%d",tail->data);
 
     printf("Linked List Elements:");
     Node *temp=head;
