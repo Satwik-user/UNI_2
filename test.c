@@ -7,6 +7,16 @@ typedef struct Node
 }Node;
 int main()
 {
+    int n;
+    printf("Enter no. of nodes:");
+    scanf("%d",&n);
+    for(int i=0;i<n;i++)
+    {
+        
+    }
+
+
+
     Node *head=(Node *)malloc(sizeof(Node));
     head->data=10;
     Node *first=(Node *)malloc(sizeof(Node));
