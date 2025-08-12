@@ -34,6 +34,10 @@ int main()
 
     //Delete node at last
     Node *second_last=head;
+    while(second_last->next->next!=NULL)
+    {
+        second_last=second_last->next;
+    }
 
     printf("Linked List Elements:");
     Node *temp=head;
