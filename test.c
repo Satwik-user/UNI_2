@@ -32,6 +32,8 @@ int main()
         }
     }
 
+    
+
     printf("Linked List Elements:");
     Node *temp=head;
     while(temp)
