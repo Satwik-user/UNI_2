@@ -38,6 +38,7 @@ int main()
     {
         second_last=second_last->next;
     }
+    
 
     printf("Linked List Elements:");
     Node *temp=head;
