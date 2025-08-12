@@ -22,7 +22,7 @@ int main()
         if(head==NULL)
         {
             head=current;
-            
+            tail=current;
         }
     }
 
