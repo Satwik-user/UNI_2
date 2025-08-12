@@ -39,7 +39,7 @@ int main()
     Node *newNode=(Node *)malloc(sizeof(newNode));
     newNode->data=begindata;
     newNode->next=head;
-    
+    head=newNode;
 
     //Delete node at last
     Node *second_last=head;
