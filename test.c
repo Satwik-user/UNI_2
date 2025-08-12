@@ -14,6 +14,7 @@ int main()
     Node *second=(Node *)malloc(sizeof(Node));
     second->data=30;
 
+    head->next=first;
     
     
     return 0;
