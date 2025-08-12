@@ -10,7 +10,7 @@ int main()
     int n;
     printf("Enter no. of nodes:");
     scanf("%d",&n);
-    
+    Node *head=(Node *)malloc(sizeof(head));
     for(int i=0;i<n;i++)
     {
         Node *current=(Node *)malloc(sizeof(Node));
