@@ -37,6 +37,7 @@ int main()
     printf("Enter data to append in begining:");
     scanf("%d",&begindata);
     Node *newNode=(Node *)malloc(sizeof(newNode));
+    newNode->data=begindata;
     
 
     //Delete node at last
