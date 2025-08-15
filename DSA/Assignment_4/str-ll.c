@@ -19,7 +19,7 @@ int main()
     for(int i=0;i<n;i++)
     {
         Node *cur=(Node *)malloc(sizeof(Node));
-        scanf("%d",&cur->data);
+        
         cur->next=NULL;
 
         if(head==NULL)
