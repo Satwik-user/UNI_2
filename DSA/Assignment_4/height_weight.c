@@ -3,6 +3,7 @@
 typedef struct Node
 {
     int height;
+    int weight;
     struct Node *next;
 }Node;
 
