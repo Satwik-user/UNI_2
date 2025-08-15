@@ -33,6 +33,10 @@ int main()
 
     printf("Linked List elements:");
     Node *temp=head;
+    while(temp)
+    {
+        
+    }
     
     return 0;
 }
