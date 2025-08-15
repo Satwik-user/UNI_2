@@ -41,6 +41,5 @@ int main()
     Node *temp=head;
     while(temp)
     
-    
     return 0;
 }
