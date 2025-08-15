@@ -50,7 +50,7 @@ int main()
     if(pos==0)
     {
         new_node->next=head;
-        
+        head=new_node;
     }
     temp=head;
     while(temp && p<pos-1)
