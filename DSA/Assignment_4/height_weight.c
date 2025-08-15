@@ -46,6 +46,7 @@ int main()
     printf("Highest weight/height ratio:",max);
 
     //Free memory
+    temp=head;
     
     
     return 0;
