@@ -34,7 +34,10 @@ int main()
 
     printf("Original Linked List:");
     Node *temp=head;
-    
+    while(temp)
+    {
+        
+    }
     int pos,ele;
     printf("Enter position and element to insert:");
     scanf("%d %d",&pos,&ele);
