@@ -11,7 +11,7 @@ int main()
 {
     char str[100];
     printf("Enter a string:");
-    fgets(str,strlen(str),stdin);
+    fgets(str,sizeof(str),stdin);
     int n=strlen(str);
     str[n-1]='\0';
 
