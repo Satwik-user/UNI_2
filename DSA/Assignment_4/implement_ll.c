@@ -24,7 +24,11 @@ int main()
             head=current;
             tail=current;
         }
-        
+
+        else
+        {
+            
+        }
     }
     
     return 0;
