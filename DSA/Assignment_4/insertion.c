@@ -50,6 +50,10 @@ int main()
     while(temp)
     {
         p++;
+        if(p==pos)
+        {
+            
+        }
     }
     
     return 0;
