@@ -50,6 +50,5 @@ int main()
         del_pos--;
     }
     
-    
     return 0;
 }
