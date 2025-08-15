@@ -36,6 +36,7 @@ int main()
     Node *temp=head;
     while(temp)
     {
+        printf("%d",temp->data);
         
     }
     
