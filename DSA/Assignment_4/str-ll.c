@@ -34,6 +34,9 @@ int main()
             tail=cur;
         }
     }
+
+    printf("String converted to linked list:");
+    
     
     return 0;
 }
