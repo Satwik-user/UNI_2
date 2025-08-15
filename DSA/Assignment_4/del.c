@@ -60,7 +60,7 @@ int main()
         }
         prev->next=temp->next;
         free(temp);
-        }
+    
     printf("Modified Linked List:");
     temp=head;
     while(temp)
