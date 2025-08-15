@@ -46,7 +46,7 @@ int main()
     if(del_pos==0)
     {
         head=head->next;
-        free(head);
+        free(temp);
     }
     else
     {
@@ -61,7 +61,7 @@ int main()
         prev->next=temp->next;
         free(temp);
     }
-    
+
     printf("Modified Linked List:");
     temp=head;
     while(temp)
