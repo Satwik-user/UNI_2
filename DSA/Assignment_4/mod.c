@@ -51,5 +51,8 @@ int main()
     }
     temp->data=ele;
     
+    printf("Modified Linked List:");
+    
+    
     return 0;
 }
