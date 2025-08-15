@@ -27,7 +27,7 @@ int main()
         }
         else
         {
-            tail=cur;
+            tail->next=cur;
         }
     }
     
