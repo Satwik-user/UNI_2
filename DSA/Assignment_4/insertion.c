@@ -41,7 +41,7 @@ int main()
     }
     printf("\n");
 
-    int pos,ele,p=0;
+    int pos,ele,p=1;
     printf("Enter position and element to insert:");
     scanf("%d %d",&pos,&ele);
     Node *new_node=(Node *)malloc(sizeof(Node));
