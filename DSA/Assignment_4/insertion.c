@@ -51,10 +51,8 @@ int main()
     {
         temp=temp->next;
         p++;
-        if(p==pos)
-        break;
     }
-    
+
     
     return 0;
 }
