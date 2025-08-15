@@ -44,7 +44,11 @@ int main()
     printf("\n");
 
     //Free memory
-    f
+    temp=head;
+    while(temp)
+    {
+        
+    }
     
     return 0;
 }
