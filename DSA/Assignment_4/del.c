@@ -41,6 +41,8 @@ int main()
     printf("\n");
 
     int del,p=0;
+    printf("Enter delete position:");
+    scanf("%d",&del);
     
     
     return 0;
