@@ -10,8 +10,8 @@ int main()
     int n1,n2;
     printf("Enter number of nodes for 1st and 2nd list:");
     scanf("%d %d",&n1,&n2);
-    Node *head=NULL;
-    Node *tail=NULL;
+    Node *head_1=NULL;
+    Node *tail_1=NULL;
     for(int i=0;i<n1;i++)
     {
         Node *cur=(Node *)malloc(sizeof(Node));
@@ -19,20 +19,20 @@ int main()
         scanf("%d",&cur->data);
         cur->next=NULL;
 
-        if(head==NULL)
+        if(head_1==NULL)
         {
-            head=cur;
-            tail=cur;
+            head_1=cur;
+            tail_1=cur;
         }
         else
         {
-            tail->next=cur;
-            tail=cur;
+            tail_1->next=cur;
+            tail_1=cur;
         }
     }
     for(int i=0;i<n2;i++)
     {
-        
+
     }
     
     return 0;
