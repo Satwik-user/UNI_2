@@ -30,6 +30,8 @@ int main()
             tail=current;
         }
     }
+
+    
     
     return 0;
 }
