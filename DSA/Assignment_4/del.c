@@ -45,7 +45,8 @@ int main()
     scanf("%d",&del_pos);
     if(del_pos==0)
     {
-        
+        head=head->next;
+        free(head);
     }
     temp=head;
     Node *prev=head;
