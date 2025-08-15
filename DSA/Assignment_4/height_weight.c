@@ -34,7 +34,10 @@ int main()
     }
 
     Node *temp=head;
-    w
+    while(temp)
+    {
+        
+    }
     
     return 0;
 }
