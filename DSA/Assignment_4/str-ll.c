@@ -12,10 +12,9 @@ int main()
     char str[100];
     printf("Enter a string:");
     fgets(str,strlen(str),stdin);
-    
+    int n=strlen(str);
     str[strlen(str)-1]='\0';
 
-    int n=strlen(str);
     Node *head=NULL;
     Node *tail=NULL;
     for(int i=0;i<n-1;i++)
