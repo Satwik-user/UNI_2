@@ -12,7 +12,7 @@ int main()
     char str[100];
     printf("Enter a string:");
     fgets(str,strlen(str),stdin);
-    str[sizeof(str)-1]='\0';
+    str[strlen(str)-1]='\0';
 
     int n=sizeof(str);
     Node *head=NULL;
