@@ -1,5 +1,5 @@
 #include <stdio.h>
-typedef struct Node
+typedef struct
 {
     int data;
     struct Node *next;
