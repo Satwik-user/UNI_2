@@ -19,7 +19,7 @@ int main()
     for(int i=0;i<n;i++)
     {
         Node *cur=(Node *)malloc(sizeof(Node));
-        cur->data=
+        cur->data=str[i];
         cur->next=NULL;
 
         if(head==NULL)
