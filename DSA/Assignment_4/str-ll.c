@@ -18,7 +18,7 @@ int main()
         Node *cur=(Node *)malloc(sizeof(Node));
         printf("Enter data at node %d:",i+1);
         scanf("%d",&cur->data);
-        
+        cur->next=NULL;
     }
     
     return 0;
