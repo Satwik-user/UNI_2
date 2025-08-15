@@ -54,23 +54,23 @@ int main()
     }
     else
     {
-    temp=head;
-    while(temp && p<pos-1)
-    {
-        temp=temp->next;
-        p++;
-    }
-    new_node->next=temp->next;
-    temp->next=new_node;
+        temp=head;
+        while(temp && p<pos-1)
+        {
+            temp=temp->next;
+            p++;
+        }
+        new_node->next=temp->next;
+        temp->next=new_node;
 
-    printf("Modified Linked List:");
-    temp=head;
-    while(temp)
-    {
-        printf("%d ",temp->data);
-        temp=temp->next;
-    }
-    printf("\n");
+        printf("Modified Linked List:");
+        temp=head;
+        while(temp)
+        {
+            printf("%d ",temp->data);
+            temp=temp->next;
+        }
+        printf("\n");
 
     //Free memory
     temp=head;
