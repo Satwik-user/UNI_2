@@ -9,7 +9,8 @@ int main()
 {
     int n;
     printf("Enter number of nodes:");
-    scanf("%d",&n)
+    scanf("%d",&n);
+    
     
     return 0;
 }
