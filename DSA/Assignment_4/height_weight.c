@@ -33,7 +33,8 @@ int main()
         }
     }
 
-    
+    Node *temp=head;
+    w
     
     return 0;
 }
