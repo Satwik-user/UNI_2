@@ -6,7 +6,8 @@ struct Node
 }Node;
 int main()
 {
-    
+    int n;
+    orintf("Enetr number of nodes:");
     
     return 0;
 }
