@@ -15,6 +15,7 @@ int main()
     for(int i=0;i<n1;i++)
     {
         Node *cur=(Node *)malloc(sizeof(Node));
+        printf("Enter element for 1st list:");
         
     }
     
