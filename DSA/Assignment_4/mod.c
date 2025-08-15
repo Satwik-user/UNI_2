@@ -49,7 +49,7 @@ int main()
     {
         temp=temp->next;
     }
-    
+    temp->data=ele;
     
     return 0;
 }
