@@ -22,6 +22,7 @@ int main()
 
         if(head==NULL)
         {
+            cur=head;
             
         }
     }
