@@ -49,17 +49,17 @@ int main()
         free(head);
     }
     else
-    {
-    temp=head;
-    Node *prev=head;
-    while(temp && p<del_pos)
-    {
-        prev=temp;
-        temp=temp->next;
-        p++;
-    }
-    prev->next=temp->next;
-    free(temp);
+        {
+        temp=head;
+        Node *prev=head;
+        while(temp && p<del_pos)
+        {
+            prev=temp;
+            temp=temp->next;
+            p++;
+        }
+        prev->next=temp->next;
+        free(temp);
 
     printf("Modified Linked List:");
     temp=head;
