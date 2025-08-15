@@ -60,7 +60,7 @@ int main()
     while(temp)
     {
         printf("%d ",&temp->data);
-        
+        temp=temp->next;
     }
     
     return 0;
