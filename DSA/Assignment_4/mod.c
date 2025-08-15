@@ -56,7 +56,7 @@ int main()
     while(temp)
     {
         printf("%d ",temp->data);
-        temp=
+        temp=temp->next;
     }
     
     return 0;
