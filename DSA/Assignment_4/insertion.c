@@ -52,6 +52,7 @@ int main()
         temp=temp->next;
         p++;
     }
+    new_node->next=temp->next;
     
     
     return 0;
