@@ -30,6 +30,9 @@ int main()
             tail=cur;
         }
     }
+
+    printf("original Linked List:");
+    
     
     return 0;
 }
