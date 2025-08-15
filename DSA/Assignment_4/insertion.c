@@ -32,6 +32,7 @@ int main()
         }
     }
 
+    
     int pos,ele;
     printf("Enter position and element to insert:");
     scanf("%d %d",&pos,&ele);
