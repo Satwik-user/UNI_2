@@ -43,6 +43,10 @@ int main()
     int del_pos,p=0;
     printf("Enter delete position:");
     scanf("%d",&del_pos);
+    if(del_pos==0)
+    {
+
+    }
     temp=head;
     Node *prev=head;
     while(temp && p<del_pos)
