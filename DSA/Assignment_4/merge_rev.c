@@ -18,7 +18,8 @@ int main()
         printf("Enter element for 1st list:");
         scanf("%d",&cur->data);
         cur->next=NULL;
-        
+
+        if(head==NULL)
     }
     
     return 0;
