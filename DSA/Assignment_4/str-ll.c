@@ -43,7 +43,8 @@ int main()
     }
     printf("\n");
 
-    
+    //Free memory
+    f
     
     return 0;
 }
