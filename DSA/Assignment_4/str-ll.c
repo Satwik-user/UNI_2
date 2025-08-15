@@ -36,6 +36,7 @@ int main()
     }
 
     printf("String converted to linked list:");
+    Node *temp=head;
     
     
     return 0;
