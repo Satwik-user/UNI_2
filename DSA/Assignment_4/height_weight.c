@@ -10,7 +10,7 @@ int main()
 {
     int n;
     printf("Enter number of students:");
-    sacnf("%d",&n);
+    scanf("%d",&n);
     
     
     return 0;
