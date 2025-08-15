@@ -49,7 +49,7 @@ int main()
         temp=temp->next;
         del_pos--;
     }
-    
+    temp->next=temp->next->next;
     
     return 0;
 }
