@@ -37,8 +37,10 @@ int main()
     scanf("%d %d",&pos,&ele);
     Node *new_node=(Node *)malloc(sizeof(Node));
     new_node->data=ele;
+    new_node->next=NULL;
     Node *temp=head;
     while(temp)
+    
     
     return 0;
 }
