@@ -53,6 +53,7 @@ int main()
         head=new_node;
     }
     else
+    {
     temp=head;
     while(temp && p<pos-1)
     {
