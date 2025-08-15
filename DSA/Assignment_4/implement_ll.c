@@ -7,7 +7,9 @@ struct Node
 int main()
 {
     int n;
-    printf("Enetr number of nodes:");
+    printf("Enter number of nodes:");
+    scanf("%d",&n);
+    
     
     return 0;
 }
