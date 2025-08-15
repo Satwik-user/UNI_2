@@ -32,7 +32,7 @@ int main()
         }
     }
 
-    
+    printf("Enter position and element to insert:");
     
     return 0;
 }
