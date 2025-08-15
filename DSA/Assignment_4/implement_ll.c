@@ -15,6 +15,8 @@ int main()
     for(int i=0;i<n;i++)
     {
         Node *current=(Node *)malloc(sizeof(current));
+        printf("Enter data of node %d",i+1);
+        scanf("%d",&current->data);
         
     }
     
