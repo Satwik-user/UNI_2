@@ -50,6 +50,8 @@ int main()
         del_pos--;
     }
     temp->next=temp->next->next;
+    free(temp);
+    
     
     return 0;
 }
