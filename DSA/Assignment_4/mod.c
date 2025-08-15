@@ -42,7 +42,9 @@ int main()
     printf("\n");
 
     int pos,ele,p=0;
-    printf("Enter position and element to be modified:")
+    printf("Enter position and element to be modified:");
+    scanf("%d %d",&pos,&ele);
+    
     
     return 0;
 }
