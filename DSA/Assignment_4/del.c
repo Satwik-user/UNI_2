@@ -44,7 +44,7 @@ int main()
     printf("Enter delete position:");
     scanf("%d",&del_pos);
     temp=head;
-    while(temp && del_pos+1>0)
+    while(temp && p<del_pos)
     {
         temp=temp->next;
         del_pos--;
