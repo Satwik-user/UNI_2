@@ -70,6 +70,7 @@ int main()
     while(temp)
     {
         Node *next_node=temp;
+        
     }
     
     return 0;
