@@ -25,7 +25,8 @@ int main()
             head=cur;
             tail=cur;
         }
-        else{
+        else
+        {
             
         }
     }
