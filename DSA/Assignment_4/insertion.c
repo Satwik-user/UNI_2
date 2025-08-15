@@ -49,11 +49,10 @@ int main()
     temp=head;
     while(temp)
     {
+        
         p++;
         if(p==pos)
-        {
-            
-        }
+        break;
     }
     
     return 0;
