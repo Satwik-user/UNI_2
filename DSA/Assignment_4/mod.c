@@ -31,6 +31,8 @@ int main()
             tail=cur;
         }
     }
+
+    printf("Original Linked List:");
     
     return 0;
 }
