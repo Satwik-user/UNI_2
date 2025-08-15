@@ -49,6 +49,7 @@ int main()
     new_node->next=NULL;
     if(pos==0)
     {
+        new_node->next=head;
         
     }
     temp=head;
