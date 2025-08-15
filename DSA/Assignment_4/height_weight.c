@@ -12,7 +12,7 @@ int main()
     int n;
     printf("Enter number of students:");
     scanf("%d",&n);
-    
+    for(int i=0;i<n;i++)
     
     return 0;
 }
