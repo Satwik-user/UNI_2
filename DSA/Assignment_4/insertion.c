@@ -71,6 +71,7 @@ int main()
             temp=temp->next;
         }
         printf("\n");
+    }
     
     //Free memory
     temp=head;
