@@ -32,7 +32,7 @@ int main()
     }
 
     printf("original Linked List:");
-    
+    Node *temp=head;
     
     return 0;
 }
