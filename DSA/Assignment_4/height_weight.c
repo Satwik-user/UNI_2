@@ -26,8 +26,11 @@ int main()
             head=cur;
             tail=cur;
         }
+        else
+        {
+            
+        }
     }
-    
     
     return 0;
 }
