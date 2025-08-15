@@ -52,7 +52,8 @@ int main()
     temp->data=ele;
     
     printf("Modified Linked List:");
-    
+    temp=head;
+    while(temp)
     
     return 0;
 }
