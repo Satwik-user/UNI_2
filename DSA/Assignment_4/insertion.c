@@ -32,6 +32,7 @@ int main()
         }
     }
 
+    printf("Original Linked List:");
     
     int pos,ele;
     printf("Enter position and element to insert:");
