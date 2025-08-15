@@ -47,7 +47,7 @@ int main()
     new_node->data=ele;
     new_node->next=NULL;
     temp=head;
-    while(temp)
+    while(temp && p!=pos)
     {
         temp=temp->next;
         p++;
