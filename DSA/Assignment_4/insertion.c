@@ -39,6 +39,7 @@ int main()
         printf("%d ",temp->data);
         temp=temp->next;
     }
+    printf("\n");
 
     int pos,ele,p=0;
     printf("Enter position and element to insert:");
