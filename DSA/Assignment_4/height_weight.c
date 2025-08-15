@@ -19,8 +19,15 @@ int main()
         Node *cur=(Node *)malloc(sizeof(Node));
         printf("Enter height and weight of student%d:",i+1);
         scanf("%d %d",&cur->height,&cur->weight);
+        cur->next=NULL;
 
+        if(head==NULL)
+        {
+            head=cur;
+            tail=cur;
+        }
     }
+    
     
     return 0;
 }
