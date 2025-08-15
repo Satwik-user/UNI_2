@@ -47,7 +47,10 @@ int main()
 
     //Free memory
     temp=head;
-    
+    while(temp)
+    {
+        
+    }
     
     return 0;
 }
