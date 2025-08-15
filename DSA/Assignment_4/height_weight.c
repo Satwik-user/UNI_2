@@ -5,3 +5,12 @@ typedef struct Node
     int data;
     struct Node *next;
 }Node;
+
+int main()
+{
+    int n;
+    printf("Enter number of students:");
+    sacnf("%d",&n);
+    
+    return 0;
+}
