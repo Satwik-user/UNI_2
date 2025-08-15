@@ -35,7 +35,7 @@ int main()
     Node *temp=head;
     while(temp)
     {
-        prnitf("%d ",temp->data);
+        printf("%d ",temp->data);
         temp=temp->next;
     }
     printf("\n");
