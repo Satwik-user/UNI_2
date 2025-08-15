@@ -12,6 +12,7 @@ int main()
     char str[100];
     printf("Enter a string:");
     fgets(str,strlen(str),stdin);
+    
     str[strlen(str)-1]='\0';
 
     int n=strlen(str);
