@@ -18,6 +18,13 @@ int main()
         printf("Enter data of node %d",i+1);
         scanf("%d",&current->data);
         current->next=NULL;
+
+        if(head==NULL)
+        {
+            head=current;
+            tail=current;
+        }
+        
     }
     
     return 0;
