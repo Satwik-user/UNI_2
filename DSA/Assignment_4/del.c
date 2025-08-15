@@ -45,6 +45,9 @@ int main()
     scanf("%d",&del_pos);
     temp=head;
     while(temp && p<del_pos)
+    {
+        
+    }
     
     return 0;
 }
