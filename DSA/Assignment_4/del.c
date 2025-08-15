@@ -40,6 +40,7 @@ int main()
     }
     printf("\n");
 
+    int del,p=0;
     
     
     return 0;
