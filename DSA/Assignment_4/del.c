@@ -40,14 +40,14 @@ int main()
     }
     printf("\n");
 
-    int del_pos,p=0;
+    int del_pos;
     printf("Enter delete position:");
     scanf("%d",&del_pos);
     temp=head;
-    while(temp && p<del_pos)
+    while(temp && del_pos>0)
     {
         temp=temp->next;
-        p++;
+        del_pos--;
     }
     
     return 0;
