@@ -7,8 +7,7 @@ typedef struct Node
 }Node;
 int main()
 {
-       int n;
-       
+    
     
     return 0;
 }
