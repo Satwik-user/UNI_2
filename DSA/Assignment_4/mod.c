@@ -39,6 +39,9 @@ int main()
         printf("%d",temp->data);
         temp=temp->next;
     }
+    printf("\n");
+
+    
     
     return 0;
 }
