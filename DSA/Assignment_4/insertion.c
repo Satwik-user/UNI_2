@@ -56,6 +56,7 @@ int main()
     temp->next=new_node;
 
     printf("Modified Linked List:");
+    temp=head;
     
     
     return 0;
