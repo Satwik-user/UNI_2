@@ -13,7 +13,7 @@ int main()
     printf("Enter a string:");
     fgets(str,strlen(str),stdin);
     int n=strlen(str);
-    str[strlen(str)-1]='\0';
+    str[n-1]='\0';
 
     Node *head=NULL;
     Node *tail=NULL;
