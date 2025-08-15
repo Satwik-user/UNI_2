@@ -65,7 +65,7 @@ int main()
 
     }
     printf("Modified Linked List:");
-        temp=head;
+       temp=head;
         while(temp)
         {
             printf("%d ",temp->data);
