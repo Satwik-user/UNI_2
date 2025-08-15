@@ -49,6 +49,7 @@ int main()
         free(head);
     }
     else
+    {
     temp=head;
     Node *prev=head;
     while(temp && p<del_pos)
