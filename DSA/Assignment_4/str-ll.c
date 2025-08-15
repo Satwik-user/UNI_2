@@ -8,5 +8,10 @@ typedef struct Node
 
 int main()
 {
-    return 
+    int n;
+    printf("Enter number of nodes:");
+    scanf("%d",&n);
+    
+    
+    return 0;
 }
