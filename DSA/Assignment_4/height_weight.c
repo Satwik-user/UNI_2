@@ -32,6 +32,7 @@ int main()
             tail=cur;
         }
     }
+
     
     
     return 0;
