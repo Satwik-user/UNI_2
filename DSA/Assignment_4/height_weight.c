@@ -40,7 +40,7 @@ int main()
         int ratio=temp->weight/temp->height;
         if(ratio>max)
         max=ratio;
-        temp=temp;
+        temp=temp->next;
     }
     
     return 0;
