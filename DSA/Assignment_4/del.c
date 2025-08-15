@@ -40,11 +40,11 @@ int main()
     }
     printf("\n");
 
-    int del,p=0;
+    int del_pos,p=0;
     printf("Enter delete position:");
-    scanf("%d",&del);
+    scanf("%d",&del_pos);
     temp=head;
-    while(temp && p<del)
+    while(temp && p<del_pos)
     
     return 0;
 }
