@@ -65,7 +65,12 @@ int main()
     }
     printf("\n");
 
-    
+    //Free memory
+    temp=head;
+    while(temp)
+    {
+        
+    }
     
     return 0;
 }
