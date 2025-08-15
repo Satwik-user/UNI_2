@@ -41,7 +41,7 @@ int main()
     }
     printf("\n");
 
-    
+    int pos,ele;
     
     return 0;
 }
