@@ -55,6 +55,7 @@ int main()
     temp=head;
     while(temp)
     {
+        printf("%d ",temp->data);
         
     }
     
