@@ -22,7 +22,11 @@ int main()
 
         if(head==NULL)
         {
-            cur=head;
+            head=cur;
+            tail=cur;
+        }
+        else
+        {
             
         }
     }
