@@ -24,7 +24,6 @@ int main()
             head=current;
             tail=current;
         }
-
         else
         {
             tail->next=current;
