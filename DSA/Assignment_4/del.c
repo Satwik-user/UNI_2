@@ -51,7 +51,7 @@ int main()
         temp=temp->next;
         p++;
     }
-    prev->next=temp->next;
+    prev->next=temp->next->next;
     free(temp);
 
     
