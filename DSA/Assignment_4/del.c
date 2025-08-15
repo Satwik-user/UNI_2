@@ -46,7 +46,8 @@ int main()
     temp=head;
     while(temp && p<del_pos)
     {
-        
+        temp=temp->next;
+        p++
     }
     
     return 0;
