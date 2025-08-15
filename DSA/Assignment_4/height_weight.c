@@ -34,6 +34,7 @@ int main()
     }
 
     Node *temp=head;
+    int max=0;
     while(temp)
     {
         
