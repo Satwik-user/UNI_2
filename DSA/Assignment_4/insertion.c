@@ -48,6 +48,9 @@ int main()
     new_node->next=NULL;
     temp=head;
     while(temp)
+    {
+        
+    }
     
     return 0;
 }
