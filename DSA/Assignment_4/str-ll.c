@@ -15,6 +15,7 @@ int main()
     Node *tail=NULL;
     for(int i=0;i<n;i++)
     {
+        Node *cur=(Node *)malloc(sizeof(Node));
         
     }
     
