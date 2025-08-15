@@ -44,7 +44,11 @@ int main()
     int pos,ele,p=0;
     printf("Enter position and element to be modified:");
     scanf("%d %d",&pos,&ele);
-    
+    temp=head;
+    while(temp && p<pos-1)
+    {
+        
+    }
     
     return 0;
 }
