@@ -43,7 +43,8 @@ int main()
     int del,p=0;
     printf("Enter delete position:");
     scanf("%d",&del);
-    
+    temp=head;
+    while(temp && p<del)
     
     return 0;
 }
