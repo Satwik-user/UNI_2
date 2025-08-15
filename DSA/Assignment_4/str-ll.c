@@ -19,6 +19,15 @@ int main()
         printf("Enter data at node %d:",i+1);
         scanf("%d",&cur->data);
         cur->next=NULL;
+
+        if(head==NULL)
+        {
+            head=cur;
+            tail=cur;
+        }
+        else{
+            
+        }
     }
     
     return 0;
