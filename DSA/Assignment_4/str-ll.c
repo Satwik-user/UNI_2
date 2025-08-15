@@ -39,7 +39,7 @@ int main()
     Node *temp=head;
     while(temp)
     {
-        printf("%c ",temp->data);
+        printf("'%c' ",temp->data);
         temp=temp->next;
     }
     printf("\n");
