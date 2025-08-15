@@ -39,14 +39,14 @@ int main()
         printf("%d ",temp->data);
         temp=temp->next;
     }
-    
+
     int pos,ele;
     printf("Enter position and element to insert:");
     scanf("%d %d",&pos,&ele);
     Node *new_node=(Node *)malloc(sizeof(Node));
     new_node->data=ele;
     new_node->next=NULL;
-    Node *temp=head;
+    temp=head;
     while(temp)
     
     return 0;
