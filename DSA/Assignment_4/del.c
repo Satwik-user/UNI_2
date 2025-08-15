@@ -40,7 +40,7 @@ int main()
     }
     printf("\n");
 
-    int del_pos;
+    int del_pos,p=0;
     printf("Enter delete position:");
     scanf("%d",&del_pos);
     temp=head;
@@ -51,7 +51,7 @@ int main()
     }
     temp->next=temp->next->next;
     free(temp);
-    
+
     
     return 0;
 }
