@@ -48,7 +48,7 @@ int main()
     while(temp && p<pos)
     {
         temp=temp->next;
-        
+        p++;
     }
     temp->data=ele;
     
