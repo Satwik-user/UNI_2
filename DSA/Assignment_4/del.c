@@ -53,6 +53,8 @@ int main()
     }
     prev->next=temp->next;
     free(temp);
+
+    printf("Modified Linked List:");
     
     
     return 0;
