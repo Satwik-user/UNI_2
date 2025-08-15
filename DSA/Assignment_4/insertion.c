@@ -63,7 +63,7 @@ int main()
         new_node->next=temp->next;
         temp->next=new_node;
 
-            }
+    }
 
     //Free memory
     temp=head;
