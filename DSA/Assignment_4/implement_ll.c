@@ -12,7 +12,10 @@ int main()
     scanf("%d",&n);
     Node *head=NULL;
     Node *tail=NULL;
-    for(int i=0;i<n;)
+    for(int i=0;i<n;i++)
+    {
+        
+    }
     
     return 0;
 }
