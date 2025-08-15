@@ -39,7 +39,12 @@ int main()
         temp=temp->next;
     }
 
-    //
+    //Free memory
+    temp=head;
+    while(temp)
+    {
+        
+    }
     
     return 0;
 }
