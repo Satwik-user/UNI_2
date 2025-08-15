@@ -53,7 +53,7 @@ int main()
     }
     prev->next=temp->next;
     free(temp);
-
+    
     
     return 0;
 }
