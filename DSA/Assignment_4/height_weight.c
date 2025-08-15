@@ -42,6 +42,8 @@ int main()
         max=ratio;
         temp=temp->next;
     }
+
+    
     
     return 0;
 }
