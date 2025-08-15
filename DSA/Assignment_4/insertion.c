@@ -49,7 +49,7 @@ int main()
     temp=head;
     while(temp)
     {
-        
+        temp=temp->next;
         p++;
         if(p==pos)
         break;
