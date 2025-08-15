@@ -11,7 +11,7 @@ int main()
     printf("Enter number of nodes:");
     scanf("%d",&n);
     Node *head=NULL;
-
+    
     
     return 0;
 }
