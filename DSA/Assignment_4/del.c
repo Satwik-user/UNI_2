@@ -47,7 +47,7 @@ int main()
     while(temp && p<del_pos)
     {
         temp=temp->next;
-        p++
+        p++;
     }
     
     return 0;
