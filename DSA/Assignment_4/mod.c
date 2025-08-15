@@ -41,7 +41,8 @@ int main()
     }
     printf("\n");
 
-    int pos,ele;
+    int pos,ele,p=0;
+    printf("Enter position and element to be modified:")
     
     return 0;
 }
