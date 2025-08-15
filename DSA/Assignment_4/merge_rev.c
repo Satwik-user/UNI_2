@@ -10,6 +10,8 @@ int main()
     int n1,n2;
     printf("Enter number of nodes for 1st and 2nd list:");
     scanf("%d %d",&n1,&n2);
+    Node *head=NULL;
+    Node *tail=NULL;
     
     
     return 0;
