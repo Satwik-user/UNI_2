@@ -43,7 +43,7 @@ int main()
         temp=temp->next;
     }
 
-    printf("Highest weight/height ratio:%d",max);
+    printf("Highest weight/height ratio:%d\n",max);
 
     //Free memory
     temp=head;
