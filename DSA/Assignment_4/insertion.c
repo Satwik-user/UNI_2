@@ -40,7 +40,7 @@ int main()
         temp=temp->next;
     }
 
-    int pos,ele;
+    int pos,ele,p=0;
     printf("Enter position and element to insert:");
     scanf("%d %d",&pos,&ele);
     Node *new_node=(Node *)malloc(sizeof(Node));
@@ -49,7 +49,7 @@ int main()
     temp=head;
     while(temp)
     {
-        
+        p++;
     }
     
     return 0;
