@@ -63,16 +63,8 @@ int main()
         new_node->next=temp->next;
         temp->next=new_node;
 
-        printf("Modified Linked List:");
-        temp=head;
-        while(temp)
-        {
-            printf("%d ",temp->data);
-            temp=temp->next;
-        }
-        printf("\n");
-    }
-    
+            }
+
     //Free memory
     temp=head;
     while(temp)
