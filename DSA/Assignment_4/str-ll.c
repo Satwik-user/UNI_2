@@ -9,6 +9,8 @@ typedef struct Node
 int main()
 {
     char str[100];
+    printf("Enter a string:");
+    fgets(str,sizeof(str),stdin);
     
     int n;
     printf("Enter number of nodes:");
