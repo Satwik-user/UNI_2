@@ -47,7 +47,7 @@ int main()
     temp=head;
     while(temp && p<pos-1)
     {
-        
+        temp=temp->next;
     }
     
     return 0;
