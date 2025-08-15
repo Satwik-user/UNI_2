@@ -37,7 +37,9 @@ int main()
     int max=0;
     while(temp)
     {
-        
+        int ratio=temp->weight/temp->height;
+        if(ratio>max)
+        max=ratio;
     }
     
     return 0;
