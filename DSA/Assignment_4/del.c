@@ -21,7 +21,12 @@ int main()
 
         if(head==NULL)
         {
-            head=
+            head=cur;
+            tail=cur;
+        }
+        else
+        {
+            
         }
     }
     
