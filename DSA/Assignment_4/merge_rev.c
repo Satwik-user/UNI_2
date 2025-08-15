@@ -30,7 +30,8 @@ int main()
             tail=cur;
         }
     }
-    f
+    for(int i=0;i<n2;i++)
+    
     
     return 0;
 }
