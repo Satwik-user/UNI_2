@@ -49,6 +49,7 @@ int main()
         temp=temp->next;
         del_pos--;
     }
+
     
     
     return 0;
