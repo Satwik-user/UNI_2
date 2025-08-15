@@ -55,7 +55,8 @@ int main()
     free(temp);
 
     printf("Modified Linked List:");
-    
+    temp=head;
+    while()
     
     return 0;
 }
