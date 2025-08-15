@@ -12,10 +12,8 @@ int main()
     printf("Enter a string:");
     fgets(str,sizeof(str),stdin);
     str[sizeof(str)-1]='\0';
-    
-    int n;
-    printf("Enter number of nodes:");
-    scanf("%d",&n);
+
+    int n=sizeof(str);
     Node *head=NULL;
     Node *tail=NULL;
     for(int i=0;i<n;i++)
