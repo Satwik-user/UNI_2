@@ -39,7 +39,11 @@ int main()
     }
     printf("\n");
 
-    
+    temp=head;
+    while(temp)
+    {
+        
+    }
     
     return 0;
 }
