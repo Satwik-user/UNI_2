@@ -12,7 +12,7 @@ int main()
     scanf("%d %d",&n1,&n2);
     Node *head=NULL,*head_1=NULL;
     Node *tail=NULL,*tail_1=NULL;
-    printf("Enter sorted lists-");
+    printf("Enter sorted lists-\n");
     for(int i=0;i<n1;i++)
     {
         Node *cur=(Node *)malloc(sizeof(Node));
