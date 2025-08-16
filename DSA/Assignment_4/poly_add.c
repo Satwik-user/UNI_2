@@ -112,7 +112,7 @@ int main()
                 res_tail->next=new_sum;
                 res_tail=new_sum;
             }
-            
+            temp_1=temp_1->next;
         }
     }
     
