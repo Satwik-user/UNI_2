@@ -15,7 +15,7 @@ int main()
     for(int i=0;i<n;i++)
     {
         Node *cur=(Node *)malloc(sizeof(Node));
-        printf("Enter element of 1st polynom:");
+        printf("Enter element of 1st polynomial:");
         scanf("%d",&cur->data);
         cur->next=NULL;
         if(head==NULL)
