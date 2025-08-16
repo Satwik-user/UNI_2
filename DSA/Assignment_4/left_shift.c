@@ -10,10 +10,11 @@ int main()
     int n;
     printf("Enter number of nodes:");
     scanf("%d",&n);
-    
+    Node *head=NULL;
+    Node *tail=NULL;
     for(int i=0;i<n;i++)
     {
-
+        
     }
     
     return 0;
