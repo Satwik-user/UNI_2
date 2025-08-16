@@ -68,6 +68,7 @@ int main()
     {
         next=cur->next;
         cur->next=prev;
+
         
     }
     
