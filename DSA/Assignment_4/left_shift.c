@@ -42,7 +42,7 @@ int main()
     int k;
     printf("Enter number of nodes:");
     scanf("%d",&k);
-    if(k<0 && k>n)
+    if(k<0 || k>n)
     printf("No of nodes should be positive and less than size of list!");
     else
     {
