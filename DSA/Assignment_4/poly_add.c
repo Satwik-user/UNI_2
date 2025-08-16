@@ -43,7 +43,7 @@ int main()
         else
         {
             tail_1->next=cur;
-            tail-=cur;
+            tail_1=cur;
         }
     }
 
