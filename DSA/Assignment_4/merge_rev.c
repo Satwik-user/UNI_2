@@ -67,6 +67,7 @@ int main()
     while(cur)
     {
         next=cur->next;
+        
     }
     
     return 0;
