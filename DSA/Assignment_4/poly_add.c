@@ -124,7 +124,7 @@ int main()
                 res_tail=new_sum;
             }
             else
-                {
+            {
                     res_tail->next=new_sum;
                     res_tail=new_sum;
                 }
