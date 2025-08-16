@@ -62,7 +62,7 @@ int main()
     printf("\n");
 
     temp=head;
-    tail_1->next=temp;
+    tail_1->next=head;
     
     return 0;
 }
