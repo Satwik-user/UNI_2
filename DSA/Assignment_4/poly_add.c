@@ -71,6 +71,7 @@ int main()
     {
         if(temp_1->exp==temp_2->exp)
         {
+            int sum=temp_1->coeff+temp_2->coeff;
             
         }
     }
