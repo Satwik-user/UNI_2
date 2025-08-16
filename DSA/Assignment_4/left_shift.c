@@ -20,7 +20,12 @@ int main()
         cur->next=NULL;
         if(head==NULL)
         {
-            
+            head=cur;
+            tail=cur;
+        }
+        else
+        {
+            tail->next=cur;
         }
     }
     
