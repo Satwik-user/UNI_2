@@ -46,6 +46,7 @@ int main()
         {
             Node *old_head=head;
             head=head->next;
+            
         }
     }
     
