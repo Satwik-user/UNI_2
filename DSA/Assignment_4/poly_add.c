@@ -148,7 +148,7 @@ int main()
             res_tail->next=new_term;
             res_tail=new_term;
         }
-        
+        temp_1=temp_1->next;
     }
     
     return 0;
