@@ -143,6 +143,10 @@ int main()
             res=new_term;
             res_tail=new_term;
         }
+        else
+        {
+            
+        }
     }
     
     return 0;
