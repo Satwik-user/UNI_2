@@ -174,7 +174,7 @@ int main()
     temp=res;
     while(temp)
     {
-        printf("%d ",temp->coeff,temp->exp);
+        printf("%dx%d",temp->coeff,temp->exp);
     }
     
     return 0;
