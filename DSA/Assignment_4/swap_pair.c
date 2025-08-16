@@ -13,6 +13,9 @@ int main()
     Node *head=NULL;
     Node *tail=NULL;
     for(int i=0;i<n;i++)
+    {
+        
+    }
     
     return 0;
 }
