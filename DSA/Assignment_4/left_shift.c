@@ -52,7 +52,12 @@ int main()
             head=head->next;
             head->next=NULL;
         }
-        
+        printf("List after %d rotations:",k);
+        temp=head;
+        while(temp)
+        {
+            
+        }
     }
     
     return 0;
