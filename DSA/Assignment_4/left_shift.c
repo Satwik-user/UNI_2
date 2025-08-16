@@ -41,6 +41,7 @@ int main()
 
     int k;
     printf("Enter numnber of nodes:");
+    scanf("%d",&k);
     
     
     return 0;
