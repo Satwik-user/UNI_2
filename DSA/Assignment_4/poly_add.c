@@ -114,6 +114,10 @@ int main()
             }
             temp_1=temp_1->next;
         }
+        else
+        {
+            
+        }
     }
     
     return 0;
