@@ -123,7 +123,7 @@ int main()
                 res=new_sum;
                 res_tail=new_sum;
             }
-                else
+            else
                 {
                     res_tail->next=new_sum;
                     res_tail=new_sum;
