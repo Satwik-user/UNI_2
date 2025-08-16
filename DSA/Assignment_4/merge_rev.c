@@ -64,7 +64,10 @@ int main()
     Node *prev=NULL;
     Node *cur=head;
     Node *next=NULL;
-    while(cur)
+    while(cur!=NULL)
+    {
+        
+    }
     
     return 0;
 }
