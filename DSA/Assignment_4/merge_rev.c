@@ -73,6 +73,9 @@ int main()
         cur=next;
     }
     head=prev;
+
+    printf("Reversed List:");
+    
     
     return 0;
 }
