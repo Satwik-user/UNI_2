@@ -52,6 +52,7 @@ int main()
             head=head->next;
             tail->next=old_head;
             tail=old_head;
+            tail->next=NULL;
         }
         printf("List after %d rotations:",k);
         temp=head;
