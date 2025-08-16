@@ -162,6 +162,11 @@ int main()
             res=new_term;
             res_tail=new_term;
         }
+        else
+        {
+            res_tail->next=new_term;
+            
+        }
     }
     
     return 0;
