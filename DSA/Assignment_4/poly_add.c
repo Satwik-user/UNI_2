@@ -180,6 +180,8 @@ int main()
         printf("+");
     }
     printf("\n");
+
+    temp=head
     
     return 0;
 }
