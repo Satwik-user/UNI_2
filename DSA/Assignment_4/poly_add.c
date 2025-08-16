@@ -125,9 +125,9 @@ int main()
             }
             else
             {
-                    res_tail->next=new_sum;
-                    res_tail=new_sum;
-                }
+                res_tail->next=new_sum;
+                res_tail=new_sum;
+            }
 
         }
     }
