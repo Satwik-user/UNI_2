@@ -61,6 +61,11 @@ int main()
     //Free memeory
     temp=head;
     while(temp)
+    {
+        Node *next_node=temp->next;
+        free(temp);
+        
+    }
     
     return 0;
 }
