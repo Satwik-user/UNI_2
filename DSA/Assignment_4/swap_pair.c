@@ -42,7 +42,8 @@ int main()
     temp=head;
     while(temp)
     {
-        Node *node_2=temp->next;
+        if(temp==head)
+        {}
     }
     
     return 0;
