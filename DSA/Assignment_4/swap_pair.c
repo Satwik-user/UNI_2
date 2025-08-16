@@ -59,7 +59,8 @@ int main()
     printf("\n");
 
     //Free memeory
-    
+    temp=head;
+    while(temp)
     
     return 0;
 }
