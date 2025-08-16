@@ -66,7 +66,8 @@ int main()
     }
     printf("\n");
 
-    
+    Node *temp_1=head,*temp_2=head_1;
+    while(temp)
     
     return 0;
 }
