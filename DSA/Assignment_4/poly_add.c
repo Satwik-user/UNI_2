@@ -35,8 +35,9 @@ int main()
     while(temp)
     {
         printf("%d ",temp->data);
-        
+        temp=temp->next;
     }
+    printf("")
     
     return 0;
 }
