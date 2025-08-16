@@ -31,6 +31,7 @@ int main()
             tail=cur;
         }
     }
+    printf("\n");
     for(int i=0;i<n2;i++)
     {
         Node *cur=(Node *)malloc(sizeof(Node));
