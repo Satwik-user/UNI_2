@@ -66,7 +66,7 @@ int main()
     Node *next=NULL;
     while(cur)
     {
-        
+        next=cur->next;
     }
     
     return 0;
