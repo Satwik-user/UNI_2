@@ -50,7 +50,7 @@ int main()
         }
     }
 
-    printf("Original Lists:");
+    printf("Original Lists:\n");
     Node *temp=head;
     while(temp)
     {
