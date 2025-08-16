@@ -52,6 +52,7 @@ int main()
             head=head->next;
             head->next=NULL;
         }
+        
     }
     
     return 0;
