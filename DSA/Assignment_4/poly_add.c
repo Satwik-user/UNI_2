@@ -148,6 +148,7 @@ int main()
             res_tail->next=new_term;
             res_tail=new_term;
         }
+        
     }
     
     return 0;
