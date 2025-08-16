@@ -51,7 +51,7 @@ int main()
         }
     }
     
-    for(int i=0;i<n1+n2;i++)
+    for(int i=n1;i<n2;i++)
     {
         
     }
