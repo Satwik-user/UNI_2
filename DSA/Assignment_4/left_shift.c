@@ -42,7 +42,7 @@ int main()
     int k;
     printf("Enter number of nodes:");
     scanf("%d",&k);
-    if(k<0)
+    if(k<0 && k)
     
     return 0;
 }
