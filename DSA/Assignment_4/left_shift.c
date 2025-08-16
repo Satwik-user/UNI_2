@@ -45,7 +45,10 @@ int main()
     for(int i=0;i<k;i++)
     {
         temp=head;
-        
+        while(temp)
+        {
+            
+        }
     }
     
     return 0;
