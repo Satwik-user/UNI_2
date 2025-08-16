@@ -43,7 +43,9 @@ int main()
     while(temp)
     {
         if(temp==head)
-        {}
+        {
+            
+        }
     }
     
     return 0;
