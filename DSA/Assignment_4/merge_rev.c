@@ -41,7 +41,7 @@ int main()
         if(head_1==NULL)
         {
             head_1=cur;
-            tail=cur;
+            tail_1=cur;
         }
         else
         {
