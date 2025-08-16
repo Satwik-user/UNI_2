@@ -193,6 +193,15 @@ int main()
     while(temp)
     {
         Node *next_node=temp;
+        free(temp);
+        temp=next_node;
+    }
+    temp=res;
+    while(temp)
+    {
+        Node *next_node=temp;
+        free(temp);
+        
     }
     
     return 0;
