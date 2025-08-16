@@ -53,6 +53,7 @@ int main()
     
     for(int i=n1;i<n2;i++)
     {
+        tail->next=head_1;
         
     }
     
