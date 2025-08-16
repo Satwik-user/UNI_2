@@ -54,7 +54,7 @@ int main()
     Node *temp=head;
     while(temp)
     {
-        printf("Coefficient=%d Exponent=%d",temp->coeff,temp->exp);
+        printf("Coefficient=%d Exponent=%d\n",temp->coeff,temp->exp);
         temp=temp->next;
     }
     printf("\n");
