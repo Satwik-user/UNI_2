@@ -34,6 +34,7 @@ int main()
         Node *cur=(Node *)malloc(sizeof(Node));
         printf("Enter element:");
         scanf("%d",&cur->data);
+        cur->next=NULL;
         
     }
     
