@@ -152,6 +152,10 @@ int main()
     }
 
     while(temp_2)
+    {
+        Node *new_term=(Node *)malloc(sizeof(Node));
+        
+    }
     
     return 0;
 }
