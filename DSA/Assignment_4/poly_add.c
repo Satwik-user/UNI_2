@@ -48,7 +48,8 @@ int main()
     }
 
     printf("Original Lists:");
-    Node temp=head;
+    Node *temp=head;
+    
     
     return 0;
 }
