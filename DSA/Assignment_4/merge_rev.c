@@ -54,7 +54,8 @@ int main()
     tail->next=head_1;
 
     printf("Merged List:");
-    
+    Node *temp=head;
+    while(temp)
     
     return 0;
 }
