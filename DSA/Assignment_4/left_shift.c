@@ -45,7 +45,12 @@ int main()
     if(k<0 && k>n)
     printf("No of nodes should be less than size of list!");
     else
-    
+    {
+        for(int i=0;i<n;i++)
+        {
+
+        }
+    }
     
     return 0;
 }
