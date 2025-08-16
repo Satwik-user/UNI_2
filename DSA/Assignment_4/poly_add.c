@@ -190,6 +190,10 @@ int main()
         temp=next_node;
     }
     temp=head_1;
+    while(temp)
+    {
+        
+    }
     
     return 0;
 }
