@@ -145,7 +145,7 @@ int main()
         }
         else
         {
-            
+            new
         }
     }
     
