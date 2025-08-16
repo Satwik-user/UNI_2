@@ -61,7 +61,9 @@ int main()
     }
     printf("\n");
 
-    Node *prev=N
+    Node *prev=NULL;
+    Node *cur=head;
+    Node *next=NULL;
     for(int i=0;i<n1+n2-2;i++)
     {
 
