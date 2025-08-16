@@ -50,7 +50,7 @@ int main()
         {
             tail->next=head;
             head->next=NULL;
-
+            
         }
     }
     
