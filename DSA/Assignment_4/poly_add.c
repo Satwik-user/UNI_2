@@ -176,7 +176,8 @@ int main()
     {
         printf("%dx%d",temp->coeff,temp->exp);
         temp=temp->next;
-        
+        if(temp)
+        printf("+");
     }
     
     return 0;
