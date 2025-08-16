@@ -31,7 +31,7 @@ int main()
     }
 
     printf("Original List:");
-    
+    N
     
     return 0;
 }
