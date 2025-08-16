@@ -56,12 +56,15 @@ int main()
     }
     printf("\n");
     
-    temp=head;
+    temp=head_1;
     while(temp)
     {
         printf("%d ",temp->data);
         temp=temp->next;
     }
+    printf("\n");
+
+    
     
     return 0;
 }
