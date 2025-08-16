@@ -190,7 +190,7 @@ int main()
     temp=head_1;
     while(temp)
     {
-        Node *next_node=temp;
+        Node *next_node=temp->next;
         free(temp);
         temp=next_node;
     }
