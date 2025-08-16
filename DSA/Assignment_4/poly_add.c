@@ -171,7 +171,11 @@ int main()
     }
 
     printf("Resultant Polynomial:");
-    
+    temp=res;
+    while(temp)
+    {
+        
+    }
     
     return 0;
 }
