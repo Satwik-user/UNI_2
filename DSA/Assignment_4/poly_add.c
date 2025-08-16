@@ -7,12 +7,12 @@ typedef struct Node
 }Node;
 int main()
 {
-    int n;
+    int n1,n2;
     printf("Enter nymber of nodes:");
-    scanf("%d",&n);
+    scanf("%d %d",&n1,&n2);
     Node *head=NULL,*head_1=NULL;
     Node *tail=NULL,*tail_1=NULL;
-    for(int i=0;i<n;i++)
+    for(int i=0;i<n1;i++)
     {
         Node *cur=(Node *)malloc(sizeof(Node));
         printf("Enter element of 1st polynomial:");
@@ -29,8 +29,10 @@ int main()
             tail=cur;
         }
     }
+    for(int i=0;i<n2;i++)
+    {
 
-    
+    }
     
     return 0;
 }
