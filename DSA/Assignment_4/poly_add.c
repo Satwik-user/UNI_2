@@ -137,6 +137,8 @@ int main()
         Node *new_term=(Node *)malloc(sizeof(Node));
         new_term->coeff=temp_1->coeff;
         new_term->exp=temp_1->exp;
+        new_term->next=NULL;
+        
     }
     
     return 0;
