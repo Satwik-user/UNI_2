@@ -13,6 +13,7 @@ int main()
     scanf("%d %d",&n1,&n2);
     Node *head=NULL,*head_1=NULL;
     Node *tail=NULL,*tail_1=NULL;
+    Node *res=NULL,*res_tail=NULL;
     for(int i=0;i<n1;i++)
     {
         Node *cur=(Node *)malloc(sizeof(Node));
@@ -69,10 +70,49 @@ int main()
     Node *temp_1=head,*temp_2=head_1;
     while(temp_1 && temp_2)
     {
+        Node *new_sum=(Node *)malloc(sizeof(Node));
+        new_sum->next=NULL;
         if(temp_1->exp==temp_2->exp)
         {
             int sum=temp_1->coeff+temp_2->coeff;
-            
+            if(sum!=0)
+            {
+                new_sum->coeff=sum;
+                new_sum->exp=temp_1->exp;
+
+                if(res==NULL)
+                {
+                    res=new_sum;
+                    res_tail=new_sum;
+                }
+                else
+                {
+                    res_tail->next=new_sum;
+                    res_tail=new_sum;
+                }
+            }
+            else
+            {
+                free(new_sum);
+            }
+            temp_1=temp_1->next;
+            temp_2=temp_2->next;
+        }
+        else if(temp_1->exp>temp_2->exp)
+        {
+            new_sum->coeff=temp_1->coeff;
+            new_sum->exp=temp_1->exp;
+            if(res==NULL)
+            {
+                res=new_sum;
+                res_tail=new_sum;
+            }
+            else
+            {
+                res_tail->next=new_sum;
+                res_tail=new_sum;
+                }
+
         }
     }
     
