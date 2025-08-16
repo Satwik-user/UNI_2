@@ -188,7 +188,7 @@ int main()
         free(temp);
         temp=next_node;
     }
-    
+    temp=head_1;
     
     return 0;
 }
