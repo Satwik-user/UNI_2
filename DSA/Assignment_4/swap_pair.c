@@ -50,7 +50,8 @@ int main()
     }
 
     printf("Modified List:");
-    
+    temp=head;
+    while(temp)
     
     return 0;
 }
