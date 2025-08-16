@@ -61,8 +61,8 @@ int main()
     }
     printf("\n");
 
-    temp=NULL;
     head=tail_1;
+    temp=NULL;
     for(int i=0;i<n1+n2-2;i++)
     {
 
