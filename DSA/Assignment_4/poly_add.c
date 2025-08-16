@@ -165,7 +165,7 @@ int main()
         else
         {
             res_tail->next=new_term;
-            
+            res_tail=new_term;
         }
     }
     
