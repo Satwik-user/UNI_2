@@ -118,6 +118,17 @@ int main()
         {
             new_sum->coeff=temp_2->coeff;
             new_sum->exp=temp_2->exp;
+                            if(res==NULL)
+                {
+                    res=new_sum;
+                    res_tail=new_sum;
+                }
+                else
+                {
+                    res_tail->next=new_sum;
+                    res_tail=new_sum;
+                }
+
         }
     }
     
