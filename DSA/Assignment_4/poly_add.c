@@ -30,16 +30,7 @@ int main()
         }
     }
 
-    printf("Original List:");
-    Node *temp=head;
-    while(temp)
-    {
-        printf("%d ",temp->data);
-        temp=temp->next;
-    }
-    printf("\n");
-
-
+    
     
     return 0;
 }
