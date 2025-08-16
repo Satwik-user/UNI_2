@@ -42,7 +42,7 @@ int main()
     temp=head;
     while(temp && temp->next)
     {
-        
+        int swap_data=
         temp=temp->next;
     }
     
