@@ -138,7 +138,11 @@ int main()
         new_term->coeff=temp_1->coeff;
         new_term->exp=temp_1->exp;
         new_term->next=NULL;
-        
+        if(res==NULL)
+        {
+            res=new_term;
+            res_tail=new_term;
+        }
     }
     
     return 0;
