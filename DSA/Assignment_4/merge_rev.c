@@ -53,10 +53,8 @@ int main()
     
     tail->next=head_1;
 
-    for(int i=0;i<n1+n2;i++)
-    {
-        
-    }
+    printf("Merged List:");
+    
     
     return 0;
 }
