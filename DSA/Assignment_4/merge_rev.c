@@ -56,6 +56,9 @@ int main()
     printf("Merged List:");
     Node *temp=head;
     while(temp)
+    {
+        
+    }
     
     return 0;
 }
