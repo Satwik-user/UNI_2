@@ -40,7 +40,7 @@ int main()
     printf("\n");
 
     int k;
-    printf("Enter number of nodes:");
+    printf("Enter number of nodes to rotate:");
     scanf("%d",&k);
     if(k<0 || k>n)
     printf("No of nodes should be positive and less than size of list!");
