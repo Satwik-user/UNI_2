@@ -8,7 +8,7 @@ typedef struct Node
 int main()
 {
     int n1,n2;
-    printf("Enter number of nodes:");
+    printf("Enter number of nodes for 1st and :");
     scanf("%d %d",&n1,&n2);
     Node *head=NULL,*head_1=NULL;
     Node *tail=NULL,*tail_1=NULL;
