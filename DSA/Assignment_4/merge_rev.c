@@ -31,7 +31,6 @@ int main()
             tail=cur;
         }
     }
-    tail=NULL;
     for(int i=0;i<n2;i++)
     {
         Node *cur=(Node *)malloc(sizeof(Node));
