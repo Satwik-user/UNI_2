@@ -44,6 +44,7 @@ int main()
     scanf("%d",&k);
     if(k<0 && k>n)
     printf("No of nodes should be less than size of list!");
+    else
     
     
     return 0;
