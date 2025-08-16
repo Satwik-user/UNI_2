@@ -48,6 +48,7 @@ int main()
     {
         for(int i=0;i<k;i++)
         {
+            Node *old_head=head;
             
         }
         printf("List after %d rotations:",k);
