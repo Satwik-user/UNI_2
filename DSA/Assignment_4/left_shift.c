@@ -32,7 +32,7 @@ int main()
 
     printf("Original List:");
     Node *temp=head;
-    
+    while()
     
     return 0;
 }
