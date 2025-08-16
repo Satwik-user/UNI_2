@@ -145,7 +145,8 @@ int main()
         }
         else
         {
-            new
+            res_tail->next=new_term;
+            res_tail=new_term;
         }
     }
     
