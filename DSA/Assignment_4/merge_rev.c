@@ -87,7 +87,8 @@ int main()
     temp=head;
     while(temp)
     {
-        Node *next_
+        Node *next_node=temp;
+        
     }
     
     return 0;
