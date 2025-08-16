@@ -160,7 +160,7 @@ int main()
         if(res==NULL)
         {
             res=new_term;
-            
+            res_tail=new_term;
         }
     }
     
