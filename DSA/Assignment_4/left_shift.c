@@ -31,7 +31,8 @@ int main()
     }
 
     printf("Original List:");
-    N
+    Node *temp=head;
+    
     
     return 0;
 }
