@@ -44,7 +44,7 @@ int main()
     {
         int swap_data=temp->data;
         temp->data=temp->next->data;
-        temp->next->data=
+        temp->next->data=swap_data;
         temp=temp->next;
     }
     
