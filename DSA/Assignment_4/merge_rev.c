@@ -72,6 +72,7 @@ int main()
         prev=cur;
         cur=next;
     }
+    head=prev;
     
     return 0;
 }
