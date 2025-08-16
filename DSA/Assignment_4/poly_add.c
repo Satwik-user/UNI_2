@@ -116,6 +116,7 @@ int main()
         }
         else
         {
+            new_sum->coeff=temp_2->coeff;
             
         }
     }
