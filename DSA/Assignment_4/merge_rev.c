@@ -63,7 +63,10 @@ int main()
 
     temp=head;
     head=tail_1;
-    
+    for(int i=0;i<n1+n2-2;i++)
+    {
+        
+    }
     
     return 0;
 }
