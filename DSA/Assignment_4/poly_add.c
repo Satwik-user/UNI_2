@@ -179,6 +179,7 @@ int main()
         if(temp)
         printf("+");
     }
+    printf("\n");
     
     return 0;
 }
