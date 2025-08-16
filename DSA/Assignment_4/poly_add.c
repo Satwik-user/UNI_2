@@ -10,8 +10,8 @@ int main()
     int n;
     printf("Enter nymber of nodes:");
     scanf("%d",&n);
-    Node *head=NULL;
-    Node *tail=NULL;
+    Node *head=NULL,*head_1=NULL;
+    Node *tail=NULL,*tail_1=NULL;
     for(int i=0;i<n;i++)
     {
         Node *cur=(Node *)malloc(sizeof(Node));
