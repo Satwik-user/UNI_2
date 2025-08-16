@@ -46,6 +46,8 @@ int main()
             tail=cur;
         }
     }
+
+    printf("Original List:");
     
     
     return 0;
