@@ -70,7 +70,7 @@ int main()
         cur->next=prev;
 
         prev=cur;
-        
+        cur=next;
     }
     
     return 0;
