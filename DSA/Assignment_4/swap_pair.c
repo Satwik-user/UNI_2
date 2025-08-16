@@ -31,7 +31,12 @@ int main()
     }
 
     printf("Original List:");
-    
+    Node *temp=head;
+    while(temp)
+    {
+        printf("%d ",temp->data);
+        
+    }
     
     return 0;
 }
