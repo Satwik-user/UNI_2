@@ -18,7 +18,10 @@ int main()
         printf("Enter element:");
         scanf("%d",&cur->data);
         cur->next=NULL;
-        
+        if(head==NULL)
+        {
+            
+        }
     }
     
     return 0;
