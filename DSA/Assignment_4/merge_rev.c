@@ -75,7 +75,11 @@ int main()
     head=prev;
 
     printf("Reversed List:");
-    
+    temp=head;
+    while(temp)
+    {
+        
+    }
     
     return 0;
 }
