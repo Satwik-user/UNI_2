@@ -35,7 +35,7 @@ int main()
         printf("Enter element:");
         scanf("%d",&cur->data);
         cur->next=NULL;
-        if(head==NULL)
+        if(head_1==NULL)
         {
             head=cur;
             tail=cur;
@@ -48,7 +48,7 @@ int main()
     }
 
     printf("Original Lists:");
-    
+
     
     return 0;
 }
