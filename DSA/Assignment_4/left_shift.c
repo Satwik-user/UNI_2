@@ -61,6 +61,8 @@ int main()
         }
         printf("\n");
     }
+
+    //Free memory
     
     return 0;
 }
