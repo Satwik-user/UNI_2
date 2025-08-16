@@ -48,7 +48,7 @@ int main()
     }
 
     printf("Original Lists:");
-
+    Node temp=head;
     
     return 0;
 }
