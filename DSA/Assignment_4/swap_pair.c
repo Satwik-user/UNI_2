@@ -42,14 +42,7 @@ int main()
     temp=head;
     while(temp && temp->next)
     {
-        if(temp==head)
-        {
-            
-        }
-        else
-        {
-
-        }
+        
         temp=temp->next;
     }
     
