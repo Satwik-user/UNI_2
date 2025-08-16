@@ -49,7 +49,10 @@ int main()
 
     printf("Original Lists:");
     Node *temp=head;
-    
+    while(temp)
+    {
+        
+    }
     
     return 0;
 }
