@@ -64,10 +64,7 @@ int main()
     Node *prev=NULL;
     Node *cur=head;
     Node *next=NULL;
-    for(int i=0;i<n1+n2-2;i++)
-    {
-
-    }
+    while(cur)
     
     return 0;
 }
