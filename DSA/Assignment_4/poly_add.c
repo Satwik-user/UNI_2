@@ -185,7 +185,7 @@ int main()
     while(temp)
     {
         Node *next_node=temp;
-        t
+        
     }
     
     return 0;
