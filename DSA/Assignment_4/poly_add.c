@@ -29,6 +29,10 @@ int main()
             tail=cur;
         }
     }
+
+    printf("Original List:");
+    Node *temp=head;
+    
     
     return 0;
 }
