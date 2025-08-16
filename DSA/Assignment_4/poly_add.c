@@ -47,7 +47,7 @@ int main()
         }
     }
 
-    printf("Original List:");
+    printf("Original Lists:");
     
     return 0;
 }
