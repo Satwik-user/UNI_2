@@ -2,7 +2,8 @@
 #include <stdlib.h>
 typedef struct Node
 {
-    int data;
+    int coeff;
+    int exp;
     struct Node *next;
 }Node;
 int main()
@@ -15,8 +16,8 @@ int main()
     for(int i=0;i<n1;i++)
     {
         Node *cur=(Node *)malloc(sizeof(Node));
-        printf("Enter element of 1st polynomial:");
-        scanf("%d",&cur->data);
+        printf("Enter coefficient and exponent of 1st polynomial:");
+        scanf("%d %d",&cur->coeff,&cur->exp);
         cur->next=NULL;
         if(head==NULL)
         {
@@ -29,11 +30,12 @@ int main()
             tail=cur;
         }
     }
+    printf("\n");
     for(int i=0;i<n2;i++)
     {
         Node *cur=(Node *)malloc(sizeof(Node));
-        printf("Enter element:");
-        scanf("%d",&cur->data);
+        printf("Enter coefficient and exponent of 2nd polynomial:");
+        scanf("%d %d",&cur->coeff,&cur->exp);
         cur->next=NULL;
         if(head_1==NULL)
         {
@@ -51,7 +53,7 @@ int main()
     Node *temp=head;
     while(temp)
     {
-        printf("%d ",temp->data);
+        printf("Coefficient=%d Exponent=%d",temp->coeff,temp->exp);
         temp=temp->next;
     }
     printf("\n");
@@ -59,12 +61,12 @@ int main()
     temp=head_1;
     while(temp)
     {
-        printf("%d ",temp->data);
+        printf("Coefficient=%d Exponent=%d",temp->coeff,temp->exp);
         temp=temp->next;
     }
     printf("\n");
 
-    
+
     
     return 0;
 }
