@@ -40,9 +40,9 @@ int main()
     printf("\n");
 
     int k;
-    printf("Enter numnber of nodes:");
+    printf("Enter number of nodes:");
     scanf("%d",&k);
-    
+    if(k<=0)
     
     return 0;
 }
