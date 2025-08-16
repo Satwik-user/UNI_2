@@ -37,8 +37,8 @@ int main()
         cur->next=NULL;
         if(head_1==NULL)
         {
-            head=cur;
-            tail=cur;
+            head_1=cur;
+            tail_1=cur;
         }
         else
         {
