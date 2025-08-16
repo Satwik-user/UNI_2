@@ -52,7 +52,10 @@ int main()
     printf("Modified List:");
     temp=head;
     while(temp)
-    {}
+    {
+        printf("%d ",temp->data);
+        temp=temp->next;
+    }
     
     return 0;
 }
