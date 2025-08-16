@@ -40,7 +40,7 @@ int main()
     printf("\n");
 
     temp=head;
-    while(temp)
+    while(temp && temp->next)
     {
         if(temp==head)
         {
@@ -48,7 +48,7 @@ int main()
         }
         else
         {
-            
+
         }
         temp=temp->next;
     }
