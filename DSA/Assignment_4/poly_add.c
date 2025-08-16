@@ -150,6 +150,8 @@ int main()
         }
         temp_1=temp_1->next;
     }
+
+    while(temp_2)
     
     return 0;
 }
