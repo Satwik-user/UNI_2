@@ -46,7 +46,7 @@ int main()
         temp->data=temp->next->data;
         temp->next->data=swap_data;
 
-        temp=temp->next;
+        temp=temp->next->next;
     }
 
     printf("Modified List:");
