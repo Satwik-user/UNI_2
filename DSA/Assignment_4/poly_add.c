@@ -42,8 +42,8 @@ int main()
         }
         else
         {
-            tail->next=cur;
-            tail=cur;
+            tail_1->next=cur;
+            tail-=cur;
         }
     }
 
