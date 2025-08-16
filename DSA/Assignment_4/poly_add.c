@@ -175,6 +175,8 @@ int main()
     while(temp)
     {
         printf("%dx%d",temp->coeff,temp->exp);
+        temp=temp->next;
+        
     }
     
     return 0;
