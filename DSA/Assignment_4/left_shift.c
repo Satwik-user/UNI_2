@@ -49,6 +49,7 @@ int main()
         for(int i=0;i<k;i++)
         {
             tail->next=head;
+            
         }
     }
     
