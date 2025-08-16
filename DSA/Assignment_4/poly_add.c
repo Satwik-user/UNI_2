@@ -192,7 +192,7 @@ int main()
     temp=head_1;
     while(temp)
     {
-        
+        Node *next_node=temp;
     }
     
     return 0;
