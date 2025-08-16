@@ -48,8 +48,9 @@ int main()
         }
         else
         {
-            
+
         }
+        temp=temp->next;
     }
     
     return 0;
