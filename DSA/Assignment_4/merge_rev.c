@@ -61,8 +61,7 @@ int main()
     }
     printf("\n");
 
-    head=tail_1;
-    
+    Node *prev=N
     for(int i=0;i<n1+n2-2;i++)
     {
 
