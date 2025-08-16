@@ -68,6 +68,9 @@ int main()
 
     Node *temp_1=head,*temp_2=head_1;
     while(temp_1 && temp_2)
+    {
+        
+    }
     
     return 0;
 }
