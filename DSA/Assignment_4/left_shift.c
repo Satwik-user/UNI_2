@@ -51,6 +51,7 @@ int main()
             Node *old_head=head;
             head=head->next;
             tail->next=old_head;
+            tail=old_head;
         }
         printf("List after %d rotations:",k);
         temp=head;
