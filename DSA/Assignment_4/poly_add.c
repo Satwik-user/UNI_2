@@ -49,6 +49,5 @@ int main()
 
     printf("Original List:");
     
-    
     return 0;
 }
