@@ -131,6 +131,11 @@ int main()
             temp_2=temp_2->next;
         }
     }
+
+    while(temp_1)
+    {
+        
+    }
     
     return 0;
 }
