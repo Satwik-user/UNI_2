@@ -154,6 +154,8 @@ int main()
     while(temp_2)
     {
         Node *new_term=(Node *)malloc(sizeof(Node));
+        new_term->coeff=temp_2->coeff;
+        new_term->exp=temp_2->exp;
         
     }
     
