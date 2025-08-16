@@ -10,7 +10,7 @@ int main()
     int n1,n2;
     printf("Enter number of nodes for 1st and 2nd list:");
     scanf("%d %d",&n1,&n2);
-    Node *head_1=NULL,*head_2=NULL;
+    Node *head=NULL,*head_1=NULL;
     Node *tail=NULL;
     printf("Enter sorted lists-");
     for(int i=0;i<n1;i++)
@@ -20,9 +20,9 @@ int main()
         scanf("%d",&cur->data);
         cur->next=NULL;
 
-        if(head_1==NULL)
+        if(head==NULL)
         {
-            head_1=cur;
+            head=cur;
             tail=cur;
         }
         else
@@ -39,9 +39,9 @@ int main()
         scanf("%d",&cur->data);
         cur->next=NULL;
 
-        if(head_2==NULL)
+        if(head_1==NULL)
         {
-            head_2=cur;
+            head_1=cur;
             tail=cur;
         }
         else
@@ -53,7 +53,7 @@ int main()
     
     for(int i=n1;i<n2;i++)
     {
-        
+
     }
     
     return 0;
