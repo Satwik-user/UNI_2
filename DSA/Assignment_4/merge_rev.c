@@ -22,12 +22,12 @@ int main()
         if(head_1==NULL)
         {
             head_1=cur;
-            tail_1=cur;
+            tail=cur;
         }
         else
         {
-            tail_1->next=cur;
-            tail_1=cur;
+            tail->next=cur;
+            tail=cur;
         }
     }
     tail=NULL;
