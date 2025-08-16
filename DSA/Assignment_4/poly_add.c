@@ -201,7 +201,7 @@ int main()
     {
         Node *next_node=temp;
         free(temp);
-        
+        temp=next_node;
     }
     
     return 0;
