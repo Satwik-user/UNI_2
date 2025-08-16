@@ -181,7 +181,11 @@ int main()
     }
     printf("\n");
 
-    temp=head
+    temp=head;
+    while(temp)
+    {
+        
+    }
     
     return 0;
 }
