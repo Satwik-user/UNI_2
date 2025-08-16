@@ -44,8 +44,6 @@ int main()
     {
         if(temp==head)
         {
-            Node *old_head=head;
-            head=head->next;
             
         }
     }
