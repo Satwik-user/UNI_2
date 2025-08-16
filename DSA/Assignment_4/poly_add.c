@@ -134,7 +134,7 @@ int main()
 
     while(temp_1)
     {
-        
+        Node *new_term=(Node *)malloc(sizeof(Node));
     }
     
     return 0;
