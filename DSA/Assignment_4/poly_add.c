@@ -12,7 +12,7 @@ int main()
     scanf("%d",&n);
     Node *head=NULL;
     Node *tail=NULL;
-
+    
     
     return 0;
 }
