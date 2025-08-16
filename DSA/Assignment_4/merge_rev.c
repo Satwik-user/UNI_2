@@ -51,7 +51,7 @@ int main()
         }
     }
     
-    tail->next=head_1;//Connext
+    tail->next=head_1;//Connecting 
 
     printf("Merged List:");
     Node *temp=head;
