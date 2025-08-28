@@ -65,10 +65,18 @@ int main()
             }
             else
             {
-                
+                new_node->next=temp->next;
+                temp->next=new_node;
             }
         }
     }
+
+    //Deletion
+    int del_pos;
+    printf("Enter position of delete element:");
+    scanf("%d",&del_pos);
+    temp=head;
+    if()
 
     //Free memory
     temp=head;
