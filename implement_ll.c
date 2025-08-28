@@ -31,7 +31,7 @@ int main()
             tail=current;
         }
     }
-
+    //original List
     printf("Linked List elements:");
     Node *temp=head;
     while(temp)
@@ -70,13 +70,52 @@ int main()
             }
         }
     }
+    //List after insertion
+    temp=head;
+    while(temp)
+    {
+        printf("%d ",temp->data);
+        temp=temp->next;
+    }
+    printf("\n");
 
     //Deletion
     int del_pos;
     printf("Enter position of delete element:");
     scanf("%d",&del_pos);
     temp=head;
-    if()
+    if(del_pos==1)
+    {
+        Node *del=head;
+        head=head->next;
+        free(del);
+    }
+    else
+    {
+        for(int i=1;i<del_pos-1 && temp!=NULL;i++)
+        {
+            temp=temp->next;
+        }
+        if(temp==NULL)
+        {
+            printf("Out of bounds!");
+            free(temp);
+        }
+        else
+        {
+            Node *del=temp->next;
+            temp->next=del->next;
+            free(del);
+        }
+    }
+    //List after deletion
+    temp=head;
+    while(temp)
+    {
+        printf("%d ",temp->data);
+        temp=temp->next;
+    }
+    printf("\n");
 
     //Free memory
     temp=head;
