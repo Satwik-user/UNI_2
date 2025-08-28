@@ -41,6 +41,16 @@ int main()
     }
     printf("\n");
 
+    //Insertion
+    int new_data,pos;
+    printf("Enter element to insert and position:");
+    scanf("%d %d",&new_data,&pos);
+    temp=head;
+    while(temp)
+    {
+        
+    }
+
     //Free memory
     temp=head;
     while(temp)
