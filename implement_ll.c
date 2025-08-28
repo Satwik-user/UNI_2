@@ -45,10 +45,29 @@ int main()
     int new_data,pos;
     printf("Enter element to insert and position:");
     scanf("%d %d",&new_data,&pos);
+    Node *new_node=(Node *)malloc(sizeof(Node));
+    new_node->data=new_data;
+    new_node->next=NULL;
     temp=head;
-    while(temp)
+    if(pos==1)
     {
-        
+        new_node->next=head;
+        head=new_node;
+    }
+    else
+    {
+        for(int i=1;i<pos-1 && temp!=NULL;i++)
+        {
+            if(temp==NULL)
+            {
+                printf("Out of bobunds!");
+                free(temp);
+            }
+            else
+            {
+                
+            }
+        }
     }
 
     //Free memory
