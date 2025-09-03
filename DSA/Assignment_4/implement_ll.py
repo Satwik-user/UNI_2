@@ -28,3 +28,4 @@ temp=list.head
 while temp:
     print(temp.data,end=' ')
     temp=temp.next
+print()
