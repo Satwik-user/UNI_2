@@ -8,5 +8,4 @@ class Node:
         if self.head is None:
             self.head=new_Node
             return
-        cur_Node=self.head
         
