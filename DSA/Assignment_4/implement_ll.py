@@ -25,6 +25,7 @@ for i in range(n):
     list.insert_ele(ele)
 
 temp=list.head
+print("")
 while temp:
     print(temp.data,end=' ')
     temp=temp.next
