@@ -9,5 +9,5 @@ class Node:
             self.head=new_Node
             return
         cur=self.head
-        while(cur.next):
+        while cur.next:
             cur=cur.next
