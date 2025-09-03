@@ -11,3 +11,4 @@ class Node:
         cur=self.head
         while cur.next:
             cur=cur.next
+        
