@@ -3,4 +3,5 @@ class Node:
         self.data=data
         self.next=None
 
-    
+class Linked_list:
+    def __init__(self)
