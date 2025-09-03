@@ -1,0 +1,12 @@
+class Node:
+    def __init__(self, data):
+        self.data=data
+        self.next=None
+
+    def insert_ele(self, data):
+        new_Node=Node(data)
+        if self.head is None:
+            self.head=new_Node
+            return
+        cur_Node=self.head
+        
