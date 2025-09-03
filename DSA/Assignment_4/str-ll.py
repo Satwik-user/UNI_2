@@ -12,4 +12,6 @@ class Linked_list:
         if self.head is None:
             self.head=new_Node
             return
-        
+        cur=self.head
+        while cur.next:
+            cur=cur.next
