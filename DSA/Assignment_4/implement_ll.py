@@ -17,7 +17,7 @@ class Linked_list:
             cur=cur.next
         cur.next=new_Node
 
-list=Linked_list
+list=Linked_list()
 n=int(input("Enter no of terms:"))
 for i in range(n):
     ele=int(input("Enter element:"))
