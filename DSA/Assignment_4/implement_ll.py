@@ -25,7 +25,7 @@ for i in range(n):
     list.insert_ele(ele)
 
 temp=list.head
-print("Elements of list:")
+print("Elements of list:",end=' ')
 while temp:
     print(temp.data,end=' ')
     temp=temp.next
