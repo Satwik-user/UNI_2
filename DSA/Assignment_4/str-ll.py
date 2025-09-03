@@ -13,4 +13,4 @@ class Linked_list:
             self.head=new_Node
             return
         else:
-            new_Node=
+            new_Node=Node()
