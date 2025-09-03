@@ -8,4 +8,6 @@ class Node:
         if self.head is None:
             self.head=new_Node
             return
-        cur=
+        cur=self.head
+        while(cur.next):
+            cur=cur.
