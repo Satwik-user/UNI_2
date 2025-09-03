@@ -17,3 +17,13 @@ class Linked_list:
             cur=cur.next
         cur.next=new_Node
 
+list=Linked_list
+n=int(input("Enter no of terms:"))
+for i in range(n):
+    ele=int(input("Enter element:"))
+    list.insert_ele(ele)
+
+temp=list.head
+while temp:
+    print(temp.data,end=' ')
+    temp=temp.next
