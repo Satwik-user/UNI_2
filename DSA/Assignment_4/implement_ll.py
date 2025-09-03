@@ -10,4 +10,4 @@ class Node:
             return
         cur=self.head
         while(cur.next):
-            cur=cur.
+            cur=cur.next
