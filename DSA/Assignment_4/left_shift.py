@@ -7,4 +7,5 @@ class Linked_list:
     def __init__(self):
         self.head=None
 
-    def insert_ele(self, data)
+    def insert_ele(self, data):
+        new_Node=Node(data)
