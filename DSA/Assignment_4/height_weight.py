@@ -17,6 +17,5 @@ class Linked_list:
             cur=cur.next
         cur.next=new_Node
 
-    list=Linked_list()
+list=Linked_list()
 
-    
