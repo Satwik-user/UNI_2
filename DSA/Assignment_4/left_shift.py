@@ -22,4 +22,4 @@ list=Linked_list()
 n=int(input("Enter no of terms:"))
 for i in range(n):
     ele=int(input("Enter element:"))
-    list.
+    list.insert
