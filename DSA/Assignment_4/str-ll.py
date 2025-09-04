@@ -20,4 +20,6 @@ class Linked_list:
 list=Linked_list()
 
 string=input("Enter a string:")
-n=len()
+n=len(string)
+for i in range(n):
+    list.insert_ele
