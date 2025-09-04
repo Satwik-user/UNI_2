@@ -1,6 +1,7 @@
 class Node:
-    def __init__(self,data):
-        self.height=
+    def __init__(self, height, weight):
+        self.height=height
+        self.weight=
         self.next=None
 
 class Linked_list:
@@ -19,3 +20,8 @@ class Linked_list:
 
 list=Linked_list()
 
+n=int(input("Enter number of students:"))
+for i in range(n):
+    height=int(input("Enter height of student:"))
+    weight=int(input("Enter weight of student:"))
+    list
