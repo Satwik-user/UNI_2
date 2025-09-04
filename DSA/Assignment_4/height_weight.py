@@ -25,3 +25,4 @@ for i in range(n):
     height=int(input("Enter height of student:"))
     weight=int(input("Enter weight of student:"))
     list.insert_ele(height, weight)
+    
