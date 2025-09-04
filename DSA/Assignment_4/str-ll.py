@@ -24,4 +24,4 @@ n=len(string)
 for i in range(n):
     list.insert_ele(string[i])
 
-temp
+temp=list.head
