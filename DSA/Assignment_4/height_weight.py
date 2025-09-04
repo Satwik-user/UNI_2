@@ -33,3 +33,5 @@ while temp:
     if ratio>max:
         max=ratio
     temp=temp.next
+
+print()
