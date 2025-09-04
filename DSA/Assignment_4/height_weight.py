@@ -1,7 +1,7 @@
 class Node:
     def __init__(self, height, weight):
         self.height=height
-        self.weight=
+        self.weight=weight
         self.next=None
 
 class Linked_list:
