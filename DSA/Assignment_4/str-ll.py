@@ -19,4 +19,4 @@ class Linked_list:
 
 list=Linked_list()
 
-string=input("Enter ")
+string=input("Enter a string:")
