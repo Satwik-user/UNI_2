@@ -25,4 +25,4 @@ for i in range(n):
     list.insert_ele(string[i])
 
 temp=list.head
-print("Elements of list:",)
+print("Elements of list:",end=' ')
