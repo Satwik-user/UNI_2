@@ -26,4 +26,4 @@ for i in range(n):
 
 temp=list.head
 print("Elemments of list:",end=' ')
-temp
+te
