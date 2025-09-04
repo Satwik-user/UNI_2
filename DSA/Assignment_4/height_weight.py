@@ -27,4 +27,4 @@ for i in range(n):
     list.insert_ele(height, weight)
 
 temp=list.head
-print()
+print("")
