@@ -29,4 +29,6 @@ for i in range(n):
 temp=list.head
 max=0
 while temp:
-    print()
+    ratio=temp.weight/temp.height
+    if ratio>max:
+        max=ratio
