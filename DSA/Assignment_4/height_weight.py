@@ -26,4 +26,5 @@ for i in range(n):
     weight=int(input("Enter weight of student:"))
     list.insert_ele(height, weight)
 
-temp
+temp=list.head
+print()
