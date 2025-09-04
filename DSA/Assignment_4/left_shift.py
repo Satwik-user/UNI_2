@@ -15,4 +15,4 @@ class Linked_list:
         cur=self.head
         while cur.next:
             cur=cur.next
-        cur.next=
+        cur.next=new_Node
