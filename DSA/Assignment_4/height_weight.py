@@ -9,7 +9,7 @@ class Linked_list:
         self.head=None
 
     def insert_ele(self, height, weight):
-        new_Node=Node(data)
+        new_Node=Node(height, weight)
         if self.head is None:
             self.head=new_Node
             return
