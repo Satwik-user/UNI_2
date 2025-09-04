@@ -28,4 +28,5 @@ temp=list.head
 print("Elemments of list:",end=' ')
 while temp:
     print(temp.data,end=' ')
-    temp=
+    temp=temp.next
+pi
