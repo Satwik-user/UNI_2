@@ -34,4 +34,4 @@ while temp:
         max=ratio
     temp=temp.next
 
-print("")
+print("M")
