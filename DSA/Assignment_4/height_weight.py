@@ -34,4 +34,4 @@ while temp:
         max=ratio
     temp=temp.next
 
-print("Highest weight/height ratio:",)
+print("Highest weight/height ratio:",max)
