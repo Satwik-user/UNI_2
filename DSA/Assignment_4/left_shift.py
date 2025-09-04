@@ -19,4 +19,4 @@ class Linked_list:
 
 list=Linked_list()
 
-n
+n=int(input(""))
