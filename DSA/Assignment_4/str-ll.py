@@ -26,3 +26,5 @@ for i in range(n):
 
 temp=list.head
 print("Elements of list:",end=' ')
+while temp:
+    
