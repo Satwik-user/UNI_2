@@ -19,4 +19,4 @@ class Linked_list:
 
 list=Linked_list()
 
-n=int(input(""))
+n=int(input("Enter "))
