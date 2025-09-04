@@ -1,6 +1,6 @@
 class Node:
     def __init__(self,data):
-        self.data=da
+        self.height=
         self.next=None
 
 class Linked_list:
