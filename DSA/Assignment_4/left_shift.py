@@ -5,4 +5,4 @@ class Node:
 
 class Linked_list:
     def __init__(self):
-        self.head
+        self.head=None
