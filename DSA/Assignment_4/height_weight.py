@@ -12,3 +12,4 @@ class Linked_list:
         if self.head is None:
             self.head=new_Node
             return
+        cur=
