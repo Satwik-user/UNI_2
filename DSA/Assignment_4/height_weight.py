@@ -32,3 +32,4 @@ while temp:
     ratio=temp.weight/temp.height
     if ratio>max:
         max=ratio
+        
