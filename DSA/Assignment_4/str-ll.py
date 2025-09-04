@@ -22,4 +22,4 @@ list=Linked_list()
 string=input("Enter a string:")
 n=len(string)
 for i in range(n):
-    list.insert_ele()
+    list.insert_ele(string[i])
