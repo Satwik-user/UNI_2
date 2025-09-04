@@ -20,4 +20,4 @@ class Linked_list:
 list=Linked_list()
 
 string=input("Enter a string:")
-n=
+n=len()
