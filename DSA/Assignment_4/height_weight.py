@@ -27,3 +27,6 @@ for i in range(n):
     list.insert_ele(height, weight)
 
 temp=list.head
+max=0
+while temp:
+    print()
