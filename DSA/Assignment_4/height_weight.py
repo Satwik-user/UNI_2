@@ -24,4 +24,4 @@ n=int(input("Enter number of students:"))
 for i in range(n):
     height=int(input("Enter height of student:"))
     weight=int(input("Enter weight of student:"))
-    list.i
+    list.insert_ele()
