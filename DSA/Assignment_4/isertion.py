@@ -39,4 +39,4 @@ pos=int(input("Enter position of element:"))
 insert_pos(ele, pos)
 
 print("Modified List:",end=' ')
-list.
+list.print_list()
