@@ -27,4 +27,4 @@ for i in range(n):
 temp=list.head
 print("Elements of list:",end=' ')
 while temp:
-    print(temp.data)
+    print(temp.data,end=' ')
