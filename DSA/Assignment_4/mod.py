@@ -33,7 +33,7 @@ class Linked_list:
         while temp and p<pos:
             p+=1
             temp=temp.next
-        t
+        temp.data=ele
 
 
 list=Linked_list()
