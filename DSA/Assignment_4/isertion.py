@@ -25,3 +25,4 @@ for i in range(n):
     list.insert_ele(data)
 
 temp=list.head
+print("E")
