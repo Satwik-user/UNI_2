@@ -26,14 +26,15 @@ class Linked_list:
 
     def insert_pos(self, ele, pos):
         new_node=Node(ele)
+        if pos==0:
+            new_node.next=self.head
+            self.head=new_node
+            return
         temp=self.head
         p=1
         while temp:
-            if pos==0:
-                new_node.next=self.head
-                self.head=new_node
-                return
-            
+            if pos==p:
+                
 
 
 list=Linked_list()
