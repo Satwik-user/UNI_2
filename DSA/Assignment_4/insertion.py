@@ -36,6 +36,7 @@ class Linked_list:
             temp=temp.next
             p+=1
         new_node.next=temp.next
+        temp.next=new_node
 
 
 list=Linked_list()
