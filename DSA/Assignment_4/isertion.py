@@ -18,3 +18,5 @@ class Linked_list:
         cur.next=new_Node
 
 list=Linked_list()
+
+n=int(input("Enter number of elements:"))
