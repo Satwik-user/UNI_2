@@ -44,7 +44,7 @@ for i in range(n):
     ele=int(input("Enter elements of list:"))
     list.insert_ele(ele)
 
-print("Original List:"end=' ')
+print("Original List:",end=' ')
 list.print_list()
 
 ele=int(input("Enter the element to modify:"))
