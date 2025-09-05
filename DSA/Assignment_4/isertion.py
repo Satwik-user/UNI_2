@@ -31,4 +31,4 @@ while temp:
     temp=temp.next
 print()
 
-ele=int(input(""))
+ele=int(input("Enter ele"))
