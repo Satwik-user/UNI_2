@@ -30,3 +30,5 @@ while temp:
     print(temp.data,end=' ')
     temp=temp.next
 print()
+
+ele=int(input(""))
