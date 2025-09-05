@@ -33,3 +33,4 @@ print()
 
 ele=int(input("Enter element to insert:"))
 pos=int(input("Enter position of element:"))
+insert
