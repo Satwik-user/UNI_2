@@ -11,4 +11,5 @@ class Linked_list:
         new_Node=Node(data)
         if self.head is None:
             self.head=new_Node
-            r
+            return
+        c
