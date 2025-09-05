@@ -31,7 +31,7 @@ for i in range(n):
     data=int(input("Enter an element:"))
     list.insert_ele(data)
 
-print("Original list:",end=' ')
+print("Original List:",end=' ')
 list.print_list()
 
 ele=int(input("Enter element to insert:"))
