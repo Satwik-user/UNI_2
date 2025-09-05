@@ -30,7 +30,7 @@ class Linked_list:
         p=1
         while temp:
             if pos==0:
-                self.head
+                self.head=new_node
 
 
 list=Linked_list()
