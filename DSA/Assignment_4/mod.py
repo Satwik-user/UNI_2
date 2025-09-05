@@ -12,4 +12,5 @@ class Linked_list:
         if self.head is None:
             self.head=new_node
             return
+        temp=self.head
         
