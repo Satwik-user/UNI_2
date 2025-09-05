@@ -30,7 +30,7 @@ class Linked_list:
             return
         temp=self.head
         p=1
-        while temp:
+        while temp.next:
             if pos==p:
                 temp.data=ele
                 break
