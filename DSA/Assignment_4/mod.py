@@ -10,4 +10,6 @@ class Linked_list:
     def insert_ele(self, data):
         new_node=Node(data)
         temp=self.head
+        while temp:
+            temp=temp.next
         
