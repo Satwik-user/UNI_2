@@ -51,5 +51,5 @@ ele=int(input("Enter the element to modify:"))
 pos=int(input("Enter position of element to modify:"))
 list.mod_list(ele, pos)
 
-print("Modified List:")
+print("Modified List:",end=' ')
 list.print_list()
