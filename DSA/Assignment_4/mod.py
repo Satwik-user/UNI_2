@@ -15,4 +15,4 @@ class Linked_list:
         temp=self.head
         while temp:
             temp=temp.next
-        temp.next=self.head
+        temp.next=
