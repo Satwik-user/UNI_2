@@ -37,3 +37,5 @@ list.print_list()
 ele=int(input("Enter element to insert:"))
 pos=int(input("Enter position of element:"))
 insert_pos(ele, pos)
+
+print("")
