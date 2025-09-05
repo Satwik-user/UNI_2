@@ -17,3 +17,6 @@ class Linked_list:
             temp=temp.next
         temp.next=new_node
 
+list=Linked_list()
+
+n=in
