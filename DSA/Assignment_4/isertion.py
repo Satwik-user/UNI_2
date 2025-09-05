@@ -32,12 +32,7 @@ for i in range(n):
     data=int(input("Enter an element:"))
     list.insert_ele(data)
 
-temp=list.head
-print("Elements of list:",end=' ')
-while temp:
-    print(temp.data,end=' ')
-    temp=temp.next
-print()
+
 
 ele=int(input("Enter element to insert:"))
 pos=int(input("Enter position of element:"))
