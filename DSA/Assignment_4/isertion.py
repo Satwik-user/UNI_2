@@ -22,7 +22,7 @@ class Linked_list:
         print("Elements of list:")
         while temp:
             print(temp.data,end=' ')
-            
+            temp=
 
 list=Linked_list()
 
