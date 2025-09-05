@@ -34,6 +34,7 @@ class Linked_list:
             if pos==p:
                 temp.data=ele
                 break
+            p+=1
             temp=temp.next
 
 
