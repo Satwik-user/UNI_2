@@ -31,6 +31,7 @@ class Linked_list:
         while temp:
             if pos==0:
                 self.head=new_node
+                
 
 
 list=Linked_list()
