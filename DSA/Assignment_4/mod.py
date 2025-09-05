@@ -13,7 +13,7 @@ class Linked_list:
             self.head=new_node
             return
         temp=self.head
-        while temp:
+        while temp.next:
             temp=temp.next
         temp.next=new_node
     
