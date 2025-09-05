@@ -8,4 +8,6 @@ class Linked_list:
         self.head=None
 
     def insert_ele(self, data):
-        new_Node=
+        new_Node=Node(data)
+        if self.head is None:
+            s
