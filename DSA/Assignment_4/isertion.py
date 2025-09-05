@@ -32,3 +32,4 @@ while temp:
 print()
 
 ele=int(input("Enter element to insert:"))
+pos=int(input("Enter "))
