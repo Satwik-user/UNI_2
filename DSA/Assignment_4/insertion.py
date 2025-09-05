@@ -35,6 +35,7 @@ class Linked_list:
         while temp and p<pos-1:
             temp=temp.next
             p+=1
+            
 
 
 list=Linked_list()
