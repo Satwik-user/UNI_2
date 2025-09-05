@@ -16,6 +16,7 @@ class Linked_list:
         while cur.next:
             cur=cur.next
         cur.next=new_Node
+        
 
 list=Linked_list()
 
