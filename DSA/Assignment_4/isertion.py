@@ -28,3 +28,4 @@ temp=list.head
 print("Elements of list:",end=' ')
 while temp:
     print(temp.data,end=' ')
+    temp=
