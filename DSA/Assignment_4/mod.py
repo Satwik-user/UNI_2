@@ -31,9 +31,9 @@ class Linked_list:
         temp=self.head
         p=1
         while temp and p<pos:
-            temp.data=ele
             p+=1
             temp=temp.next
+        temp
 
 
 list=Linked_list()
