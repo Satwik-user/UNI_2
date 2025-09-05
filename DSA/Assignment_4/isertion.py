@@ -21,7 +21,7 @@ class Linked_list:
         temp=self.head
         print("Elements of list:")
         while temp:
-            print(temp)
+            print(temp.data)
 
 list=Linked_list()
 
