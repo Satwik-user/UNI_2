@@ -4,7 +4,7 @@ class Node:
         self.next=None
 
 class Linked_list:
-    def __init__(self, head):
+    def __init__(self):
         self.head=None
 
     def insert_ele(self, data):
