@@ -19,6 +19,7 @@ class Linked_list:
 
     def print_list(self):
         temp=self.head
+        print("Elements of list:")
         while temp:
             print("")
 
