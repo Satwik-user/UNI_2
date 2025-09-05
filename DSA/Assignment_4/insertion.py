@@ -36,7 +36,6 @@ class Linked_list:
             if pos==p:
                 break
             temp=temp.next
-            prev=temp
 
 
 list=Linked_list()
