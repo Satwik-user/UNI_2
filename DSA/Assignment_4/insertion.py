@@ -32,6 +32,7 @@ class Linked_list:
             if pos==0:
                 new_node.next=self.head
                 self.head=new_node
+            
 
 
 list=Linked_list()
