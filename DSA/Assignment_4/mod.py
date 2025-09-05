@@ -16,3 +16,4 @@ class Linked_list:
         while temp:
             temp=temp.next
         temp.next=new_node
+
