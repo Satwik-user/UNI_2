@@ -32,7 +32,7 @@ for i in range(n):
     list.insert_ele(data)
 
 print("Original elements of list:",end=' ')
-list.
+list.print_list()
 
 ele=int(input("Enter element to insert:"))
 pos=int(input("Enter position of element:"))
