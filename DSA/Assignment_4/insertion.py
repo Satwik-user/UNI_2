@@ -35,6 +35,7 @@ class Linked_list:
         while temp:
             if pos==p:
                 break
+            
 
 
 list=Linked_list()
