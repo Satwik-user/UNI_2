@@ -24,6 +24,15 @@ class Linked_list:
             temp=temp.next
         print()
 
+    def insert_pos(self, ele, pos):
+        new_node=Node(ele)
+        temp=self.head
+        p=1
+        while temp:
+            if pos==0:
+                self.head
+
+
 list=Linked_list()
 
 n=int(input("Enter number of elements:"))
@@ -36,7 +45,7 @@ list.print_list()
 
 ele=int(input("Enter element to insert:"))
 pos=int(input("Enter position of element:"))
-insert_pos(ele, pos)
+list.insert_pos(ele, pos)
 
 print("Modified List:",end=' ')
 list.print_list()
