@@ -33,4 +33,4 @@ for i in range(n):
     list.insert_ele(ele)
 
 print("Original List:",end=' ')
-print_list
+list.print_list()
