@@ -40,4 +40,4 @@ for i in range(n2):
 temp=list1.head
 while temp.next:
     temp=temp.next
-temp
+temp.next=list2.head
