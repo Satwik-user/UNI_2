@@ -35,3 +35,4 @@ for i in range(n1):
 for i in range(n2):
     ele2=int(input("Enter element:"))
     list.insert_ele(ele2)
+
