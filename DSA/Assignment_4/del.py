@@ -28,6 +28,7 @@ class Linked_list:
         temp=self.head
         if pos==0:
             self.head=temp.next
+            temp=
             return
         p=1
         while temp and p<pos-1:
