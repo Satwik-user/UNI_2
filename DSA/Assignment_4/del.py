@@ -33,7 +33,7 @@ class Linked_list:
         while temp and p<pos:
             prev=temp
             temp=temp.next
-            
+            p+=1
         prev.next=temp.next
         temp=None
 
