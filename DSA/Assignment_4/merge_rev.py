@@ -3,6 +3,9 @@ class Node:
         self.daat=data
         self.next=None
 
+class Linked_list:
+    def __init___(self)
+
     def insert_ele(self, data):
         new_node=Node(data)
         if self.head is None:
