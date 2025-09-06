@@ -30,7 +30,7 @@ class Linked_list:
             return
         p=1
         temp=self.head
-        while temp and p<pos:
+        while temp and p<pos-1:
             prev=temp
             temp=temp.next
             p+=1
