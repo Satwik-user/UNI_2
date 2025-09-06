@@ -34,5 +34,5 @@ for i in range(n1):
     list1.insert_ele(ele1)
 for i in range(n2):
     ele2=int(input("Enter element:"))
-    list.insert_ele(ele2)
+    list1.insert_ele(ele2)
 
