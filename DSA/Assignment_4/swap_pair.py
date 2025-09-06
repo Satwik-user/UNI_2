@@ -42,5 +42,5 @@ print("Original List:",end= ' ')
 list.print_list()
 
 list.swap()
-print("modified List:",end=' ')
+print("Modified List:",end=' ')
 list.print_list()
