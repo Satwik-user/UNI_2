@@ -34,3 +34,5 @@ for i in range(n):
 
 print("Original List:",end=' ')
 list.print_list()
+
+del=
