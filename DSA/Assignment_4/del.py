@@ -52,5 +52,5 @@ list.print_list()
 del_pos=int(input("Enter position of element to delete:"))
 list.del_list(del_pos)
 
-print("Modified List:")
+print("Modified List:",end=' ')
 list.print_list()
