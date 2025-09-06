@@ -27,7 +27,7 @@ class Linked_list:
     def rev_list(self):
         cur=self.head
         while cur:
-            
+            next=cur.next
 
 
 list1=Linked_list()
