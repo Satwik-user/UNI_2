@@ -26,8 +26,9 @@ class Linked_list:
 
     def left_shift(self, k):
         for i in range(k):
-            old_head=self.head
-            
+            temp=self.head
+            while temp.next:
+                temp=
 
 list=Linked_list()
 
