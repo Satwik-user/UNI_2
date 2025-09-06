@@ -25,11 +25,12 @@ class Linked_list:
         print()
 
     def rev_list(self):
+        
         cur=self.head
         while cur:
             next=cur.next
             cur.next=prev
-            
+
 
 
 list1=Linked_list()
