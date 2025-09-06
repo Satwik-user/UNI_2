@@ -48,3 +48,4 @@ while temp.next:
 temp.next=list2.head
 
 print("Merged List:",end=' ')
+list1.print
