@@ -24,6 +24,9 @@ class Linked_list:
             temp=temp.next
         print()
 
+    def rev_list(self):
+        cur=
+
 
 list1=Linked_list()
 list2=Linked_list()
