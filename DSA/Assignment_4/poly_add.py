@@ -9,7 +9,7 @@ class Linked_list:
         self.head=None
 
     def insert_ele(self, coeff, exp):
-        new_node=Node(data)
+        new_node=Node(coeff, exp)
         if self.head is None:
             self.head=new_node
             return
