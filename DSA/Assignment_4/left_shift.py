@@ -33,6 +33,7 @@ class Linked_list:
             old_head=self.head
             self.head=self.head.next
             last.next=old_head
+            old_head
 
 list=Linked_list()
 
