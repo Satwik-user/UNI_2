@@ -30,11 +30,11 @@ class Linked_list:
             while temp.next:
                 temp=temp.next
             last=temp
-            
+
             old_head=self.head
             self.head=self.head.next
             last.next=old_head
-            old_head
+            last=
 
 list=Linked_list()
 
