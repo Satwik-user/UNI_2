@@ -28,7 +28,7 @@ list1=Linked_list()
 
 n=int(input("Enter number of nodes for 1st polynomial:"))
 for i in range(n):
-    coeff, exp=int(input("Enter coeffiecient and exponent:")).split(' ')
+    coeff, exp=int(input("Enter coeffiecient and exponent for 1st polynomial:")).split(' ')
     list.insert_ele(coeff, exp)
 
 print("Original List:",end=' ')
