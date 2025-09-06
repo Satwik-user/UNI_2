@@ -38,7 +38,7 @@ for i in range(n2):
 
 print("Polynimial 1:",end=' ')
 list1.print_list()
-print("Polynomial 2:",end=' ')
+print("Polynomial 2:")
 list2.print_list()
 
 result = Linked_list()
