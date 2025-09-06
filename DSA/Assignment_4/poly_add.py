@@ -21,7 +21,7 @@ class Linked_list:
     def print_list(self):
         temp=self.head
         while temp:
-            print(f"{temp.coeff} {temp.exp}")
+            print(f"Coeffiecient-{temp.coeff} Exponent-{temp.exp}")
             temp=temp.next
 
 list1=Linked_list()
