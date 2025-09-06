@@ -24,6 +24,10 @@ class Linked_list:
             temp=temp.next
         print()
 
+    def left_shift(self, k):
+        for i in range(k):
+            ol
+
 list=Linked_list()
 
 n=int(input("Enter no of terms:"))
