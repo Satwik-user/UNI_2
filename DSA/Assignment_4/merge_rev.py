@@ -33,6 +33,7 @@ class Linked_list:
 
             prev=cur
             cur=next
+        
 
 
 list1=Linked_list()
