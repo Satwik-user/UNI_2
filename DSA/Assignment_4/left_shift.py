@@ -37,4 +37,4 @@ list.print_list()
 k=int(input("Enter no of nodes to left shift:"))
 list.left_shift(k)
 
-print("Modified List:")
+print("Modified List:",end=' ')
