@@ -32,7 +32,7 @@ class Linked_list:
             last=temp
             old_head=self.head
             self.head=self.head.next
-            last.next=old.head
+            last.next=old_head
 
 list=Linked_list()
 
