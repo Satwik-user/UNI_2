@@ -30,4 +30,4 @@ list=Linked_list()
 n=int(input("Enter number of elements:"))
 for i in range(n):
     ele=int(input("Enter element:"))
-    list.insert_ele()
+    list.insert_ele(ele)
