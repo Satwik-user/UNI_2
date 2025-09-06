@@ -64,7 +64,6 @@ while temp1:
     result.insert_ele(temp1.coeff, temp1.exp)
     temp1 = temp1.next
 
-# Add remaining terms from second polynomial
 while temp2:
     result.insert_ele(temp2.coeff, temp2.exp)
     temp2 = temp2.next
