@@ -41,3 +41,5 @@ temp=list1.head
 while temp.next:
     temp=temp.next
 temp.next=list2.head
+
+print
