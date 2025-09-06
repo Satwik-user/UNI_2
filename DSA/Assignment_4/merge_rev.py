@@ -62,4 +62,4 @@ print("Merged List:",end=' ')
 list1.print_list()
 
 list1.rev_list()
-print("Reversed")
+print("Reversed:")
