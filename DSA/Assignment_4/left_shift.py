@@ -31,7 +31,7 @@ class Linked_list:
                 temp=temp.next
             last=temp
             old_head=self.head
-            self.head=
+            self.head=self.head.next
 
 list=Linked_list()
 
