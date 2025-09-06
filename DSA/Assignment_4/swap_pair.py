@@ -18,4 +18,6 @@ class Linked_list:
         cur.next=new_node
 
     def print_list(self):
-        
+        temp=self.head
+        while temp:
+            print(t)
