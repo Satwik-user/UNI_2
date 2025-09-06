@@ -68,6 +68,5 @@ while temp2:
     result.insert_ele(temp2.coeff, temp2.exp)
     temp2 = temp2.next
 
-# Print result using existing print_list function
 print("Resultant Polynomial:", end=' ')
 result.print_list()
