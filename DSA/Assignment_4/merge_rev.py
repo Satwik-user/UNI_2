@@ -31,7 +31,8 @@ class Linked_list:
             next=cur.next
             cur.next=prev
 
-            prev=
+            prev=cur
+            cur=next
 
 
 list1=Linked_list()
