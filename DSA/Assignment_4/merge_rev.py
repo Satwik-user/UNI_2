@@ -31,7 +31,7 @@ n1=int(input("Enter number of elements of 1st list:"))
 n2=int(input("Enter number of elements of 2nd list:"))
 for i in range(n1):
     ele1=int(input("Enter element:"))
-    list.insert_ele(ele1)
+    list1.insert_ele(ele1)
 for i in range(n2):
     ele2=int(input("Enter element:"))
     list.insert_ele(ele2)
