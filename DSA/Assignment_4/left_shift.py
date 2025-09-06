@@ -20,7 +20,7 @@ class Linked_list:
     def print_list(self):
         temp=self.head
         while temp:
-            
+            print("")
 
 list=Linked_list()
 
