@@ -32,5 +32,5 @@ for i in range(n):
     list.insert_ele(ele)
 
 print("Elemments of list:",end=' ')
-list.
+list.print_list()
 
