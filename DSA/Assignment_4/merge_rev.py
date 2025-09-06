@@ -5,4 +5,5 @@ class Node:
 
     def insert_ele(self, data):
         new_node=Node(data)
-        
+        if self.head is None:
+            
