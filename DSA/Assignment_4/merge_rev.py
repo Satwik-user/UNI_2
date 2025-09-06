@@ -37,4 +37,4 @@ for i in range(n2):
     ele2=int(input("Enter element:"))
     list2.insert_ele(ele2)
 
-list
+temp
