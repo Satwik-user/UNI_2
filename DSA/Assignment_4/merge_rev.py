@@ -17,4 +17,5 @@ class Node:
         temp=self.head
         while temp:
             print(temp.data,end=' ')
+            temp=temp.next
             
