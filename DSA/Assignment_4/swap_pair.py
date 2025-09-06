@@ -29,4 +29,5 @@ list=Linked_list()
 
 n=int(input("Enter number of elements:"))
 for i in range(n):
-    ele=int(input("Enter "))
+    ele=int(input("Enter element:"))
+    
