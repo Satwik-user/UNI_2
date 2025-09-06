@@ -32,4 +32,4 @@ for i in range(n1):
     list1.insert_ele(coeff, exp)
 
 print("Original List:",end=' ')
-list.print_list()
+list1.print_list()
