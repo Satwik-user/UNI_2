@@ -30,7 +30,7 @@ list=Linked_list()
 n=int(input("Enter number of nodes:"))
 for i in range(n):
     coeff, exp=int(input("Enter coeffiecient and exponent:")).split(' ')
-    list.insert_ele(ele)
+    list.insert_ele(coeff, exp)
 
 print("Original List:",end=' ')
 list.print_list()
