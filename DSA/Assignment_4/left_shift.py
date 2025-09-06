@@ -31,7 +31,6 @@ for i in range(n):
     ele=int(input("Enter element:"))
     list.insert_ele(ele)
 
-temp=list.head
 print("Elemments of list:",end=' ')
 while temp:
     print(temp.data,end=' ')
