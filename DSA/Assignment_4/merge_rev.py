@@ -32,3 +32,4 @@ n2=int(input("Enter number of elements of 2nd list:"))
 for i in range(n):
     ele=int(input("Enter element:"))
     list.insert_ele(ele)
+    
