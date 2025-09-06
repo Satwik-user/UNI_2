@@ -39,6 +39,7 @@ for i in range(n2):
 
 print("Original List 1:",end=' ')
 list1.print_list()
+print()
 
 temp=list1.head
 while temp.next:
