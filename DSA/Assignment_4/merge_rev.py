@@ -16,4 +16,5 @@ class Node:
     def print_list(self):
         temp=self.head
         while temp:
-            print("")
+            print(temp.data,end=' ')
+            
