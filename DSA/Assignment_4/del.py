@@ -31,7 +31,8 @@ class Linked_list:
         p=1
         temp=self.head
         while temp and p<pos:
-            temp
+            prev=temp
+            temp=temp.next
 
 
 list=Linked_list()
