@@ -28,3 +28,5 @@ class Linked_list:
 list=Linked_list()
 
 n=int(input("Enter number of elements:"))
+for i in range(n):
+    
