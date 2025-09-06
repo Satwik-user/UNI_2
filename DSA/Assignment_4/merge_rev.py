@@ -37,8 +37,8 @@ for i in range(n2):
     ele2=int(input("Enter element:"))
     list2.insert_ele(ele2)
 
-print("Original List:",end=' ')
-list
+print("Original List 1:",end=' ')
+list1.
 
 temp=list1.head
 while temp.next:
