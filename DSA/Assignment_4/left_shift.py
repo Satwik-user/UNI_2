@@ -29,7 +29,7 @@ class Linked_list:
             temp=self.head
             while temp.next:
                 temp=temp.next
-            
+            last=temp
 
 list=Linked_list()
 
