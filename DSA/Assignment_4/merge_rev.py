@@ -18,4 +18,6 @@ class Node:
         while temp:
             print(temp.data,end=' ')
             temp=temp.next
-            
+        print()
+
+
