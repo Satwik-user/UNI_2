@@ -24,6 +24,10 @@ class Linked_list:
             temp=temp.next
         print()
 
+    def del_list(self, pos):
+        temp=self.head
+        
+
 
 list=Linked_list()
 
