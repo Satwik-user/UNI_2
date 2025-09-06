@@ -33,7 +33,7 @@ class Linked_list:
 
             prev=cur
             cur=next
-        
+        self.head=
 
 
 list1=Linked_list()
