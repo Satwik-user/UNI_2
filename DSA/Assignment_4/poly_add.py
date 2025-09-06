@@ -21,7 +21,7 @@ class Linked_list:
     def print_list(self):
         temp=self.head
         while temp:
-            print(temp.data,end=' ')
+            print(temp.coeff,temp.exp,end=' ')
             temp=temp.next
         print()
 
