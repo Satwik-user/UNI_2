@@ -68,5 +68,5 @@ while temp2:
     result.insert_ele(temp2.coeff, temp2.exp)
     temp2 = temp2.next
 
-print("Resultant Polynomial:", end=' ')
+print("Resultant Polynomial:")
 result.print_list()
