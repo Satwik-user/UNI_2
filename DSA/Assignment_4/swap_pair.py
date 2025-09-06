@@ -23,3 +23,6 @@ class Linked_list:
             print(temp.data,end=' ')
             temp=temp.next
         print()
+
+    
+list=Linked_list
