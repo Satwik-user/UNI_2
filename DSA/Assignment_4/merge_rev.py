@@ -38,7 +38,7 @@ for i in range(n2):
     list2.insert_ele(ele2)
 
 print("Original List 1:",end=' ')
-list1.
+list1.print_list()
 
 temp=list1.head
 while temp.next:
