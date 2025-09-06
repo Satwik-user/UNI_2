@@ -28,7 +28,7 @@ class Linked_list:
 list=Linked_list()
 
 n=int(input("Enter number of elements:"))
-n2=int(input("ENter "))
+n2=int(input("ENter number of elements of "))
 for i in range(n):
     ele=int(input("Enter element:"))
     list.insert_ele(ele)
