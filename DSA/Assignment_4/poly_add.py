@@ -23,7 +23,6 @@ class Linked_list:
         while temp:
             print(f"Coeffiecient-{temp.coeff},Exponent-{temp.exp}")
             temp=temp.next
-        print()
 
 list=Linked_list()
 
