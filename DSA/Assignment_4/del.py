@@ -14,4 +14,5 @@ class Linked_list:
             return
         cur=self.head
         while cur.next:
-            
+            cur=cur.next
+        cur.next=new_node
