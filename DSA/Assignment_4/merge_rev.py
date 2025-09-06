@@ -62,4 +62,4 @@ temp.next=list2.head
 print("Merged List:",end=' ')
 list1.print_list()
 
-list1.
+list1.rev_list()
