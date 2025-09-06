@@ -27,7 +27,7 @@ class Linked_list:
     def swap(self):
         temp=self.head
         while temp.next:
-            temp.data,temp.next
+            temp.data,temp.next.data=temp
 
     
 list=Linked_list()
