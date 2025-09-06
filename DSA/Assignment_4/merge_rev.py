@@ -58,8 +58,8 @@ temp=list1.head
 while temp.next:
     temp=temp.next
 temp.next=list2.head
-
 print("Merged List:",end=' ')
 list1.print_list()
 
 list1.rev_list()
+print("")
