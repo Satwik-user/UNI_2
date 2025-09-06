@@ -30,7 +30,7 @@ class Linked_list:
         while cur:
             next=cur.next
             cur.next=prev
-            
+        
 
 
 list1=Linked_list()
