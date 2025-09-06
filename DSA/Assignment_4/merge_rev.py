@@ -25,7 +25,7 @@ class Linked_list:
         print()
 
 
-list=Linked_list()
+list1=Linked_list()
 
 n1=int(input("Enter number of elements of 1st list:"))
 n2=int(input("Enter number of elements of 2nd list:"))
