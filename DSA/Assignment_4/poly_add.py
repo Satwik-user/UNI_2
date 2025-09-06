@@ -30,7 +30,7 @@ list2-Linked_list()
 n1=int(input("Enter number of nodes for 1st polynomial:"))
 for i in range(n1):
     coeff1, exp1=map(int,input("Enter coeffiecient and exponent for 1st polynomial:").split())
-    list1.insert_ele(coeff, exp)
+    list1.insert_ele(coeff1, exp1)
 n2=int(input("Enter number of nodes for 2nd polynomial:"))
 for i in range(n2):
     coeff
