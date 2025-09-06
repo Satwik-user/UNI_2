@@ -35,4 +35,4 @@ for i in range(n):
 print("Original List:",end=' ')
 list.print_list()
 
-del=
+del_pos=int(input("Enter position of element to delete:"))
