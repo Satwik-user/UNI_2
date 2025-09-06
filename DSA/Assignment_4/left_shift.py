@@ -17,6 +17,9 @@ class Linked_list:
             cur=cur.next
         cur.next=new_Node
 
+    def print_list(self):
+        
+
 list=Linked_list()
 
 n=int(input("Enter no of terms:"))
