@@ -40,3 +40,38 @@ print("Polynimial 1:",end=' ')
 list1.print_list()
 print("Polynomial 2:",end=' ')
 list2.print_list()
+
+# Create result linked list
+result = Linked_list()
+
+temp1 = list1.head
+temp2 = list2.head
+
+# Main addition logic
+while temp1 and temp2:
+    if temp1.exp == temp2.exp:
+        sum_coeff = temp1.coeff + temp2.coeff
+        if sum_coeff != 0:  # Only add if sum is not zero
+            result.insert_ele(sum_coeff, temp1.exp)
+        temp1 = temp1.next
+        temp2 = temp2.next
+    elif temp1.exp > temp2.exp:
+        result.insert_ele(temp1.coeff, temp1.exp)
+        temp1 = temp1.next
+    else:
+        result.insert_ele(temp2.coeff, temp2.exp)
+        temp2 = temp2.next
+
+# Add remaining terms from first polynomial
+while temp1:
+    result.insert_ele(temp1.coeff, temp1.exp)
+    temp1 = temp1.next
+
+# Add remaining terms from second polynomial
+while temp2:
+    result.insert_ele(temp2.coeff, temp2.exp)
+    temp2 = temp2.next
+
+# Print result using existing print_list function
+print("Resultant Polynomial:", end=' ')
+result.print_list()
