@@ -35,4 +35,4 @@ print("Elemments of list:",end=' ')
 list.print_list()
 
 k=int(input("Enter no of nodes to left shift:"))
-list
+list.left_shift(k)
