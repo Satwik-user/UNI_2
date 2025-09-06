@@ -49,7 +49,7 @@ temp2 = list2.head
 while temp1 and temp2:
     if temp1.exp == temp2.exp:
         sum_coeff = temp1.coeff + temp2.coeff
-        if sum_coeff != 0:  # Only add if sum is not zero
+        if sum_coeff != 0:
             result.insert_ele(sum_coeff, temp1.exp)
         temp1 = temp1.next
         temp2 = temp2.next
