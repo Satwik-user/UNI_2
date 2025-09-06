@@ -12,3 +12,8 @@ class Node:
         while cur.next:
             cur=cur.next
         cur.next=new_node
+
+    def print_list(self):
+        temp=self.head
+        while temp:
+            
