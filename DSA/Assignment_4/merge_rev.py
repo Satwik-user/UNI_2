@@ -25,7 +25,7 @@ class Linked_list:
         print()
 
     def rev_list(self):
-        
+        prev=
         cur=self.head
         while cur:
             next=cur.next
