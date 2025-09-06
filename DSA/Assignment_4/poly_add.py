@@ -46,7 +46,6 @@ result = Linked_list()
 temp1 = list1.head
 temp2 = list2.head
 
-# Main addition logic
 while temp1 and temp2:
     if temp1.exp == temp2.exp:
         sum_coeff = temp1.coeff + temp2.coeff
