@@ -16,4 +16,6 @@ class Linked_list:
         while cur.next:
             cur=cur.next
         cur.next=new_node
+
+    def print_list(self):
         
