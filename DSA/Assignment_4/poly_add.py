@@ -36,5 +36,5 @@ for i in range(n2):
     coeff2,exp2=map(int, input("Enter coefficient and exponent for 2nd polynomial:").split())
     list2.insert_ele(coeff2, exp2)
 
-print("Original List:",end=' ')
+print("Original :",end=' ')
 list1.print_list()
