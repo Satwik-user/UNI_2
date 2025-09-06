@@ -25,4 +25,5 @@ class Linked_list:
         print()
 
     
-list=Linked_list
+list=Linked_list()
+
