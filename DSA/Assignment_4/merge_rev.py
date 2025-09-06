@@ -21,3 +21,4 @@ class Node:
         print()
 
 
+list=Linked
