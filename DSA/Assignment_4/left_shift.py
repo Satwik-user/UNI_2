@@ -34,4 +34,4 @@ for i in range(n):
 print("Elemments of list:",end=' ')
 list.print_list()
 
-k=int(input(""))
+k=int(input("Enter "))
