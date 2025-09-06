@@ -25,7 +25,7 @@ class Linked_list:
         print()
 
     def del_list(self, pos):
-
+        temp=self.head
         if pos==0:
             self.head=self.head.next
             return
