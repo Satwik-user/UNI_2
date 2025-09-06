@@ -21,4 +21,4 @@ class Node:
         print()
 
 
-list=Linked
+list=Linked_list()
