@@ -42,6 +42,7 @@ list1.print_list()
 print("Original List 2:",end=' ')
 list2.print_list()
 
+#Merge Logic
 temp=list1.head
 while temp.next:
     temp=temp.next
