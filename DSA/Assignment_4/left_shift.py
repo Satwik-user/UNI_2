@@ -28,7 +28,8 @@ class Linked_list:
         for i in range(k):
             temp=self.head
             while temp.next:
-                temp=
+                temp=temp.next
+            
 
 list=Linked_list()
 
