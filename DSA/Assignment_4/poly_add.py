@@ -25,7 +25,7 @@ class Linked_list:
             temp=temp.next
 
 list1=Linked_list()
-list2-
+list2-Linked_list()
 
 n1=int(input("Enter number of nodes for 1st polynomial:"))
 for i in range(n1):
