@@ -29,7 +29,8 @@ list=Linked_list()
 
 n=int(input("Enter number of elements of 1st list:"))
 n2=int(input("Enter number of elements of 2nd list:"))
-for i in range(n):
+for i in range(n1):
     ele=int(input("Enter element:"))
     list.insert_ele(ele)
-    
+for i in range(n2):
+    ele
