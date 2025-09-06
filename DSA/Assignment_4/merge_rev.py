@@ -1,6 +1,6 @@
 class Node:
     def __init__(self, data):
-        self.daat=data
+        self.data=data
         self.next=None
 
 class Linked_list:
