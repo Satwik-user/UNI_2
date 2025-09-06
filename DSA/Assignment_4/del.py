@@ -34,7 +34,7 @@ class Linked_list:
             prev=temp
             temp=temp.next
         prev.next=temp.next
-        
+        temp=None
 
 
 list=Linked_list()
