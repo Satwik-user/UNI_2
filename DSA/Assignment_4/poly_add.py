@@ -41,7 +41,6 @@ list1.print_list()
 print("Polynomial 2:",end=' ')
 list2.print_list()
 
-# Create result linked l
 result = Linked_list()
 
 temp1 = list1.head
