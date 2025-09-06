@@ -31,7 +31,7 @@ for i in range(n):
     ele=int(input("Enter element:"))
     list.insert_ele(ele)
 
-print("Elemments of list:",end=' ')
+print("Original List:",end=' ')
 list.print_list()
 
 k=int(input("Enter no of nodes to left shift:"))
