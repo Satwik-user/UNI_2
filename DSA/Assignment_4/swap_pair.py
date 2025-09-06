@@ -37,3 +37,4 @@ list.print_list()
 
 list.swap()
 print("modified List:",end=' ')
+list.print_list()
