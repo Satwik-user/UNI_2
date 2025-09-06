@@ -17,6 +17,9 @@ class Linked_list:
             cur=cur.next
         cur.next=new_node
 
+    def print_list(self):
+        
+
 
 list=Linked_list()
 
@@ -25,4 +28,3 @@ for i in range(n):
     ele=int(input("Enter element:"))
     list.insert_ele(ele)
 
-    
