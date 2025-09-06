@@ -24,7 +24,7 @@ class Linked_list:
             print(f"Coeffiecient-{temp.coeff} Exponent-{temp.exp}",end=' ')
             temp=temp.next
 
-list=Linked_list()
+list1=Linked_list()
 
 n=int(input("Enter number of nodes:"))
 for i in range(n):
