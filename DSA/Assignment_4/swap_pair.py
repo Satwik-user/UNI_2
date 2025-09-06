@@ -24,6 +24,9 @@ class Linked_list:
             temp=temp.next
         print()
 
+    def swap(self):
+        temp=
+
     
 list=Linked_list()
 
