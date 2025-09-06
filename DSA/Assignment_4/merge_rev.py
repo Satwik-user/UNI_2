@@ -28,6 +28,7 @@ class Linked_list:
         cur=self.head
         while cur:
             next=cur.next
+            cur.next=prev
             
 
 
