@@ -26,3 +26,4 @@ class Linked_list:
 
 
 list=Linked_list()
+
