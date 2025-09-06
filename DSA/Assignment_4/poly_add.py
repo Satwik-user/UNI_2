@@ -31,6 +31,7 @@ n1=int(input("Enter number of nodes for 1st polynomial:"))
 for i in range(n1):
     coeff, exp=map(int,input("Enter coeffiecient and exponent for 1st polynomial:").split())
     list1.insert_ele(coeff, exp)
+n2=int()
 
 print("Original List:",end=' ')
 list1.print_list()
