@@ -6,3 +6,7 @@ typedef struct Node
     struct Node *prev;
     struct Node *next;
 }Node;
+int main()
+{
+    return 0;
+}
