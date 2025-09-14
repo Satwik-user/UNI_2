@@ -78,6 +78,7 @@ void del_end(Node **head)
 {
     if(*head==NULL)
     {
-        
+        printf("Empty List!");
+        return;
     }
 }
