@@ -85,5 +85,6 @@ void del_end(Node **head)
     while(temp->next)
     {
         temp=temp->next;
+        
     }
 }
