@@ -46,8 +46,8 @@ void insert_pos(Node **head, int data, int pos)
 {
     Node *newNode=createNode(data);
     Node *temp=*head;
-    while(temp && pos<0)
+    while(temp && pos>0)
     {
-        
+
     }
 }
