@@ -94,4 +94,5 @@ void del_pos(Node **head, int pos)
         del_start(head);
         return;
     }
+    
 }
