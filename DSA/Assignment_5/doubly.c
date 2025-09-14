@@ -74,3 +74,10 @@ void del_start(Node **head)
     (*head)->prev=NULL;
     free(temp);
 }
+void del_end(Node **head)
+{
+    if(*head==NULL)
+    {
+        
+    }
+}
