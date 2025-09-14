@@ -60,3 +60,7 @@ void insert_pos(Node **head, int data, int pos)
     temp->next->prev=newNode;
     temp->next=newNode;
 }
+void del_pos(Node **head, int pos)
+{
+    
+}
