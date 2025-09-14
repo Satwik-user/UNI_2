@@ -47,6 +47,7 @@ void insert_pos(Node **head, int data, int pos)
     if(pos==1)
     {
         insert_start(head, data);
+        return;
     }
     Node *newNode=createNode(data);
     Node *temp=*head;
@@ -60,7 +61,16 @@ void insert_pos(Node **head, int data, int pos)
     temp->next->prev=newNode;
     temp->next=newNode;
 }
-void del_pos(Node **head, int pos)
+void del_start(Node **head)
 {
-    
+    if(*head==NULL)
+    {
+        printf("Empty List!");
+        return;
+    }
+    Node *temp=*head;
+    *head=(*head)->next;
+    if(*head!=NULL)
+    (*head)->prev=NULL;
+    free(temp);
 }
