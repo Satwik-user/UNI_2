@@ -8,5 +8,6 @@ typedef struct Node
 }Node;
 void insert_ele(int data)
 {
+    Node *new_node=(Node *)malloc(sizeof(Node));
     
 }
