@@ -48,6 +48,6 @@ void insert_pos(Node **head, int data, int pos)
     Node *temp=*head;
     while(temp && pos>0)
     {
-
+        
     }
 }
