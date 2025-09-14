@@ -8,9 +8,9 @@ typedef struct Node
 }Node;
 Node *createNode(int data)
 {
-    Node *new_node=(Node *)malloc(sizeof(Node));
-    new_node->data=data;
-    new_node->prev=NULL;
-    new_node->next=NULL;
-    return new_node;
+    Node *newNode=(Node *)malloc(sizeof(Node));
+    newNode->data=data;
+    newNode->prev=NULL;
+    newNode->next=NULL;
+    return newNode;
 }
