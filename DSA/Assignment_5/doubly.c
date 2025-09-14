@@ -55,5 +55,5 @@ void insert_pos(Node **head, int data, int pos)
         temp=temp->next;
     }
     newNode->next=temp->next;
-    
+    newNode->prev=temp;
 }
