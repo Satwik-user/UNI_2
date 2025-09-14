@@ -38,5 +38,6 @@ void insert_start(Node* *head, int data)
         *head=newNode;
         return;
     }
+    newNode->next=*head;
     
 }
