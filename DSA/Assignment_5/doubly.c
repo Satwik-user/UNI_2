@@ -87,3 +87,7 @@ void del_end(Node **head)
     temp->prev->next=NULL;
     free(temp);
 }
+void del_pos(Node **head)
+{
+    
+}
