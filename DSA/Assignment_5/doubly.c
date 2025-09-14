@@ -40,5 +40,5 @@ void insert_start(Node* *head, int data)
     }
     newNode->next=*head;
     (*head)->prev=newNode;
-    
+    *head=newNode;
 }
