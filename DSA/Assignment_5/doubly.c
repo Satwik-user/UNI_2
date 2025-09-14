@@ -91,6 +91,7 @@ void del_pos(Node **head, int pos)
 {
     if(pos==1)
     {
-        
+        del_start(head);
+        return;
     }
 }
