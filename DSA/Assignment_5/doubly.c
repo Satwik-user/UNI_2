@@ -44,5 +44,5 @@ void insert_start(Node* *head, int data)
 }
 void insert_pos(Node **head, int data, int pos)
 {
-    
+    Node *newNode=createNode(data);
 }
