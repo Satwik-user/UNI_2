@@ -6,7 +6,7 @@ typedef struct Node
     struct Node *prev;
     struct Node *next;
 }Node;
-Node insert_ele()
+void insert_ele(int data)
 {
     
 }
