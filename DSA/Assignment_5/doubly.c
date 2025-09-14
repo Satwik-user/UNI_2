@@ -43,3 +43,6 @@ void insert_start(Node* *head, int data)
     *head=newNode;
 }
 void insert_pos(Node **head, int data, int pos)
+{
+    
+}
