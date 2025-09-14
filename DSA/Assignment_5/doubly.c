@@ -12,5 +12,5 @@ Node *createNode(int data)
     new_node->data=data;
     new_node->prev=NULL;
     new_node->next=NULL;
-
+    return new_node;
 }
