@@ -14,3 +14,7 @@ Node *createNode(int data)
     newNode->next=NULL;
     return newNode;
 }
+void insert_ele(Node **head, int data)
+{
+    
+}
