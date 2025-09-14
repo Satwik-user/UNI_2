@@ -82,7 +82,7 @@ void del_end(Node **head)
         return;
     }
     Node *temp=*head;
-    while(temp)
+    while(temp->next)
     temp=temp->next;
-    
+
 }
