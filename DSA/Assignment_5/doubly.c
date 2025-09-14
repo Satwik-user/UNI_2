@@ -44,14 +44,14 @@ void insert_start(Node* *head, int data)
 }
 void insert_pos(Node **head, int data, int pos)
 {
-    if(pos==0)
+    if(pos==1)
     {
         insert_start(head, data);
     }
     Node *newNode=createNode(data);
     Node *temp=*head;
-    while(temp && pos>0)
+    for(int i=1;temp && i<pos-1;i++)
     {
-
+        
     }
 }
