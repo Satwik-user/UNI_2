@@ -89,5 +89,8 @@ void del_end(Node **head)
 }
 void del_pos(Node **head, int pos)
 {
-    
+    if(pos==1)
+    {
+        
+    }
 }
