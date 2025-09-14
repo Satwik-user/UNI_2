@@ -6,7 +6,7 @@ typedef struct Node
     struct Node *prev;
     struct Node *next;
 }Node;
-Node *createNode(int data)
+Node* createNode(int data)
 {
     Node *newNode=(Node *)malloc(sizeof(Node));
     newNode->data=data;
@@ -14,11 +14,28 @@ Node *createNode(int data)
     newNode->next=NULL;
     return newNode;
 }
-void insert_ele(Node **head, int data)
+void insert_ele(Node* *head, int data)
 {
     Node *newNode=createNode(data);
     if(*head==NULL)
     {
-        
+        *head=newNode;
+        return;
+    }
+    Node *temp=*head;
+    while(temp->next!=NULL)
+    {
+        temp=temp->next;
+    }
+    temp->next=newNode;
+    newNode->prev=temp;
+}
+void insert_start(Node* *head, int data)
+{
+    Node *newNode=createNode(data);
+    if(*head==NULL)
+    {
+        *head=newNode;
+        return;
     }
 }
