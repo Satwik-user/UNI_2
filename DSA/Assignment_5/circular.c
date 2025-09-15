@@ -28,5 +28,6 @@ void insert_ele(Node* *head, int data)
 }
 void insert_start(Node* *head, int data)
 {
+    Node *newNode=createNode(data);
     
 }
