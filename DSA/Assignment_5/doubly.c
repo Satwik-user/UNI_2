@@ -148,9 +148,7 @@ int main()
     printf("List after insert at end:");
     print_list(head);
 
-    int del_start;
-    printf("Enter element to delete at start:");
-    scanf("%d",&del_start);
+    del_start(head);
     
     
     return 0;
