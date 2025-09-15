@@ -131,6 +131,7 @@ int main()
         scanf("%d",&data);
         insert_ele(head,data);
     }
+    print_list(head);
     
     return 0;
 }
