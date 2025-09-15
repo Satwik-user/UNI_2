@@ -151,9 +151,9 @@ int main()
     int ele, pos;
     printf("Enter element and position to insert:");
     scanf("%d %d",&ele, &pos);
-    insert_pos(head, ele, pos);
+    insert_pos(&head, ele, pos);
     printf("List after insert at position:");
-    print_list(head);
+    print_list(&head);
 
     del_start(head);
     printf("List after delete element at start:");
