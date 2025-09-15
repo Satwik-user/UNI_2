@@ -148,6 +148,13 @@ int main()
     printf("List after insert at end:");
     print_list(head);
 
+    int ele, pos;
+    printf("Enter element and position to insert:");
+    scanf("%d %d",&ele, &pos);
+    insert_pos(head, ele, pos);
+    printf("List after insert at position:");
+    print_list(head);
+
     del_start(head);
     printf("List after delete element at start:");
     print_list(head);
@@ -156,6 +163,7 @@ int main()
     printf("List after delete element at end:");
     print_list(head);
 
+    int pos;
     
     
     return 0;
