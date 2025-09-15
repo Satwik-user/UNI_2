@@ -124,10 +124,12 @@ int main()
     int n, data;
     printf("Enter no of nodes:");
     scanf("%d",&n);
+    Node *head=NULL;
     for(int i=0;i<n;i++)
     {
         printf("Enter element:");
         scanf("%d",&data);
+        insert_ele(head,data);
     }
     
     return 0;
