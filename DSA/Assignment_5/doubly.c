@@ -164,6 +164,8 @@ int main()
     print_list(head);
 
     int pos;
+    printf("Enter position to delete:");
+    scanf("%d",&pos);
     
     
     return 0;
