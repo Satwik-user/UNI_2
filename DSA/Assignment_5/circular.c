@@ -39,5 +39,6 @@ void insert_start(Node* *head, int data)
 void insert_end(Node* *head, int data)
 {
     Node *newNode=createNode(data);
+    Node *temp=*head;
     
 }
