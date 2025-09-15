@@ -45,3 +45,4 @@ void insert_end(Node* *head, int data)
     temp->next=newNode;
     newNode->next=*head;
 }
+void insert_pos()
