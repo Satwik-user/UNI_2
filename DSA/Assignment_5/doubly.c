@@ -140,6 +140,9 @@ int main()
     insert_start(head, start);
     printf("List after insert at start:");
     print_list(head);
+
+    int end;
+    printf("Enetr element to insert at end:");
     
     return 0;
 }
