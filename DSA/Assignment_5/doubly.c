@@ -144,9 +144,9 @@ int main()
     int end;
     printf("Enter element to insert at end:");
     scanf("%d",&end);
-    insert_end(head, end);
+    insert_end(&head, end);
     printf("List after insert at end:");
-    print_list(head);
+    print_list(&head);
 
     int ele, pos;
     printf("Enter element and position to insert:");
