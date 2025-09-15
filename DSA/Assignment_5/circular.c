@@ -40,5 +40,7 @@ void insert_end(Node* *head, int data)
 {
     Node *newNode=createNode(data);
     Node *temp=*head;
+    while(temp->next!=*head)
+    temp=temp->next;
     
 }
