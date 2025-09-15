@@ -142,11 +142,16 @@ int main()
     print_list(head);
 
     int end;
-    printf("Enetr element to insert at end:");
+    printf("Enter element to insert at end:");
     scanf("%d",&end);
     insert_end(head, end);
     printf("List after insert at end:");
-    print_list()
+    print_list(head);
+
+    int del_start;
+    printf("Enter element to delete at start:");
+    scanf("%d",&del_start);
+    
     
     return 0;
 }
