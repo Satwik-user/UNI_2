@@ -132,7 +132,7 @@ int main()
         insert_ele(&head,data);
     }
     printf("Original List:");
-    print_list(head);
+    print_list(&head);
     
     int start;
     printf("Enter element to insert at start:");
