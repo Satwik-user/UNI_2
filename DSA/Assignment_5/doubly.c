@@ -149,7 +149,7 @@ int main()
     print_list(head);
 
     del_start(head);
-    
+    printf("List after delete element at start:");
     
     return 0;
 }
