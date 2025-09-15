@@ -155,9 +155,9 @@ int main()
     printf("List after insert at position:");
     print_list(&head);
 
-    del_start(head);
+    del_start(&head);
     printf("List after delete element at start:");
-    print_list(head);
+    print_list(&head);
 
     del_end(head);
     printf("List after delete element at end:");
