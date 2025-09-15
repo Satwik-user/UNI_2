@@ -166,6 +166,7 @@ int main()
     int pos;
     printf("Enter position to delete:");
     scanf("%d",&pos);
+    del_pos(head, pos);
     
     
     return 0;
