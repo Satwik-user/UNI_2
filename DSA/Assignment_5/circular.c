@@ -17,6 +17,6 @@ void insert_ele(Node* *head, int data)
     if(*head==NULL)
     {
         *head=newNode;
-        (*head)->next=*head;
+        newNode->next=*head;
     }
 }
