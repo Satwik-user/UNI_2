@@ -100,5 +100,6 @@ void del_pos(Node **head, int pos)
         temp=temp->next;
     }
     temp->prev->next=temp->next;
+    temp->next->prev=temp->prev;
     
 }
