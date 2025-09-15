@@ -139,7 +139,7 @@ int main()
     scanf("%d",&start);
     insert_start(head, start);
     printf("List after insert at start:");
-    print_list(head)
+    print_list(head);
     
     return 0;
 }
