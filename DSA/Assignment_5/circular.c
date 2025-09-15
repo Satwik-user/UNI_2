@@ -46,4 +46,6 @@ void insert_end(Node* *head, int data)
     newNode->next=*head;
 }
 void insert_pos(Node* *head, int data, int pos)
-
+{
+    
+}
