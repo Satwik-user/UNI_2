@@ -121,5 +121,7 @@ void print_list(Node* *head)
 }
 int main()
 {
+    
+    
     return 0;
 }
