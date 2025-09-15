@@ -109,3 +109,7 @@ void del_pos(Node **head, int pos)
     temp->next->prev=temp->prev;
     free(temp);
 }
+void print_list(Node* *head)
+{
+    
+}
