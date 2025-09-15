@@ -99,6 +99,8 @@ void del_pos(Node **head, int pos)
     {
         temp=temp->next;
     }
+    if(temp==NULL)
+    
     temp->prev->next=temp->next;
     if(temp->next!=NULL)
     temp->next->prev=temp->prev;
