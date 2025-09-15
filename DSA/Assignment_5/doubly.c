@@ -119,3 +119,7 @@ void print_list(Node* *head)
     }
     printf("\n");
 }
+int main()
+{
+    return 0;
+}
