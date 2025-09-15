@@ -143,6 +143,10 @@ int main()
 
     int end;
     printf("Enetr element to insert at end:");
+    scanf("%d",&end);
+    insert_end(head, end);
+    printf("List after insert at end:");
+    print_list()
     
     return 0;
 }
