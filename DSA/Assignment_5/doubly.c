@@ -121,7 +121,13 @@ void print_list(Node* *head)
 }
 int main()
 {
-    
+    int n;
+    printf("Enter no of nodes:");
+    scanf("%d",&n);
+    for(int i=0;i<n;i++)
+    {
+        
+    }
     
     return 0;
 }
