@@ -134,5 +134,7 @@ int main()
     printf("Original List:");
     print_list(head);
     
+    printf("Enter element to insert at start:");
+    
     return 0;
 }
