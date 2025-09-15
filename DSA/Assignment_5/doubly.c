@@ -166,7 +166,7 @@ int main()
     int pos;
     printf("Enter position to delete:");
     scanf("%d",&pos);
-    del_pos(head, pos);
+    del_pos(&head, pos);
     printf("List after deletion at position:");
     print_list(head);
     
