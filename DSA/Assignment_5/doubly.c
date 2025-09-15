@@ -131,7 +131,7 @@ int main()
         scanf("%d",&data);
         insert_ele(head,data);
     }
-    printf("Original List:")
+    printf("Original List:");
     print_list(head);
     
     return 0;
