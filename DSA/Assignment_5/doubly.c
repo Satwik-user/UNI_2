@@ -117,4 +117,5 @@ void print_list(Node* *head)
         printf("%d ",temp->data);
         temp=temp->next;
     }
+    printf("\n");
 }
