@@ -150,6 +150,7 @@ int main()
 
     del_start(head);
     printf("List after delete element at start:");
+    print_list(head);
     
     return 0;
 }
