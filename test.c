@@ -124,7 +124,11 @@ int main()
                 display(stack);
                 break;
             case 5:
-            i
+                if(isEmpty(stack))
+                printf("Stack is empty\n");
+                else
+                printf("Stack  is not empty\n");
+                
         }
     }
     
