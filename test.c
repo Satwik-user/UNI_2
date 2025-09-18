@@ -86,6 +86,7 @@ int main()
     int capacity, choice, element;
 
     printf("Enter stack capacity: ");
+    scanf)
     
     return 0;
 }
