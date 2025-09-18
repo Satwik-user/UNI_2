@@ -116,7 +116,9 @@ int main()
                 printf("Top element:%d\n",element);
                 break;
             case 3:
-            
+                element=peek(stack);
+                if(element!=-1)
+                printf("Top element:%d\n",element);
         }
     }
     
