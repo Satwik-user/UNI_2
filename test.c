@@ -121,7 +121,7 @@ int main()
                 printf("Top element:%d\n",element);
                 break;
             case 4:
-            
+                
         }
     }
     
