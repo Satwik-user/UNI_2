@@ -142,6 +142,7 @@ int main()
                 free_stack(stack);
                 printf("Existing...\n");
                 exit(0);
+            default:
             
 
         }
