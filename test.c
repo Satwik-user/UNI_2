@@ -115,6 +115,8 @@ int main()
                 if(element!=-1)
                 printf("Top element:%d\n",element);
                 break;
+            case 3:
+            
         }
     }
     
