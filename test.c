@@ -114,7 +114,7 @@ int main()
                 element=pop(stack);
                 if(element!=-1)
                 printf("Top element:%d\n",element);
-                
+                break;
         }
     }
     
