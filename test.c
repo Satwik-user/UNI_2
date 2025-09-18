@@ -72,3 +72,4 @@ void display(Stack *stack)
     }
     printf("\n");
 }
+int sixe(Stack *stack)
