@@ -81,3 +81,7 @@ void free_stack(Stack *stack)
     free(stack->arr);
     free(stack);
 }
+int main()
+{
+    return 0
+}
