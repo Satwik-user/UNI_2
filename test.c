@@ -106,7 +106,8 @@ int main()
         switch(choice)
         {
             case 1:
-            
+                printf("Enter element to push: ");
+                
         }
     }
     
