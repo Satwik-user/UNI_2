@@ -60,5 +60,8 @@ void display(Stack *stack)
 }
 void display(Stack *stack)
 {
-    
+    if(isEmpty(stack))
+    {
+        
+    }
 }
