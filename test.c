@@ -70,4 +70,5 @@ void display(Stack *stack)
     {
         printf("%d ",stack->arr[i]);
     }
+    printf("\n");
 }
