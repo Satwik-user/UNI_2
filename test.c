@@ -138,7 +138,7 @@ int main()
             case 7:
                 printf("Stack size: %d\n",size(stack));
                 break;
-                
+                cas
         }
     }
     
