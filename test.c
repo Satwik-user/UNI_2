@@ -143,7 +143,7 @@ int main()
                 printf("Existing...\n");
                 exit(0);
             default:
-            
+                printf("Invalid choice!\n");
 
         }
     }
