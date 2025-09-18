@@ -111,7 +111,8 @@ int main()
                 push(stack, element);
                 break;
             case 2:
-            
+                element=pop(stack);
+                
         }
     }
     
