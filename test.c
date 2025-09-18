@@ -139,7 +139,8 @@ int main()
                 printf("Stack size: %d\n",size(stack));
                 break;
             case 8:
-            free_stack(stack)
+            free_stack(stack);
+            printf("Existing...\n")exit
         }
     }
     
