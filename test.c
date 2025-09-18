@@ -66,4 +66,8 @@ void display(Stack *stack)
         return;
     }
     printf("Stack elements:");
+    for(int i=stack->top; i>=0;i--)
+    {
+        printf("%d ",stack->arr[i]);
+    }
 }
