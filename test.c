@@ -76,3 +76,4 @@ int sixe(Stack *stack)
 {
     return stack->top+1;
 }
+void f
