@@ -91,7 +91,23 @@ int main()
 
     while(1)
     {
-        
+        printf("\n--- Stack Operations ---\n");
+        printf("1. Push\n");
+        printf("2. Pop\n");
+        printf("3. Peek/Top\n");
+        printf("4. Check if Empty\n");
+        printf("5. Check if Empty\n");
+        printf("6. Check if Full\n");
+        printf("7. Size\n");
+        printf("8. Exit\n");
+        printf("Enter your choice: ");
+        scanf("%d",&choice);
+
+        switch(choice)
+        {
+            case 1:
+            
+        }
     }
     
     return 0;
