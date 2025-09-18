@@ -65,4 +65,5 @@ void display(Stack *stack)
         printf("Stack is empty\n");
         return;
     }
+    printf("Stack elements:");
 }
