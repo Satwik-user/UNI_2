@@ -123,7 +123,8 @@ int main()
             case 4:
                 display(stack);
                 break;
-                
+            case 5:
+            i
         }
     }
     
