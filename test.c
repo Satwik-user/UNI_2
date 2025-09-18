@@ -134,6 +134,8 @@ int main()
                 printf("Stack is full\n");
                 else
                 printf("Stack is not full\n");
+                break;
+                
         }
     }
     
