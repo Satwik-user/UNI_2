@@ -88,7 +88,11 @@ int main()
     printf("Enter stack capacity: ");
     scanf("%d",&capacity);
     Stack *stack=create_stack(capacity);
-    
+
+    while(1)
+    {
+        
+    }
     
     return 0;
 }
