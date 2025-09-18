@@ -131,7 +131,7 @@ int main()
                 break;
             case 8:
                 free_stack(stack);
-                printf("Existing...\n");
+                printf("Exiting...\n");
                 exit(0);
             default:
                 printf("Invalid choice!\n");
