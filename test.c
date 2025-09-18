@@ -83,5 +83,7 @@ void free_stack(Stack *stack)
 }
 int main()
 {
-    return 0
+    
+    
+    return 0;
 }
