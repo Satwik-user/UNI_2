@@ -129,6 +129,8 @@ int main()
                 else
                 printf("Stack  is not empty\n");
                 break;
+            case 6:
+                
         }
     }
     
