@@ -76,4 +76,8 @@ int sixe(Stack *stack)
 {
     return stack->top+1;
 }
-void f
+void free_stack(Stack *stack)
+{
+    free(stack->arr);
+    free(stack);
+}
