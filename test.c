@@ -130,7 +130,10 @@ int main()
                 printf("Stack  is not empty\n");
                 break;
             case 6:
-                
+                if(isFull(stack))
+                printf("Stack is full\n");
+                else
+                printf("Stack is not full\n");
         }
     }
     
