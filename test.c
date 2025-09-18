@@ -107,7 +107,11 @@ int main()
         {
             case 1:
                 printf("Enter element to push: ");
-                
+                scanf("%d",&element);
+                push(stack, element);
+                break;
+            case 2:
+            
         }
     }
     
