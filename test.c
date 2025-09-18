@@ -135,6 +135,7 @@ int main()
                 else
                 printf("Stack is not full\n");
                 break;
+            case 7:
                 
         }
     }
