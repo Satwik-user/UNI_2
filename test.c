@@ -58,3 +58,5 @@ void display(Stack *stack)
     }
     return stack->arr[stack->top];
 }
+void display(Stack *stack)
+{}
