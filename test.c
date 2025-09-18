@@ -141,7 +141,7 @@ int main()
             case 8:
             free_stack(stack);
             printf("Existing...\n");
-            
+            exit(0);
         }
     }
     
