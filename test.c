@@ -86,7 +86,8 @@ int main()
     int capacity, choice, element;
 
     printf("Enter stack capacity: ");
-    scanf)
+    scanf("%d",&capacity);
+    Stack *stack=create_stack(capacity)
     
     return 0;
 }
