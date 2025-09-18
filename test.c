@@ -54,15 +54,6 @@ void display(Stack *stack)
     if(isEmpty(stack))
     {
         printf("Stack is empty\n");
-        return -1;
-    }
-    return stack->arr[stack->top];
-}
-void display(Stack *stack)
-{
-    if(isEmpty(stack))
-    {
-        printf("Stack is empty\n");
         return;
     }
     printf("Stack elements:");
