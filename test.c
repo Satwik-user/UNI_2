@@ -83,7 +83,9 @@ void free_stack(Stack *stack)
 }
 int main()
 {
-    
+    int capacity, choice, element;
+
+    printf("Enter stack capacity: ");
     
     return 0;
 }
