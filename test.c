@@ -73,3 +73,6 @@ void display(Stack *stack)
     printf("\n");
 }
 int sixe(Stack *stack)
+{
+    return stack->top+1;
+}
