@@ -51,3 +51,6 @@ void insert_pos(Node* *head, int data, int pos)
 }
 
 void del_start(Node* *head)
+{
+    
+}
