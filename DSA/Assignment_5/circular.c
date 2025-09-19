@@ -57,5 +57,5 @@ void del_start(Node* *head)
         printf("Empty List!");
         return;
     }
-    
+    Node *temp=(*head)->next;
 }
