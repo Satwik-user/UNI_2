@@ -58,4 +58,6 @@ void del_start(Node* *head)
         return;
     }
     Node *temp=(*head)->next;
+    free(head);
+    
 }
