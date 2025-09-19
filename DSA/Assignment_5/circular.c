@@ -65,3 +65,12 @@ void del_start(Node* *head)
     *head=(*head)->next;
     free(del);
 }
+
+void del_end(Node* *head)
+{
+    if(*head==NULL)
+    {
+        printf("Empty list!");
+        return;
+    }
+}
