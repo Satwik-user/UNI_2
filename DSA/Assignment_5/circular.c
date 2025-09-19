@@ -57,6 +57,8 @@ void del_start(Node* *head)
         printf("Empty List!");
         return;
     }
-    Node *temp=(*head)->next;
+    Node *temp=*head;
+    while(temp->next!=*head)
+    temp=temp->next;
     
 }
