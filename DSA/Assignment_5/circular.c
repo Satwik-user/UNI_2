@@ -62,5 +62,6 @@ void del_start(Node* *head)
     temp=temp->next;
     temp->next=(*head)->next;
     Node *del=*head;
-    
+    *head=(*head)->next;
+    free(del);
 }
