@@ -49,3 +49,5 @@ void insert_pos(Node* *head, int data, int pos)
     newNode->next=temp->next;
     temp->next=newNode;
 }
+
+void del
