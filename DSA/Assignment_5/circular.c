@@ -77,7 +77,8 @@ void del_end(Node* *head)
     Node *prev=NULL;
     while(temp->next!=*head)
     {
+        prev=temp;
         temp=temp->next;
     }
-
+    
 }
