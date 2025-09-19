@@ -73,4 +73,5 @@ void del_end(Node* *head)
         printf("Empty list!");
         return;
     }
+    
 }
