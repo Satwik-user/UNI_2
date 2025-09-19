@@ -50,4 +50,4 @@ void insert_pos(Node* *head, int data, int pos)
     temp->next=newNode;
 }
 
-void del
+void del_start
