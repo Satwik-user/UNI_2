@@ -156,6 +156,7 @@ int main()
     int ele, pos;
     printf("Enter element and position to insert:");
     scanf("%d",&ele, &pos);
+    insert_pos(&head, ele, pos);
     
     
     return 0;
