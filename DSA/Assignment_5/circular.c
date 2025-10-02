@@ -163,7 +163,7 @@ int main()
     printf("List after deletion at end");
     print_list(&head);
 
-    //Deleetion
+    //Deletion of eleemnt at 
     
     return 0;
 }
