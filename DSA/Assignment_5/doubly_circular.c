@@ -154,8 +154,8 @@ int main()
 
     //Insertion of element at specific position
     int ele, pos;
-    printf("%d",&ele, &pos);
-    
+    scanf("%d",&ele, &pos);
+
     
     return 0;
 }
