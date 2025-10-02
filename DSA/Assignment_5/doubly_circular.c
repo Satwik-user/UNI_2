@@ -125,7 +125,7 @@ int main()
     int n,data;
     printf("Enter number of nodes:");
     scanf("%d",&n);
-    
+    for(int i=0;i)
     
     return 0;
 }
