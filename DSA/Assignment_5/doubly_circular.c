@@ -41,3 +41,8 @@ void insert_start(Node* *head, int data)
     newNode->next=*head;
     *head=newNode;
 }
+
+void insert_pos(Node* *head, int data, int pos)
+{
+    
+}
