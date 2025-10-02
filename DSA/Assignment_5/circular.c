@@ -105,5 +105,6 @@ void del_pos(Node* *head, int pos)
 
 void print_list(Node* *head)
 {
+    Node *temp=*head;
     
 }
