@@ -39,7 +39,7 @@ void insert_start(Node* *head, int data)
     while(temp->next==*head)
     temp=temp->next;
     temp->next=newNode;
-    
+    newNode->prev=temp;
     newNode->next=*head;
     *head=newNode;
 }
