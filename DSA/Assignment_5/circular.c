@@ -158,6 +158,8 @@ int main()
     printf("List after deletion at start:");
     print_list(&head);
 
+    //Deletion of element at end
+    del_end(&head);
     
     
     return 0;
