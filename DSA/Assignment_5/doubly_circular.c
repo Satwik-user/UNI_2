@@ -101,5 +101,8 @@ void del_pos(Node* *head, int pos)
         del_start(*head);
         return;
     }
-    
+    Node *temp=*head;
+    for(int i=1;i<pos;i++)
+    temp=temp->next;
+
 }
