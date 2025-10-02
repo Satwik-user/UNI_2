@@ -127,6 +127,8 @@ int main()
     scanf("%d",&n);
     for(int i=0;i<n;i++)
     {
+        printf("Enter element:");
+        scanf("%d",&data);
         
     }
     
