@@ -151,6 +151,9 @@ int main()
     scanf("%d %d",&ele, &pos);
     insert_pos(&head, ele, pos);
     printf("List after insertion at position:");
+    print_list(&head);
+
+    /
     
     return 0;
 }
