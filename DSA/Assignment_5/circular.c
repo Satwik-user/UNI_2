@@ -140,6 +140,10 @@ int main()
     //Insertion of element at end
     int end;
     printf("Enter elemnent to insert a t end:");
+    scanf("%d",&end);
+    insert_end(&head, end);
+    printf("List after insertion at end:");
+    
     
     return 0;
 }
