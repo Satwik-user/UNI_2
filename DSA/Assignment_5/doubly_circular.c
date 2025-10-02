@@ -62,7 +62,7 @@ void insert_pos(Node* *head, int data, int pos)
     temp->prev=newNode;
 }
 
-void delete_start(Node* *head)
+void del_start(Node* *head)
 {
     if(*head==NULL)
     {
@@ -78,3 +78,6 @@ void delete_start(Node* *head)
     *head=(*head)->next;
     free(del);
 }
+
+void del_end(Node* *head)
+{}
