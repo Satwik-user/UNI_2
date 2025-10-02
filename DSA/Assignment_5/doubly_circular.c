@@ -166,6 +166,8 @@ int main()
     print_list(&head);
 
     //Deletion of element at end
+    del_end(&head);
+    printf("List after deletion at end");
     
     return 0;
 }
