@@ -69,5 +69,6 @@ void delete_start(Node* *head)
         printf("Empty List!");
         return;
     }
+    Node *old_head=*head;
     
 }
