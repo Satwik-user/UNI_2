@@ -140,7 +140,7 @@ int main()
     int start;
     printf("Enter element to insert at start:");
     scanf("%d",&start);
-    
+    insert_start(&head, start)
     
     return 0;
 }
