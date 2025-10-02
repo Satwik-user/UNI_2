@@ -136,6 +136,10 @@ int main()
     insert_start(&head, start);
     printf("List after insertion at start:");
     print_list(&head);
+
+    //Insertion of element at end
+    int end;
+    
     
     return 0;
 }
