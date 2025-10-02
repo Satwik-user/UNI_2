@@ -164,7 +164,7 @@ int main()
     printf("List after deletion at end");
     print_list(&head);
 
-    //Deletion of eleemnt at specific position
+    //Deletion of element at specific position
     printf("Enter position to delete:");
     scanf("%d",&pos);
     del_pos(&head, pos);
