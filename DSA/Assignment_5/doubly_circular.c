@@ -70,5 +70,5 @@ void delete_start(Node* *head)
         return;
     }
     Node *old_head=*head;
-    
+    *head=(*head)->next;
 }
