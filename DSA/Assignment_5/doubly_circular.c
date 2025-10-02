@@ -152,7 +152,10 @@ int main()
     printf("List after insertion at end:");
     print_list(&head);
 
-    //Insertion of element at specific posti
+    //Insertion of element at specific position
+    int ele, pos;
+    printf("%d",&ele, &pos);
+    
     
     return 0;
 }
