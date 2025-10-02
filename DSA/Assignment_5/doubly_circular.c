@@ -144,9 +144,7 @@ int main()
     printf("List after insertion at start:");
     print_list(&head);
 
-    //Insertion of element at specific position
-    int ele, pos;
-    
+    //Insertion of element at ")
     
     return 0;
 }
