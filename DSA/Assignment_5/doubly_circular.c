@@ -173,7 +173,9 @@ int main()
     //Deletion of eleemnt at specific position
     printf("Enter postion of element to delete:");
     scanf("%d",&pos);
-    
+    del_pos(&head, pos);
+    printf("List after deleetion at position:");
+    print_list(&head);
     
     return 0;
 }
