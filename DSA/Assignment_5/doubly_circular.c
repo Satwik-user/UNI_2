@@ -160,7 +160,7 @@ int main()
     printf("List after insertion at position:");
     print_list(&head);
 
-    //Insertion a
+    //Deletion of
     
     return 0;
 }
