@@ -27,5 +27,6 @@ void insert_ele(Node* *head, int data)
     Node *temp=*head;
     while(temp->next==*head)
     temp=temp->next;
+    temp->next=newNode;
     
 }
