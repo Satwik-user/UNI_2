@@ -70,5 +70,7 @@ void delete_start(Node* *head)
         return;
     }
     Node *temp=*head;
+    while(temp->next==*head)
+    temp=temp->next;
     
 }
