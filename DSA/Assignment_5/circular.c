@@ -131,7 +131,9 @@ int main()
 
     //Insertion of element at start
     int start;
-    printf("Enter element to insesrt at start:")
+    printf("Enter element to insesrt at start:");
+    scanf("%d",&start);
+    
     
     return 0;
 }
