@@ -98,5 +98,5 @@ void del_pos(Node* *head, int pos)
         prev=temp;
         temp=temp->next;
     }
-    n
+    Node *next=t
 }
