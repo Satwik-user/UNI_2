@@ -91,5 +91,5 @@ void del_end(Node* *head)
     temp=temp->next;
     temp->prev->next=temp->next;
     temp->next->prev=temp->prev;
-    
+    free(temp);
 }
