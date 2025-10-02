@@ -129,7 +129,7 @@ int main()
     printf("Original List:");
     print_list(&head);
 
-    //
+    //Insertt
     
     return 0;
 }
