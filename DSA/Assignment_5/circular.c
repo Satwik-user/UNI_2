@@ -113,6 +113,7 @@ void print_list(Node* *head)
     }
     printf("%d \n",temp->data);
 }
+
 int main()
 {
     //Formation of Linked List
