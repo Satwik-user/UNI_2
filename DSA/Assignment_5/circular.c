@@ -153,7 +153,8 @@ int main()
     printf("List after insertion at position:");
     print_list(&head);
 
-    //Deletion of element 
+    //Deletion of element at start
+    del
     
     return 0;
 }
