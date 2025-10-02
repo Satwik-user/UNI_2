@@ -122,7 +122,7 @@ void print_list(Node* *head)
 }
 int main()
 {
-    //A
+    //Formation of d
     int n, data;
     printf("Enter no of nodes:");
     scanf("%d",&n);
