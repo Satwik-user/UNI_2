@@ -123,7 +123,7 @@ void print_list(Node* *head)
 int main()
 {
     //Formation of Linked List
-    int n,data;
+    int n, data;
     printf("Enter number of nodes:");
     scanf("%d",&n);
     Node *head=NULL;
@@ -146,7 +146,7 @@ int main()
 
     //Insertion of element at specific position
     int ele, pos;
-    
+
     
     return 0;
 }
