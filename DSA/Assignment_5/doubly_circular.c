@@ -168,7 +168,7 @@ int main()
     //Deletion of element at end
     del_end(&head);
     printf("List after deletion at end");
-    
+    print_list(&head);
     
     return 0;
 }
