@@ -75,5 +75,6 @@ void delete_start(Node* *head)
     temp->next=(*head)->next;
     (*head)->prev=temp;
     Node *del=*head;
-    
+    *head=(*head)->next;
+    free(del);
 }
