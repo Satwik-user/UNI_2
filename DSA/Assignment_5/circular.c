@@ -141,7 +141,7 @@ int main()
     int end;
     printf("Enter elemnent to insert a t end:");
     scanf("%d",&end);
-    insert_end(&head, end);
+    insert_ele(&head, end);
     printf("List after insertion at end:");
     print_list(&head);
 
