@@ -146,6 +146,8 @@ int main()
     print_list(&head);
 
     //Insertion of element at specific position
+    int ele, pos;
+    
     
     return 0;
 }
