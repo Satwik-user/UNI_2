@@ -169,5 +169,6 @@ int main()
     del_end(&head);
     printf("List after deletion at end");
     
+    
     return 0;
 }
