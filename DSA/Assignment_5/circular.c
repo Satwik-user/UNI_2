@@ -130,6 +130,8 @@ int main()
     print_list(&head);
 
     //Insertion of element at start
+    int start;
+    
     
     return 0;
 }
