@@ -80,5 +80,26 @@ void del_end(Node* *head)
         prev=temp;
         temp=temp->next;
     }
+    free(temp);
+    prev->next=*head;
+}
+
+void del_pos(Node* *head, int pos)
+{
+    if(pos==1)
+    {
+        del_start(head);
+        return;
+    }
+    Node *temp=*head;
+    for(int i=1;i<=pos;i++)
+    {
+        if(temp->next==*head)
+        {
+            printf("Invalid Position!");
+            return;
+        }
+        temp=temp->next;
+    }
     
 }
