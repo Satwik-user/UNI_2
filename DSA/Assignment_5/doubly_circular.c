@@ -42,7 +42,7 @@ void insert_start(Node* *head, int data)
     temp->next=newNode;
     newNode->prev=temp;
     newNode->next=*head;
-    (*head)->prev=
+    (*head)->prev=newNode;
     *head=newNode;
 }
 
