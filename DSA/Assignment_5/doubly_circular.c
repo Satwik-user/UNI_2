@@ -140,7 +140,11 @@ int main()
     int start;
     printf("Enter element to insert at start:");
     scanf("%d",&start);
-    insert_start(&head, start)
+    insert_start(&head, start);
+    printf("List after insertion at start:");
+    print_list(&head);
+
+    
     
     return 0;
 }
