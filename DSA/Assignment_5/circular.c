@@ -129,7 +129,7 @@ int main()
     printf("Original List:");
     print_list(&head);
 
-    //Insertion of 
+    //Insertion of element at start
     
     return 0;
 }
