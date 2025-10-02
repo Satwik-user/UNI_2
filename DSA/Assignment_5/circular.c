@@ -126,6 +126,7 @@ int main()
         insert_ele(&head, data);
     }
     printf("Original List:");
+    print_list(&head);
     
     
     return 0;
