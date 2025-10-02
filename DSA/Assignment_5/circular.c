@@ -99,5 +99,6 @@ void del_pos(Node* *head, int pos)
         temp=temp->next;
     }
     Node *next=temp->next;
+    free(temp);
     
 }
