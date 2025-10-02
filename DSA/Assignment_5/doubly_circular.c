@@ -157,7 +157,8 @@ int main()
     printf("Enter element and position to insert:");
     scanf("%d",&ele, &pos);
     insert_pos(&head, ele, pos);
-    printf("List after insertion at position:")
+    printf("List after insertion at position:");
+    print_list(&head);
     
     return 0;
 }
