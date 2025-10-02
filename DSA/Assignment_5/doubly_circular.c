@@ -144,7 +144,12 @@ int main()
     printf("List after insertion at start:");
     print_list(&head);
 
-    //Insertion of element at ")
+    //Insertion of element at end
+    int end;
+    printf("Enetr element to insert at end:");
+    scanf("%d",&end);
+    insert_ele(&head, end);
+    
     
     return 0;
 }
