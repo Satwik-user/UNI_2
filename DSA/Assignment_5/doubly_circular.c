@@ -161,6 +161,7 @@ int main()
     print_list(&head);
 
     //Deletion of element at start
+    del_start(&head);
     
     
     return 0;
