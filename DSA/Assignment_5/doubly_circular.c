@@ -30,3 +30,8 @@ void insert_ele(Node* *head, int data)
     temp->next=newNode;
     newNode->next=*head;
 }
+
+void insert_start(Node* *head, int data)
+{
+    
+}
