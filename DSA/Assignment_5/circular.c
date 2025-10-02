@@ -153,7 +153,7 @@ int main()
     printf("List after insertion at position:");
     print_list(&head);
 
-    /
+    //
     
     return 0;
 }
