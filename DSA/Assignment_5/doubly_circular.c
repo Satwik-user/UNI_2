@@ -61,3 +61,8 @@ void insert_pos(Node* *head, int data, int pos)
     newNode->next=temp;
     temp->prev=newNode;
 }
+
+void delete_start(Node* *head)
+{
+    
+}
