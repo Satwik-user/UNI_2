@@ -143,7 +143,7 @@ int main()
     scanf("%d",&end);
     insert_end(&head, end);
     printf("List after insertion at end:");
-    
+    print_list(&head);
     
     return 0;
 }
