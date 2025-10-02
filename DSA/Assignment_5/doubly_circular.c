@@ -108,3 +108,14 @@ void del_pos(Node* *head, int pos)
     temp->next->prev=temp->prev;
     free(temp);
 }
+
+void print_list(Node* *head)
+{
+    Node *temp=*head;
+    while(temp->next==*head)
+    {
+        printf("%d ",temp->data);
+        temp=temp->next;
+    }
+    printf("%d\n",temp->data);
+}
