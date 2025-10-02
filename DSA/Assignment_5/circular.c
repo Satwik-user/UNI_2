@@ -115,7 +115,7 @@ void print_list(Node* *head)
 }
 int main()
 {
-    //
+    //Formation of 
     int n, data;
     printf("Enter number of nodes:");
     scanf("%d",&n);
