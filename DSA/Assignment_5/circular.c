@@ -92,9 +92,10 @@ void del_pos(Node* *head, int pos)
         return;
     }
     Node *temp=*head;
+    Node *prev=NULL;
     for(int i=1;i<pos;i++)
     {
+        prev=
         temp=temp->next;
-        
     }
 }
