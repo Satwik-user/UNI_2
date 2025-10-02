@@ -80,4 +80,10 @@ void del_start(Node* *head)
 }
 
 void del_end(Node* *head)
-{}
+{
+    if(*head==NULL)
+    {
+        printf("Empty List!");
+        return;
+    }
+}
