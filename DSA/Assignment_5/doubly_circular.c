@@ -48,5 +48,5 @@ void insert_pos(Node* *head, int data, int pos)
     Node *temp=*head;
     for(int i=1;i<pos;i++)
     temp=temp->next;
-
+    
 }
