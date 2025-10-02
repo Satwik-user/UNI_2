@@ -145,7 +145,7 @@ int main()
     printf("List after insertion at end:");
     print_list(&head);
 
-    //Insertion at sp
+    //Insertion of element
     
     return 0;
 }
