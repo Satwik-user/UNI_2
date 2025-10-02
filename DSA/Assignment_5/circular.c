@@ -133,6 +133,7 @@ int main()
     int start;
     printf("Enter element to insesrt at start:");
     scanf("%d",&start);
+    insert_start(&head, start);
     
     
     return 0;
