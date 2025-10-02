@@ -103,4 +103,5 @@ void del_pos(Node* *head, int pos)
     prev->next=next;
 }
 
-void print_list()
+void print_list(Node* *head)
+{}
