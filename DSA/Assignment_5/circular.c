@@ -144,6 +144,8 @@ int main()
     insert_end(&head, end);
     printf("List after insertion at end:");
     print_list(&head);
+
+    //Inserti
     
     return 0;
 }
