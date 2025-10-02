@@ -122,7 +122,7 @@ void print_list(Node* *head)
 }
 int main()
 {
-    //Formation of the linked list
+    //Formation of the Linked List
     int n, data;
     printf("Enter no of nodes:");
     scanf("%d",&n);
