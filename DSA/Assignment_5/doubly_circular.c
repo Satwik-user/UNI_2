@@ -28,6 +28,7 @@ void insert_ele(Node* *head, int data)
     while(temp->next==*head)
     temp=temp->next;
     temp->next=newNode;
+    newNode->prev=
     newNode->next=*head;
 }
 
@@ -53,5 +54,5 @@ void insert_pos(Node* *head, int data, int pos)
     Node *temp=*head;
     for(int i=1;i<pos;i++)
     temp=temp->next;
-    
+
 }
