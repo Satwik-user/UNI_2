@@ -125,7 +125,8 @@ int main()
         scanf("%d",&data);
         insert_ele(&head, data);
     }
-    printf("Original List:")
+    printf("Original List:");
+    
     
     return 0;
 }
