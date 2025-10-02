@@ -160,7 +160,8 @@ int main()
     printf("List after insertion at position:");
     print_list(&head);
 
-    //Deletion of
+    //Deletion of element at start
+    
     
     return 0;
 }
