@@ -64,5 +64,10 @@ void insert_pos(Node* *head, int data, int pos)
 
 void delete_start(Node* *head)
 {
+    if(*head==NULL)
+    {
+        printf("Empty List!");
+        return;
+    }
     
 }
