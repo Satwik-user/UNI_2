@@ -149,6 +149,7 @@ int main()
     printf("Enetr element to insert at end:");
     scanf("%d",&end);
     insert_ele(&head, end);
+    printf("List after insertion at end:");
     
     
     return 0;
