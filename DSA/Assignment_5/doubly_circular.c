@@ -22,6 +22,7 @@ void insert_ele(Node* *head, int data)
     {
         *head=newNode;
         newNode->next=*head;
+        return;
     }
     
 }
