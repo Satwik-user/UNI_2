@@ -170,7 +170,7 @@ int main()
     printf("List after delete element at end:");
     print_list(&head);
 
-    //Deletion of e
+    //Deletion of element 
     printf("Enter position to delete:");
     scanf("%d",&pos);
     del_pos(&head, pos);
