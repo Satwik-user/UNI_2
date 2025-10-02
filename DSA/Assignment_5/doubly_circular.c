@@ -150,7 +150,9 @@ int main()
     scanf("%d",&end);
     insert_ele(&head, end);
     printf("List after insertion at end:");
-    
+    print_list(&head);
+
+    //
     
     return 0;
 }
