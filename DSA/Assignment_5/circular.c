@@ -156,7 +156,9 @@ int main()
     //Deletion of element at start
     del_start(&head);
     printf("List after deletion at start:");
-     
+    print_list(&head);
+
+    
     
     return 0;
 }
