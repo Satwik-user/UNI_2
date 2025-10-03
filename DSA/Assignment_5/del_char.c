@@ -71,10 +71,12 @@ int main()
     }
     printf("Original List:");
     print_list(&head);
-    
+
     printf("Enter element to delete:");
     scanf("%d",&ele);
     del(&head, ele);
+    printf("List after character deletion:");
+    print_list(&head);
     
     return 0;
 }
