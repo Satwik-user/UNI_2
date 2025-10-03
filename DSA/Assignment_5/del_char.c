@@ -59,7 +59,7 @@ void del(Node* *head, int ele)
 
 int main()
 {
-    int n, data;
+    int n, data, ele;
     printf("Enter number of nodes:");
     scanf("%d",&n);
     Node *head=NULL;
