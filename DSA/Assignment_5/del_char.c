@@ -40,3 +40,8 @@ Node *search(Node* *head, int ele)
         temp=temp->next;
     }
 }
+
+int mian()
+{
+    return 0;
+}
