@@ -69,7 +69,8 @@ int main()
         scanf("%d",&data);
         insert_ele(&head, data);
     }
-    printf("Enter element to delete:")
+    printf("Enter element to delete:");
+    scanf("%d",&ele);
     
     return 0;
 }
