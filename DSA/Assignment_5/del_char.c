@@ -57,6 +57,11 @@ void del(Node* *head, int ele)
     }
 }
 
+void print_list(Node* *head)
+{
+    
+}
+
 int main()
 {
     int n, data, ele;
