@@ -72,5 +72,6 @@ int main()
     printf("Enter element to delete:");
     scanf("%d",&ele);
     
+    
     return 0;
 }
