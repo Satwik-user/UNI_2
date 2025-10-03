@@ -36,8 +36,13 @@ void del(Node* *head, int ele)
     while(temp)
     {
         if(temp->data==ele)
-        return temp;
+        break;
         temp=temp->next;
+    }
+    if(temp->next==NULL)
+    {
+        printf("Element not in list!");
+        return;
     }
     
 }
