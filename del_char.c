@@ -9,5 +9,5 @@ typedef struct Node
 
 Node *createNode(int data)
 {
-    
+    Node *newNode=(Node *)malloc(sizeof(Node))
 }
