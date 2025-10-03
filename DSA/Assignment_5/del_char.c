@@ -44,6 +44,10 @@ void del(Node* *head, int ele)
         printf("Element not in list!");
         return;
     }
+    else if(temp->next==NULL)
+    {
+        
+    }
     else
     {
         temp->prev->next=temp->next;
