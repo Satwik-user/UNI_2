@@ -46,12 +46,14 @@ void del(Node* *head, int ele)
     }
     else if(temp->next==NULL)
     {
+        temp->prev->next=NULL;
         
     }
     else
     {
         temp->prev->next=temp->next;
         temp->next->prev=temp->prev;
+        free(temp);
     }
 }
 
