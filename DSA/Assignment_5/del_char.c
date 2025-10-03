@@ -59,7 +59,7 @@ void del(Node* *head, int ele)
 
 int mian()
 {
-
+    
     
     return 0;
 }
