@@ -46,7 +46,8 @@ void del(Node* *head, int ele)
     }
     else
     {
-        
+        temp->prev->next=temp->next;
+        temp->next->prev=temp->prev;
     }
 }
 
