@@ -44,7 +44,10 @@ void del(Node* *head, int ele)
         printf("Element not in list!");
         return;
     }
-    else{}
+    else
+    {
+        
+    }
 }
 
 int mian()
