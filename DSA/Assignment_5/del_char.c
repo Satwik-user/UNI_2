@@ -67,6 +67,7 @@ int mian()
     {
         printf("Enter element:");
         scanf("%d",&data);
+        insert_ele(&head, data);
         
     }
     
