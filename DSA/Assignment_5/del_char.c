@@ -47,7 +47,7 @@ void del(Node* *head, int ele)
     else if(temp->next==NULL)
     {
         temp->prev->next=NULL;
-        
+        free(temp);
     }
     else
     {
