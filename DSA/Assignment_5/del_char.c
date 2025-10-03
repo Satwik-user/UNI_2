@@ -30,7 +30,7 @@ void insert_ele(Node* *head, int data)
     newNode->prev=temp;
 }
 
-Node *search(Node* *head, int ele)
+void del(Node* *head, int ele)
 {
     Node *temp=*head;
     while(temp)
@@ -39,6 +39,7 @@ Node *search(Node* *head, int ele)
         return temp;
         temp=temp->next;
     }
+    
 }
 
 int mian()
