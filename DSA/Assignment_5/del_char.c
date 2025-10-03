@@ -43,5 +43,7 @@ Node *search(Node* *head, int ele)
 
 int mian()
 {
+
+    
     return 0;
 }
