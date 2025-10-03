@@ -69,6 +69,7 @@ int main()
         scanf("%d",&data);
         insert_ele(&head, data);
     }
+    printf("Original List:")
     printf("Enter element to delete:");
     scanf("%d",&ele);
     del(&head, ele);
