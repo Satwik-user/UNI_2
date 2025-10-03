@@ -59,7 +59,9 @@ void del(Node* *head, int ele)
 
 int mian()
 {
-    
+    int n, data;
+    printf("Enter number of nodes:");
+    scanf("%d",&n);
     
     return 0;
 }
