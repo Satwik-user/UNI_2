@@ -59,7 +59,9 @@ void del(Node* *head, int ele)
 
 void print_list(Node* *head)
 {
-    
+    Node *temp=*head;
+    while(temp)
+    {}
 }
 
 int main()
