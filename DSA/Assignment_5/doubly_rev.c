@@ -71,7 +71,9 @@ int main()
         insert_ele(&head, data);
     }
     printf("Original List:");
-    print_list()
+    print_list(&head);
+
+    rev(&head);
     
     return 0;
 }
