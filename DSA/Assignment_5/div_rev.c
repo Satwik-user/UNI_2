@@ -92,7 +92,7 @@ int main()
         scanf("%d",&data);
         insert_ele(&head, data);
     }
-    
+     Node
     
     return 0;
 }
