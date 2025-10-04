@@ -64,7 +64,12 @@ int main()
     printf("Enter number of nodes:");
     scanf("%d",&n);
     Node *head=NULL;
-    
+    for(int i=0;i<n;i++)
+    {
+        printf("Enter element:");
+        scnaf("%d",&data);
+        
+    }
     
     return 0;
 }
