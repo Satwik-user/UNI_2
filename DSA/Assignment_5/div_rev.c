@@ -51,6 +51,6 @@ void div(Node* *head, int len)
 
     for(int i=1;i<=br;i++)
     {
-
+        
     }
 }
