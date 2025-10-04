@@ -41,4 +41,7 @@ void print_ele(Node* *head)
     printf("\n");
 }
 
-v
+void div(Node* *head)
+{
+    
+}
