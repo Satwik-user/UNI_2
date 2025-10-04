@@ -38,5 +38,5 @@ void print_ele(Node* *head)
         printf("%d ",temp->data);
         temp=temp->next;
     }
-    
+    printf("\n");
 }
