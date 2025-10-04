@@ -109,6 +109,8 @@ int main()
     rev(&head_2);
     join(&head_1, &head_2);
     
-    printf("List after operations:")    
+    printf("List after operations:");
+    print_list(&head_1);
+    
     return 0;
 }
