@@ -41,7 +41,7 @@ void print_ele(Node* *head)
     printf("\n");
 }
 
-Node *div(Node* *head, int len)
+Node *div(Node* *head, int len, Node* *head_1, Node* *head_2)
 {
     int br;
     if(len%2==0)
@@ -50,8 +50,7 @@ Node *div(Node* *head, int len)
     br=(len/2)+1;
 
     Node *temp=*head;
-    Node *head_1=NULL;
-    Node *head_2=NULL;
+
     for(int i=1;i<=br;i++)
     {
         insert_ele(&head_1, temp->data);
@@ -62,17 +61,21 @@ Node *div(Node* *head, int len)
         insert_ele(&head_2, temp->data);
         temp=temp->next;
     }
-    return head_1, head_2;
 }
 
 void rev(Node* *head)
 {
+    if(*head==NULL) return;
     Node *temp=*head;
+    Node *last=NULL;
     while(temp)
     {
         Node *swap=temp->next;
         temp->next=temp->prev;
         temp->prev=swap;
+
+        last=temp;
+        temp=swap;
     }
-    
+    *head=last;
 }
