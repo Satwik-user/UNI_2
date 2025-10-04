@@ -52,7 +52,5 @@ void div(Node* *head, int len)
     Node *temp=*head;
     Node *head_1=NULL;
     for(int i=1;i<=br;i++)
-    {
-        
-    }
+    insert_ele(&head_1, temp->data);
 }
