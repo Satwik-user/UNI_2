@@ -49,8 +49,9 @@ void div(Node* *head, int len)
     else
     br=(len/2)+1;
 
+    
     for(int i=1;i<=br;i++)
     {
-        Node *head_1=NULL;
+        
     }
 }
