@@ -65,3 +65,4 @@ Node *div(Node* *head, int len)
     return head_1, head_2;
 }
 
+void rev(Node* *head, Node* *head_1, Node* *head_2)
