@@ -48,4 +48,6 @@ void div(Node* *head, int len)
     br=len/2;
     else
     br=(len/2)+1;
+
+    
 }
