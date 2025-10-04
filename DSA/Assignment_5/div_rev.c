@@ -30,7 +30,7 @@ void insert_ele(Node* *head, int data)
     newNode->prev=temp;
 }
 
-void print_ele(Node* *head)
+void print_list(Node* *head)
 {
     Node *temp=*head;
     while(temp)
