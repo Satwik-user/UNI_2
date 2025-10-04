@@ -68,7 +68,6 @@ Node *div(Node* *head, int len)
 void rev(Node* *head)
 {
     Node *temp=*head;
-    
     while(temp)
     {
         
