@@ -41,3 +41,7 @@ void print_list(Node* *head)
     printf("\n");
 }
 
+void rev(Node* *head)
+{
+    
+}
