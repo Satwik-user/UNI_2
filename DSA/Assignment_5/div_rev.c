@@ -85,7 +85,9 @@ int main()
     int n, data;
     printf("Enter number of nodes:");
     scanf("%d",&n);
-    
+    Node *head=NULL;
+    for(int i=0;i<n;i++)
+    }
     
     return 0;
 }
