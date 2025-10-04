@@ -74,4 +74,5 @@ void rev(Node* *head)
         temp->next=temp->prev;
         temp->prev=swap;
     }
+    
 }
