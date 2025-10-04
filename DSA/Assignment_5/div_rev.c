@@ -41,7 +41,7 @@ void print_list(Node* *head)
     printf("\n");
 }
 
-Node *div(Node* *head, int len, Node* *head_1, Node* *head_2)
+void div(Node* *head, int len, Node* *head_1, Node* *head_2)
 {
     int br;
     if(len%2==0)
