@@ -7,6 +7,7 @@ typedef struct Node
     struct Node *next;
 }Node;
 
+Node *createNode(Node* *head)
 
 
 void insert_ele(Node* *head, int data)
