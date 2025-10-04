@@ -93,7 +93,7 @@ int main()
         insert_ele(&head, data);
     }
     
-    Node *head_1=NULL, *head_2=NULL; 
+    Node *head_1=NULL, *head_2=NULL;
     
     
     return 0;
