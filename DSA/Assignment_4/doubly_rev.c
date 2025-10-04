@@ -8,7 +8,9 @@ typedef struct Node
 }Node;
 
 Node *createNode(Node* *head)
-
+{
+    
+}
 
 void insert_ele(Node* *head, int data)
 {
