@@ -64,3 +64,4 @@ Node *div(Node* *head, int len)
     }
     return head_1, head_2;
 }
+
