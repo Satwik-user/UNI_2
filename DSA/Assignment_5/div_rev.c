@@ -43,5 +43,8 @@ void print_ele(Node* *head)
 
 void div(Node* *head, int len)
 {
-    
+    if(len%2==0)
+    {
+        
+    }
 }
