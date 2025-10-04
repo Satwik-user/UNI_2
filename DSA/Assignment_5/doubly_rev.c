@@ -43,5 +43,5 @@ void print_list(Node* *head)
 
 void rev(Node* *head)
 {
-    
+    Node *temp=*head;
 }
