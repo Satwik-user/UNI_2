@@ -100,6 +100,8 @@ int main()
         scanf("%d",&data);
         insert_ele(&head, data);
     }
+    printf("Original List:");
+    print_list(&head);
     
     Node *head_1=NULL, *head_2=NULL;
     div(&head, n, &head_1, &head_2);
