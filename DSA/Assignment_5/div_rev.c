@@ -92,7 +92,8 @@ int main()
         scanf("%d",&data);
         insert_ele(&head, data);
     }
-     Node
+    
+    Node *head_1=NULL, *head_2=NULL; 
     
     return 0;
 }
