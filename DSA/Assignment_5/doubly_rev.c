@@ -74,6 +74,8 @@ int main()
     print_list(&head);
 
     rev(&head);
+    printf("Reversed List:");
+    print_list(&head);
     
     return 0;
 }
