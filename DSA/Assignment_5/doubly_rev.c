@@ -32,5 +32,10 @@ void insert_ele(Node* *head, int data)
 
 void print_list(Node* *head)
 {
-    
+    Node *temp=*head;
+    while(temp)
+    {
+        printf("%d ",temp->data);
+        temp=temp->next;
+    }
 }
