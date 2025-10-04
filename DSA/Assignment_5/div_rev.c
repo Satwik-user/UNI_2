@@ -62,4 +62,5 @@ void div(Node* *head, int len)
         insert_ele(&head_2, temp->data);
         temp=temp->next;
     }
+    return head_1, head_2;
 }
