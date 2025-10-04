@@ -29,6 +29,19 @@ TreeNode* insertInBST(TreeNode* root, int data) {
         root->right = insertInBST(root->right, data);
     }
     
+
+
+
+
+
+
+
+
+
+
+
+
+    
     return root;
 }
 
