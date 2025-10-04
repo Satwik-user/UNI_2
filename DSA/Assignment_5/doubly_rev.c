@@ -68,8 +68,9 @@ int main()
     {
         printf("Enter element:");
         scanf("%d",&data);
-        insert_ele(&head)
+        insert_ele(&head, data);
     }
+    
     
     return 0;
 }
