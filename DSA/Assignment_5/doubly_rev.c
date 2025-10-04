@@ -24,5 +24,5 @@ void insert_ele(Node* *head, int data)
         *head=newNode;
         return;
     }
-    
+    Node *temp=*head;
 }
