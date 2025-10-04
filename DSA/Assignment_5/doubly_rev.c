@@ -29,3 +29,8 @@ void insert_ele(Node* *head, int data)
     temp=temp->next;
     temp->next=newNode;
 }
+
+void print_list(Node* *head)
+{
+    
+}
