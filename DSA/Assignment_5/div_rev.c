@@ -70,6 +70,6 @@ void rev(Node* *head)
     Node *temp=*head;
     while(temp)
     {
-        
+        if
     }
 }
