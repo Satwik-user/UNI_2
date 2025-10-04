@@ -53,6 +53,6 @@ void rev(Node* *head)
         temp->prev=swap;
 
         last=temp;
-        
+        temp=temp->prev;
     }
 }
