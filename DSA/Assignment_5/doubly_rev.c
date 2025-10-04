@@ -61,6 +61,8 @@ void rev(Node* *head)
 int main()
 {
     int n, data;
+    printf("Enter number of nodes:");
+    scanf("%d",&n);
     
     
     return 0;
