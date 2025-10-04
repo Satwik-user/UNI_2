@@ -51,7 +51,14 @@ void div(Node* *head, int len)
 
     Node *temp=*head;
     Node *head_1=NULL;
+    Node *head_2=NULL;
     for(int i=1;i<=br;i++)
-    insert_ele(&head_1, temp->data);
-    
+    {
+        insert_ele(&head_1, temp->data);
+        temp=temp->next;
+    }
+    for(int i=br+1;i<=len;i++)
+    {
+        
+    }
 }
