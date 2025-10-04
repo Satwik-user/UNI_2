@@ -41,7 +41,7 @@ void print_ele(Node* *head)
     printf("\n");
 }
 
-void div(Node* *head, int len)
+Node *div(Node* *head, int len)
 {
     int br;
     if(len%2==0)
