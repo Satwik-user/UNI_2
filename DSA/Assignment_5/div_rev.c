@@ -79,3 +79,10 @@ void rev(Node* *head)
     }
     *head=last;
 }
+
+int main()
+{
+    
+    
+    return 0;
+}
