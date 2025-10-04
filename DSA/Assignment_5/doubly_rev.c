@@ -45,6 +45,7 @@ void rev(Node* *head)
 {
     if(*head==NULL) return;
     Node *temp=*head;
+    Node *last=NULL;
     while(temp)
     {
         
