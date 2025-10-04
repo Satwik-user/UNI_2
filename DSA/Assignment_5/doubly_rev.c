@@ -43,5 +43,10 @@ void print_list(Node* *head)
 
 void rev(Node* *head)
 {
+    if(*head==NULL) return;
     Node *temp=*head;
+    while(temp)
+    {
+        
+    }
 }
