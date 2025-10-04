@@ -55,4 +55,6 @@ void rev(Node* *head)
         last=temp;
         temp=temp->prev;
     }
+    *head=last;
 }
+
