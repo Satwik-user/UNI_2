@@ -104,5 +104,6 @@ int main()
     Node *head_1=NULL, *head_2=NULL;
     div(&head, n, &head_1, &head_2);
     
+    
     return 0;
 }
