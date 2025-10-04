@@ -85,7 +85,7 @@ void join(Node* *head_1, Node* *head_2)
     Node *temp=*head_1;
     while(temp->next!=NULL)
     temp=temp->next;
-    
+    temp->next=*head_2;
 }
 
 int main()
