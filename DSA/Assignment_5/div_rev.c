@@ -32,5 +32,11 @@ void insert_ele(Node* *head, int data)
 
 void print_ele(Node* *head)
 {
-    Node *temp=*
+    Node *temp=*head;
+    while(temp)
+    {
+        printf("%d ",temp->data);
+        temp=temp->next;
+    }
+    
 }
