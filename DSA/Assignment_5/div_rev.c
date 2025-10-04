@@ -80,6 +80,11 @@ void rev(Node* *head)
     *head=last;
 }
 
+void join(Node* *head_1, Node* *head_2)
+{
+    
+}
+
 int main()
 {
     int n, data;
@@ -94,7 +99,7 @@ int main()
     }
     
     Node *head_1=NULL, *head_2=NULL;
-    
+
     
     return 0;
 }
