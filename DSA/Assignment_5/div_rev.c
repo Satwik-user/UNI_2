@@ -90,7 +90,7 @@ int main()
     {
         printf("ENter element:");
         scanf("%d",&data);
-        
+        insert_ele(&head,)
     }
     
     return 0;
