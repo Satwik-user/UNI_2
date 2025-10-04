@@ -32,5 +32,5 @@ void insert_ele(Node* *head, int data)
 
 void print_ele(Node* *head)
 {
-    
+    Node *temp=*
 }
