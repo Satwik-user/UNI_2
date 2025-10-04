@@ -88,6 +88,8 @@ int main()
     Node *head=NULL;
     for(int i=0;i<n;i++)
     {
+        printf("ENter element:");
+        scanf("%d",&data);
         
     }
     
