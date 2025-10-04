@@ -70,6 +70,8 @@ void rev(Node* *head)
     Node *temp=*head;
     while(temp)
     {
+        Node *swap=temp->next;
+        temp->next=temp->prev;
         
     }
 }
