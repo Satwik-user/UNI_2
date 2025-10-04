@@ -9,7 +9,10 @@ typedef struct Node
 
 Node *createNode(Node* *head)
 {
-    
+    Node *newNode=(Node *)malloc(sizeof(Node));
+    newNode->data=data;
+    newNode->prev=NULL;
+    newNode->next=NULL;
 }
 
 void insert_ele(Node* *head, int data)
