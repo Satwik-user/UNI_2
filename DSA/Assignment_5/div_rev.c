@@ -66,3 +66,6 @@ Node *div(Node* *head, int len)
 }
 
 void rev(Node* *head, Node* *head_1, Node* *head_2)
+{
+    
+}
