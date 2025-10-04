@@ -19,5 +19,8 @@ Node *createNode(int data)
 void insert_ele(Node* *head, int data)
 {
     Node *newNode=createNode(data);
-    
+    if(*head==NULL)
+    {
+        
+    }
 }
