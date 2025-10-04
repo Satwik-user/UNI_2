@@ -48,6 +48,11 @@ void rev(Node* *head)
     Node *last=NULL;
     while(temp)
     {
+        Node *swap=temp->next;
+        temp->next=temp->prev;
+        temp->prev=swap;
+
+        last=temp;
         
     }
 }
