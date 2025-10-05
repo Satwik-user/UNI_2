@@ -58,5 +58,8 @@ int peek(Stack *stack)
 
 void print_stack(Stack *stack)
 {
-    
+    if(isEmpty(stack))
+    {
+        
+    }
 }
