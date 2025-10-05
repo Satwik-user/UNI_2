@@ -91,5 +91,10 @@ int isClose(Stack *stack)
         printf("Stack is empty!");
         return;
     }
-    for(it )
+    for(int i=stack->top;i>=0;i--)
+    {
+        if(stack->arr[i]==')')
+        c++;
+    }
+    return c;
 }
