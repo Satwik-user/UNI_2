@@ -28,5 +28,8 @@ int isEmpty(Stack *stack)
 
 void push(Stack *stack)
 {
-    
+    if(isFull(stack))
+    {
+        printf("Overflow!")
+    }
 }
