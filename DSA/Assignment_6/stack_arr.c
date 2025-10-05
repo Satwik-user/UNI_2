@@ -36,7 +36,7 @@ void push(Stack *stack, int ele)
     stack->arr[++stack->top]=ele;
 }
 
-void pop(Stack *stack)
+int pop(Stack *stack)
 {
     if(isEmpty(stack))
     {
