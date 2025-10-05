@@ -82,7 +82,9 @@ void print_stack(node* *stack)
 int main()
 {
     int n;
-    printf("Enter size of stack")
+    printf("Enter size of stack:");
+    scanf("%d",&n);
+    
     
     return 0;
 }
