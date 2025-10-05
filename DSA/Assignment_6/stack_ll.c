@@ -32,3 +32,5 @@ void del_head(node* *head)
     *head=(*head)->next;
     free(temp);
 }
+
+//S
