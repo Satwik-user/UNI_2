@@ -110,7 +110,7 @@ int main()
     for(int i=0;i<n;i++)
     {
         printf("Enter expression elements:");
-        scanf("%d",&ele);
+        scanf("%c",&ele);
         push(&stack, ele);
     }
     printf("Original Stack:\n");
