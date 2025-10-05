@@ -80,5 +80,6 @@ int main()
         push(stack, ele);
     }
     
+    
     return 0;
 }
