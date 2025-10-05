@@ -43,5 +43,5 @@ int pop(Stack *stack)
         printf("Stack underflow!");
         return;
     }
-    
+    stack->arr[stack->top--];
 }
