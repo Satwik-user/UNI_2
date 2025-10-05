@@ -83,7 +83,7 @@ int main()
     print_stack(stack);
 
     //pop top element of stack
-    
+    pop(stack);
     
     return 0;
 }
