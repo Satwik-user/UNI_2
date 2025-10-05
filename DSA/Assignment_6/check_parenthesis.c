@@ -83,7 +83,7 @@ int noOfOpen(Stack *stack)
     return c;
 }
 
-int isClose(Stack *stack)
+int NoClose(Stack *stack)
 {
     int c=0;
     if(isEmpty(stack))
