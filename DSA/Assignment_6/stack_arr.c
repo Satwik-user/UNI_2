@@ -45,3 +45,8 @@ void pop(Stack *stack)
     }
     stack->arr[stack->top --];
 }
+
+int peek(Stack *stack)
+{
+    
+}
