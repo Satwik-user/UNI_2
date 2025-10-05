@@ -69,6 +69,9 @@ void print_stack(Stack *stack)
 
 int main()
 {
+    int n;
+    printf("Enter size of stack:");
+    scanf("%d",&n);
     
     
     return 0;
