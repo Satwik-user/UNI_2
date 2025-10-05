@@ -82,3 +82,12 @@ int isOpen(Stack *stack)
     }
     return c;
 }
+
+int isClose(Stack *stack)
+{
+    int c=0;
+    if(isEmpty(stack))
+    {
+
+    }
+}
