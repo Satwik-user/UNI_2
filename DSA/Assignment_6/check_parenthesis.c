@@ -7,3 +7,7 @@ typedef struct Stack
     int *arr;
 }stack;
 
+stack *createStack(int data)
+{
+    
+}
