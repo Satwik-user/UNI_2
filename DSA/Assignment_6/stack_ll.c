@@ -59,5 +59,6 @@ int peek(node* *stack)
     if(isEmpty(stack))
     {
         printf("Stack underflow!");
+        return -1
     }
 }
