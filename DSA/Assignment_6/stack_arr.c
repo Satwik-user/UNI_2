@@ -26,12 +26,12 @@ int isEmpty(Stack *stack)
     return stack->top==-1;
 }
 
-void push(Stack *stack)
+void push(Stack *stack, int ele)
 {
     if(isFull(stack))
     {
         printf("Overflow!\n");
         return;
     }
-    
+    stack->arr[stack->top++]=ele;
 }
