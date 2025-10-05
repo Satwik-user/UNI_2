@@ -30,7 +30,7 @@ void push(Stack *stack, int data)
 {
     if(isFull(stack))
     {
-        printf("Stack overflow!");
+        printf("Stack overflow!\n");
         return;
     }
     stack->arr[++stack->top]=data;
@@ -40,7 +40,7 @@ int pop(Stack *stack)
 {
     if(isEmpty(stack))
     {
-        printf("Stack underflow!");
+        printf("Stack underflow!\n");
         return -1;
     }
     return stack->arr[stack->top--];
@@ -50,7 +50,7 @@ int peek(Stack *stack)
 {
     if(isEmpty(stack))
     {
-        printf("Stack underrflow!");
+        printf("Stack is empty!\n");
         return -1;
     }
     return stack->arr[stack->top];
@@ -58,5 +58,8 @@ int peek(Stack *stack)
 
 void print_stack(Stack *stack)
 {
-    
+    if(isEmpty(stack))
+    {
+        
+    }
 }
