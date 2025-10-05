@@ -96,6 +96,8 @@ int main()
 
     //pop top element of stack
     pop(&stack);
+
+    //peek top element
     
     return 0;
 }
