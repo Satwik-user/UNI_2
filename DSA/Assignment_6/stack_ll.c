@@ -39,7 +39,7 @@ int isEmpty(node* *stack)
     return *stack==NULL;
 }
 
-void push(node* *stack)
+void push(node* *stack, int data)
 {
-    
+
 }
