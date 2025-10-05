@@ -7,7 +7,8 @@ typedef struct Stack
     int *arr;
 }stack;
 
-stack *createStack(int data)
+stack *createStack(int cap)
 {
+    stack *newStack=(stack *)malloc(sizeof(stack));
     
 }
