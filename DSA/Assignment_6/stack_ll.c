@@ -71,5 +71,5 @@ void print_stack(node* *stack)
         printf("Stack underflow!");
         return;
     }
-    
+    node *temp=*stack;
 }
