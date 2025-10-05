@@ -119,7 +119,7 @@ int main()
     printf("Original Stack:\n");
     print_stack(stack);
 
-    if(noOfOpen)
+    if(noOfOpen(stack))
     
     return 0;
 }
