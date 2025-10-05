@@ -54,3 +54,7 @@ int pop(node* *stack)
     del_head(stack);
 }
 
+int peek(node* *stack)
+{
+    
+}
