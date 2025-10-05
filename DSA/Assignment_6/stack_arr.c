@@ -33,7 +33,7 @@ void push(Stack *stack, int ele)
         printf("Overflow!\n");
         return;
     }
-    stack->arr[stack->top++]=ele;
+    stack->arr[stack->top]=ele;
 }
 
 void pop(Stack *stack)
