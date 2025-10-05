@@ -74,5 +74,6 @@ int main()
     scanf("%d",&n);
     Stack *stack=createStack(n);
     
+    
     return 0;
 }
