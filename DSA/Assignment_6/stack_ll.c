@@ -56,5 +56,8 @@ int pop(node* *stack)
 
 int peek(node* *stack)
 {
-    
+    if(isEmpty(stack))
+    {
+        
+    }
 }
