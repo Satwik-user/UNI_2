@@ -43,7 +43,7 @@ int pop(Stack *stack)
         printf("Underflow!\n");
         return;
     }
-    stack->arr[stack->top --];
+    return stack->arr[stack->top --];
 }
 
 int peek(Stack *stack)
