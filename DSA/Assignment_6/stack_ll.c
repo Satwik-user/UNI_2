@@ -53,3 +53,4 @@ int pop(node* *stack)
     }
     del_head(stack);
 }
+
