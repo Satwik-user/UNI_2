@@ -64,3 +64,7 @@ int peek(node* *stack)
     return (*stack)->data;
 }
 
+void print_stack(node* *stack)
+{
+    
+}
