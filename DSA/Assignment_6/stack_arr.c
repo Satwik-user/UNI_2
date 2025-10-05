@@ -84,7 +84,8 @@ int main()
 
     //pop top element of stack
     printf("Popped element from stack:%d",pop(stack));
-    
+
+    //
     
     return 0;
 }
