@@ -33,4 +33,4 @@ void del_head(node* *head)
     free(temp);
 }
 
-//S
+//Stack implementation
