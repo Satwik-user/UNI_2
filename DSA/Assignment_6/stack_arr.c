@@ -16,3 +16,7 @@ Stack *createStack(int cap)
     return stack;
 }
 
+int isFull(Stack *stack)
+{
+    
+}
