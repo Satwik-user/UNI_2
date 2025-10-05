@@ -69,6 +69,7 @@ void print_stack(Stack *stack)
 
 int isOpen(Stack *stack)
 {
+    int c=0;
     if(isEmpty(stack))
     {
         printf("Stack is empty!");
@@ -76,8 +77,8 @@ int isOpen(Stack *stack)
     }
     for(int i=stack->top;i>=0;i--)
     {
-        int c=0;
         if(stack->arr[i]=='(')
         c++;
     }
+    return c;
 }
