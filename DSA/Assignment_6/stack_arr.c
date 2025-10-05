@@ -69,11 +69,16 @@ void print_stack(Stack *stack)
 
 int main()
 {
-    int n;
+    int n, ele;
     printf("Enter size of stack:");
     scanf("%d",&n);
     Stack *stack=createStack(n);
-    
+    for(int i=0;i<n;i++)
+    {
+        printf("Enter elements of stack:");
+        scanf("%d",&ele);
+        
+    }
     
     return 0;
 }
