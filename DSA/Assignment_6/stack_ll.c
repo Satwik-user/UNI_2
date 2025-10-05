@@ -36,5 +36,5 @@ void del_head(node* *head)
 //Stack implementation
 int isEmpty(node* *stack)
 {
-    
+    return *stack==NULL;
 }
