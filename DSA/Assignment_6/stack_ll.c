@@ -28,5 +28,6 @@ void insert_ele(node* *head, int data)
 
 void del_head(node* *head)
 {
+    node *temp=*head;
     
 }
