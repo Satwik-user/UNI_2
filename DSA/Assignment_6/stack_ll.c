@@ -25,3 +25,8 @@ void insert_ele(node* *head, int data)
     newNode->next=*head;
     *head=newNode;
 }
+
+void del_head(node* *head)
+{
+    
+}
