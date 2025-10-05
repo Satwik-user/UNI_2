@@ -51,5 +51,5 @@ int pop(node* *stack)
         printf("Stack underflow!");
         return -1;
     }
-    
+    del_head(stack);
 }
