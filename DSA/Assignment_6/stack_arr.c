@@ -81,6 +81,8 @@ int main()
     }
     printf("Original Stack:");
     print_stack(stack);
+
+    
     
     return 0;
 }
