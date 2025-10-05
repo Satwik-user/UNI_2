@@ -82,6 +82,7 @@ int main()
     printf("Original Stack:");
     print_stack(stack);
 
+    //pop top element of stack
     
     
     return 0;
