@@ -46,5 +46,9 @@ void push(node* *stack, int data)
 
 int pop(node* *stack)
 {
-    
+    if(isEmpty(stack))
+    {
+        printf("Stack underflow!");
+        return;
+    }
 }
