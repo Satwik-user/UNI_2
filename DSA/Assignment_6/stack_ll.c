@@ -94,7 +94,7 @@ int main()
     printf("Original Stack:\n");
     print_stack(&stack);
 
-    
+    //pop top element
     
     return 0;
 }
