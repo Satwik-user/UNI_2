@@ -64,7 +64,5 @@ void print_stack(Stack *stack)
         return;
     }
     for(int i=stack->top;i>=0;i--)
-    {
-        
-    }
+    printf("%d\n",stack->arr[i]);
 }
