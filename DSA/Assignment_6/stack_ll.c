@@ -8,5 +8,6 @@ typedef struct Node
 
 node *createNode(int data)
 {
+    node *newNode=(node *)malloc(sizeof(node));
     
 }
