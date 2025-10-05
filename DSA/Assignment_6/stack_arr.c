@@ -72,7 +72,7 @@ int main()
     int n;
     printf("Enter size of stack:");
     scanf("%d",&n);
-    
+    Stack *stack=createStack(n);
     
     return 0;
 }
