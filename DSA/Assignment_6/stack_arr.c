@@ -83,9 +83,12 @@ int main()
     print_stack(stack);
 
     //pop top element of stack
-    printf("Popped element from stack:%d",pop(stack));
+    printf("Popped element from stack:%d\n",pop(stack));
 
-    //peek top
+    //peek top element of stack
+    printf("Current top element of stack:%d\n",peek(stack));
+
+    //print
     
     return 0;
 }
