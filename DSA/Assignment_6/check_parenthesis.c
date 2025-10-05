@@ -5,12 +5,18 @@ typedef struct Stack
     int top;
     int cap;
     int *arr;
-}stack;
+}Stack;
 
-stack *createStack(int cap)
+Stack *createStack(int cap)
 {
-    stack *newStack=(stack *)malloc(sizeof(stack));
-    newStack->cap=cap;
-    newStack->top=-1;
-    newStack->arr=(int *)malloc(cap*sizeof(int));
+    Stack *stack=(Stack *)malloc(sizeof(Stack));
+    stack->cap=cap;
+    stack->top=-1;
+    stack->arr=(int *)malloc(cap*sizeof(int));
+    return stack;
+}
+
+int isFull(Stack *stack)
+{
+    return stack->top==stack->cap-1;
 }
