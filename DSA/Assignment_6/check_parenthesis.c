@@ -67,7 +67,7 @@ void print_stack(Stack *stack)
     printf("%d\n",stack->arr[i]);
 }
 
-int isOpen(Stack *stack)
+int noOfOpen(Stack *stack)
 {
     int c=0;
     if(isEmpty(stack))
