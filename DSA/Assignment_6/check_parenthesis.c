@@ -119,7 +119,10 @@ int main()
     printf("Original Stack:\n");
     print_stack(stack);
 
-    if(noOfOpen(stack))
+    if(noOfOpen(stack)==noOfClose(stack))
+    printf("Equal number of parentheses\n");
+    else
+    printf("Non equal number of parentheses\n");
     
     return 0;
 }
