@@ -105,7 +105,7 @@ int main()
 {
     int n, ele;
     printf("Enter size of stack:");
-    scanf("%c",&n);
+    scanf("%d",&n);
     Stack *stack=createStack(n);
     for(int i=0;i<n;i++)
     {
