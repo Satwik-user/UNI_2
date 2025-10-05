@@ -35,3 +35,4 @@ void push(Stack *stack, int data)
     }
     stack->arr[++stack->top]=data;
 }
+
