@@ -49,7 +49,7 @@ int pop(node* *stack)
     if(isEmpty(stack))
     {
         printf("Stack underflow!");
-        return;
+        return -1;
     }
-    
+
 }
