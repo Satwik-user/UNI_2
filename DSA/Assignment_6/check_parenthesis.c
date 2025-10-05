@@ -69,5 +69,9 @@ void print_stack(Stack *stack)
 
 int isOpen(Stack *stack)
 {
-    
+    if(isEmpty(stack))
+    {
+        printf("Stack is empty!");
+        
+    }
 }
