@@ -95,7 +95,7 @@ int main()
     print_stack(&stack);
 
     //pop top element of stack
-    pop(&stack);
+    printf("Popped top element:%d\n",pop(&stack));
 
     //peek top element
     
