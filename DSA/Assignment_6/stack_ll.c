@@ -51,4 +51,5 @@ int pop(node* *stack)
         printf("Stack underflow!");
         return;
     }
+    
 }
