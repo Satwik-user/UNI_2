@@ -79,3 +79,10 @@ void print_stack(node* *stack)
     }
 }
 
+int main()
+{
+    int n;
+    
+    
+    return 0;
+}
