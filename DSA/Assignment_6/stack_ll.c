@@ -72,4 +72,8 @@ void print_stack(node* *stack)
         return;
     }
     node *temp=*stack;
+    while(temp)
+    {
+        printf("%d\n",temp->data)
+    }
 }
