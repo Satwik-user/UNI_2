@@ -88,6 +88,7 @@ int isClose(Stack *stack)
     int c=0;
     if(isEmpty(stack))
     {
-
+        printf("Stack is empty!");
+        return;
     }
 }
