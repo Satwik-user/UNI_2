@@ -100,7 +100,7 @@ int main()
     //peek top element of stack
     printf("Top element of stack:%d\n",peek(&stack));
 
-    //p
+    //
     
     return 0;
 }
