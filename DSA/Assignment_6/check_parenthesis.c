@@ -75,10 +75,12 @@ int noOfOpen(Stack *stack)
         printf("Stack is empty!");
         return;
     }
-    for(int i=stack->top;i>=0;i--)
+    int top=stack->top;
+    while(stack->top!=-1)
     {
-        if(stack->arr[i]=='(')
+        if(peek(stack)=='(')
         c++;
+        top--;
     }
     return c;
 }
@@ -113,8 +115,6 @@ int main()
     }
     printf("Original Stack:\n");
     print_stack(&stack);
-
-    
     
     return 0;
 }
