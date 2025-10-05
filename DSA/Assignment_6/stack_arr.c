@@ -13,4 +13,5 @@ Stack *createStack(int cap)
     newStack->cap=cap;
     newStack->top=-1;
     newStack->arr=(int *)malloc(cap*sizeof(int));
+    return newStack;
 }
