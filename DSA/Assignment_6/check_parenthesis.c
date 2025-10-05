@@ -43,4 +43,5 @@ int pop(Stack *stack)
         printf("Stack underflow!");
         return;
     }
+    
 }
