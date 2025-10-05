@@ -4,7 +4,7 @@ typedef struct Stack
 {
     int top;
     int cap;
-    int *arr;
+    char *arr;
 }Stack;
 
 Stack *createStack(int cap)
@@ -12,7 +12,7 @@ Stack *createStack(int cap)
     Stack *stack=(Stack *)malloc(sizeof(Stack));
     stack->cap=cap;
     stack->top=-1;
-    stack->arr=(int *)malloc(cap*sizeof(int));
+    stack->arr=(char *)malloc(cap*sizeof(char));
     return stack;
 }
 
@@ -26,14 +26,14 @@ int isEmpty(Stack *stack)
     return stack->top==-1;
 }
 
-void push(Stack *stack, int data)
+void push(Stack *stack, char ele)
 {
     if(isFull(stack))
     {
         printf("Stack overflow!\n");
         return;
     }
-    stack->arr[++stack->top]=data;
+    stack->arr[++stack->top]=ele;
 }
 
 int pop(Stack *stack)
@@ -72,6 +72,12 @@ int isOpen(Stack *stack)
     if(isEmpty(stack))
     {
         printf("Stack is empty!");
-        
+        return;
+    }
+    for(int i=stack->top;i>=0;i--)
+    {
+        int c=0;
+        if(stack->arr[i]=='(')
+        c++;
     }
 }
