@@ -79,7 +79,7 @@ int main()
         scanf("%d",&ele);
         push(stack, ele);
     }
-    
+    printf("Original Stack:")
     
     return 0;
 }
