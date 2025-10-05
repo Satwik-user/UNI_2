@@ -76,7 +76,7 @@ int noOfOpen(Stack *stack)
         return;
     }
     int top=stack->top;
-    while(stack->top!=-1)
+    while(top!=-1)
     {
         if(peek(stack)=='(')
         c++;
