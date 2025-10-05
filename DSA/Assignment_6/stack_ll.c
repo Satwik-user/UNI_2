@@ -93,5 +93,6 @@ int main()
     }
     printf("Original Stack:\n");
     
+    
     return 0;
 }
