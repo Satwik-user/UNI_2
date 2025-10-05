@@ -51,5 +51,7 @@ int peek(Stack *stack)
     if(isEmpty(stack))
     {
         printf("Stack is empty!\n");
+        return;
     }
+    
 }
