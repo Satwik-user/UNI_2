@@ -102,7 +102,7 @@ int main()
 
     //print whole stack
     printf("Modified Stack:\n");
-    print_stack()
+    print_stack(&stack);
     
     return 0;
 }
