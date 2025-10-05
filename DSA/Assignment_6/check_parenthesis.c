@@ -63,5 +63,8 @@ void print_stack(Stack *stack)
         printf("Stack is empty!");
         return;
     }
-    
+    for(int i=stack->top;i>=0;i--)
+    {
+        
+    }
 }
