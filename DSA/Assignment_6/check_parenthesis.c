@@ -67,7 +67,7 @@ void print_stack(Stack *stack)
     printf("%d\n",stack->arr[i]);
 }
 
-int main()
+int isOpen(Stack *stack)
 {
     
 }
