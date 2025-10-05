@@ -116,6 +116,8 @@ int main()
     }
     printf("Original Stack:\n");
     print_stack(stack);
+
+    
     
     return 0;
 }
