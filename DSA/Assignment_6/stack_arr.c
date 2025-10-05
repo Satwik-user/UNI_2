@@ -10,5 +10,6 @@ typedef struct Stack
 Stack *createStack(int cap)
 {
     Stack *newStack=(Stack *)malloc(sizeof(Stack));
+    newStack->cap=cap;
     
 }
