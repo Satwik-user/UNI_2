@@ -90,7 +90,7 @@ int main()
 
     //print whole stack
     printf("Modified Stack:");
-    print_stack(stack)
+    print_stack(stack);
     
     return 0;
 }
