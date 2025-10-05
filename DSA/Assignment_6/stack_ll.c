@@ -41,5 +41,5 @@ int isEmpty(node* *stack)
 
 void push(node* *stack, int data)
 {
-
+    
 }
