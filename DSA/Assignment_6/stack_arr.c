@@ -18,5 +18,5 @@ Stack *createStack(int cap)
 
 int isFull(Stack *stack)
 {
-    
+    return stack->top==stack->cap-1;
 }
