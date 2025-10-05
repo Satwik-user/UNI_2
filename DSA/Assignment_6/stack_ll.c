@@ -61,5 +61,6 @@ int peek(node* *stack)
         printf("Stack underflow!");
         return -1;
     }
-    
+    return (*stack)->data;
 }
+
