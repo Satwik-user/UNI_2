@@ -89,7 +89,8 @@ int main()
     printf("Current top element of stack:%d\n",peek(stack));
 
     //print whole stack
-    
+    printf("Modified Stack:");
+    print_stack(stack)
     
     return 0;
 }
