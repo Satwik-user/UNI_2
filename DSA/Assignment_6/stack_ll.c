@@ -38,3 +38,8 @@ int isEmpty(node* *stack)
 {
     return *stack==NULL;
 }
+
+void push(node* *stack)
+{
+    
+}
