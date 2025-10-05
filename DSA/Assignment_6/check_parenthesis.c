@@ -101,10 +101,15 @@ int noOfClose(Stack *stack)
 
 int main()
 {
-    int n;
+    int n, ele;
     printf("Enter size of stack:");
     scanf("%d",&n);
     Stack *stack=createStack(n);
+    for(int i=0;i<n;i++)
+    {
+        printf("Enter expression elements:");
+        scanf("%d",&ele);
+    }
     
     return 0;
 }
