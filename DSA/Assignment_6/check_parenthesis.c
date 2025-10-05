@@ -114,7 +114,7 @@ int main()
         push(stack, ele);
     }
     printf("Original Stack:\n");
-    print_stack(&stack);
+    print_stack(stack);
     
     return 0;
 }
