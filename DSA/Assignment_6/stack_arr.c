@@ -77,7 +77,7 @@ int main()
     {
         printf("Enter elements of stack:");
         scanf("%d",&ele);
-        
+        push(stack, ele)
     }
     
     return 0;
