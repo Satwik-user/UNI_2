@@ -88,7 +88,8 @@ int main()
     //peek top element of stack
     printf("Current top element of stack:%d\n",peek(stack));
 
-    //print
+    //print whole stack
+    
     
     return 0;
 }
