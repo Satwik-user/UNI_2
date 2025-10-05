@@ -53,5 +53,5 @@ int peek(Stack *stack)
         printf("Stack underrflow!");
         return -1;
     }
-    
+    return stack->arr[stack->top];
 }
