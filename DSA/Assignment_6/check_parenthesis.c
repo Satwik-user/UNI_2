@@ -80,8 +80,9 @@ int noOfOpen(Stack *stack)
     {
         if(peek(stack)=='(')
         c++;
-        top--;
+        stack->top--;
     }
+    stack->top=top;
     return c;
 }
 
