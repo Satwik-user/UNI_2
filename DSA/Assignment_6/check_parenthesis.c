@@ -67,6 +67,7 @@ void print_stack(Stack *stack)
     printf("%d\n",stack->arr[i]);
 }
 
+//using stack operations
 int noOfOpen(Stack *stack)
 {
     int c=0;
@@ -86,6 +87,7 @@ int noOfOpen(Stack *stack)
     return c;
 }
 
+//using direct stack access
 int noOfClose(Stack *stack)
 {
     int c=0;
@@ -117,7 +119,7 @@ int main()
     printf("Original Stack:\n");
     print_stack(stack);
 
-    
+    if(noOfOpen)
     
     return 0;
 }
