@@ -11,5 +11,6 @@ Stack *createStack(int cap)
 {
     Stack *newStack=(Stack *)malloc(sizeof(Stack));
     newStack->cap=cap;
+    newStack->top=-1;
     
 }
