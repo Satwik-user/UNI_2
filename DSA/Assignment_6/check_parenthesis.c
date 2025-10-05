@@ -111,7 +111,7 @@ int main()
     {
         printf("Enter expression elements:");
         scanf("%c",&ele);
-        push(&stack, ele);
+        push(stack, ele);
     }
     printf("Original Stack:\n");
     print_stack(&stack);
