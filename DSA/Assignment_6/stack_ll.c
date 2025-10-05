@@ -43,3 +43,8 @@ void push(node* *stack, int data)
 {
     insert_ele(stack, data);
 }
+
+void pop(node* *stack)
+{
+    
+}
