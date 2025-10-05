@@ -66,5 +66,9 @@ int peek(node* *stack)
 
 void print_stack(node* *stack)
 {
-    
+    if(isEmpty(stack))
+    {
+        printf("Stack underflow!");
+        retue
+    }
 }
