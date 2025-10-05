@@ -98,3 +98,13 @@ int noOfClose(Stack *stack)
     }
     return c;
 }
+
+int main()
+{
+    int n;
+    printf("Enter size of stack:");
+    scanf("%d",&n);
+    
+    
+    return 0;
+}
