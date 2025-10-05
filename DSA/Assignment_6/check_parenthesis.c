@@ -109,6 +109,7 @@ int main()
     {
         printf("Enter expression elements:");
         scanf("%d",&ele);
+        push(&stack, ele);
     }
     
     return 0;
