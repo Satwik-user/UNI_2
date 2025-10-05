@@ -41,7 +41,7 @@ int pop(Stack *stack)
     if(isEmpty(stack))
     {
         printf("Underflow!\n");
-        return;
+        return -1;
     }
     return stack->arr[stack->top --];
 }
