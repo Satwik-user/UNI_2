@@ -78,3 +78,4 @@ void print_stack(node* *stack)
         temp=temp->next;
     }
 }
+
