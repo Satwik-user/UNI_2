@@ -60,6 +60,8 @@ void print_stack(Stack *stack)
 {
     if(isEmpty(stack))
     {
-        
+        printf("Stack is empty!\n");
+        return;
     }
+    
 }
