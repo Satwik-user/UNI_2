@@ -91,4 +91,5 @@ int isClose(Stack *stack)
         printf("Stack is empty!");
         return;
     }
+    for(it )
 }
