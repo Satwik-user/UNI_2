@@ -84,7 +84,10 @@ int main()
     int n;
     printf("Enter size of stack:");
     scanf("%d",&n);
-    
+    for(int i=0;i<n;i++)
+    {
+        
+    }
     
     return 0;
 }
