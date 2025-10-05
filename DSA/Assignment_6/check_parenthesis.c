@@ -30,6 +30,8 @@ void push(Stack *stack, int data)
 {
     if(isFull(stack))
     {
-        printf("Stack overflow!")
+        printf("Stack overflow!");
+        return;
     }
+    
 }
