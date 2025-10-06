@@ -80,4 +80,5 @@ void evaluatePostfix(char **exp, int len)
             push(stack, (int)pow(a,b));
         }
     }
+    return pop(stack);
 }
