@@ -9,3 +9,7 @@ typedef struct Stack
     int *arr;
 }Stack;
 
+Stack *createStack(int cap)
+{
+    
+}
