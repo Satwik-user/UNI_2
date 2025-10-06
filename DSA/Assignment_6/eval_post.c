@@ -37,3 +37,8 @@ void push(Stack *stack, int ele)
     }
     stack->arr[++stack->top]=ele;
 }
+
+int pop(Stack *stsack)
+{
+    
+}
