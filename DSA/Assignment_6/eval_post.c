@@ -89,6 +89,7 @@ int main()
     printf("Enter size of expression:");
     scanf("%d",&n);
 
+    char exp[n];
     
     
     return 0;
