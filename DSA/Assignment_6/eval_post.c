@@ -11,6 +11,9 @@ typedef struct Stack
 
 Stack *createStack(int cap)
 {
-    Stack *newStack=(Stack *)malloc(sizeof(Stack));
-    
+    Stack *stack=(Stack *)malloc(sizeof(Stack));
+    stack->cap=cap;
+    stack->top=-1;
+    stack->arr=(int *)malloc(cap*sizeof(int));
+    return stack;
 }
