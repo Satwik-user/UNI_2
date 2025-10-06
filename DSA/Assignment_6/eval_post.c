@@ -48,6 +48,11 @@ int pop(Stack *stack)
     return stack->arr[stack->top--];
 }
 
+int isOperator(char c)
+{
+    return strcmp(c,'+')==0||strcmp(c,'-')==0||strcmp(c,'*')==0||strcmp(c,'/')==0||strcmp(c,'^')==0;
+}
+
 void evaluatePostfix(char **exp, int len)
 {
     Stack *stack=createStack(len);
@@ -55,7 +60,22 @@ void evaluatePostfix(char **exp, int len)
     {
         char c=exp[i];
 
-        if(isdigit(c) || (strlen(c)>1 && ))
-        push(stack, c);
+        if(isdigit(c))
+        push(stack, atoi(c));
+
+        else if(isOperator(c))
+        {
+            int a=pop(stack);
+            int b=pop(stack);
+
+            if(strcmp(c,'+')==0)
+            push(stack, a+b);
+            else if(strcmp(c,'-'==0))
+            push(stack, a-b);
+            else if(strcmp(c,'*')==0)
+            push(stack, a*b);
+            else if(strcmp(c,'/')==0)
+            push(stack, a/b);
+        }
     }
 }
