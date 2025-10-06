@@ -51,5 +51,8 @@ int pop(Stack *stack)
 void evaluatePostfix(char **exp, int len)
 {
     Stack *stack=createStack(len);
-    
+    for(int i=0;i<len;i++)
+    {
+        
+    }
 }
