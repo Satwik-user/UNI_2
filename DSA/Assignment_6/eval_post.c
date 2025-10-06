@@ -50,5 +50,5 @@ int pop(Stack *stack)
 
 void evaluatePostfix(Stack *stack, char **exp)
 {
-
+    
 }
