@@ -17,3 +17,8 @@ Stack *createStack(int cap)
     stack->arr=(int *)malloc(cap*sizeof(int));
     return stack;
 }
+
+void push(Stack* *stack, int ele)
+{
+    
+}
