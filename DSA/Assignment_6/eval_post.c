@@ -54,5 +54,8 @@ void evaluatePostfix(char **exp, int len)
     for(int i=0;i<len;i++)
     {
         char c=exp[i];
+
+        if(isdigit(c) || (strlen(c)>1 && exp))
+        push(stack, c);
     }
 }
