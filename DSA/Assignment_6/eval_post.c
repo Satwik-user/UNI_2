@@ -18,6 +18,8 @@ Stack *createStack(int cap)
     return stack;
 }
 
+
+
 void push(Stack *stack, int ele)
 {
 
