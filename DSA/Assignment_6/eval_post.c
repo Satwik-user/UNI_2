@@ -83,3 +83,7 @@ void evaluatePostfix(char **exp, int len)
     return pop(stack);
 }
 
+int main()
+{
+    return 0;
+}
