@@ -18,7 +18,8 @@ Stack *createStack(int cap)
     return stack;
 }
 
-
+int isEmpty(Stack *stack)
+{}
 
 void push(Stack *stack, int ele)
 {
