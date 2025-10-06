@@ -35,5 +35,5 @@ void push(Stack *stack, int ele)
         printf("Stack overflow!\n");
         return;
     }
-    
+    stack->arr[++stack->top]=ele;
 }
