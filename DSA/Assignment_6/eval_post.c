@@ -47,3 +47,4 @@ int pop(Stack *stack)
     }
     return stack->arr[stack->top--];
 }
+
