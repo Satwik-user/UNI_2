@@ -33,5 +33,7 @@ void push(Stack *stack, int ele)
     if(isFull(stack))
     {
         printf("Stack overflow!\n");
+        return;
     }
+    
 }
