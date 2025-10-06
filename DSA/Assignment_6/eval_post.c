@@ -90,7 +90,9 @@ int main()
     scanf("%d",&n);
 
     char exp[n];
-    printf("Enter postfix expression:")
+    printf("Enter postfix expression:");
+    scanf("%s",&exp);
+    
     
     return 0;
 }
