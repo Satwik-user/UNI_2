@@ -48,3 +48,7 @@ int pop(Stack *stack)
     return stack->arr[stack->top--];
 }
 
+void evaluatePostfix(Stack *stack, char **exp)
+{
+    
+}
