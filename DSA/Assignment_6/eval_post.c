@@ -32,6 +32,6 @@ void push(Stack *stack, int ele)
 {
     if(isFull(stack))
     {
-        printf("Stack overflow!");
+        printf("Stack overflow!\n");
     }
 }
