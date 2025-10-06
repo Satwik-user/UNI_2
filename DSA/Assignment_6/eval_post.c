@@ -86,7 +86,10 @@ void evaluatePostfix(char **exp, int len)
 int main()
 {
     int n;
-    printf("Enter size of expression:")
+    printf("Enter size of expression:");
+    scanf("%d",&n);
+
+    
     
     return 0;
 }
