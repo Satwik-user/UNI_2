@@ -16,5 +16,6 @@ int tail_fibo(int n)
     return 0;
     else if(n==1)
     return 1;
-    
+    else
+    return tail_fibo(n-1)+tail_fibo(n-2);
 }
