@@ -4,7 +4,7 @@ int rec_fact(int n)
     if(n==0)
     return 1;
     else 
-    return n*(n-1);
+    return n*rec_rec(n-1);
 }
 
 int tail_rec(int fact, int n)
