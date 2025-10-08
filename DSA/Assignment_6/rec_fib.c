@@ -22,7 +22,7 @@ int tail_fib(int a, int b, int n)
 
 int main()
 {
-    int n;
+    int n, a=0, b=1;
     printf("Enter number of term to print in fibonacci sequence:%d\n");
     
     return 0;
