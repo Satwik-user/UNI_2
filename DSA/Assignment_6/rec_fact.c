@@ -12,5 +12,5 @@ int tail_fact(int fact, int n)
     if(n==0)
     return;
     else
-    tail_fact(n*fact, n-1);
+    return tail_fact(n*fact, n-1);
 }
