@@ -23,7 +23,7 @@ int tail_fibo(int n)
 int main()
 {
     int n;
-    printf("Enter ");
+    printf("Enter number of term to p");
     
     return 0;
 }
