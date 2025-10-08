@@ -4,5 +4,5 @@ int rec_fib(int a, int b, int n)
 {
     if(n==2)
     return;
-    return rec_fib(b, a+b, n-1)
+    return rec_fib(b, a+b, n-1);
 }
