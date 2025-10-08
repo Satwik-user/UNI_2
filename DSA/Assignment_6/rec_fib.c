@@ -22,6 +22,8 @@ int tail_fibo(int n)
 
 int main()
 {
+    int n;
+    printf("Enter ");
     
     return 0;
 }
