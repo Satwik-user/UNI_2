@@ -12,7 +12,7 @@ int tail_rec(int fact, int n)
     if(n==0)
     return fact;
     else
-    return tail_fact(n*fact, n-1);
+    return tail_rec(n*fact, n-1);
 }
 
 int main()
