@@ -21,7 +21,8 @@ int main()
     printf("Enter a number:");
     scanf("%d",&n);
 
-
+    int fact=1;
+    
     
     return 0;
 }
