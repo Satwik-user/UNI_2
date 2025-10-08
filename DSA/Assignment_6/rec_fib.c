@@ -23,4 +23,5 @@ int tail_fibo(int n)
 int main()
 {
     
+    return 0;
 }
