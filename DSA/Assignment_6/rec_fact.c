@@ -23,7 +23,7 @@ int main()
 
     int fact=1;
     printf("Non-tail recursive factorial:%d\n",rec_fact(n));
-    printf("Tail recursive factorial:%d\n",tail_rec(fact, ));
+    printf("Tail recursive factorial:%d\n",tail_rec(fact, n));
     
     return 0;
 }
