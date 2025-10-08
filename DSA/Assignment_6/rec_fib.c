@@ -12,5 +12,9 @@ int rec_fib(int a, int b, int n)
 
 int tail_fibo(int n)
 {
+    if(n==0)
+    return 0;
+    else if(n==1)
+    return 1;
     
 }
