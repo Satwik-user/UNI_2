@@ -10,3 +10,7 @@ int rec_fib(int a, int b, int n)
     return rec_fib(b, a+b, n-1);
 }
 
+int tail_fibo(int n)
+{
+    
+}
