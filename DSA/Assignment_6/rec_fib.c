@@ -17,7 +17,7 @@ int tail_fib(int a, int b, int n)
     else if(n==1)
     return b;
     printf("%d",a+b);
-    return rec_fib(b, a+b, n-1);
+    return tail_fib(b, a+b, n-1);
 }
 
 int main()
