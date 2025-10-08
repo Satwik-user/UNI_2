@@ -23,7 +23,7 @@ int tail_fibo(int n)
 int main()
 {
     int n;
-    printf("Enter number of term to print in fibonacci s");
+    printf("Enter number of term to print in fibonacci sequence:%d");
     
     return 0;
 }
