@@ -14,3 +14,10 @@ int tail_fact(int fact, int n)
     else
     return tail_fact(n*fact, n-1);
 }
+
+int main()
+{
+    
+    
+    return 0;
+}
