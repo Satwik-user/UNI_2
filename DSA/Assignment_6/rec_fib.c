@@ -9,3 +9,4 @@ int rec_fib(int a, int b, int n)
     printf("%d",a+b);
     return rec_fib(b, a+b, n-1);
 }
+
