@@ -12,7 +12,6 @@ void towerOfHanoi(int n, char from_rod, char to_rod, char aux_rod) {
 int main() {
     int N = 3;
 
-    // A, B and C are names of rods
     towerOfHanoi(N, 'A', 'C', 'B');
     return 0;
 }
