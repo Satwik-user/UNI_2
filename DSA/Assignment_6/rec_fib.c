@@ -3,7 +3,7 @@
 int rec_fib(int a, int b, int n)
 {
     if(n==0)
-    return
+    return 
     printf("%d",a+b);
     return rec_fib(b, a+b, n-1);
 }
