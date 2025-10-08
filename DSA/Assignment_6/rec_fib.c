@@ -7,7 +7,7 @@ int rec_fibo(int n)
     else if(n==1)
     return 1;
     else
-    return rec_fibo(n-1)+tail_fibo(n-2);
+    return rec_fibo(n-1)+rec_fibo(n-2);
 }
 
 int tail_fib(int a, int b, int n)
