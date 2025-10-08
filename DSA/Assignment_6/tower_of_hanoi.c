@@ -14,6 +14,7 @@ int main() {
     printf("Enter number of disks:");
     scanf("%d",&n);
 
+    printf("Transfering all disks from 'A' to 'C' using 'B':\n");
     towerOfHanoi(n, 'A', 'C', 'B');
     return 0;
 }
