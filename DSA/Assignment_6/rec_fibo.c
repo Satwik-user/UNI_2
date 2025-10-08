@@ -10,13 +10,13 @@ int rec_fibo(int n)
     return rec_fibo(n-1)+rec_fibo(n-2);
 }
 
-int tail_fib(int a, int b, int n)
+int tail_fibo(int a, int b, int n)
 {
     if(n==0)
     return a;
     else if(n==1)
     return b;
-    return tail_fib(b, a+b, n-1);
+    return tail_fibo(b, a+b, n-1);
 }
 
 int main()
