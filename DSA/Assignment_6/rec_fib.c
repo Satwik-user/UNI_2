@@ -16,8 +16,7 @@ int tail_fib(int a, int b, int n)
     return a;
     else if(n==1)
     return b;
-    return tail_fib
-    (b, a+b, n-1);
+    return tail_fib(b, a+b, n-1);
 }
 
 int main()
