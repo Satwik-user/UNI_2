@@ -7,7 +7,7 @@ int rec_fact(int n)
     return n*rec_fact(n-1);
 }
 
-int tail_fact(int fact, int n)
+int tail_rec(int fact, int n)
 {
     if(n==0)
     return fact;
@@ -22,7 +22,8 @@ int main()
     scanf("%d",&n);
 
     int fact=1;
-    
+    printf("Non-tail recursive factorial:%d\n",rec_fact(n));
+    printf("Tail recursive factorial:%d\n",tail_rec);
     
     return 0;
 }
