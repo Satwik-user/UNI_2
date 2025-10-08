@@ -10,8 +10,11 @@ void towerOfHanoi(int n, char from_rod, char to_rod, char aux_rod) {
 }
 
 int main() {
-    int N = 3;
+    int n;
+    printf("Enter number of disks:");
+    scanf("%d",&n);
 
-    towerOfHanoi(N, 'A', 'C', 'B');
+
+    towerOfHanoi(n, 'A', 'C', 'B');
     return 0;
 }
