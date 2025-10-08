@@ -24,6 +24,7 @@ int main()
 {
     int n, a=0, b=1;
     printf("Enter number of term to print in fibonacci sequence:");
+    scanf("%d",&n);
     
     
     return 0;
