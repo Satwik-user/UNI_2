@@ -28,5 +28,6 @@ int isEmpty(Stack *stack)
 
 void push(Stack *stack, int data)
 {
-    
+    if(isFull(stack))
+    return;
 }
