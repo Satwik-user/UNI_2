@@ -55,3 +55,4 @@ int peek(Stack *stack)
     }
     return stack->arr[stack->top];
 }
+
