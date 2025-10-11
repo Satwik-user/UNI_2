@@ -75,7 +75,7 @@ int main()
     Stack *stack=createStack(len(n));
     decimalToBinary(n, stack);
     printf("Corresponding binary number:");
-
+    while(isEmpty(stack))
     {
         printf("%d",pop(stack));
     }
