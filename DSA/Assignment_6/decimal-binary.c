@@ -56,3 +56,7 @@ int peek(Stack *stack)
     return stack->arr[stack->top];
 }
 
+int decimalToBinary(int num, Stack *stack)
+{
+    
+}
