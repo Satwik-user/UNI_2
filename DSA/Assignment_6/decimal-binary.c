@@ -61,5 +61,6 @@ int decimalToBinary(int num, Stack *stack)
     while(num%2==0)
     {
         int q=num/2;
+        
     }
 }
