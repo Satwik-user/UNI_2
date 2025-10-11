@@ -20,3 +20,8 @@ int isFull(Stack *stack)
 {
     return stack->top==stack->cap-1;
 }
+
+int isEmpty(Stack *stack)
+{
+    return stack->top==-1;
+}
