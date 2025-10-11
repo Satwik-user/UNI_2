@@ -72,7 +72,9 @@ int main()
     int n;
     printf("Enter decimal number:");
     scanf("%d",&n);
-    
+    Stack *stack=createStack(len(n));
+    decimalToBinary(n, stack);
+    printf("Decimal Numer")
     
     return 0;
 }
