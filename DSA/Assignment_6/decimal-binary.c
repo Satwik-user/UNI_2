@@ -64,10 +64,4 @@ int decimalToBinary(int num, Stack *stack)
         rev_bi=rev_bi*10+(num%2);
         num/=2;
     }
-    while(bi>0)
-    {
-        bi=bi*10+(bi%10);
-        bi/=10;
-    }
-    return bi;
 }
