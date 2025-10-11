@@ -50,6 +50,8 @@ int peek(Stack *stack)
 {
     if(isEmpty(stack))
     {
-        printf("Stack is empty")
+        printf("Stack is empty!");
+        return 0;
     }
+    return stack->arr[stack->top];
 }
