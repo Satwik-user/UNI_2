@@ -58,16 +58,16 @@ int peek(Stack *stack)
 
 int decimalToBinary(int num, Stack *stack)
 {
-    int bi, rev_bi;
+    int rev_bi, rev_bi;
     while(num%2==0)
     {
-        bi=bi*10+(num%2);
+        rev_bi=rev_bi*10+(num%2);
         num/=2;
     }
-    while(bi>0)
+    while(rev_bi>0)
     {
-        rev_bi=rev_bi*10+(bi%10);
-        bi/=10;
+        rev_bi=rev_bi*10+(rev_bi%10);
+        rev_bi/=10;
     }
-    
+
 }
