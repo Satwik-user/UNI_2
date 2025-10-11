@@ -76,6 +76,7 @@ int main()
     scanf("%d",&n);
     char str[20];
     sprintf(str, "%d", n);
+    int len=strlen(str);
 
     Stack *stack=createStack(strlen(str));
     decimalToBinary(n, stack);
