@@ -73,6 +73,8 @@ int main()
     int n;
     printf("Enter decimal number:");
     scanf("%d",&n);
+    char str[20];
+    sprintf(str, "%d", n);
 
     Stack *stack=createStack(len(n));
     decimalToBinary(n, stack);
