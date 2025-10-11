@@ -69,7 +69,10 @@ void decimalToBinary(int num, Stack *stack)
 
 int main()
 {
-    int n
+    int n;
+    printf("Enter decimal number:");
+    scanf("%d",&n);
+    
     
     return 0;
 }
