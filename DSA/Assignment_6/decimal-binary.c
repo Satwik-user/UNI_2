@@ -69,4 +69,5 @@ int decimalToBinary(int num, Stack *stack)
         rev_bi=rev_bi*10+(bi%10);
         bi/=10;
     }
+    
 }
