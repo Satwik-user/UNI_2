@@ -13,7 +13,7 @@ Stack *createStack(int cap)
     Stack *stack=(Stack *)malloc(sizeof(Stack));
     stack->cap=cap;
     stack->top=-1;
-    stack->arr=(int *)malloc(sizeof(int));
+    stack->arr=(int *)malloc(cap*sizeof(int));
 }
 
 int isFull(Stack *stack)
@@ -75,7 +75,7 @@ int main()
 
     Stack *stack=createStack(len(n));
     decimalToBinary(n, stack);
-    
+
     printf("Corresponding binary number:");
     while(!isEmpty(stack))
     {
