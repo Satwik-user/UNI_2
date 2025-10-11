@@ -38,5 +38,8 @@ void push(Stack *stack, int data)
 
 int pop(Stack *stack)
 {
-    
+    if(isEmpty(stack))
+    {
+        
+    }
 }
