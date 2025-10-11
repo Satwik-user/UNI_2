@@ -16,3 +16,7 @@ Stack *createStack(int cap)
     stack->arr=(int *)malloc(sizeof(int));
 }
 
+int isFull(Stack *stack)
+{
+    
+}
