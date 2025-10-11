@@ -61,7 +61,8 @@ int decimalToBinary(int num, Stack *stack)
     int bi;
     while(num%2==0)
     {
-        bi=bi*10+(num%2);
+        int remainder=num%2;
+        push(stack, num%2);
         num/=2;
     }
 }
