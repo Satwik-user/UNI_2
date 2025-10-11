@@ -33,5 +33,5 @@ void push(Stack *stack, int data)
         printf("Stack overflow!");
         return;
     }
-    stack->arr[++stack->top]
+    stack->arr[++stack->top]=data;
 }
