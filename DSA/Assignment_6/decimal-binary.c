@@ -74,7 +74,11 @@ int main()
     scanf("%d",&n);
     Stack *stack=createStack(len(n));
     decimalToBinary(n, stack);
-    printf("Decimal Numer")
+    printf("Corresponding binary number:");
+    for(int i=0;i<n;i++)
+    {
+        
+    }
     
     return 0;
 }
