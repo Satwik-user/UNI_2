@@ -59,7 +59,7 @@ int peek(Stack *stack)
 void decimalToBinary(int num, Stack *stack)
 {
     int bi;
-    while(num%2==0)
+    while(num==0)
     {
         int remainder=num%2;
         push(stack, num%2);
