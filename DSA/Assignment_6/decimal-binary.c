@@ -58,9 +58,10 @@ int peek(Stack *stack)
 
 int decimalToBinary(int num, Stack *stack)
 {
+    int bi;
     while(num%2==0)
     {
-        int q=num/2;
+        bi=bi*10+(num%2);
         
     }
 }
