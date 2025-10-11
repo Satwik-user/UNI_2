@@ -40,6 +40,7 @@ int pop(Stack *stack)
 {
     if(isEmpty(stack))
     {
-        
+        printf("Stack underflow!");
+        return;
     }
 }
