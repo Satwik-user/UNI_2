@@ -10,5 +10,6 @@ typedef struct Stack
 
 Stack *createStack(int data)
 {
+    Stack *stack=(Stack *)malloc(sizeof(Stack));
     
 }
