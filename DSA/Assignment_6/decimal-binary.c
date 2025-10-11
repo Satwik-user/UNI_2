@@ -45,3 +45,11 @@ int pop(Stack *stack)
     }
     return stack->arr[stack->top--];
 }
+
+int peek(Stack *stack)
+{
+    if(isEmpty(stack))
+    {
+        
+    }
+}
