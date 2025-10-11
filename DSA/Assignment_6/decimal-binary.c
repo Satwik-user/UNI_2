@@ -67,3 +67,9 @@ void decimalToBinary(int num, Stack *stack)
     }
 }
 
+int main()
+{
+    int n
+    
+    return 0;
+}
