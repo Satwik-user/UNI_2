@@ -5,7 +5,7 @@ typedef struct Stack
     int top;
     int cap;
     int *arr;
-}Stack; 
+}Stack;     
 
 Stack *createStack(int cap)
 {
