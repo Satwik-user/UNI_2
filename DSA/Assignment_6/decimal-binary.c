@@ -66,3 +66,4 @@ void decimalToBinary(int num, Stack *stack)
         num/=2;
     }
 }
+
