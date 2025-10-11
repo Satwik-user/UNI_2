@@ -79,7 +79,7 @@ int main()
     {
         printf("%d",pop(stack));
     }
-    printf("\n")
+    printf("\n");
     
     return 0;
 }
