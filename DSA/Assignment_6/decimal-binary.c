@@ -78,6 +78,8 @@ int main()
     sprintf(str, "%d", n);
     int len=strlen(str);
 
+    
+
     Stack *stack=createStack(strlen(str));
     decimalToBinary(n, stack);
 
