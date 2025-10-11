@@ -77,7 +77,7 @@ int main()
     char str[20];
     sprintf(str, "%d", n);
 
-    Stack *stack=createStack(strlen(n));
+    Stack *stack=createStack(strlen(str));
     decimalToBinary(n, stack);
 
     printf("Corresponding binary number:");
