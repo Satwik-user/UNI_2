@@ -26,4 +26,5 @@ class DoublyCircularLinkedList():
         newNode.next=self.head
 
     def insert_start(self, data):
-        newNode=
+        newNode=self.createNode(data)
+        
