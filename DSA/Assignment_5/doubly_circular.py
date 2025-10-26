@@ -84,3 +84,4 @@ class DoublyCircularLinkedList():
             self.del_start()
             return
         
+        
