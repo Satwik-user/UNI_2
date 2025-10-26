@@ -41,6 +41,7 @@ class DoublyLinkedList:
         list1=DoublyLinkedList()
         list2=DoublyLinkedList()
 
+        
         for _ in range(br):
             list1.insert_ele(temp.data)
         
