@@ -38,5 +38,5 @@ class DoublyLinkedList:
         else:
             br=len/2+1
 
-        list1=Doubly
+        list1=DoublyLinkedList
         
