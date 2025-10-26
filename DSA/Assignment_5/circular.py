@@ -43,4 +43,4 @@ class CircularLinkedList:
             self.insert_start(data)
             return
         
-        
+        for i in range
