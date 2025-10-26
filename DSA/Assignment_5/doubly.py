@@ -115,4 +115,4 @@ def main():
     pos=int(input("Enter position to insert element:"))
     ele=int(input(f"Enter element to insert at {pos} position:"))
     dll.insert_pos(pos, ele)
-    print("List after ")
+    print("List after insertion at position:")
