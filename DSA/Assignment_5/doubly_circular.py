@@ -17,3 +17,4 @@ class DoublyCircularLinkedList():
             self.head=newNode
             return
         
+        temp=
