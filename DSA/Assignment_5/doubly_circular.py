@@ -57,8 +57,6 @@ class DoublyCircularLinkedList():
         if self.head is None:
             print("Empty List!")
             return
-        self.head=self.head.next
-        self.head.prev=None
 
         temp=self.head
         while temp.next!=self.head:
