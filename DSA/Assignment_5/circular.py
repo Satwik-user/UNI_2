@@ -54,4 +54,4 @@ class CircularLinkedList:
             print("Empty List!")
             return
         
-        
+        temp
