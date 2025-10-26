@@ -77,5 +77,6 @@ class DoublyCircularLinkedList():
 
     def del_pos(self, pos):
         if self.head is None:
-            print("Em")
+            print("Empty List!")
+            
         
