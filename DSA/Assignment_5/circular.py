@@ -137,7 +137,7 @@ def main():
 
     #Deletion of element at end
     cll.del_end()
-    print("List after delqetion at end:",end='')
+    print("List after deletion at end:",end='')
     cll.print_list()
 
     #Deletion of element at specific position
