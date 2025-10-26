@@ -27,4 +27,5 @@ class DoublylinkedList():
         if self.head is None:
             self.head=newNode
             return
-        newNode.next=se
+        newNode.next=self.head
+        
