@@ -49,4 +49,4 @@ class DoublyLinkedList:
             return
         temp.prev.next=temp.next
         if temp.next:
-            temp.
+            temp.next.prev=temp.prev
