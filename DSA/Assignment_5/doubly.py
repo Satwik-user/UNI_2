@@ -91,4 +91,5 @@ def main():
     dll=DoublyLinkedList()
 
     #Fomrmation of Doubly Linked List
-    n=int(input("Enter "))
+    n=int(input("Enter number of nodes:"))
+    
