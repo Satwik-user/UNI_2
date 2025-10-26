@@ -30,3 +30,6 @@ class DoublylinkedList():
         newNode.next=self.head
         self.head.prev=newNode
         self.head=newNode
+
+    def insert_pos(self, pos, data):
+        
