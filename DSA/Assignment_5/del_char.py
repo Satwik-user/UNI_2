@@ -23,3 +23,5 @@ class DoublyLinkedList:
         temp.next=newNode
         newNode.prev=temp
 
+    def print_list():
+        
