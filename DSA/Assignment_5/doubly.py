@@ -103,4 +103,6 @@ def main():
     ele=int(input("Enter element to insert at start:"))
     dll.insert_start(ele)
     print("List after insertion at start:",end='')
+    dll.print_list()
+
     
