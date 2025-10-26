@@ -57,4 +57,4 @@ class DoublyLinkedList:
             return
         temp=self.head
         while temp:
-            sew
+            swap
