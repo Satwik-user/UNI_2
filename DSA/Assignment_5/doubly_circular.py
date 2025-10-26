@@ -88,4 +88,4 @@ class DoublyCircularLinkedList():
         for _ in range(1, pos-1):
             temp=temp.next
         temp.next.prev=temp.prev
-        temp.prev.next
+        temp.prev.next=temp.next
