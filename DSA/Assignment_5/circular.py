@@ -145,3 +145,5 @@ def main():
     cll.del_pos(pos)
     print("List after deletion at position:",end='')
     cll.print_list()
+
+if __name__=="__main__"
