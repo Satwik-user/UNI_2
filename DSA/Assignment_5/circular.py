@@ -51,4 +51,4 @@ class CircularLinkedList:
 
     def del_start(self):
         if self.head is None:
-            self.head=newNode
+            print("E")
