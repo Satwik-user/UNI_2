@@ -11,4 +11,7 @@ class DoublyCircularLinkedList():
     def createNode(self, data):
         return Node(data)
     
-    
+    def insert_ele(self, data):
+        newNode=self.createNode(data)
+        if self.head is None:
+            self.head
