@@ -109,7 +109,7 @@ def main():
     for _ in range(n):
         ele=int(input("Enter element:"))
         dcll.insert_ele(ele)
-    print("Original List:")
+    print("Original List:",end='')
     dcll.print_list()
 
     #Insertion of element at start
