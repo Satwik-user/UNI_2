@@ -21,4 +21,4 @@ class CircularLinkedList:
         while temp.next!=self.head:
             temp=temp.next
         temp.next=newNode
-        newNode
+        newNode.next=self.head
