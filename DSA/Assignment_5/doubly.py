@@ -124,4 +124,5 @@ def main():
     dll.print_list()
 
     #Deletion of element at end
-    dll.
+    dll.del_end()
+    print("Enter ")
