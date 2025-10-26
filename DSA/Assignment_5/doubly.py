@@ -33,7 +33,5 @@ class DoublylinkedList():
 
     def insert_pos(self, pos, data):
         newNode=self.createNode(data)
-        if self.head is None:
-            self.head=newNode
-            return
-        
+        if pos==1:
+            self
