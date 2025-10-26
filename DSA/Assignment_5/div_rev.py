@@ -30,4 +30,8 @@ class DoublyLinkedList:
         while temp.next:
             print(temp.data,end=' ')
             temp=temp.next
+        print()
+
+    def div(self, len):
+        if len
         
