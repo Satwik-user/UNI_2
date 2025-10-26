@@ -143,4 +143,4 @@ def main():
     #Deletion of element at specific position
     pos=int(input("Enter position of element to be deleted:"))
     cll.del_pos(pos)
-    print("")
+    print("List after deletion of element at ")
