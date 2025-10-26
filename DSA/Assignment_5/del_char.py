@@ -12,4 +12,4 @@ class DoublyLinkedList:
         return Node(data)
     
     def insert_ele(self, data):
-        newNode=c
+        newNode=self.createNode()
