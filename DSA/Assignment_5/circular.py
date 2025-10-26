@@ -44,4 +44,4 @@ class CircularLinkedList:
             return
         
         for i in range(1, pos-1):
-            te
+            temp=temp.
