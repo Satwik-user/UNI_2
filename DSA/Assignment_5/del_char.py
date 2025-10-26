@@ -28,4 +28,5 @@ class DoublyLinkedList:
             print("Empty List!")
             return
         
+        temp=self.head
         
