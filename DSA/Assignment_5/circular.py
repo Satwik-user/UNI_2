@@ -118,4 +118,4 @@ def main():
     cll.print_list()
 
     #Insertion of element at end
-    ele=int(input("Enter element t"))
+    ele=int(input("Enter element to insert at end"))
