@@ -112,4 +112,5 @@ def main():
     dll.print_list()
 
     #Insertion of element at specific position
-    pos=int(input("Enter posotio"))
+    pos=int(input("Enter position to insert element:"))
+    ele=int(input(f"Enter "))
