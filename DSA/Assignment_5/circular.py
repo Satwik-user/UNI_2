@@ -11,4 +11,4 @@ class CircularLinkedList:
         return Node(data)
     
     def insert_ele(self, data):
-        newNode=self.createNode()
+        newNode=self.createNode(data)
