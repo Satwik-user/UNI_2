@@ -70,4 +70,5 @@ def main():
     print("List after removal of particular character:",end='')
     dll.print_list()
 
-    
+if __name__=="__main__":
+    main()
