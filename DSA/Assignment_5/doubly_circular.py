@@ -80,5 +80,6 @@ class DoublyCircularLinkedList():
             print("Empty List!")
             return
         
-        if pos==1
+        if pos==1:
+            self.del
         
