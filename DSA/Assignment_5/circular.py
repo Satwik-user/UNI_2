@@ -93,7 +93,6 @@ class CircularLinkedList:
             print("Empty List!")
             return
         
-        print("Circular Linked List:",end='')
         temp=self.head
         while temp.next!=self.head:
             print(temp.data,end=' ')
