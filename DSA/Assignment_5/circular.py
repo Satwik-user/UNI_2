@@ -112,4 +112,5 @@ def main():
     cll.print_list()
 
     #Insertion of element at start
-    ele=int(input("Enter element"))
+    ele=int(input("Enter element to insert at start:"))
+    
