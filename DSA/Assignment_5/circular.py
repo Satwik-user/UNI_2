@@ -93,4 +93,4 @@ class CircularLinkedList:
             print("Empty List!")
             return
         
-        print("Circular Linked List:")
+        print("Circular Linked List:",end='')
