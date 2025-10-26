@@ -107,5 +107,5 @@ def main():
 
     #Insertion of element at end
     ele=int(input("Enter element to insert at end:"))
-    dll.insert_end(ele)
+    dll.insert_ele(ele)
     print()
