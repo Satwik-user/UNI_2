@@ -55,4 +55,5 @@ def main():
     dll=DoublyLinkedList()
 
     #Formation of Doubly Linked List
-    n=int(input("Enter "))
+    n=int(input("Enter number of nodes:"))
+    
