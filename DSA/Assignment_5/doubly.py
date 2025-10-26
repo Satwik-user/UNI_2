@@ -46,4 +46,6 @@ class DoublylinkedList():
             temp.next.prev=newNode
         temp.next=newNode
 
-    
+    def del_start(self):
+        if self.head is None:
+            print()
