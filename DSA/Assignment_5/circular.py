@@ -54,4 +54,6 @@ class CircularLinkedList:
             print("Empty List!")
             return
         
-        temp
+        temp=self.head
+        while temp.next!=self.head:
+            
