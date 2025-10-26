@@ -94,4 +94,6 @@ class CircularLinkedList:
             return
         
         print("Circular Linked List:",end='')
-        
+        temp=self.head
+        while temp.next!=self.head:
+            print()
