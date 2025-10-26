@@ -89,3 +89,6 @@ class DoublyCircularLinkedList():
             temp=temp.next
         temp.next.prev=temp.prev
         temp.prev.next=temp.next
+
+    def print_list(self):
+        if s
