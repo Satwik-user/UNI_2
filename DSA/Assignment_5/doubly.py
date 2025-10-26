@@ -87,4 +87,5 @@ class DoublylinkedList():
             temp=temp.next
         print()
 
-        
+def main():
+    dll=DoublyLinkedList()
