@@ -74,4 +74,8 @@ class DoublyCircularLinkedList():
         while temp.next!=self.head:
             temp=temp.next
         temp.prev.next=self.head
+
+    def del_pos(self, pos):
+        if self.head is None:
+            
         
