@@ -92,4 +92,4 @@ class DoublyCircularLinkedList():
 
     def print_list(self):
         if self.head is None:
-            print("Emoty List!'")
+            print("Emoty List!")
