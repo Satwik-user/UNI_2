@@ -71,5 +71,6 @@ class DoublyCircularLinkedList():
             return
         
         temp=self.head
-        
+        while temp.next!=self.head:
+            t
         
