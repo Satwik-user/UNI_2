@@ -50,6 +50,6 @@ class DoublyCircularLinkedList():
         for _ in range(1, pos-1):
             temp=temp.next
         temp.prev.next=temp.next
-        if temp.next:
+        if temp.next==self.head:
             temp.next.prev=temp.prev
 
