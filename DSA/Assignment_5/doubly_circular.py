@@ -52,4 +52,3 @@ class DoublyCircularLinkedList():
         temp.prev.next=temp.next
         if temp.next==self.head:
             temp.next.prev=temp.prev
-
