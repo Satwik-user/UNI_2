@@ -146,4 +146,5 @@ def main():
     print("List after deletion at position:",end='')
     cll.print_list()
 
-if __name__=="__main__"
+if __name__=="__main__":
+    main()
