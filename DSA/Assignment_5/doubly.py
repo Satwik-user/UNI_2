@@ -95,4 +95,5 @@ def main():
     for _ in range(n):
         ele=int(input("Enter element:"))
         dll.insert_ele(ele)
-        
+
+    
