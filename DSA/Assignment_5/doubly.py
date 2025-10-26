@@ -67,3 +67,5 @@ class DoublylinkedList():
             return
         if pos==1:
             self.del_start()
+            return
+        
