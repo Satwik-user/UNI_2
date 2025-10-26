@@ -116,4 +116,4 @@ def main():
     ele=int(input("Enter element to insert at start:"))
     dcll.insert_start(ele)
     print("List after insertion at start:",end='')
-    
+    dcll.print_list()
