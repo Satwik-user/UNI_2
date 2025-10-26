@@ -35,5 +35,6 @@ class DoublyLinkedList:
     def div(self, len):
         if len%2==0:
             br=len/2
-            
+        else:
+            br=len/2+1
         
