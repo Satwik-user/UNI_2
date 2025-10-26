@@ -134,4 +134,4 @@ def main():
     #Deletion of element at start
     dcll.del_start()
     print("List after deletion at start:",end='')
-    dc;l
+    dcll.print_list()
