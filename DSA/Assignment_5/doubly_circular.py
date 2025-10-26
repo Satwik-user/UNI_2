@@ -145,4 +145,4 @@ def main():
     pos=int(input("Enter position of element to delete:"))
     dcll.del_pos()
     print("List after deletion at specific position:",end='')
-    dcl
+    dcll.print_list()
