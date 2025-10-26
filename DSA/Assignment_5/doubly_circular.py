@@ -126,4 +126,4 @@ def main():
 
     #Insertion of element at specific position
     pos=int(input("Enter position to insert element:"))
-    ele=int(input("Enter "))
+    ele=int(input("Enter element to insert at "))
