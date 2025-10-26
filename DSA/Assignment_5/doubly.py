@@ -40,6 +40,4 @@ class DoublylinkedList():
         temp=self.head
         prev=None
         for _ in range(1, pos-1):
-            prev=temp
             temp=temp.next
-        
