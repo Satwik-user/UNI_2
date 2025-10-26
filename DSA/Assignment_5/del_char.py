@@ -34,3 +34,6 @@ class DoublyLinkedList:
             temp=temp.next
         print()
 
+    def del_ele(self, ele):
+        if self.head is None:
+            print("")
