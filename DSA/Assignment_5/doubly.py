@@ -82,3 +82,4 @@ class DoublylinkedList():
             return
         
         temp=self.head
+        while 
