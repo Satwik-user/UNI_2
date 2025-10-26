@@ -128,4 +128,4 @@ def main():
     ele=int(input(f"Enter element to insert at {pos} position;"))
     cll.insert_pos(pos, ele)
     print("List after insertion at specific position:")
-    
+    cll.print_list()
