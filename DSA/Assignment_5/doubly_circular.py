@@ -114,4 +114,5 @@ def main():
 
     #Insertion of element at start
     ele=int(input("Enter element to insert at start:"))
-    dcll.insert
+    dcll.insert_start(ele)
+    pr
