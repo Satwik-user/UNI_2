@@ -119,4 +119,4 @@ def main():
     dcll.print_list()
 
     #Insertion of element at end
-    ele=int(inpt)
+    ele=int(input())
