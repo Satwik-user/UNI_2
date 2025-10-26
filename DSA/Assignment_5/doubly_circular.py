@@ -110,4 +110,4 @@ def main():
         ele=int(input("Enter element:"))
         dcll.insert_ele(ele)
     print("Original List:")
-    dcll.print
+    dcll.print_list()
