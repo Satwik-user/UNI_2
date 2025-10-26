@@ -66,4 +66,4 @@ class DoublyLinkedList:
             temp=temp.prev
         self.head=last
 
-        
+    
