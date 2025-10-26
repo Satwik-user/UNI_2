@@ -9,4 +9,6 @@ class DoublyCircularLinkedList():
         self.head=None
 
     def createNode(self, data):
-        return Node
+        return Node(data)
+    
+    
