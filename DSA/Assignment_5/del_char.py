@@ -50,3 +50,6 @@ class DoublyLinkedList:
         temp.prev.next=temp.next
         if temp.next:
             temp.next.prev=temp.prev
+
+def main():
+    dll
