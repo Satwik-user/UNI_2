@@ -63,3 +63,4 @@ class DoublylinkedList():
 
     def del_pos(self, pos):
         if self.head is None:
+            print()
