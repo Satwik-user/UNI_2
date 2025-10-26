@@ -36,3 +36,7 @@ class CircularLinkedList:
         newNode.next=self.head
         temp.next=newNode
         self.head=newNode
+
+    def insert_pos(self, pos, data):
+        if pos==1:
+            self
