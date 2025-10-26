@@ -60,4 +60,5 @@ def main():
         ele=int(input("Enter element:"))
         dll.insert_ele(ele)
     
-    print("Original List:")
+    print("Original List:",end='')
+    p
