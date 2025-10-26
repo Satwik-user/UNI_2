@@ -28,4 +28,5 @@ class CircularLinkedList:
         if self.head is None:
             self.head=newNode
             newNode.next=self.head
+            return
             
