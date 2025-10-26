@@ -28,6 +28,6 @@ class DoublyLinkedList:
             return
         temp=self.head
         while temp.next:
-            
+            print("")
             temp=temp.next
         
