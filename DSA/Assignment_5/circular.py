@@ -40,4 +40,4 @@ class CircularLinkedList:
     def insert_pos(self, pos, data):
         newNode=self.createNode(data)
         if pos==1:
-            self.insert_start=
+            self.insert_start(data)
