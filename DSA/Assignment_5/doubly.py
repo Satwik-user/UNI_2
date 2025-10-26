@@ -74,4 +74,5 @@ class DoublylinkedList():
             temp=temp.next
         temp.prev.next=temp.next
         if temp.next:
-            temp.next.prev=temp.pre
+            temp.next.prev=temp.prev
+            
