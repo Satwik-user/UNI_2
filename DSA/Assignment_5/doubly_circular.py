@@ -129,4 +129,4 @@ def main():
     ele=int(input("Enter element to insert at {pos} position:"))
     dcll.insert_pos(pos, ele)
     print("List after insertion at position:",end='')
-    dcll.print_l
+    dcll.print_list()
