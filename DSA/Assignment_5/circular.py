@@ -44,4 +44,4 @@ class CircularLinkedList:
             return
         
         for i in range(1, pos-1):
-            temp=temp.
+            temp=temp.next
