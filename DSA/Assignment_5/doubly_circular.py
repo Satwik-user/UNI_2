@@ -100,3 +100,5 @@ class DoublyCircularLinkedList():
             print(temp.data,end=' ')
             temp=temp.next
         print()
+
+        
