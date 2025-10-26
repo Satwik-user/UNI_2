@@ -65,4 +65,5 @@ class DoublylinkedList():
         if self.head is None:
             print("Empty List!")
             return
-        
+        if pos==1:
+            self.del_start()
