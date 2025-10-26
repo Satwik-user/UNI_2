@@ -89,4 +89,5 @@ class CircularLinkedList:
         prev.next=temp.next
 
     def display(self):
-        if self.head is None
+        if self.head is None:
+            print("")
