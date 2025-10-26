@@ -35,4 +35,4 @@ class CircularLinkedList:
             temp=temp.next
         newNode.next=self.head
         temp.next=newNode
-        
+        self.head=newNode
