@@ -26,4 +26,5 @@ class DoublyLinkedList:
     def print_list(self):
         if self.head is None:
             print("Empty List!")
-            
+            return
+        
