@@ -66,3 +66,5 @@ def main():
     #Removal of element from list
     ele=int(input("Enter element to delete:"))
     dll.del_ele(ele)
+
+    print()
