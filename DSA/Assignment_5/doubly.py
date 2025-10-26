@@ -51,3 +51,7 @@ class DoublylinkedList():
             print("Empty List!")
             return
         self.head=self.head.next
+
+    def del_end(self):
+        if self.head is None:
+            print("")
