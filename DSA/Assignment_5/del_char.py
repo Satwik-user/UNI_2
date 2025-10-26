@@ -47,4 +47,4 @@ class DoublyLinkedList:
         if temp.next==None:
             print("Element not in list!")
             return
-        
+        temp.prev
