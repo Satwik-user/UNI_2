@@ -64,3 +64,4 @@ class DoublyCircularLinkedList():
         self.head=self.head.next
         self.head.prev=None
         
+        
