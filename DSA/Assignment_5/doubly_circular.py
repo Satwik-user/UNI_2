@@ -41,4 +41,6 @@ class DoublyCircularLinkedList():
         temp.next=self.head
 
     def insert_pos(self, pos, data):
-        newNode=self.createNode()
+        newNode=self.createNode(data)
+        if self.head is None:
+            s
