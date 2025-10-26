@@ -106,5 +106,4 @@ def main():
     #Formation of Circuar Linked List
     n=int(input("Enter number of nodes:"))
     for _ in range(n):
-        print("Enter element:",end='')
-        
+        d
