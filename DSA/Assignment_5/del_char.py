@@ -68,4 +68,4 @@ def main():
     dll.del_ele(ele)
 
     print("List after removal of particular character:",end='')
-    p
+    dll.print_list()
