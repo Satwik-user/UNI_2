@@ -118,4 +118,5 @@ def main():
     print("List after insertion at start:",end='')
     dcll.print_list()
 
-    #Insertion of element at enfd
+    #Insertion of element at end
+    ele=int(inpt)
