@@ -78,4 +78,4 @@ class CircularLinkedList:
             return
         
         if pos==1:
-            del_start()
+            self.del_start()
