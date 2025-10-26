@@ -28,4 +28,4 @@ class DoublylinkedList():
             self.head=newNode
             return
         newNode.next=self.head
-        
+        self.head.prev=newNode
