@@ -30,4 +30,5 @@ class CircularLinkedList:
             newNode.next=self.head
             return
         
-        temp=self.h
+        temp=self.head
+        while temp.next!=self.head
