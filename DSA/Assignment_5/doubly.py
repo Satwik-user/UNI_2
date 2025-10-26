@@ -15,9 +15,3 @@ class DoublylinkedList():
         newNode=self.createNode(data)
         if self.head is None:
             self.head=newNode
-            newNode.next=self.head
-            return
-        temp=self.head
-        while temp.next!=self.head:
-            temp=temp.next
-            
