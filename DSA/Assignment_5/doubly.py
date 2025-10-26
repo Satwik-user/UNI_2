@@ -120,4 +120,4 @@ def main():
 
     #Deletion of element at start
     dll.sel_start()
-    print()
+    print("List after ")
