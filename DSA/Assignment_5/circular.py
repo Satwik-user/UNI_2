@@ -86,4 +86,4 @@ class CircularLinkedList:
         for _ in range(1, pos-1):
             prev=temp
             temp=temp.next
-        prev
+        
