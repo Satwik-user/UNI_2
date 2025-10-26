@@ -60,4 +60,5 @@ class DoublyLinkedList:
             swap=temp.next
             temp.next=temp.prev
             temp.prev=swap
-            
+
+            last=temp
