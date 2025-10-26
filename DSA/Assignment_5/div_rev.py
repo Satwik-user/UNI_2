@@ -47,3 +47,5 @@ class DoublyLinkedList:
             temp=temp.next
         for _ in range(br+1, len+1):
             list2.insert_ele(temp.data)
+            temp=temp.next
+            
