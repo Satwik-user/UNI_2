@@ -101,4 +101,5 @@ class CircularLinkedList:
         print()
 
 def main():
-    cll=
+    cll=CircularLinkedList()
+    
