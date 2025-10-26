@@ -122,4 +122,4 @@ def main():
     ele=int(input("Enter element to insert at end:"))
     dcll.insert_ele(ele)
     print("List after insertion at end:",end='')
-    
+    dcll
