@@ -74,4 +74,4 @@ class CircularLinkedList:
 
     def del_pos(self, pos):
         if self.head is None:
-            print()
+            print("Empty List!")
