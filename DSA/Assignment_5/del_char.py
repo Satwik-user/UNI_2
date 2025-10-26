@@ -31,3 +31,4 @@ class DoublyLinkedList:
         temp=self.head
         while temp.next:
             print(temp.data,end=' ')
+            
