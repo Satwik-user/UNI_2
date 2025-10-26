@@ -50,4 +50,4 @@ class DoublylinkedList():
         if self.head is None:
             print("Empty List!")
             return
-        self.head=self.
+        self.head=self.head.next
