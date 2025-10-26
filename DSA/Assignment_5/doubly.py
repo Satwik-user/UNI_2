@@ -130,4 +130,5 @@ def main():
 
     #Deletion of element at specific position
     pos=int(input("Enter position of deletion of element:"))
-    print("")
+    dll.del_pos(pos)
+    
