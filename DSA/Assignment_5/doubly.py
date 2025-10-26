@@ -17,4 +17,4 @@ class DoublylinkedList():
             self.head=newNode
             newNode.next=self.head
             return
-        
+        temp=self.head
