@@ -124,4 +124,5 @@ def main():
     cll.prin_list()
 
     #Insertion of element at specific position
-    pos=int(input("Enter position of isert"))
+    pos=int(input("Enter position of insertion:"))
+    ele=int(inp)
