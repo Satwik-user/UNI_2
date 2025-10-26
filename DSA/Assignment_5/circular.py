@@ -121,4 +121,6 @@ def main():
     ele=int(input("Enter element to insert at end:"))
     cll.insert_end(ele)
     print("List after insertion at end:",end='')
-    cll.print
+    cll.prin_list()
+
+    #
