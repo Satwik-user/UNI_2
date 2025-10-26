@@ -107,4 +107,4 @@ def main():
     n=int(input("Enter number of nodes:"))
     for _ in range(n):
         data=int(input("Enter element:"))
-        cll.insert_ele()
+        cll.insert_ele(data)
