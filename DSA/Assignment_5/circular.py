@@ -8,4 +8,4 @@ class CircularLinkedList:
         self.head=None
 
     def createNode(self, data):
-        Node()
+        return Node()
