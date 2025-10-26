@@ -44,4 +44,6 @@ class DoublyCircularLinkedList():
         newNode=self.createNode(data)
         if pos==1:
             self.insert_start(data)
-            re
+            return
+        
+        temp
