@@ -19,4 +19,5 @@ class DoublylinkedList():
         temp=self.head
         while temp:
             temp=temp.next
-        temp.next=
+        temp.next=newNode
+        
