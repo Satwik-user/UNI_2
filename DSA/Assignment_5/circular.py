@@ -14,4 +14,5 @@ class CircularLinkedList:
         newNode=self.createNode(data)
 
         if self.head is None:
-            self.head=newNOd
+            self.head=newNode
+            newNode
