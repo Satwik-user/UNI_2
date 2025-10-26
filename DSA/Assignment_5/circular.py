@@ -15,4 +15,4 @@ class CircularLinkedList:
 
         if self.head is None:
             self.head=newNode
-            newNode.next
+            newNode.next=self.head
