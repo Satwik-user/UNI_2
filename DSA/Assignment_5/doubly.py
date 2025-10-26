@@ -97,4 +97,4 @@ def main():
         dll.insert_ele(ele)
 
     print("Original List:",end='')
-    
+    dll.print_list()
