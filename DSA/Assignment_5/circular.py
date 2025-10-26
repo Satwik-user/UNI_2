@@ -17,5 +17,3 @@ class CircularLinkedList:
             self.head=newNode
             newNode.next=self.head
             return
-        
-        
