@@ -124,4 +124,4 @@ def main():
     cll.prin_list()
 
     #Insertion of element at specific position
-    p
+    pos=int(inpou)
