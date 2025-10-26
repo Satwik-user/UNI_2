@@ -68,4 +68,6 @@ class CircularLinkedList:
         temp=self.head
         prev=None
         while temp.next!=self.head:
+            prev=temp
             temp=temp.next
+            
