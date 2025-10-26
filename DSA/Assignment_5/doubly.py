@@ -68,5 +68,7 @@ class DoublylinkedList():
         if pos==1:
             self.del_start()
             return
+        
+        temp=self.head
         for _ in range(1, pos-1):
             temp=temp.next
