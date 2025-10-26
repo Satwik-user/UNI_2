@@ -60,3 +60,6 @@ class DoublylinkedList():
         while temp.next:
             temp=temp.next
         temp.prev.next=None
+
+    def del_pos(self, pos):
+        if self.head is None:
