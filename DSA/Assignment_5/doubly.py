@@ -123,4 +123,5 @@ def main():
     print("List after deletion of element at start:",end='')
     dll.print_list()
 
-    #Deletion of element at end
+    #Deletion of element at end]
+    dll.
