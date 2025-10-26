@@ -23,5 +23,6 @@ class DoublyLinkedList:
         temp.next=newNode
         newNode.prev=temp
 
-    def print_list():
-        
+    def print_list(self):
+        if self.head is None:
+            print()
