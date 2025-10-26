@@ -83,4 +83,5 @@ class DoublylinkedList():
         
         temp=self.head
         while temp.next:
-            print(temp.data)
+            print(temp.data,en=' ')
+            temp=temp.next
