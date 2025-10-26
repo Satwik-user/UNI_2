@@ -49,4 +49,5 @@ class DoublyLinkedList:
             list2.insert_ele(temp.data)
             temp=temp.next
 
-        return list2
+        return list1, list2
+    
