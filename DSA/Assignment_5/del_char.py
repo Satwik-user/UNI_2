@@ -39,4 +39,7 @@ class DoublyLinkedList:
             print("Empty List!")
             return
         
-        
+        temp=self.head
+        while temp.next:
+            if temp.data==ele:
+                break
