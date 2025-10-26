@@ -49,4 +49,4 @@ class DoublyLinkedList:
             list2.insert_ele(temp.data)
             temp=temp.next
 
-            
+        43
