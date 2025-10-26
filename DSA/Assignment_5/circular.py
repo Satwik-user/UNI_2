@@ -77,4 +77,5 @@ class CircularLinkedList:
             print("Empty List!")
             return
         
-        
+        if pos==1:
+            del_start()
