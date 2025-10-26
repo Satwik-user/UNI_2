@@ -125,4 +125,4 @@ def main():
     dcll.print_list()
 
     #Insertion of element at specific position
-    pos=
+    pos=int(inp)
