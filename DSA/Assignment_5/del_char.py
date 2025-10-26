@@ -43,4 +43,5 @@ class DoublyLinkedList:
         while temp.next:
             if temp.data==ele:
                 break
-            temp=tep.next
+            temp=temp.next
+        
