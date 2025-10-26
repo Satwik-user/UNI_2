@@ -61,4 +61,4 @@ def main():
         dll.insert_ele(ele)
     
     print("Original List:",end='')
-    p
+    dll.print_list()
