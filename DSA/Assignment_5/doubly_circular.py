@@ -146,3 +146,6 @@ def main():
     dcll.del_pos(pos)
     print("List after deletion at specific position:",end='')
     dcll.print_list()
+
+if __name__=="__main__":
+    
