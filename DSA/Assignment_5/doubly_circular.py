@@ -132,4 +132,4 @@ def main():
     dcll.print_list()
 
     #Deletion of element at start
-    dcll.
+    dcll.del+
