@@ -143,4 +143,5 @@ def main():
 
     #Deletion of element at specific position
     pos=int(input("Enter position of element to delete:"))
-    dcll.del_
+    dcll.del_pos()
+    p
