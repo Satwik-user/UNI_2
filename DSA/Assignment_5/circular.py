@@ -99,3 +99,6 @@ class CircularLinkedList:
             print(temp.data,end=' ')
             temp=temp.next
         print()
+
+def main():
+    cll=
