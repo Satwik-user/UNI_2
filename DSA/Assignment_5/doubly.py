@@ -106,4 +106,4 @@ def main():
     dll.print_list()
 
     #Insertion of element at end
-    ele=int("")
+    ele=int(input("Enter element"))
