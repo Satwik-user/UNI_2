@@ -56,4 +56,6 @@ class DoublylinkedList():
         if self.head is None:
             print("Empty List!")
             return
-        
+        temp=self.head
+        while temp.next:
+            
