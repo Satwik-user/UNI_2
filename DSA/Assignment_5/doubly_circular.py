@@ -101,4 +101,5 @@ class DoublyCircularLinkedList():
             temp=temp.next
         print()
 
-        
+def main():
+    dcll=DoublyCir
