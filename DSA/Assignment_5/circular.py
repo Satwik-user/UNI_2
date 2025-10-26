@@ -48,3 +48,7 @@ class CircularLinkedList:
             temp=temp.next
         newNode.next=temp.next
         temp.next=newNode
+
+    def del_start(self):
+        if self.head is None:
+            self.head=newNode
