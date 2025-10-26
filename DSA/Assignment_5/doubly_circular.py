@@ -51,4 +51,4 @@ class DoublyCircularLinkedList():
             temp=temp.next
         newNode.prev=temp.prev
         newNode.next=temp
-        temp.prev
+        temp.prev=newNode
