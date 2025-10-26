@@ -45,4 +45,4 @@ class DoublyLinkedList:
                 break
             temp=temp.next
         if temp.next==None:
-            print("Elem")
+            print("Element not in list!")
