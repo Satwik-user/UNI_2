@@ -88,7 +88,7 @@ class CircularLinkedList:
             temp=temp.next
         prev.next=temp.next
 
-    def display(self):
+    def print_list(self):
         if self.head is None:
             print("Empty List!")
             return
