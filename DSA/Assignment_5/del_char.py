@@ -21,4 +21,4 @@ class DoublyLinkedList:
         while temp.next:
             temp=temp.next
         temp.next=newNode
-        newNode.prev=temp.
+        newNode.prev=temp
