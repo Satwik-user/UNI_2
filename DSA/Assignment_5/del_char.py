@@ -67,4 +67,5 @@ def main():
     ele=int(input("Enter element to delete:"))
     dll.del_ele(ele)
 
-    print("List after removal of particular character")
+    print("List after removal of particular character:",end='')
+    p
