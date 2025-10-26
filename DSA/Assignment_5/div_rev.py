@@ -45,4 +45,5 @@ class DoublyLinkedList:
         for _ in range(br):
             list1.insert_ele(temp.data)
             temp=temp.next
-        for _ in ran        
+        for _ in range(br+1, len+1):
+            
