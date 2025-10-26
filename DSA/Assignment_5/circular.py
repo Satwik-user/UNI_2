@@ -109,4 +109,4 @@ def main():
         data=int(input("Enter element:"))
         cll.insert_ele(data)
 
-    print()
+    print(Original)
