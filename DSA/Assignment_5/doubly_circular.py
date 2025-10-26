@@ -30,3 +30,4 @@ class DoublyCircularLinkedList():
         if self.head is None:
             self.heaed=newNode
             newNode.next=self.head
+            
