@@ -81,5 +81,5 @@ class DoublyCircularLinkedList():
             return
         
         if pos==1:
-            self.del
+            self.del_start()
         
