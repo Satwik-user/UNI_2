@@ -139,4 +139,6 @@ def main():
     #Deletion of element at end
     dcll.del_end()
     print("List after deletion at end:",end='')
-    dc
+    dcll.print_list()
+
+    #
