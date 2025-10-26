@@ -46,4 +46,6 @@ class DoublyCircularLinkedList():
             self.insert_start(data)
             return
         
-        temp
+        temp=self.head
+        for _ in range(1, pos-1):
+            
