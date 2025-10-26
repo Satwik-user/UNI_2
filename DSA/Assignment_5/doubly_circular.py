@@ -106,4 +106,5 @@ def main():
 
     #Formation of the list
     n=int(input("Enter number of nodes:"))
-    
+    for _ in range(n):
+        
