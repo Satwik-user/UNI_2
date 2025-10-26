@@ -27,3 +27,5 @@ class CircularLinkedList:
         newNode=self.createNode(data)
         if self.head is None:
             self.head=newNode
+            newNode.next=self.head
+            
