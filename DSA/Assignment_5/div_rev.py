@@ -40,5 +40,6 @@ class DoublyLinkedList:
 
         list1=DoublyLinkedList()
         list2=DoublyLinkedList()
+
         
         
