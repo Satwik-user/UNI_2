@@ -44,4 +44,5 @@ class DoublyLinkedList:
         temp=self.head
         for _ in range(br):
             list1.insert_ele(temp.data)
+            
         
