@@ -113,4 +113,4 @@ def main():
     dcll.print_list()
 
     #Insertion of element at start
-    ele=int(input(""))
+    ele=int(input("Enter "))
