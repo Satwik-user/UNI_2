@@ -51,4 +51,4 @@ class DoublyCircularLinkedList():
             temp=temp.next
         if temp.next!=self.head:
             temp.next=newNode
-            newNode.prev=
+            newNode.prev=temp
