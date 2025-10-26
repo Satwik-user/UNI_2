@@ -105,4 +105,5 @@ def main():
     dcll=DoublyCircularLinkedList()
 
     #Formation of the list
-    n=int(input("Enter "))
+    n=int(input("Enter number of nodes:"))
+    
