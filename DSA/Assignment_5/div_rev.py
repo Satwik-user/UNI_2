@@ -51,3 +51,5 @@ class DoublyLinkedList:
 
         return list1, list2
     
+    def rev(self):
+        if self.head
