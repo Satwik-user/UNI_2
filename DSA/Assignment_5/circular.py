@@ -22,3 +22,6 @@ class CircularLinkedList:
             temp=temp.next
         temp.next=newNode
         newNode.next=self.head
+
+    def insert_start(self, data):
+        new
