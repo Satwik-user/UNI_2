@@ -76,4 +76,5 @@ class DoublylinkedList():
         if temp.next:
             temp.next.prev=temp.prev
         
+    def print_list(self):
         
