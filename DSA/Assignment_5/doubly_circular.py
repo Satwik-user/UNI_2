@@ -67,5 +67,7 @@ class DoublyCircularLinkedList():
 
     def del_end(self):
         if self.head is None:
-            print("Empty Li")
+            print("Empty List!")
+            return
+        
         
