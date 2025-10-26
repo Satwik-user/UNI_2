@@ -64,4 +64,4 @@ def main():
     dll.print_list()
 
     #Removal of element from list
-    del_ele=int(ipnut())
+    del_ele=int(inut("Enter "))
