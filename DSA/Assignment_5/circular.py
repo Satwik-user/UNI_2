@@ -90,4 +90,4 @@ class CircularLinkedList:
 
     def display(self):
         if self.head is None:
-            print("")
+            print("Empty List!")
