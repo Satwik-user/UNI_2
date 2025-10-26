@@ -20,4 +20,8 @@ class DoublyLinkedList:
         while temp.next:
             temp=temp.next
         temp.next=newNode
-        newNode.prev
+        newNode.prev=temp
+
+    def print_list(self):
+        if self.head is None:
+            print()
