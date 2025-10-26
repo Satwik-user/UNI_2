@@ -63,4 +63,5 @@ def main():
     print("Original List:",end='')
     dll.print_list()
 
-    #Removal of elemen
+    #Removal of element from list
+    ele=
