@@ -30,4 +30,4 @@ class DoublyLinkedList:
         
         temp=self.head
         while temp.next:
-            print()
+            print(temp.data)
