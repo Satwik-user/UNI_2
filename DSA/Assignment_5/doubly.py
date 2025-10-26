@@ -129,4 +129,4 @@ def main():
     dll.print_list()
 
     #Deletion of element at specific position
-    pos=int()
+    pos=int(input("Enter "))
