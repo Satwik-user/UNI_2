@@ -21,3 +21,6 @@ class DoublylinkedList():
             temp=temp.next
         temp.next=newNode
         newNode.prev=temp
+
+    def insert_start(self, data):
+        newNode
