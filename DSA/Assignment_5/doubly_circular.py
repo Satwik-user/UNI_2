@@ -54,4 +54,5 @@ class DoublyCircularLinkedList():
         temp.prev=newNode
 
     def del_start(self):
-        if self.head
+        if self.head is None:
+            print()
