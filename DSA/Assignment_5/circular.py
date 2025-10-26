@@ -81,5 +81,6 @@ class CircularLinkedList:
             self.del_start()
             return
         
+        temp=self.head
         for _ in range(1, pos-1):
             temp=temp.next
