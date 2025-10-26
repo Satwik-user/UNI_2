@@ -57,4 +57,4 @@ def main():
     #Formation of Doubly Linked List
     n=int(input("Enter number of nodes:"))
     for _ in range(n):
-        
+        ele=int(input(""))
