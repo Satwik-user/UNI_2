@@ -102,4 +102,4 @@ class DoublyCircularLinkedList():
         print()
 
 def main():
-    dcll=DoublyCir
+    dcll=DoublyCircularLinkedList
