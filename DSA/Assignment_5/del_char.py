@@ -64,4 +64,5 @@ def main():
     dll.print_list()
 
     #Removal of element from list
-    del_ele=int(input("Enter element "))
+    del_ele=int(input("Enter element to delete:"))
+    
