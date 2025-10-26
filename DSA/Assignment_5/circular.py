@@ -43,4 +43,5 @@ class CircularLinkedList:
             self.insert_start(data)
             return
         
-        for i in range
+        for i in range(1, pos-1):
+            te
