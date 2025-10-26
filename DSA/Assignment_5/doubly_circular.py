@@ -17,4 +17,7 @@ class DoublyCircularLinkedList():
             self.head=newNode
             return
         
-        temp=
+        temp=self.head
+        while temp.next:
+            temp=temp.next
+            
