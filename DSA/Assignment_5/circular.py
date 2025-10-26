@@ -62,4 +62,4 @@ class CircularLinkedList:
 
     def del_end(self):
         if self.head is None:
-            print()
+            print("")
