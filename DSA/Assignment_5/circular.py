@@ -132,4 +132,5 @@ def main():
 
     #Deletion of element at start
     cll.del_start()
-    print("List after deletion at start:")
+    print("List after deletion at start:",end='')
+    
