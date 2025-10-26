@@ -20,4 +20,4 @@ class DoublyCircularLinkedList():
         temp=self.head
         while temp.next:
             temp=temp.next
-            
+        
