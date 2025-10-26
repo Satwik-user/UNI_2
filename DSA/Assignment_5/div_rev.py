@@ -54,4 +54,5 @@ class DoublyLinkedList:
     def rev(self):
         if self.head is None:
             print("Empty List!")
-            retpii
+            return
+        
