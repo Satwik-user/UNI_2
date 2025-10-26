@@ -91,4 +91,5 @@ class DoublyCircularLinkedList():
         temp.prev.next=temp.next
 
     def print_list(self):
-        if s
+        if self.head is None:
+            print("Emoty L'")
