@@ -142,4 +142,4 @@ def main():
     dcll.print_list()
 
     #Deletion of element at specific position
-    pos=int(inp7)
+    pos=int(inpur)
