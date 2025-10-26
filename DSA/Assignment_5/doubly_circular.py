@@ -49,4 +49,5 @@ class DoublyCircularLinkedList():
         temp=self.head
         for _ in range(1, pos-1):
             temp=temp.next
+        newNode.prev=temp.prev
         
