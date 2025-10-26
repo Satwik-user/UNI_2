@@ -104,4 +104,5 @@ def main():
     cll=CircularLinkedList()
 
     #Formation of Circuar Linked List
-    n=int(input("Enter "))
+    n=int(input("Enter number of nodes:"))
+    
