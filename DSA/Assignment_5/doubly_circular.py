@@ -108,4 +108,4 @@ def main():
     n=int(input("Enter number of nodes:"))
     for _ in range(n):
         ele=int(input("Enter element:"))
-        dcll.insert
+        dcll.insert_ele()
