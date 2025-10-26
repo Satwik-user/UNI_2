@@ -70,5 +70,6 @@ class DoublyCircularLinkedList():
             print("Empty List!")
             return
         
-        temp
+        temp=self.head
+        
         
