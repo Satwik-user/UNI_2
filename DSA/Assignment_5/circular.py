@@ -112,4 +112,4 @@ def main():
     cll.print_list()
 
     #Insertion of element at start
-    
+    ele=int(inpu)
