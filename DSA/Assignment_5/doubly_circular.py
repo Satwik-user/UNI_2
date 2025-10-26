@@ -137,4 +137,4 @@ def main():
     dcll.print_list()
 
     #Deletion of element at end
-    
+    dcll.del_
