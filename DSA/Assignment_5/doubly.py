@@ -14,4 +14,4 @@ class DoublylinkedList():
     def insert_ele(self, data):
         newNode=self.createNode(data)
         if self.head is None:
-            newNode
+            self
