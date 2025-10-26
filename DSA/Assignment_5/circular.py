@@ -109,4 +109,4 @@ def main():
         cll.insert_ele(data)
 
     print("Original List:",end='')
-    print_list
+    print_list()
