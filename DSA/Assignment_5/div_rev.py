@@ -39,6 +39,6 @@ class DoublyLinkedList:
             br=len/2+1
 
         list1=DoublyLinkedList()
-        list2=DoblyLinkedList()
-        
+        list2=DoublyLinkedList()
+``
         
