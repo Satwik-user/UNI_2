@@ -52,4 +52,4 @@ class DoublyLinkedList:
             temp.next.prev=temp.prev
 
 def main():
-    dll
+    dll=DoublyLinkedList()
