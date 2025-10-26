@@ -132,4 +132,4 @@ def main():
     pos=int(input("Enter position of deletion of element:"))
     dll.del_pos(pos)
     print("List after deletion at position:")
-    dll.print
+    dll.print_list()
