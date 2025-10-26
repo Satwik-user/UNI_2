@@ -9,4 +9,7 @@ class DoublyLinkedList:
         self.head=None
 
     def createNode(self, data):
-        return Node()d
+        return Node(data)
+    
+    def insert_ele(self, data):
+        
