@@ -69,3 +69,5 @@ def main():
 
     print("List after removal of particular character:",end='')
     dll.print_list()
+
+    
