@@ -37,3 +37,5 @@ class DoublylinkedList():
             self.insert_start(data)
             return
         
+        temp=self.head
+        
