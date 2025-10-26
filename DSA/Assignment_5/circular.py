@@ -66,5 +66,6 @@ class CircularLinkedList:
             return
         
         temp=self.head
+        prev=None
         while temp.next!=self.head:
             temp=temp.next
