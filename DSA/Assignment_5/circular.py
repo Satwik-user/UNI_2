@@ -43,5 +43,6 @@ class CircularLinkedList:
             self.insert_start(data)
             return
         
+        temp=self.head
         for i in range(1, pos-1):
             temp=temp.next
