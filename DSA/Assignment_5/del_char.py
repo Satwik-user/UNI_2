@@ -64,4 +64,4 @@ def main():
     dll.print_list()
 
     #Removal of element from list
-    ele=
+    del_ele
