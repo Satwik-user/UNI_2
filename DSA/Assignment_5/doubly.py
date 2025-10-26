@@ -81,4 +81,4 @@ class DoublylinkedList():
             print("Empty list!")
             return
         
-        
+        temp
