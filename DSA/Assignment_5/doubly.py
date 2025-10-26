@@ -43,4 +43,5 @@ class DoublylinkedList():
         newNode.next=temp.next
         newNode.prev=temp
         if temp.next is not None:
-            temp.next,
+            temp.next.prev=newNode
+        
