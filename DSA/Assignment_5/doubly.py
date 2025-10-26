@@ -58,4 +58,5 @@ class DoublylinkedList():
             return
         temp=self.head
         while temp.next:
+            temp=temp.next
             
