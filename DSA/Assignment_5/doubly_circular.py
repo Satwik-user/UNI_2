@@ -15,3 +15,5 @@ class DoublyCircularLinkedList():
         newNode=self.createNode(data)
         if self.head is None:
             self.head=newNode
+            return
+        
