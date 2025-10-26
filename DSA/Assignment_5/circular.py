@@ -62,4 +62,6 @@ class CircularLinkedList:
 
     def del_end(self):
         if self.head is None:
-            print("Empty Lisr")
+            print("Empty List!")
+            return
+        
