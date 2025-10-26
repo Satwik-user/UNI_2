@@ -77,4 +77,5 @@ class DoublylinkedList():
             temp.next.prev=temp.prev
         
     def print_list(self):
-        
+        if self.head is None:
+            print("EMpty list!")
