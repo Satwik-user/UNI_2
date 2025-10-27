@@ -36,4 +36,4 @@ class DoublyLinkedList():
         if self.heada is None:
             print("Empty List!")
             return
-        
+        temp=
