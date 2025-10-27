@@ -50,4 +50,4 @@ class DoublyLinkedList():
 def main():
     list=DoublyLinkedList()
 
-    
+    #Formation of 
