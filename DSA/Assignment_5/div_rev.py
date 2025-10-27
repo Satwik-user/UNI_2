@@ -80,4 +80,5 @@ class DoublyLinkedList:
 def main():
     list=DoublyLinkedList()
 
-    n=int(input("Enter n"))
+    n=int(input("Enter number of nodes:"))
+    
