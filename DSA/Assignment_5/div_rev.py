@@ -89,4 +89,4 @@ def main():
     list.print_list()
 
     #Divide from middle
-    list
+    list1, list2=list.div()
