@@ -13,4 +13,4 @@ class DoublyLinkedList():
     
     def insert_ele(self, data):
         if self.head is None:
-            
+            self.
