@@ -80,10 +80,10 @@ class DoublyLinkedList:
 def main():
     list=DoublyLinkedList()
 
+#
     n=int(input("Enter number of nodes:"))
     for _ in range(n):
         ele=int(input("Enter element:"))
         list.insert_ele(ele)
     print("Original List:",end='')
     list.print_list()
-    
