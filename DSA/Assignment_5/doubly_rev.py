@@ -16,3 +16,4 @@ class DoublyLinkedList():
         if self.head is None:
             self.head=newNode
             return
+        
