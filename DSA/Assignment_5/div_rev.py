@@ -36,7 +36,7 @@ class DoublyLinkedList:
         if len%2==0:
             br=int(len/2)
         else:
-            br=len/2+1
+            br=int(len/2+1)
 
         list1=DoublyLinkedList()
         list2=DoublyLinkedList()
