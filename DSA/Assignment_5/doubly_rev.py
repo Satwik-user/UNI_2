@@ -48,4 +48,6 @@ class DoublyLinkedList():
         last=self.head
 
 def main():
-    list=
+    list=DoublyLinkedList()
+
+    
