@@ -75,4 +75,4 @@ class DoublyLinkedList:
             temp=temp.next
         temp.next=list2.head
         if list2.head is not None:
-            list
+            list2.head.prev=temp
