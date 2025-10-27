@@ -83,4 +83,4 @@ def main():
     n=int(input("Enter number of nodes:"))
     for _ in range(n):
         ele=int(input("Enter element:"))
-        list.insert_ele()
+        list.insert_ele(ele)
