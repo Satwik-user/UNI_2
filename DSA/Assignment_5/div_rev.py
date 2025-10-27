@@ -95,4 +95,4 @@ def main():
     list1.rev()
     list2.rev()
 
-    #Join both the 
+    #Join both th
