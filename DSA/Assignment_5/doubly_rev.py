@@ -34,4 +34,6 @@ class DoublyLinkedList():
 
     def rev(self):
         if self.heada is None:
-            print()
+            print("Empty List!")
+            return
+        
