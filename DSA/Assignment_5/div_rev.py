@@ -90,3 +90,5 @@ def main():
 
     #Divide from middle
     list1, list2=list.div(n)
+
+    #re
