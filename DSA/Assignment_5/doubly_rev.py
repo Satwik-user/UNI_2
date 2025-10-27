@@ -40,4 +40,7 @@ class DoublyLinkedList():
         last=None
         while temp:
             swap=temp.next
+            temp.next=temp.prev
+            temp.prev=swap
+
             
