@@ -46,3 +46,6 @@ class DoublyLinkedList():
             last=temp
             temp=temp.prev
         last=self.head
+
+def main():
+    
