@@ -68,4 +68,4 @@ class DoublyLinkedList:
 
     def join(self, list2):
         if self.head is None:
-            pri
+            print("E")
