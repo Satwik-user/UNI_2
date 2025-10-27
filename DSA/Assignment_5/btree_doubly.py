@@ -286,5 +286,4 @@ def interactive_menu():
 
 
 if __name__ == "__main__":
-    # Uncomment one of the following:
     main()
