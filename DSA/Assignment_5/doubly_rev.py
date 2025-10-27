@@ -33,7 +33,7 @@ class DoublyLinkedList():
         print()
 
     def rev(self):
-        if self.heada is None:
+        if self.head is None:
             print("Empty List!")
             return
         temp=self.head
