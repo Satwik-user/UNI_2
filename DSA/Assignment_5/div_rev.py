@@ -74,3 +74,5 @@ class DoublyLinkedList:
         while temp.next:
             temp=temp.next
         temp.next=list2.head
+        if list2.head is not None:
+            list
