@@ -71,4 +71,6 @@ class DoublyLinkedList:
             print("Empty List!")
             return
         temp=self.head
-        while temp.next
+        while temp.next:
+            temp=temp.next
+        
