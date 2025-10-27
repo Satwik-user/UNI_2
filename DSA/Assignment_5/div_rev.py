@@ -99,4 +99,5 @@ def main():
     list1.join(list2)
 
     #Printing the final modified list
-    print("Modified List:")
+    print("Modified List:",end='')
+    
