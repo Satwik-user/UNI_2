@@ -60,3 +60,5 @@ def main():
 
     #Reverse doubly linked list
     list.rev()
+
+    #Print
