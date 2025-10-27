@@ -93,4 +93,6 @@ def main():
 
     #Reverse each list sparately
     list1.rev()
-    list2.rev
+    list2.rev()
+
+    #Join 
