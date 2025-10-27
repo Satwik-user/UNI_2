@@ -55,3 +55,4 @@ def main():
     for _ in range(n):
         ele=int(input("Enter element:"))
         list.insert_ele(ele)
+    print("Original List:")
