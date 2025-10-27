@@ -78,4 +78,4 @@ class DoublyLinkedList:
             list2.head.prev=temp
 
 def main():
-    dll
+    og_list=DoublyLinkedList
