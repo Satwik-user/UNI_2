@@ -31,3 +31,7 @@ class DoublyLinkedList():
             print(temp.data,end=' ')
             temp=temp.next
         print()
+
+    def rev(self):
+        if self.heada is None:
+            print()
