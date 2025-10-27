@@ -28,5 +28,5 @@ class DoublyLinkedList():
             return
         temp=self.head
         while temp:
-            
+            print(temp.data)
             temp=temp.next
