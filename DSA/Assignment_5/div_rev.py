@@ -66,4 +66,6 @@ class DoublyLinkedList:
             temp=temp.prev
         self.head=last
 
-    e3
+    def join(self, list2):
+        if self.head is None:
+            
