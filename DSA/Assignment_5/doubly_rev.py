@@ -64,3 +64,6 @@ def main():
     #Print reversed doubly linked list
     print("Reversed List:",end='')
     list.print_list()
+
+if __name__=="__main__":
+    main()
