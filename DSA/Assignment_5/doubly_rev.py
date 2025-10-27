@@ -12,7 +12,7 @@ class DoublyLinkedList():
         return Node(data)
     
     def insert_ele(self, data):
-        newNode=
+        newNode=self
         if self.head is None:
             self.head=newNode
             return
