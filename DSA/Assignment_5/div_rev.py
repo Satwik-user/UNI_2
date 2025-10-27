@@ -81,4 +81,5 @@ def main():
     list=DoublyLinkedList()
 
     n=int(input("Enter number of nodes:"))
-    
+    for _ in range(n):
+        
