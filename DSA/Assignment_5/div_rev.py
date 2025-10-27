@@ -79,4 +79,5 @@ class DoublyLinkedList:
 
 def main():
     list=DoublyLinkedList()
-    
+
+    n=int(input("Enter n"))
