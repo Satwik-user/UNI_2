@@ -77,4 +77,5 @@ class DoublyLinkedList:
         if list2.head is not None:
             list2.head.prev=temp
 
-    
+def main():
+    dll
