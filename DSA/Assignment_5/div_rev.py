@@ -101,3 +101,6 @@ def main():
     #Printing the final modified list
     print("Modified List:",end='')
     list.print_list()
+
+if __name__=="__main__":
+    main()
