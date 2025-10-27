@@ -96,4 +96,4 @@ def main():
     list2.rev()
 
     #Join both the modified lists
-    list1.
+    list1.join()
