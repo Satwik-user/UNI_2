@@ -85,4 +85,4 @@ def main():
         ele=int(input("Enter element:"))
         list.insert_ele(ele)
     print("Original List:",end='')
-    print()
+    list.print()
