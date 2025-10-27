@@ -58,4 +58,5 @@ def main():
     print("Original List:",end='')
     list.print_list()
 
-    #Reverse d
+    #Reverse doubly linked list
+    
