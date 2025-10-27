@@ -51,4 +51,4 @@ def main():
     list=DoublyLinkedList()
 
     #Formation of doubly linked list
-    
+    n=int(Input())
