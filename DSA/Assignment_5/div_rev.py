@@ -100,7 +100,7 @@ def main():
 
     #Printing the final modified list
     print("Modified List:",end='')
-    list.print_list()
+    list1.print_list()
 
 if __name__=="__main__":
     main()
