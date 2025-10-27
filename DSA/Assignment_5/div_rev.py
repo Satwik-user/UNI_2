@@ -92,4 +92,4 @@ def main():
     list1, list2=list.div(n)
 
     #Reverse each list sparately
-    
+    list1.rev
