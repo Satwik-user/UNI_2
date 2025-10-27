@@ -91,4 +91,5 @@ def main():
     #Divide from middle
     list1, list2=list.div(n)
 
-    #Reverse each list spa
+    #Reverse each list sparately
+    
