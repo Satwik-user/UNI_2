@@ -78,5 +78,4 @@ class DoublyLinkedList:
             list2.head.prev=temp
 
 def main():
-    og_list=DoublyLinkedList()
-    
+    list=DoublyLinkedList()
