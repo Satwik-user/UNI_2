@@ -6,4 +6,7 @@ class Node:
 
 class DoublyLinkedList():
     def __init__(self):
-        self.head
+        self.head=None
+
+    def createNode(self, data):
+        
