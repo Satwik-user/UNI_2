@@ -62,4 +62,4 @@ def main():
     list.rev()
 
     #Print reversed doubly linked list
-    
+    print("Reversed List:",end=)
