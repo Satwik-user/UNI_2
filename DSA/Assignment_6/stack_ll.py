@@ -7,7 +7,7 @@ class stackLinkedList:
     def __init__(self):
         self.head=None
 
-    @static
+    @staticmethod
     def createNode(self, data):
         return Node(data)
     
