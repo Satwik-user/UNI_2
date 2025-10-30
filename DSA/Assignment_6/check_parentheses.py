@@ -52,4 +52,3 @@ class Stack:
             if self.peek()=='(':
                 c+=1
             top-=1
-        top
