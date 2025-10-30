@@ -76,4 +76,4 @@ def main():
     print("Original Stack:",end=' ')
     stack.print_stack()
 
-    #P
+    #Pop element from stack
