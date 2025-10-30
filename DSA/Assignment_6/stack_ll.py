@@ -35,4 +35,4 @@ class stackLinkedList:
         while temp:
             count+=1
             temp=temp.next
-        return c
+        return count
