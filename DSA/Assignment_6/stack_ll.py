@@ -8,4 +8,4 @@ class stackLinkedList:
         self.head=None
 
     def insert_ele(self, data):
-        
+        return 
