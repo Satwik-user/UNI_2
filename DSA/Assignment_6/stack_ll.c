@@ -51,9 +51,13 @@ int isFull(node* *stack, int cap)
     return count>=cap;
 }
 
-void push(node* *stack, int data)
+void push(node* *stack, int data, int cap)
 {
-    if(isFull)
+    if(isFull(stack, cap))
+    {
+        print("Stack Overflow!");
+        return;
+    }
     insert_ele(stack, data);
 }
 
@@ -102,7 +106,7 @@ int main()
     {
         printf("Enter element:");
         scanf("%d",&ele);
-        push(&stack, ele);
+        push(&stack, ele, n);
     }
     printf("Original Stack:\n");
     print_stack(&stack);
