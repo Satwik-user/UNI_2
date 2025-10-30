@@ -48,4 +48,6 @@ class Stack:
             print("Stack is empty!")
             return
         top=self.top
-        while top
+        while top!=-1:
+            if self.peek()=='(':
+                c+=1
