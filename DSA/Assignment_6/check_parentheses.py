@@ -18,4 +18,5 @@ class Stack:
         if self.isFull():
             print("Stack Overflow!")
             return
-        
+        self.arr.append(ele)
+        self.t
