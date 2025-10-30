@@ -73,4 +73,4 @@ def main():
         ele=input("Enter element:")
         stack.push(ele)
     print("Original Stack:",end='')
-    
+    stack.print_stack()
