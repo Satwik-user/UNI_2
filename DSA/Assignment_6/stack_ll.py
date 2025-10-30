@@ -30,4 +30,4 @@ class stackLinkedList:
         return self.head is None
     
     def isFull(self):
-        return sel.
+        return 
