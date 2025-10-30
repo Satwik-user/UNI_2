@@ -53,4 +53,5 @@ def main():
     #pop top element of stack
     print("Popped element of stack:",stack.pop())
 
-    #
+    #peek top element of stack
+    print("")
