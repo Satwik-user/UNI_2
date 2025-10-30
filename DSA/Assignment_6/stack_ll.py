@@ -9,3 +9,6 @@ class stackLinkedList:
 
     def createNode(self, data):
         return Node(data)
+    
+    def insert_ele(self, data):
+        
