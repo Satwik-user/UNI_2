@@ -67,4 +67,5 @@ class Stack:
 def main():
     
     #Formation of stack
+    n=int(input("Enter size of stack:"))
     stack=Stack.createstack()
