@@ -50,4 +50,5 @@ class stackLinkedList:
         return self.del_head()
     
     def peek(self):
-        if self.isEmpty()
+        if self.isEmpty():
+            print()
