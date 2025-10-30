@@ -7,5 +7,5 @@ class stackLinkedList:
     def __init__(self):
         self.head=None
 
-    def insert_ele(self, data):
-        return Node(data)
+    def createNode(self, data):
+        
