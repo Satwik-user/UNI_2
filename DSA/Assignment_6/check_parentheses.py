@@ -38,4 +38,5 @@ class Stack:
         if self.isEmpty():
             print("Stack is empty!")
             return
-        temp=self.top
+        for i in range(self.top, -1, -1):
+            print()
