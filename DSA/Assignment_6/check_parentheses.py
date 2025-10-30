@@ -39,4 +39,4 @@ class Stack:
             print("Stack is empty!")
             return
         for i in range(self.top, -1, -1):
-            print(self)
+            print(self.arr[])
