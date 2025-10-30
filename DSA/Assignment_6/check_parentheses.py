@@ -56,4 +56,4 @@ class Stack:
     
     def noOfClose(self):
         c=0
-        
+        if self.isEmpty()
