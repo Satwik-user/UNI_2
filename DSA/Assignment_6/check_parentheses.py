@@ -47,4 +47,5 @@ class Stack:
         if self.isEmpty():
             print("Stack is empty!")
             return
-        
+        top=self.top
+        while top
