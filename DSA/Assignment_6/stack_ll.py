@@ -73,4 +73,4 @@ def main():
     for _ in range(n):
         ele=int(input("Enter element:"))
         stack.push(ele)
-    print("O")
+    print("Original Stack:")
