@@ -46,3 +46,5 @@ class stackLinkedList:
     def pop(self):
         if self.isEmpty():
             print("Stack Underflow!")
+            return
+        
