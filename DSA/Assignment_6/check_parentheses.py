@@ -3,3 +3,7 @@ class Stack:
         self.arr=[]
         self.cap=cap
         self.top=-1
+    
+    @staticmethod
+    def createStack(data):
+        return Stack()
