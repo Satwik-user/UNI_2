@@ -73,7 +73,7 @@ def main():
     for _ in range(n):
         ele=input("Enter element:")
         stack.push(ele)
-    print("Original Stack:",end='')
+    print("Stack:",end='')
     stack.print_stack()
 
     if stack.noOfOpen()==stack.noOfClose():
