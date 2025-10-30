@@ -56,4 +56,7 @@ class Stack:
     
     def noOfClose(self):
         c=0
-        if self.isEmpty()
+        if self.isEmpty():
+            print("Stack is empty!")
+            return
+        
