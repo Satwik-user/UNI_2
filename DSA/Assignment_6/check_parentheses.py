@@ -67,4 +67,4 @@ class Stack:
 def main():
     
     #Formation of stack
-    stack=Stack
+    stack=Stack.create
