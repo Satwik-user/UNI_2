@@ -59,4 +59,6 @@ class stackLinkedList:
         if self.isEmpty():
             print("Stack is Empty!")
             return
-        
+        temp=self.head
+        while temp:
+            
