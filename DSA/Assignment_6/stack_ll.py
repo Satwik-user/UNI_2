@@ -16,4 +16,4 @@ class stackLinkedList:
         if self.head is None:
             self.head=newNode
             return
-        
+        newNode.next=self.head
