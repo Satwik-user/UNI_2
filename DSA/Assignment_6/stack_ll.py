@@ -78,3 +78,5 @@ def main():
 
     #Pop element from stack
     print(f"Popped {stack.pop()} from stack")
+
+    #
