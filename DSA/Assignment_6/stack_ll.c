@@ -39,7 +39,7 @@ int isEmpty(node* *stack)
     return *stack==NULL;
 }
 
-int isFull(node* *stack, int max_size)
+int isFull(node* *stack, int cap)
 {
     int count=0;
     node *temp=*stack;
@@ -48,7 +48,7 @@ int isFull(node* *stack, int max_size)
         count++;
         temp=temp->next;
     }
-    return count>=max_size;
+    return count>=cap;
 }
 
 void push(node* *stack, int data)
