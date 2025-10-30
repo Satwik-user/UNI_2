@@ -21,4 +21,5 @@ class stackLinkedList:
 
     def del_head(self):
         if self.head is None:
-            print
+            return None
+        
