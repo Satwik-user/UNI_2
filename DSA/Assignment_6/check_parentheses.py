@@ -76,4 +76,4 @@ def main():
     stack.print_stack()
 
     if stack.noOfOpen()==stack.noOfClose():
-        print("")
+        print("Equal number o")
