@@ -70,4 +70,5 @@ def main():
     n=int(input("Enter size of stack:"))
     stack=Stack.createstack(n)
     for _ in range(n):
+        ele=input("Enter element:")
         
