@@ -27,4 +27,4 @@ class stackLinkedList:
         return temp.data
     
     def isEmpty(self):
-        return self.head
+        return self.head is None
