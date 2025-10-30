@@ -23,4 +23,5 @@ class Stack:
 
     def pop(self):
         if self.isEmpty():
-            print()
+            print("Stack Underflow!")
+            
