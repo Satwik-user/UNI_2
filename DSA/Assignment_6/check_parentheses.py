@@ -74,3 +74,5 @@ def main():
         stack.push(ele)
     print("Original Stack:",end='')
     stack.print_stack()
+
+    
