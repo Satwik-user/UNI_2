@@ -41,4 +41,4 @@ class stackLinkedList:
         if self.isFull(cap):
             print("Stack Overflow!")
             return
-        self.inert_ele()
+        self.insert_ele()
