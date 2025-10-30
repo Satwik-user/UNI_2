@@ -17,3 +17,4 @@ class stackLinkedList:
             self.head=newNode
             return
         newNode.next=self.head
+        self.head=newNode
