@@ -47,4 +47,4 @@ class stackLinkedList:
         if self.isEmpty():
             print("Stack Underflow!")
             return
-        return del_head()
+        return self.del_head()
