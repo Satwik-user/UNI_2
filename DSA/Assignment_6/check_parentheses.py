@@ -42,4 +42,6 @@ class Stack:
             print(self.arr[i],end=' ')
         print()
 
-    
+    def noOfOpen(self):
+        c=0
+        
