@@ -50,4 +50,5 @@ def main():
     print("Original Stack:",end='')
     stack.print_stack()
 
-    #
+    #pop top element of stack
+    
