@@ -75,4 +75,5 @@ def main():
     print("Original Stack:",end='')
     stack.print_stack()
 
-    if stack.noOfOpen()==stack.noOfC
+    if stack.noOfOpen()==stack.noOfClose():
+        print("")
