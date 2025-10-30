@@ -18,3 +18,7 @@ class stackLinkedList:
             return
         newNode.next=self.head
         self.head=newNode
+
+    def del_head(self):
+        if self.head is None:
+            return None
