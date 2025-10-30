@@ -41,7 +41,13 @@ int isEmpty(node* *stack)
 
 int isFull(node* *stack, int max_size)
 {
-    
+    int count=0;
+    node *temp=*stack;
+    while(temp)
+    {
+        count++;
+        temp=temp->next;
+    }
 }
 
 void push(node* *stack, int data)
