@@ -36,3 +36,7 @@ class stackLinkedList:
             count+=1
             temp=temp.next
         return count>=cap
+    
+    def push(self, data, cap):
+        if self.isFull(cap):
+            print
