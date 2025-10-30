@@ -55,3 +55,4 @@ class stackLinkedList:
             return
         return self.head.data
     
+    
