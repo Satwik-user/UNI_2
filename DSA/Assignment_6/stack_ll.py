@@ -51,4 +51,6 @@ class stackLinkedList:
     
     def peek(self):
         if self.isEmpty():
-            print()
+            print("Stack is Empty!")
+            return
+        
