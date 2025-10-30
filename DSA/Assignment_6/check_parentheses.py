@@ -37,4 +37,5 @@ class Stack:
     def print_stack(self):
         if self.isEmpty():
             print("Stack is empty!")
-            
+            return
+        temp=self.top
