@@ -44,4 +44,5 @@ class stackLinkedList:
         self.insert_ele(data)
 
     def pop(self):
-        if self.
+        if self.isEmpty():
+            
