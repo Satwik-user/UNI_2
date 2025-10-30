@@ -51,4 +51,4 @@ class Stack:
         while top!=-1:
             if self.peek()=='(':
                 c+=1
-            
+            top-=1
