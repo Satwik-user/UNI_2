@@ -27,3 +27,7 @@ class Stack:
             return
         self.top-=1
         return self.arr.pop()
+    
+    def peek(self):
+        if self.isEmpty():
+            print("Stac ")
