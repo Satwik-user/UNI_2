@@ -6,4 +6,4 @@ class Stack:
     
     @staticmethod
     def createStack(data):
-        return Stack(capa)
+        return Stack(capacity)
