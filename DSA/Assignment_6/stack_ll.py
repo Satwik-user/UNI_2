@@ -47,4 +47,4 @@ class stackLinkedList:
         if self.isEmpty():
             print("Stack Underflow!")
             return
-        
+        return 
