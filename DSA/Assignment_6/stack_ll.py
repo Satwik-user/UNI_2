@@ -84,4 +84,4 @@ def main():
 
     #Print modified stack
     print("Modified Stack:",end=' ')
-    
+    stack.print_stack()
