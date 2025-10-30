@@ -33,5 +33,6 @@ class stackLinkedList:
         count=0
         temp=self.head
         while temp:
+            count
             temp=temp.next
         
