@@ -39,4 +39,4 @@ class stackLinkedList:
     
     def push(self, data, cap):
         if self.isFull(cap):
-            print
+            print("Stack Over")
