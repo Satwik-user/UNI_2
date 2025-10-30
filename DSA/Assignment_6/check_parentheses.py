@@ -71,4 +71,4 @@ def main():
     stack=Stack.createstack(n)
     for _ in range(n):
         ele=input("Enter element:")
-        
+        stack.push
