@@ -77,7 +77,7 @@ def main():
     stack.print_stack()
 
     #Pop element from stack
-    print(f"Popped {stack.pop()} from stack")
+    print(f"Popped {stack.pop()}' from stack")
 
     #Peek current top element from stack
     print("Current top element of stack:", stack.peek())
