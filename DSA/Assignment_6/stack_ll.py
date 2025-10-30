@@ -70,4 +70,4 @@ def main():
     #Formation of stack
     n=int(input("Enter size of stack:"))
     for _ in range(n):
-        ele=int(i)
+        ele=int(input("Enter "))
