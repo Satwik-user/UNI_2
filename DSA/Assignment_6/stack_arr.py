@@ -58,4 +58,4 @@ def main():
 
     #print modified stack
     print("Modified Stack:",end='')
-    s
+    stack.print
