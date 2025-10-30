@@ -12,4 +12,8 @@ class Stack:
         return self.top==-1
     
     def isFull(self):
-        return self.top==self.cap
+        return self.top==self.cap-1
+    
+    def push(self, ele):
+        if self.isFull():
+            
