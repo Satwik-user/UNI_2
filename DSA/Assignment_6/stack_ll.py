@@ -48,3 +48,6 @@ class stackLinkedList:
             print("Stack Underflow!")
             return
         return self.del_head()
+    
+    def peek(self):
+        if self.isEmpty()
