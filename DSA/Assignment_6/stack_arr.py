@@ -60,4 +60,5 @@ def main():
     print("Modified Stack:",end='')
     stack.print_stack()
 
-if __name__==""
+if __name__=="__main__":
+    main()
