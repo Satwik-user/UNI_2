@@ -52,7 +52,7 @@ class Stack:
             if self.peek()=='(':
                 c+=1
             self.top-=1
-            
+        self.top=top
         return c
     
     def noOfClose(self):
