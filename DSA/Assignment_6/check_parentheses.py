@@ -77,3 +77,4 @@ def main():
 
     if stack.noOfOpen()==stack.noOfClose():
         print("Equal number of parenthesis")
+        
