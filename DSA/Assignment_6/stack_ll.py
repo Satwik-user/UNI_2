@@ -42,3 +42,6 @@ class stackLinkedList:
             print("Stack Overflow!")
             return
         self.insert_ele(data)
+
+    def pop(self):
+        if self.
