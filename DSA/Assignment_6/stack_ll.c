@@ -40,7 +40,9 @@ int isEmpty(node* *stack)
 }
 
 int isFull(node* *stack, int max_size)
-
+{
+    
+}
 
 void push(node* *stack, int data)
 {
