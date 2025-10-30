@@ -57,4 +57,4 @@ def main():
     print("Current top of element of stack:",stack.peek())
 
     #print modified stack
-    print("Modified ")
+    print("Modified Stack:")
