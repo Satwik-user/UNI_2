@@ -39,6 +39,9 @@ int isEmpty(node* *stack)
     return *stack==NULL;
 }
 
+int isFull(node* *stack, int max_size)
+
+
 void push(node* *stack, int data)
 {
     insert_ele(stack, data);
