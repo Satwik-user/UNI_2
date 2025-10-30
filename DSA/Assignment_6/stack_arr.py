@@ -59,3 +59,5 @@ def main():
     #print modified stack
     print("Modified Stack:",end='')
     stack.print_stack()
+
+if __name__==""
