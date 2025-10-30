@@ -61,4 +61,4 @@ class stackLinkedList:
             return
         temp=self.head
         while temp:
-            print()
+            print(temp)
