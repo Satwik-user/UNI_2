@@ -45,3 +45,4 @@ class Stack:
     def noOfOpen(self):
         c=0
         if self.isEmpty():
+            print()
