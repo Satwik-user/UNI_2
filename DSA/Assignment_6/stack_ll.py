@@ -12,4 +12,5 @@ class stackLinkedList:
     
     def insert_ele(self, data):
         newNode=self.createNode(data)
-        new
+        if self.head is None:
+            
