@@ -23,4 +23,5 @@ class stackLinkedList:
         if self.head is None:
             return None
         temp=self.head
+        self.head=self.head.next
         
