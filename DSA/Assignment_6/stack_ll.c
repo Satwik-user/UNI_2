@@ -53,6 +53,7 @@ int isFull(node* *stack, int cap)
 
 void push(node* *stack, int data)
 {
+    if(isFull)
     insert_ele(stack, data);
 }
 
