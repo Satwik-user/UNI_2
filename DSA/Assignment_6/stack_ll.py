@@ -72,7 +72,7 @@ def main():
     n=int(input("Enter size of stack:"))
     for _ in range(n):
         ele=int(input("Enter element:"))
-        stack.push(ele)
+        stack.push(ele, n)
     print("Original Stack:",end=' ')
     stack.print_stack()
 
