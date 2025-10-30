@@ -68,4 +68,4 @@ class stackLinkedList:
 def main():
     
     #Formation of stack
-    n=int(i)
+    n=int(input())
