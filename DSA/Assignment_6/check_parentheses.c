@@ -83,7 +83,7 @@ int noOfOpen(Stack *stack)
         c++;
         stack->top--;
     }
-    stack->top=top;
+   stack->top=top;
     return c;
 }
 
