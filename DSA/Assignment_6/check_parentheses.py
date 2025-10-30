@@ -5,5 +5,5 @@ class Stack:
         self.top=-1
     
     @staticmethod
-    def createStack(data):
+    def createStack(capacity):
         return Stack(capacity)
