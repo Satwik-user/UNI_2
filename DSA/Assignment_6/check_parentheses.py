@@ -26,4 +26,4 @@ class Stack:
             print("Stack Underflow!")
             return
         self.top-=1
-        self.arr.pop()
+        return self.arr.pop()
