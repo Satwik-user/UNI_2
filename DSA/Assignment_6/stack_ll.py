@@ -31,4 +31,6 @@ class stackLinkedList:
     
     def isFull(self, cap):
         count=0
-        
+        temp=self.head
+        while temp:
+            tmep
