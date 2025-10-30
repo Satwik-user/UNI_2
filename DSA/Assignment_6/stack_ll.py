@@ -55,4 +55,6 @@ class stackLinkedList:
             return
         return self.head.data
     
-    
+    def print_stack(self):
+        if self.isEmpty():
+            pritn()
