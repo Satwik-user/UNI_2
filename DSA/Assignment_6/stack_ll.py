@@ -80,4 +80,6 @@ def main():
     print(f"Popped {stack.pop()} from stack")
 
     #Peek current top element from stack
-    print(f"Current top element of stack:", stack.peek())
+    print("Current top element of stack:", stack.peek())
+
+    
