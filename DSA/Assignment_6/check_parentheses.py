@@ -64,4 +64,7 @@ class Stack:
                 c+=1
         return c
     
+def main():
     
+    #Formation of stack
+    stack=
