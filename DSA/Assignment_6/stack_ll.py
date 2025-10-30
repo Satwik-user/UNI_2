@@ -29,5 +29,6 @@ class stackLinkedList:
     def isEmpty(self):
         return self.head is None
     
-    def isFull(self):
-        return 
+    def isFull(self, cap):
+        count=0
+        
