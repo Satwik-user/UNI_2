@@ -48,6 +48,7 @@ int isFull(node* *stack, int max_size)
         count++;
         temp=temp->next;
     }
+    return count>=max_size;
 }
 
 void push(node* *stack, int data)
