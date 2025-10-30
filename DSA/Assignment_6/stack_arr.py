@@ -37,7 +37,7 @@ class Stack:
         if self.isEmpty():
             print("Stack is Empty!")
             return
-        for i in range(self.top,-11,-1):
+        for i in range(self.top,-1,-1):
             print(self.arr[i],end=' ')
 
 def main():
