@@ -79,3 +79,6 @@ def main():
         print("Equal number of parenthesis")
     else:
         print("Unequal number of parenthesis")
+
+if __name__=="__main__":
+    main()
