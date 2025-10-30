@@ -62,4 +62,4 @@ class Stack:
         for i in range(self.top, -1, -1):
             if self.arr[i]==')':
                 c+=1
-                
+        return c
