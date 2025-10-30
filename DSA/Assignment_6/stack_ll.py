@@ -24,4 +24,6 @@ class stackLinkedList:
             return None
         temp=self.head
         self.head=self.head.next
-        
+        return temp.data
+    
+    
