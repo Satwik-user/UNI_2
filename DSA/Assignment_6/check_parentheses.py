@@ -63,3 +63,5 @@ class Stack:
             if self.arr[i]==')':
                 c+=1
         return c
+    
+    
