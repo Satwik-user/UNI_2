@@ -8,4 +8,4 @@ class stackLinkedList:
         self.head=None
 
     def createNode(self, data):
-        
+        return Node(data)
