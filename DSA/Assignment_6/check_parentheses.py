@@ -51,7 +51,8 @@ class Stack:
         while self.top!=-1:
             if self.peek()=='(':
                 c+=1
-            self.__annotations__
+            self.top-=1
+            
         return c
     
     def noOfClose(self):
