@@ -65,4 +65,7 @@ class stackLinkedList:
             temp=temp.next
         print()
 
+def main():
     
+    #Formation of stack
+    n=int(i)
