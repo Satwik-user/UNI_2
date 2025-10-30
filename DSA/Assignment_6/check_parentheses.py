@@ -1,3 +1,5 @@
 class Stack:
     def __init__(self, cap):
-        self.
+        self.cap=cap
+        self.top=-1
+        
