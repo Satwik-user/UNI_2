@@ -39,6 +39,7 @@ class Stack:
             return
         for i in range(self.top,-1,-1):
             print(self.arr[i],end=' ')
+        print()
 
 def main():
     #Formation of Stack
