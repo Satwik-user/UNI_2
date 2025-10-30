@@ -54,4 +54,4 @@ def main():
     print("Popped element of stack:",stack.pop())
 
     #peek top element of stack
-    print("")
+    print("Current t")
