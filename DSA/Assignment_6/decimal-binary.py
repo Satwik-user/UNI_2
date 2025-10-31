@@ -20,3 +20,7 @@ class Stack:
             return
         self.top+=1
         self.arr[self.top]=ele
+
+    def pop(self):
+        if self.isEmpty():
+            print("")
