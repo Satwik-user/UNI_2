@@ -37,4 +37,4 @@ def infixToPostfix(exp):
         else:
             while stack and stack[-1]!='(' and (prec(stack[-1])>prec(c) or (prec(stack[-1])==prec(c) and not isRightAssociative(c))):
                 res.append(stack.pop())
-            stack
+            res.append(c)
