@@ -14,7 +14,7 @@ int tail_fibo(int a, int b, int n)
 {
     if(n==0)
     return a;
-    else if(n==1)
+    if(n==1)
     return b;
     return tail_fibo(b, a+b, n-1);
 }
