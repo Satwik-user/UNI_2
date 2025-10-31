@@ -34,4 +34,5 @@ class Stack:
             return
         return self.arr[self.top]
     
-    
+    def print_stack(self):
+        
