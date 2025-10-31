@@ -74,7 +74,7 @@ void evaluatePostfix(char **exp, int len)
             else if(c=='-')
             push(stack, b-a);
             else if(c=='*')
-            push(stack, a*b);
+            push(stack, b*a);
             else if(c=='/')
             push(stack, b/a);
             else if(c=='^')
