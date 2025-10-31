@@ -19,4 +19,4 @@ class Stack:
             print("Stack Overflow!")
             return
         self.top+=1
-        self.arr[self.top]
+        self.arr[self.top]=ele
