@@ -75,4 +75,4 @@ def main():
     print("Modified stack 1:",end=' ')
     stack1.print_stack()
     print("Modified stack 2:",end=' ')
-    
+    stack2.print_stack()
