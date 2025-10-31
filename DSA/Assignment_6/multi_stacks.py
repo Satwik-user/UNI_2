@@ -50,4 +50,4 @@ def main():
     stack2=Stack.creaeteStack(n2)
 
     for _ in range(n1):
-        print(
+        ele=int(in)
