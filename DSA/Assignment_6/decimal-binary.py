@@ -42,4 +42,4 @@ def decimalToBinary(num, stack):
 def main():
     num=int(input("Enter a number:"))
     stack=Stack.creaeteStack()
-    decimalToBinary(num)
+    decimalToBinary(num, stack)
