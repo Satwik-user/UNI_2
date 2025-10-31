@@ -6,4 +6,4 @@ def fact(n):
 def tail_fact(f, n):
     if n==0:
         return f
-    return tail_fact()
+    return tail_fact(n*f)
