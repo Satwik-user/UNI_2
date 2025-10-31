@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <ctype.h>
+#include <string.h>
 
 typedef struct Stack
 {
@@ -93,7 +94,7 @@ int main()
     printf("Enter postfix expression:");
     fgets(exp, sizeof(exp), stdin);
 
-    printf("Result of postfix expression evaluation:%d\n",evaluatePostfix(exp, sizeof(exp)));
+    printf("Result of postfix expression evaluation:%d\n",evaluatePostfix(exp, strlen(exp)));
     
     return 0;
 }
