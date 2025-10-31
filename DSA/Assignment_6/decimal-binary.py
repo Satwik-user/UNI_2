@@ -43,7 +43,7 @@ def main():
     num=int(input("Enter a number:"))
     stack=Stack.createStack(len(str(num))*4)
     decimalToBinary(num, stack)
-    print("Decimal Equivalent of the number:",end=' ')
+    print("BInary Equivalent of the number:",end=' ')
     while not stack.isEmpty():
         print(stack.pop(),end='')
     print()
