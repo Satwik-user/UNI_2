@@ -43,4 +43,4 @@ class Stack:
         print()
 
 def main():
-    stack1=
+    stack1=Stack()
