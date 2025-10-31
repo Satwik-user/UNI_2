@@ -29,4 +29,5 @@ class Stack:
         return self.arr.pop()
     
     def peek(self):
-        if self.isEmpty()
+        if self.isEmpty():
+            print("S")
