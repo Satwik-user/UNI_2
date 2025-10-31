@@ -55,7 +55,7 @@ int isOperator(char c)
     return c=='+' || c=='-' || c=='*' || c=='/' || c=='^';
 }
 
-int evaluatePostfix(char **exp, int len)
+int evaluatePostfix(char *exp, int len)
 {
     Stack *stack=createStack(len);
     for(int i=0;i<len;i++)
