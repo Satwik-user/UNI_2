@@ -33,3 +33,5 @@ class Stack:
             print("Stack Underflow!")
             return
         return self.arr[self.top]
+    
+    
