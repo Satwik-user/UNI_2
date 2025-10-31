@@ -64,7 +64,7 @@ int evaluatePostfix(char *exp, int len)
 
         if(c==' ')
         continue;
-        
+
         if(isdigit(c))
         push(stack, c-'0');
 
@@ -90,11 +90,7 @@ int evaluatePostfix(char *exp, int len)
 
 int main()
 {
-    int n;
-    printf("Enter size of expression:");
-    scanf("%d",&n);
-
-    char exp[n];
+    char exp[100];
     printf("Enter postfix expression:");
     scanf("%s",exp);
 
