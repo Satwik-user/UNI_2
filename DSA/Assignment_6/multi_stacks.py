@@ -48,4 +48,6 @@ def main():
 
     stack1=Stack.createStack(n1)
     stack2=Stack.creaeteStack(n2)
-    
+
+    for _ in range(n1):
+        
