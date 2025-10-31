@@ -48,3 +48,6 @@ def main():
     exp=input("Enter infix expression:").split()
 
     print("Postfix expression:",infixToPostfix(exp))
+
+if __name__=="__main__":
+    main()
