@@ -7,3 +7,6 @@ def tail_fact(f, n):
     if n==0:
         return f
     return tail_fact(f*n,n-1)
+
+def main():
+    
