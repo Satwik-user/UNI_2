@@ -32,4 +32,4 @@ class Stack:
         if self.isEmpty():
             print("Stack is Empty!")
             return
-        return self.arr[asel]
+        return self.arr[self.top]
