@@ -12,3 +12,5 @@ def main():
     num=int(input("Enter a number:"))
 
     print("Factorial of the number using non-tail recurveive logic:",fact(num))
+    f=1
+    print()
