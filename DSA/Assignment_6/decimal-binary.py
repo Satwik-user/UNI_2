@@ -34,7 +34,7 @@ class Stack:
             return
         return self.arr[self.top]
     
-def decimalToBinary(num, stack):
+def decimalToBinary(num):
     while num>0:
         Stack.push(num%2)
         num/=2
