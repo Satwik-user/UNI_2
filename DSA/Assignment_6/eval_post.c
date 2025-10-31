@@ -78,7 +78,7 @@ int evaluatePostfix(char **exp, int len)
             else if(c=='/')
             push(stack, b/a);
             else if(c=='^')
-            push(stack, (int)pow(a,b));
+            push(stack, (int)pow(b,a));
         }
     }
     return pop(stack);
