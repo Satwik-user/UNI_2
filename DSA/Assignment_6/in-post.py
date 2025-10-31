@@ -42,7 +42,7 @@ def infixToPostfix(exp):
     while stack:
         res.append(stack.pop())
 
-    return ''.joion(res)
+    return ''.join(res)
 
 def main():
     exp=input("Enter infix expression:").strip()
