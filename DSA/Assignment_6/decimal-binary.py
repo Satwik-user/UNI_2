@@ -41,4 +41,5 @@ def decimalToBinary(num, stack):
 
 def main():
     num=int(input("Enter a number:"))
+    stack=creaeteStack()
     decimalToBinary(num)
