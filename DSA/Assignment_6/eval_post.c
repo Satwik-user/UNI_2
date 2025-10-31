@@ -63,6 +63,8 @@ int evaluatePostfix(char *exp, int len)
         char c=exp[i];
 
         if(c==' ')
+        continue;
+        
         if(isdigit(c))
         push(stack, c-'0');
 
