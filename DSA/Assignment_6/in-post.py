@@ -45,7 +45,7 @@ def infixToPostfix(exp):
     return res
 
 def main():
-    exp=input("Enter infix expression:").split()
+    exp=input("Enter infix expression:").strip()
 
     print("Postfix expression:",infixToPostfix(exp))
 
