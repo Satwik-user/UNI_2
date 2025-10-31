@@ -55,3 +55,4 @@ def main():
 
     for _ in range(n2):
         ele=int(input("Enter element for stack 2:"))
+        stack2.pushe()
