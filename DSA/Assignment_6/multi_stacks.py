@@ -26,4 +26,7 @@ class Stack:
             print("Stack Underflow!")
             return
         self.top-=1
-        return self.pop()
+        return self.arr.pop()
+    
+    def peek(self):
+        if self.isEmpty()
