@@ -9,4 +9,6 @@ def tail_fact(f, n):
     return tail_fact(f*n,n-1)
 
 def main():
-    num=int(input("Enter "))
+    num=int(input("Enter a number:"))
+
+    
