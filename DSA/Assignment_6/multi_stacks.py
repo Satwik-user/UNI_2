@@ -38,4 +38,4 @@ class Stack:
         if self.isEmpty():
             print("Stack is Empty!")
             return
-        
+        for 
