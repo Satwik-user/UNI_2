@@ -9,4 +9,4 @@ class Stack:
         return Stack(capacity)
     
     def isFull(self):
-        return 
+        return self.top
