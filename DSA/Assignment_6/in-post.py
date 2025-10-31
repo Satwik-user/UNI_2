@@ -27,4 +27,5 @@ def infixToPostfix(exp):
             stack.append(c)
 
         elif c==')':
-            while stack and 
+            while stack and c!='(':
+                res
