@@ -71,4 +71,4 @@ def main():
     print("Current top element of stack 1:",stack1.peek())
     print("Current top element of stack 2:",stack2.peek())
 
-    #Printing modified stack
+    #Printing modified stacks
