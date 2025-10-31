@@ -35,4 +35,5 @@ class Stack:
         return self.arr[self.top]
     
     def print_stack(self):
-        
+        if self.isEmpty():
+            print("")
