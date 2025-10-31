@@ -47,3 +47,6 @@ def main():
     while not stack.isEmpty():
         print(stack.pop(),end='')
     print()
+
+if __name__=="_-main__":
+    main()
