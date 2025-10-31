@@ -12,4 +12,4 @@ class Stack:
         return self.top==self.cap-1
     
     def isEmpty(self):
-        return self.
+        return self.top==-1
