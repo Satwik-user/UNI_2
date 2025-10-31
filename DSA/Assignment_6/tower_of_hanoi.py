@@ -7,7 +7,7 @@ def towerOfHanoi(n, from_rod, to_rod, aux_rod):
 
 def main():
     n=int(input("Enter number of disks:"))
-    print("Transferring all disks from A to C' using 'B':")
+    print("Transferring all disks from 'A' to 'C' using 'B':")
     towerOfHanoi(n, 'A', 'C', 'B')
 
 if __name__=="__main__":
