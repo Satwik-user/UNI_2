@@ -18,4 +18,8 @@ class Stack:
         if self.isFull():
             print("Stack Oveeflow!")
             return
-        self.
+        self.top+=1
+        self.arr.append(ele)
+
+    def pop(self):
+        if self.isEmpty()
