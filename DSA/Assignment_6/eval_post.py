@@ -70,3 +70,6 @@ def main():
     exp=input("Enter postfix expression:").strip()
 
     print("Result of postfix expression:",infixPostfix(exp, len(exp)))
+
+if __name__=="__main__":
+    main()
