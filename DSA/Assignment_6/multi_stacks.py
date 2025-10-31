@@ -33,3 +33,5 @@ class Stack:
             print("Stack is Empyty!")
             return
         return self.arr[self.top]
+    
+    
