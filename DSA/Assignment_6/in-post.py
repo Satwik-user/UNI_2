@@ -12,7 +12,7 @@ def isRightAssociative(c):
     return c=='^'
 
 def infixToPostfix(exp):
-    len=len(exp)
+    lenght=len(exp)
     res=[]
     stack=[]
     for i in range(len):
