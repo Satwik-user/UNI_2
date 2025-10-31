@@ -16,4 +16,4 @@ class Stack:
     
     def push(self, ele):
         if self.isFull():
-            print()
+            print("Stack Overflow!")
