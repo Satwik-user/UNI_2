@@ -28,4 +28,4 @@ def infixToPostfix(exp):
 
         elif c==')':
             while stack and c!='(':
-                res.append(stack.pop)
+                res.append(stack.pop())
