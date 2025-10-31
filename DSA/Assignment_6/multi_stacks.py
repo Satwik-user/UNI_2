@@ -58,7 +58,7 @@ def main():
         ele=int(input("Enter element for stack 2:"))
         stack2.push(ele)
 
-    print("Original stack 1:",end=' ')
+    print("Original Stack 1:",end=' ')
     stack1.print_stack()
     print("Original Stack 2:")
 
