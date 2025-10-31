@@ -44,4 +44,4 @@ def infixPostfix(exp, length):
             continue
 
         if c.isdigit():
-            stack.push()
+            stack.push(c)
