@@ -45,4 +45,4 @@ def main():
     decimalToBinary(num, stack)
     while not stack.isEmpty():
         print(stack.pop(),end='')
-    print
+    print()
