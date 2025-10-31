@@ -65,3 +65,6 @@ def infixPostfix(exp, length):
                 stack.push(int(pow(a,b)))
 
     return stack.pop()
+
+def main():
+    exp=input()
