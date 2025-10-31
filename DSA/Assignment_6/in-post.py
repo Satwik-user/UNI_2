@@ -30,4 +30,4 @@ def infixToPostfix(exp):
             while stack and c!='(':
                 res.append(stack.pop())
             if stack:
-                res.append
+                stack.pop()
