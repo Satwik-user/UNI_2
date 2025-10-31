@@ -45,4 +45,4 @@ def infixToPostfix(exp):
     return res
 
 def main():
-    exp=input("Enter ")
+    exp=input("Enter infix expression:")
