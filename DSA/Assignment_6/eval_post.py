@@ -51,4 +51,6 @@ def infixPostfix(exp, length):
 
         elif c.isOperator(c):
             b=stack.pop()
-            a
+            a=stack.pop()
+
+            
