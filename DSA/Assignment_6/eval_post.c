@@ -62,7 +62,7 @@ void evaluatePostfix(char **exp, int len)
         char c=exp[i];
 
         if(isdigit(c))
-        push(stack, atoi(c));
+        push(stack, c-'0');
 
         else if(isOperator(c))
         {
