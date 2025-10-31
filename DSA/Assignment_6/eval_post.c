@@ -95,7 +95,7 @@ int main()
     printf("Enter postfix expression:");
     scanf("%s",exp);
 
-    printf("Result of postfix expression evaluation:%d\n",evaluatePostfix(exp, strlen()));
+    printf("Result of postfix expression evaluation:%d\n",evaluatePostfix(exp, strlen(exp)));
     
     return 0;
 }
