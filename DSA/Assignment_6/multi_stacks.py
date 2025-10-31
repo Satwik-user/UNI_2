@@ -58,4 +58,5 @@ def main():
         ele=int(input("Enter element for stack 2:"))
         stack2.push(ele)
 
-    #Poping of top elements of b
+    #Poping of top elements of both stacks\
+    
