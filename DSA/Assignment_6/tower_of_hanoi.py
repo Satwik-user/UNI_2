@@ -9,3 +9,6 @@ def main():
     n=int(input("Enter number of disks:"))
     print("Transferring all disks from A to C (using B):")
     towerOfHanoi(n, 'A', 'C', 'B')
+
+if __name__=="__main__":
+    main()
