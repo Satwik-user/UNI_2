@@ -36,7 +36,7 @@ class Stack:
     
 def decimalToBinary(num, stack):
     while num>0:
-        Stacktack.push(num%2)
+        Stack.push(num%2)
         num/=2
 
 def main():
