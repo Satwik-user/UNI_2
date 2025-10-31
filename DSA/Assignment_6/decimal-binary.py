@@ -30,4 +30,6 @@ class Stack:
     
     def peek(self):
         if self.isEmpty():
-            print("Stack ")
+            print("Stack is Empty!")
+            return
+        return self.arr[asel]
