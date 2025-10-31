@@ -42,4 +42,4 @@ def decimalToBinary(num):
 
 def main():
     num=int(input("Enter a number:"))
-    
+    decimalTo
