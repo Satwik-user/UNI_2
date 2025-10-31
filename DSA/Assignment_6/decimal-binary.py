@@ -48,5 +48,5 @@ def main():
         print(stack.pop(),end='')
     print()
 
-if __name__=="_-main__":
+if __name__=="__main__":
     main()
