@@ -59,4 +59,4 @@ def main():
         stack2.push(ele)
 
     #Poping of top elements of both stacks\
-    
+    print("")
