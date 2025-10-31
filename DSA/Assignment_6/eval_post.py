@@ -39,4 +39,9 @@ def infixPostfix(exp, length):
 
     for i in range(length):
         c=exp[i]
-        
+
+        if c==' ':
+            continue
+
+        if c.isdigit():
+            stack.push()
