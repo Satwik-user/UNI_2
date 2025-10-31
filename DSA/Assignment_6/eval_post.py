@@ -35,4 +35,5 @@ class Stack:
         return self.arr[self.top]
     
 def infixPostfix(exp, length):
-    stack=
+    stack=Stack.createStack()
+    
