@@ -43,7 +43,7 @@ class Stack:
         print()
 
 def main():
-    #Formation of two 
+    #Formation of two stacks
     n1=int(input("Enter stack 1 size:"))
     n2=int(input("Enter stack 2 size:"))
 
