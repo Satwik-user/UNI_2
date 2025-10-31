@@ -61,7 +61,7 @@ def main():
     print("Original Stack 1:",end=' ')
     stack1.print_stack()
     print("Original Stack 2:",end=' ')
-    stack
+    stack2.print_stack()
 
     #Poping of top elements of both stacks
     print("Popped top element of stack 1:",stack1.pop())
