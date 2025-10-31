@@ -60,4 +60,4 @@ def main():
 
     #Poping of top elements of both stacks\
     print("Popped top element of stack 1:",stack1.pop())
-    pritn("")
+    pritn("Poped")
