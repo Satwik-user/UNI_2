@@ -19,3 +19,4 @@ class Stack:
             print("Stack Overflow!")
             return
         self.arr.append(ele)
+        self.top
