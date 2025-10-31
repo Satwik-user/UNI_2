@@ -26,8 +26,13 @@ def infixToPostfix(exp):
         elif c=='(':
             stack.append(c)
 
+        #closing parenthesis
         elif c==')':
             while stack and c!='(':
                 res.append(stack.pop())
             if stack:
                 stack.pop()
+
+        #operator
+        else:
+            
