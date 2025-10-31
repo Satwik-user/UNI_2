@@ -42,4 +42,4 @@ def infixToPostfix(exp):
     while stack:
         res.append(stack.pop())
 
-    
+    return res
