@@ -72,4 +72,4 @@ def main():
     print("Current top element of stack 2:",stack2.peek())
 
     #Printing modified stacks
-    
+    print("Modified stack 1:")
