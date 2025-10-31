@@ -77,5 +77,5 @@ def main():
     print("Modified stack 2:",end=' ')
     stack2.print_stack()
 
-if _-name__=="__main__":
+if __name__=="__main__":
     main
