@@ -42,4 +42,5 @@ class Stack:
             print(self.arr[i],end=' ')
         print()
 
-        
+def main():
+    
