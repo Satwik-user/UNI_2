@@ -50,7 +50,7 @@ int pop(Stack *stack)
 
 int isOperator(char c)
 {
-    return strcmp(c,'+')==0||strcmp(c,'-')==0||strcmp(c,'*')==0||strcmp(c,'/')==0||strcmp(c,'^')==0;
+    return c=='+' || c=='-' || c=='*' || c=='/' || c=='^';
 }
 
 void evaluatePostfix(char **exp, int len)
