@@ -1,19 +1,19 @@
 #include <stdio.h>
 
-int rec_fact(int n)
+int fact(int n)
 {
     if(n==0)
     return 1;
     else 
-    return n*rec_fact(n-1);
+    return n*fact(n-1);
 }
 
-int tail_rec(int fact, int n)
+int tail_fact(int f, int n)
 {
     if(n==0)
-    return fact;
+    return f;
     else
-    return tail_rec(n*fact, n-1);
+    return tail_fact(n*f, n-1);
 }
 
 int main()
@@ -22,9 +22,9 @@ int main()
     printf("Enter a number:");
     scanf("%d",&n);
 
-    int fact=1;
-    printf("Non-tail recursive factorial:%d\n",rec_fact(n));
-    printf("Tail recursive factorial:%d\n",tail_rec(fact, n));
+    int f=1;
+    printf("Non-tail recursive factorial:%d\n",fact(n));
+    printf("Tail recursive factorial:%d\n",tail_fact(f, n));
     
     return 0;
 }
