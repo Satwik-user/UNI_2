@@ -6,4 +6,4 @@ def towerOfHanoi(n, from_rod, to_rod, aux_rod):
     towerOfHanoi(n-1, aux_rod, to_rod, from_rod)
 
 def main():
-    n=int(input())
+    n=int(input("Enter number of "))
