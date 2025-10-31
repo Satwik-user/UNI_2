@@ -16,3 +16,6 @@ def main():
     print("Fibonacci term with non-tail recursion:",fibo(num))
     a=0, b=1
     print("Fibonacci term with tail recursion:",tail_fibo(a, b, num))
+
+if __name__=="__main__":
+    main()
