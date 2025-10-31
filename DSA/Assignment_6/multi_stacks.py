@@ -59,7 +59,8 @@ def main():
         stack2.push(ele)
 
     print("Original stack 1:",end=' ')
-    
+    stack1.print_stack()
+    print()
 
     #Poping of top elements of both stacks
     print("Popped top element of stack 1:",stack1.pop())
