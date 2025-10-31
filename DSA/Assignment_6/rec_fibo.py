@@ -14,7 +14,8 @@ def main():
     num=int(input("Enter term number to print in fibonacci series:"))
 
     print("Fibonacci term with non-tail recursion:",fibo(num))
-    a=0, b=1
+    a=0
+    b=1
     print("Fibonacci term with tail recursion:",tail_fibo(a, b, num))
 
 if __name__=="__main__":
