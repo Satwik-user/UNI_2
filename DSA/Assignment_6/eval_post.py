@@ -49,7 +49,7 @@ def infixPostfix(exp, length):
         if c.isdigit():
             stack.push(int(c))
 
-        elif c.isOperator(c):
+        elif isOperator(c):
             b=stack.pop()
             a=stack.pop()
 
