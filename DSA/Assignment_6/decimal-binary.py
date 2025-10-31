@@ -6,4 +6,7 @@ class Stack:
 
     @staticmethod
     def createStack(capacity):
-        return Stack()
+        return Stack(capacity)
+    
+    def isFull(self):
+        return 
