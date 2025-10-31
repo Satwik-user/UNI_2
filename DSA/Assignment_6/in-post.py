@@ -40,4 +40,4 @@ def infixToPostfix(exp):
             stack.append(c)
 
     while stack:
-        
+        res
