@@ -25,4 +25,4 @@ class Stack:
         if self.isEmpty():
             print("Stack Underflow!")
             return
-        
+        return sel
