@@ -46,4 +46,5 @@ def main():
     n1=int(input("Enter stack 1 size:"))
     n2=int(input("Enter stack 2 size:"))
 
-    stack=stack.createStack(n1)
+    stack1=stack.createStack(n1)
+    stack2
