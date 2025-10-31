@@ -34,6 +34,9 @@ class Stack:
             return
         return self.arr[self.top]
     
+def isOperator(c):
+    return c=='+' or c=='-' or c=='*' or c=='/' or c=='^'
+    
 def infixPostfix(exp, length):
     stack=Stack.createStack()
 
@@ -44,5 +47,7 @@ def infixPostfix(exp, length):
             continue
 
         if c.isdigit():
-            stack.push(c)
-            
+            stack.push(int(c))
+
+        elif c.isOperator(c):
+            b=stack
