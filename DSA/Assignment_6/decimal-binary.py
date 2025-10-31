@@ -35,7 +35,6 @@ class Stack:
         return self.arr[self.top]
     
 def decimalToBinary(num):
-    stack=Stack.createStack()
     while num>0:
         stack.push(num%2)
         num/=2
@@ -43,4 +42,3 @@ def decimalToBinary(num):
 def main():
     num=int(input("Enter a number:"))
     decimalToBinary(num)
-    
