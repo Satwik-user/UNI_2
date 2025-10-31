@@ -60,7 +60,7 @@ def main():
 
     print("Original stack 1:",end=' ')
     stack1.print_stack()
-    print("Original")
+    print("Original Stack 2:")
 
     #Poping of top elements of both stacks
     print("Popped top element of stack 1:",stack1.pop())
