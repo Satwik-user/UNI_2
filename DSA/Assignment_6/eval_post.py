@@ -53,4 +53,5 @@ def infixPostfix(exp, length):
             b=stack.pop()
             a=stack.pop()
 
-            
+            if c=='+':
+                stack.push(a+b)
