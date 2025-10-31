@@ -57,7 +57,8 @@ def main():
     for _ in range(n2):
         ele=int(input("Enter element for stack 2:"))
         stack2.push(ele)
-        
+
+    
 
     #Poping of top elements of both stacks
     print("Popped top element of stack 1:",stack1.pop())
