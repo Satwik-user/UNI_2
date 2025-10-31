@@ -5,4 +5,5 @@ def fact(n):
 
 def tail_fact(f, n):
     if n==0:
-        re
+        return f
+    
