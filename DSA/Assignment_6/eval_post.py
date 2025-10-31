@@ -32,4 +32,4 @@ class Stack:
         if self.isEmpty():
             print("Stack Underflow!")
             return
-        self
+        return self.arr[self.top]
