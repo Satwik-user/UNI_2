@@ -43,6 +43,7 @@ class Stack:
         print()
 
 def main():
+    
     n1=int(input("Enter stack 1 size:"))
     n2=int(input("Enter stack 2 size:"))
 
