@@ -7,4 +7,4 @@ def fibo(n):
 
 def tail_fibo(a, b, n):
     if n==0:
-        return 
+        return b
