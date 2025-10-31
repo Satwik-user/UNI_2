@@ -41,7 +41,7 @@ def decimalToBinary(num, stack):
 
 def main():
     num=int(input("Enter a number:"))
-    stack=Stack.creaeteStack()
+    stack=Stack.createStack()
     decimalToBinary(num, stack)
     print("Decimal Equivalent of the number:",end=' ')
     while not stack.isEmpty():
