@@ -69,4 +69,4 @@ def infixPostfix(exp, length):
 def main():
     exp=input("Enter postfix expression:").strip()
 
-    print("")
+    print("Result of postfix expression:")
