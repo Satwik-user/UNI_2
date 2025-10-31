@@ -38,4 +38,5 @@ def infixPostfix(exp, length):
     stack=Stack.createStack()
 
     for i in range(length):
-        char=
+        c=exp[i]
+        
