@@ -54,4 +54,4 @@ def main():
         stack1.push(ele)
 
     for _ in range(n2):
-        ele=int(input(""))
+        ele=int(input("Enter element for stack 2:"))
