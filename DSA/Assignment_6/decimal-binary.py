@@ -38,4 +38,4 @@ def decimalToBinary(num):
     stack=Stack.createStack()
     while num>0:
         stack.push(num%2)
-        num/=
+        num/=2
