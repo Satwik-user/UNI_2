@@ -34,4 +34,5 @@ class Stack:
             return
         return self.arr[self.top]
     
-    
+    def evaluatePostfix(self, exp, length):
+        stack=createStack()
