@@ -44,4 +44,4 @@ def main():
     stack=Stack.creaeteStack()
     decimalToBinary(num, stack)
     while not stack.isEmpty():
-        print()
+        print(stack.pop())
