@@ -15,7 +15,7 @@ def infixToPostfix(exp):
     length=len(exp)
     res=[]
     stack=[]
-    for i in range(len):
+    for i in range(length):
         c=exp[i]
         
         #operands
