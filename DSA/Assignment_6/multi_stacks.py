@@ -63,4 +63,5 @@ def main():
     print("Popped top element of stack 2:",stack2.pop())
 
     #Peeking current top element of both stacks
-    print("Current top element of stack 1:",)
+    print("Current top element of stack 1:",stack1.peek())
+    print("")
