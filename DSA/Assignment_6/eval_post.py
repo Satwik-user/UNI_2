@@ -63,4 +63,5 @@ def infixPostfix(exp, length):
                 stack.push(a/b)
             elif c=='^':
                 stack.push(int(pow(a,b)))
-                
+
+            ret
