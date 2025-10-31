@@ -11,4 +11,5 @@ def tail_fibo(a, b, n):
     return tail_fibo(b, a+b, n-1)
 
 def main():
-    num=int(input("Enter term number to print in fibonnacci series:"))
+    num=int(input("Enter term number to print in fibonacci series:"))
+    
