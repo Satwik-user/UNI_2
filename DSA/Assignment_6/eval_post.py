@@ -67,4 +67,4 @@ def infixPostfix(exp, length):
     return stack.pop()
 
 def main():
-    exp=input("Enter ")
+    exp=input("Enter postfix expression:")
