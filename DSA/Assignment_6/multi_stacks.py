@@ -78,4 +78,4 @@ def main():
     stack2.print_stack()
 
 if __name__=="__main__":
-    main
+    main()
