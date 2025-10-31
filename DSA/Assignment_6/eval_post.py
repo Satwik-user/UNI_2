@@ -38,7 +38,7 @@ def isOperator(c):
     return c=='+' or c=='-' or c=='*' or c=='/' or c=='^'
     
 def infixPostfix(exp, length):
-    stack=Stack.createStack()
+    stack=Stack.createStack(length)
 
     for i in range(length):
         c=exp[i]
