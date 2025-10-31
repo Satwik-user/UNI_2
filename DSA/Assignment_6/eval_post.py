@@ -15,4 +15,5 @@ class Stack:
         return self.top==-1
     
     def push(self, ele):
-        if self.isFull()
+        if self.isFull():
+            print()
