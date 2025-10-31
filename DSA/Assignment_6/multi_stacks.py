@@ -30,7 +30,7 @@ class Stack:
     
     def peek(self):
         if self.isEmpty():
-            print("Stack is Empyty!")
+            print("Stack is Empty!")
             return
         return self.arr[self.top]
     
