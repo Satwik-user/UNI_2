@@ -34,3 +34,5 @@ class Stack:
             return
         return self.arr[self.top]
     
+def decimalToBinary(num):
+    stack=creat
