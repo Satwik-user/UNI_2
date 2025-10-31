@@ -39,3 +39,4 @@ def decimalToBinary(num):
     while num>0:
         stack.push(num%2)
         num/=2
+        
