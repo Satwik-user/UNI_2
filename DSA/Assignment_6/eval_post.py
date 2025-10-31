@@ -8,4 +8,5 @@ class Stack:
     def createStack(capacity):
         return Stack(capacity)
     
-    def isFull(self)
+    def isFull(self):
+        return 
