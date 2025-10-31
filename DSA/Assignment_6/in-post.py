@@ -28,11 +28,12 @@ def infixToPostfix(exp):
 
         #closing parenthesis
         elif c==')':
-            while stack and c!='(':
+            while stack and stack[-1]!='(':
                 res.append(stack.pop())
             if stack:
                 stack.pop()
 
         #operator
         else:
-            
+            while stack and stack[-1]!='(' and (prec(stack[-1])>prec(c) or (prec(stack[-1])==prec(c) and not isRightAssociative(c))):
+                res

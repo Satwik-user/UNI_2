@@ -43,7 +43,7 @@ char *infixToPostfix(char *exp)
         //closing parentheses
         else if(c==')')
         {
-            while(top!=-1 && c!='(')
+            while(top!=-1 && stack[top]!='(')
             res[j++]=stack[top--];
             top--;
         }
