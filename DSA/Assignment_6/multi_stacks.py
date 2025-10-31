@@ -51,4 +51,4 @@ def main():
 
     for _ in range(n1):
         ele=int(input("Enter element for stack 1:"))
-        print()
+        stack1
