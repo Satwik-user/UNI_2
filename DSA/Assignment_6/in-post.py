@@ -30,7 +30,7 @@ def infixToPostfix(exp):
         elif c==')':
             while stack and stack[-1]!='(':
                 res.append(stack.pop())
-                stack.pop()
+            stack.pop()
 
         #operator
         else:
