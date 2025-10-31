@@ -44,4 +44,4 @@ class Stack:
 
 def main():
     n1=int(input("Enter stack 1 size:"))
-    n2=int(input())
+    n2=int(input("Enter "))
