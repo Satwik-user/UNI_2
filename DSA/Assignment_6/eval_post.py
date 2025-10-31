@@ -19,4 +19,8 @@ class Stack:
             print("Stack Overflow!")
             return
         self.arr.append(ele)
-        self.top
+        self.top+=1
+
+    def pop(self):
+        if self.isEmpty():
+            print()
