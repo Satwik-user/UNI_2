@@ -11,4 +11,4 @@ def tail_fact(f, n):
 def main():
     num=int(input("Enter a number:"))
 
-    print("Output ")
+    print("Factorial of the number using ")
