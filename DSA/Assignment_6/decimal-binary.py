@@ -36,3 +36,4 @@ class Stack:
     
 def decimalToBinary(num):
     stack=Stack.createStack()
+    
