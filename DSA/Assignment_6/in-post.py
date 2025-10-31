@@ -43,3 +43,6 @@ def infixToPostfix(exp):
         res.append(stack.pop())
 
     return res
+
+def main():
+    exp=
