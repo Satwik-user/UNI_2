@@ -30,4 +30,4 @@ class Stack:
     
     def peek(self):
         if self.isEmpty():
-            print("S")
+            print("Stack is Empty!")
