@@ -13,4 +13,4 @@ def main():
 
     print("Factorial of the number using non-tail recurveive logic:",fact(num))
     f=1
-    print("factorial of the number using tail-recursive ligic:")
+    print("factorial of the number using tail-recursive ligic:",tail_fact())
