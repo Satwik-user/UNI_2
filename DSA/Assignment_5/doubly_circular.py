@@ -8,7 +8,7 @@ class DoublyCircularLinkedList():
     def __init__(self):
         self.head=None
 
-
+    @staticmethod
     def createNode(self, data):
         return Node(data)
     
