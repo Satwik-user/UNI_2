@@ -8,7 +8,7 @@ class DoublyLinkedList:
     def __init__(self):
         self.head=None
 
-    @sta
+    @staticmethod
     def createNode(self, data):
         return Node(data)
     
