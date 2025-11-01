@@ -73,10 +73,10 @@ void del_start(Node* *head)
     Node *temp=*head;
     while(temp->next==*head)
     temp=temp->next;
-    temp->next=temp->next->next;
-    temp->next->next->prev=temp;
-    Node *del=temp->next;
-    *head=temp->next->next;
+    Node *del=*head;
+    *head=(*head)->next;
+    (*head)->prev=temp;
+    temp->next=*head;
     free(del);
 }
 
