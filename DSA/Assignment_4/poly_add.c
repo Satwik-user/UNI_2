@@ -57,7 +57,6 @@ int main()
         printf("Coefficient=%d Exponent=%d\n",temp->coeff,temp->exp);
         temp=temp->next;
     }
-    printf("\n");
     
     temp=head_1;
     while(temp)
