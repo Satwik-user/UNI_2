@@ -7,7 +7,8 @@ class CircularLinkedList:
     def __init__(self):
         self.head=None
 
-    def createNode(self, data):
+    @staticmethod
+    def createNode(data):
         return Node(data)
     
     def insert_ele(self, data):
