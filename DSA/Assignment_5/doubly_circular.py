@@ -100,7 +100,7 @@ class DoublyCircularLinkedList():
         while temp.next!=self.head:
             print(temp.data,end=' ')
             temp=temp.next
-        print()
+        print(tamp.data)
 
 def main():
     dcll=DoublyCircularLinkedList()
