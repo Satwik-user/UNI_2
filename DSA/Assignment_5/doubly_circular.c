@@ -156,7 +156,7 @@ int main()
     //Insertion of element at specific position
     int ele, pos;
     printf("Enter element and position to insert:");
-    scanf("%d",&ele, &pos);
+    scanf("%d %d",&ele, &pos);
     insert_pos(&head, ele, pos);
     printf("List after insertion at position:");
     print_list(&head);
