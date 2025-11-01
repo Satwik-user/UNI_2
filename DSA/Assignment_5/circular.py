@@ -126,7 +126,7 @@ def main():
 
     #Insertion of element at specific position
     pos=int(input("Enter position of insertion:"))
-    ele=int(input(f"Enter element to insert at {pos} position;"))
+    ele=int(input(f"Enter element to insert at {pos} position:"))
     cll.insert_pos(pos, ele)
     print("List after insertion at specific position:")
     cll.print_list()
