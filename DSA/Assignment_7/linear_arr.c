@@ -48,12 +48,12 @@ void dequeue(Queue *queue)
     queue->head++;
 }
 
-void peek(Queue *queue)
+int peek(Queue *queue)
 {
     if(isEmpty(queue))
     {
         printf("Queue is empty\n");
         return;
     }
-    
+
 }
