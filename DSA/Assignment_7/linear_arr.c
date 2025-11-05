@@ -18,7 +18,7 @@ Queue *createQueue(int cap)
     return queue;
 }
 
-int isFull(Queue *queue)
+int isEmpty(Queue *queue)
 {
     return queue->head==queue->rear-1;
 }
