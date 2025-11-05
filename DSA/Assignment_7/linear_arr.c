@@ -45,5 +45,5 @@ void dequeue(Queue *queue)
         printf("Queue is empty\n");
         return;
     }
-    
+    queue->head++;
 }
