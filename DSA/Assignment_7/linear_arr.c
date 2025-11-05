@@ -4,6 +4,6 @@ typedef struct Queue
 {
     int *arr;
     int head;
-    int rear
+    int rear;
 }Queue;
 
