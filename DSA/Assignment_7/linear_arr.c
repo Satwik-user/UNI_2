@@ -4,6 +4,6 @@ typedef struct Queue
 {
     int data;
     struct Queue *head;
-    struct Queue rear;
+    struct Queue *rear;
 }Queue;
 
