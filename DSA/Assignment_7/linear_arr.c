@@ -74,7 +74,11 @@ int main()
     int n;
     printf("Enter size of queue:");
     scanf("%d",&n);
-    
+    Queue *queue=createQueue(n);
+    for(int i=0;i<n;i++)
+    {
+        printf("Enter element")
+    }
     
     return 0;
 }
