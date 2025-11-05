@@ -7,3 +7,7 @@ typedef struct Queue
     int rear;
 }Queue;
 
+Queue createQueue()
+{
+    
+}
