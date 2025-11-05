@@ -85,7 +85,8 @@ int main()
     pritnf("Original Queue:\n");
     print_queue(queue);
 
-    //
+    //Dequeue operation
+    
     
     return 0;
 }
