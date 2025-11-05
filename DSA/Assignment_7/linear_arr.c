@@ -86,7 +86,11 @@ int main()
     print_queue(queue);
 
     //Dequeue operation
-    
+    dequeue(queue);
+    print("Queue after deletion operation:\n");
+    print_queue(queue);
+
+    //
     
     return 0;
 }
