@@ -94,7 +94,8 @@ int main()
     int front=peek(queue);
     printf("Fornt element of queue:%d\n",front);
     
-    //Display modi
+    //Display modified queue
+    printf("Final queue:\n");
     
     return 0;
 }
