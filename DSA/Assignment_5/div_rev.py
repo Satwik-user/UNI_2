@@ -59,7 +59,7 @@ class DoublyLinkedList:
         temp=self.head
         last=None
         while temp:
-            temp.next
+            temp.next,temp.prev=temp.prev,temp.next
 
             last=temp
             temp=temp.prev
