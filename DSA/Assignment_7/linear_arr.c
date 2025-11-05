@@ -19,4 +19,6 @@ Queue *createQueue(int cap)
 }
 
 int isFull()
-{}
+{
+    
+}
