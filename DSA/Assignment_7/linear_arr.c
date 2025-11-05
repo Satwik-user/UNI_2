@@ -71,7 +71,7 @@ void print_queue(Queue *queue)
 
 int main()
 {
-    //Formation of Queue(Enqueue op eration)
+    //Formation of Queue(Enqueue operation)
     int n, ele;
     printf("Enter size of queue:");
     scanf("%d",&n);
