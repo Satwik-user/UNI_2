@@ -17,3 +17,4 @@ Queue *createQueue(int cap)
     queue->arr=(int *)malloc(cap*sizeof(int));
     return queue;
 }
+
