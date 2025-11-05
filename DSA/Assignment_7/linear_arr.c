@@ -47,3 +47,8 @@ void dequeue(Queue *queue)
     }
     queue->head++;
 }
+
+void peek(Queue *queue)
+{
+    
+}
