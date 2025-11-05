@@ -40,5 +40,10 @@ void enqueue(Queue *queue, int data)
 
 void dequeue(Queue *queue)
 {
+    if(isEmpty(queue))
+    {
+        printf("Queue is empty\n");
+        return;
+    }
     
 }
