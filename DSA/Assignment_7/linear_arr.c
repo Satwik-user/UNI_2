@@ -3,12 +3,16 @@
 typedef struct Queue
 {
     int *arr;
+    int cap;
     int head;
     int rear;
 }Queue;
 
-Queue createQueue()
+Queue createQueue(int cap)
 {
     Queue *queue=(Queue *)malloc(sizeof(Queue));
+    queue->head=-1;
+    queue->rear=0;
+    queue->arr=(int *)malloc(cap*sizeof(int));
     
 }
