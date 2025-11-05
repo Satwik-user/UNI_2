@@ -9,5 +9,6 @@ typedef struct Queue
 
 Queue createQueue()
 {
+    Queue *queue=(Queue *)malloc(sizeof(Queue));
     
 }
