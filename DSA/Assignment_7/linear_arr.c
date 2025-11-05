@@ -20,5 +20,5 @@ Queue *createQueue(int cap)
 
 int isFull(Queue *queue)
 {
-
+    return queue->head==queue->rear-1;
 }
