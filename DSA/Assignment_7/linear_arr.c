@@ -65,5 +65,6 @@ void print_queue(Queue *queue)
         printf("Queue is empty\n");
         return;
     }
-    
+    for(int i=0;i<=queue->rear;i++)
+    printf("%d\n",queue->arr[i]);
 }
