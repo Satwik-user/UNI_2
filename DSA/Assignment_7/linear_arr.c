@@ -81,6 +81,8 @@ int main()
         scanf("%d",&ele);
         enqueue(&queue, ele);
     }
+    pritnf("Original Queue:\n");
+    
     
     return 0;
 }
