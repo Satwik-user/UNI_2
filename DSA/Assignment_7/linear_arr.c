@@ -55,4 +55,5 @@ void peek(Queue *queue)
         printf("Queue is empty\n");
         return;
     }
+    
 }
