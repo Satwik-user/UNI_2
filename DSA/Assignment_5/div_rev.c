@@ -13,6 +13,7 @@ Node *createNode(int data)
     newNode->data=data;
     newNode->prev=NULL;
     newNode->next=NULL;
+    return newNode;
 }
 
 void insert_ele(Node* *head, int data)
