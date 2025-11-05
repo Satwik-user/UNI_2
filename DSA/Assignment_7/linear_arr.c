@@ -30,5 +30,9 @@ int isFull(Queue *queue)
 
 void enqueue(Queue *queue, int data)
 {
-    
+    if(isFull(queue))
+    {
+        printf("Queue is full\n");
+        return;
+    }
 }
