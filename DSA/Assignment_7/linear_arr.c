@@ -87,10 +87,14 @@ int main()
 
     //Dequeue operation
     dequeue(queue);
-    print("Queue after deletion operation:\n");
+    printf("Queue after deletion operation:\n");
     print_queue(queue);
 
-    //
+    //Peek operation
+    int front=peek(queue);
+    printf("Fornt element of queue:%d\n",front);
+    
+    
     
     return 0;
 }
