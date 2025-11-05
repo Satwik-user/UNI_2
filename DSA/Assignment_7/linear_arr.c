@@ -96,6 +96,7 @@ int main()
     
     //Display modified queue
     printf("Final queue:\n");
+    print_queue(queue);
     
     return 0;
 }
