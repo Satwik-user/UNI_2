@@ -82,7 +82,7 @@ int main()
         enqueue(&queue, ele);
     }
     pritnf("Original Queue:\n");
-    
+    print_queue(queue);
     
     return 0;
 }
