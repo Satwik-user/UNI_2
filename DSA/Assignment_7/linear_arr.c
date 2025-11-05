@@ -57,3 +57,8 @@ int peek(Queue *queue)
     }
     return queue->arr[queue->head];
 }
+
+void print_queue(Queue *queue)
+{
+    
+}
