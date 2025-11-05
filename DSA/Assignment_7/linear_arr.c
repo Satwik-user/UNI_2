@@ -94,7 +94,7 @@ int main()
     int front=peek(queue);
     printf("Fornt element of queue:%d\n",front);
     
-    
+    //
     
     return 0;
 }
