@@ -65,4 +65,5 @@ void print_queue(Queue *queue)
         printf("Queue is empty\n");
         return;
     }
+    
 }
