@@ -28,7 +28,7 @@ void insert_ele(Node* *head, int data)
     while(temp->next!=NULL)
     temp=temp->next;
     temp->next=newNode;
-    
+    newNode->prev=temp;
 }
 
 void print_list(Node* *head)
