@@ -22,3 +22,8 @@ int isFull(Queue *queue)
 {
     return queue->head==queue->rear-1;
 }
+
+int isEmpty(Queue *queue)
+{
+    return queue->rear==queue->cap;
+}
