@@ -50,5 +50,9 @@ void dequeue(Queue *queue)
 
 void peek(Queue *queue)
 {
-    
+    if(isEmpty(queue))
+    {
+        printf("Queue is empty\n");
+        return;
+    }
 }
