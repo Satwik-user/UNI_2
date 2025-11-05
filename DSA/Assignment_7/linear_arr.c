@@ -27,3 +27,4 @@ int isEmpty(Queue *queue)
 {
     return queue->rear==queue->cap;
 }
+
