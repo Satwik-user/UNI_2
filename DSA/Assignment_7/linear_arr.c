@@ -3,5 +3,7 @@
 typedef struct Queue
 {
     int *arr;
+    int head;
+    int rear
 }Queue;
 
