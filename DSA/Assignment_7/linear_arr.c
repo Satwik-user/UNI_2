@@ -55,5 +55,5 @@ int peek(Queue *queue)
         printf("Queue is empty\n");
         return;
     }
-
+    return queue->arr[queue->head];
 }
