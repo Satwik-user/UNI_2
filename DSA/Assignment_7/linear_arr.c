@@ -37,3 +37,8 @@ void enqueue(Queue *queue, int data)
     }
     queue->arr[queue->rear++]=data;
 }
+
+void dequeue(Queue *queue)
+{
+    
+}
