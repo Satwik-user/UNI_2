@@ -18,3 +18,5 @@ Queue *createQueue(int cap)
     return queue;
 }
 
+int isFull()
+{}
