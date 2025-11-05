@@ -28,7 +28,7 @@ int isFull(Queue *queue)
     return queue->rear==queue->cap;
 }
 
-void enqueue(Queue *queue)
+void enqueue(Queue *queue, int data)
 {
-    
+
 }
