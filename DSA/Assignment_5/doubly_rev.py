@@ -39,9 +39,7 @@ class DoublyLinkedList():
             return
         temp=self.head
         while temp:
-            swap=temp.next
-            temp.next=temp.prev
-            temp.prev=swap
+            temp.next, temp.prev=temp.prev
 
             last=temp
             temp=temp.prev
