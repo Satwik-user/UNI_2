@@ -58,5 +58,10 @@ int dequeue(Queue *queue)
     else
     queue->front=(queue->front+1)%queue->cap;
 
+    return data;
+}
+
+int peek(Queue *queue)
+{
     
 }
