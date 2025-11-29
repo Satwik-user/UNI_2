@@ -63,5 +63,11 @@ void insertRear(Queue *queue, int data)
 
 int delFront(Queue *queue)
 {
-    if(isEmpty())
+    if(isEmpty(queue))
+    {
+        printf("Queue Underflow!\n");
+        return;
+    }
+
+    if(is)
 }
