@@ -66,8 +66,8 @@ int delFront(Queue *queue)
     if(isEmpty(queue))
     {
         printf("Queue Underflow!\n");
-        return;
+        return -1;
     }
 
-    if(is)
+    int del=
 }
