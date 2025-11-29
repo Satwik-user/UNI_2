@@ -80,5 +80,6 @@ void print_queue(Queue *queue)
         return;
     }
 
-    
+    for(int i=queue->front;i<=queue->rear;i++)
+    printf("%d ",queue->arr[i]);
 }
