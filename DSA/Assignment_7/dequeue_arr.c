@@ -33,6 +33,8 @@ void insertFront(Queue *queue, int data)
 {
     if(isFull(queue))
     {
-        
+        printf("Queue Overflow!\n");
+        return;
     }
+    
 }
