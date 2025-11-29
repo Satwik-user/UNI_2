@@ -26,3 +26,4 @@ int isFull(Queue *queue)
 {
     return (queue->rear+1)%queue->cap==queue->front;
 }
+
