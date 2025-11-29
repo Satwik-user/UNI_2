@@ -51,5 +51,7 @@ int dequeue(Queue *queue)
         return -1;
     }
 
+    int data=queue->arr[queue->front];
+
     
 }
