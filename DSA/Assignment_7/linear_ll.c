@@ -121,11 +121,11 @@ int main()
 
     //Deletion of element from queue
     int del=dequeue(queue);
-    printf("Deleted element from queue:%d",del);
+    printf("Deleted element from queue:%d\n",del);
 
     //Peek of top element from queue
     int top=peek(queue);
-    printf("Top element of queue:%d\n",top)
+    printf("Top element of queue:%d\n",top);
     
     return 0;
 }
