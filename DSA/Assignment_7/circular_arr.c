@@ -102,6 +102,7 @@ int main()
     }
 
     //Deleltion operation of Queue
+    int del1=dequeue(queue);
     
 
     return 0;
