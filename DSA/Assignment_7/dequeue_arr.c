@@ -8,8 +8,9 @@ typedef struct Queue
     int rear;
 }Queue;
 
-Queue *createQueue(int data)
+Queue *createQueue(int cap)
 {
     Queue *queue=(Queue *)malloc(sizeof(Queue));
-    
+    queue->cap=cap;
+    queue->front=queue->rear=-1;
 }
