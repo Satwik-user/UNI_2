@@ -10,7 +10,7 @@ typedef struct Queue
 {
     int cap;
     int size;
-    struct Node *head;
+    struct Node *front;
     struct Node *rear;
 }Queue;
 
@@ -27,13 +27,13 @@ Queue *createQueue(int cap)
     Queue *newQueue=(Queue *)malloc(sizeof(Queue));
     newQueue->cap=cap;
     newQueue->size=0;
-    newQueue->head=newQueue->rear=NULL;
+    newQueue->front=newQueue->rear=NULL;
     return newQueue;
 }
 
 int isEmpty(Queue *queue)
 {
-    return queue->head==NULL;
+    return queue->front==NULL;
 }
 
 int isFull(Queue *queue)
@@ -51,6 +51,6 @@ void enqueue(Queue *queue, int data)
     Node *newNode=createNode(data);
     if(queue->rear==NULL)
     {
-        
+        queue->front=queue->rear=newNode;
     }
 }
