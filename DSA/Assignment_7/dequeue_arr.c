@@ -145,6 +145,7 @@ int main()
 
     Queue *queue=createQueue(n);
 
+    //Formation of qu
     for(int i=0;i<n;i++)
     {
         printf("Enter element:");
