@@ -152,6 +152,8 @@ int main()
         scanf("%d",&ele);
         insertRear(queue, ele);
     }
+
+    
     
     return 0;
 }
