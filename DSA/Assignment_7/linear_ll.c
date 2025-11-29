@@ -115,7 +115,7 @@ int main()
     {
         printf("Enter element:");
         scanf("%d",&ele);
-
+        
     }
     
     return 0;
