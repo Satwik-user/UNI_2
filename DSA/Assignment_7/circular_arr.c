@@ -93,7 +93,7 @@ int main()
 
     Queue *queue=createQueue(n);
 
-    //
+    //Formation of Queue
     for(int i=0;i<n;i++)
     {
         printf("Enter element:");
