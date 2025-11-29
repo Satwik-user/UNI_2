@@ -30,4 +30,6 @@ int isFull(Queue *queue)
 }
 
 void insertFront(Queue *queue, int data)
-{}
+{
+    
+}
