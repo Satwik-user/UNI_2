@@ -107,7 +107,10 @@ int main()
     printf("Deleted elements of queue:%d %d\n",del1, del2);
 
     //Peek of top element of Queue
-    
+    int top=peek(queue);
+    printf("Top element of queue:%d\n",top);
+
+    //
 
     return 0;
 }
