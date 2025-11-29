@@ -28,3 +28,4 @@ int isFull(Queue *queue)
 {
     return queue->size==queue->cap;
 }
+
