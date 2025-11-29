@@ -52,4 +52,9 @@ void insertRear(Queue *queue, int data)
         printf("Queue Overflow!\n");
         return;
     }
+
+    if(isEmpty(queue))
+    queue->front=queue->rear=0;
+    else
+    queue->front
 }
