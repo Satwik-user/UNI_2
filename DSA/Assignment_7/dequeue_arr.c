@@ -47,5 +47,9 @@ void insertFront(Queue *queue, int data)
 
 void insertRear(Queue *queue, int data)
 {
-    if()
+    if(isFull(queue))
+    {
+        printf("Queue Overflow!\n");
+        return;
+    }
 }
