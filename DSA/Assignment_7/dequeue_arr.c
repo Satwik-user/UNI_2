@@ -130,5 +130,8 @@ void print_queue(Queue *queue)
         printf("Empty queue!\n");
         return;
     }
-    
+
+    for(int i=queue->front;i<=queue->rear;i++)
+    printf("%d ",queue->arr[i]);
+    printf("\n");
 }
