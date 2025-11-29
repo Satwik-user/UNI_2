@@ -38,7 +38,7 @@ void enqueue(Queue *queue, int data)
     queue->arr[queue->rear++]=data;
 }
 
-void dequeue(Queue *queue)
+int dequeue(Queue *queue)
 {
     if(isEmpty(queue))
     {
@@ -86,7 +86,7 @@ int main()
     print_queue(queue);
 
     //Dequeue operation
-    dequeue(queue);
+    printf("Deleted element from queue:%d\n",dequeue(queue));
     printf("Queue after deletion operation:\n");
     print_queue(queue);
 
