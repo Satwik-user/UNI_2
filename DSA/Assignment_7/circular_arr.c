@@ -71,3 +71,4 @@ int peek(Queue *queue)
 
     return queue->arr[queue->front];
 }
+
