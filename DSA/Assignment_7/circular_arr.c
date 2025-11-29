@@ -34,5 +34,9 @@ void enqueue(Queue *queue, int data)
         printf("Queue Overflow!\n");
         return;
     }
-    
+
+    if(isEmpty(queue))
+    {
+        
+    }
 }
