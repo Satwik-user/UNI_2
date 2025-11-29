@@ -142,6 +142,10 @@ int main()
     int n, ele;
     printf("Enter sze of queue:");
     scanf("%d",&n);
+
+    Queue *queue=createQueue(n);
+
+    for(int i=0;i<n;i++)
     
     return 0;
 }
