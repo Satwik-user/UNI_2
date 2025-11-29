@@ -87,3 +87,7 @@ int peek(Queue *queue)
     return queue->front->data;
 }
 
+void print_queue(Queue *queue)
+{
+    
+}
