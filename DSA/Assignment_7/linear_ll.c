@@ -129,7 +129,7 @@ int main()
 
     //Display of modified queue
     printf("Modified Queue:");
-    
+    print_queue(queue);
     
     return 0;
 }
