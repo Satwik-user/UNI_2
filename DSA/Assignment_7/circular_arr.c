@@ -110,7 +110,7 @@ int main()
     int top=peek(queue);
     printf("Top element of queue:%d\n",top);
 
-    //Display of quue
+    //Display of queue 
 
     return 0;
 }
