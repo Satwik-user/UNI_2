@@ -35,3 +35,6 @@ int isEmpty(Queue *queue)
 {
     return queue->head==NULL;
 }
+
+int isFull(Queue *queue)
+{}
