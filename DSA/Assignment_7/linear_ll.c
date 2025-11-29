@@ -124,7 +124,8 @@ int main()
     printf("Deleted element from queue:%d",del);
 
     //Peek of top element from queue
-    
+    int top=peek(queue);
+    printf("Top element of queue:%d\n",top)
     
     return 0;
 }
