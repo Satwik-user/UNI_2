@@ -20,7 +20,7 @@ Queue *createQueue(int cap)
 
 int isEmpty(Queue *queue)
 {
-    return queue->front==queue->rear-1;
+    return queue->front==queue->rear;
 }
 
 int isFull(Queue *queue)
