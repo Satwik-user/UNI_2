@@ -54,5 +54,8 @@ void enqueue(Queue *queue, int data)
         queue->front=queue->rear=newNode;
         queue->size++;
     }
-    
+    else
+    {
+        
+    }
 }
