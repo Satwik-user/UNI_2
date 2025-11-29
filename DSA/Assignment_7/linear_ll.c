@@ -119,7 +119,8 @@ int main()
         enqueue(queue, ele);
     }
 
-    //
+    //Deletion of element from queue
+    
     
     return 0;
 }
