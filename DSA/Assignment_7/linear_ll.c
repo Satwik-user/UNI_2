@@ -73,5 +73,6 @@ int dequeue(Queue *queue)
 
     queue->front=queue->front->next;
     if(queue->front==NULL) queue->rear=NULL;
+    free(del);
     
 }
