@@ -118,7 +118,8 @@ int main()
         scanf("%d",&ele);
         enqueue(queue, ele);
     }
-    
+
+    //
     
     return 0;
 }
