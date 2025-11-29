@@ -49,5 +49,8 @@ void enqueue(Queue *queue, int data)
         return;
     }
     Node *newNode=createNode(data);
-    
+    if(queue->rear==NULL)
+    {
+        
+    }
 }
