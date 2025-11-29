@@ -4,7 +4,7 @@ typedef struct Queue
 {
     int *arr;
     int cap;
-    int head;
+    int front;
     int rear;
 }Queue;
 
@@ -12,7 +12,7 @@ Queue *createQueue(int cap)
 {
     Queue *queue=(Queue *)malloc(sizeof(Queue));
     queue->cap=cap;
-    queue->head=-1;
+    queue->front=-1;
     queue->rear=0;
     queue->arr=(int *)malloc(cap*sizeof(int));
     return queue;
@@ -20,7 +20,7 @@ Queue *createQueue(int cap)
 
 int isEmpty(Queue *queue)
 {
-    return queue->head==queue->rear-1;
+    return queue->front==queue->rear-1;
 }
 
 int isFull(Queue *queue)
@@ -45,7 +45,7 @@ int dequeue(Queue *queue)
         printf("Queue is empty\n");
         return;
     }
-    return queue->arr[queue->head++];
+    return queue->arr[queue->front++];
 }
 
 int peek(Queue *queue)
@@ -55,7 +55,7 @@ int peek(Queue *queue)
         printf("Queue is empty\n");
         return;
     }
-    return queue->arr[queue->head];
+    return queue->arr[queue->front];
 }
 
 void print_queue(Queue *queue)
@@ -65,7 +65,7 @@ void print_queue(Queue *queue)
         printf("Queue is empty\n");
         return;
     }
-    for(int i=queue->head+1;i<queue->rear;i++)
+    for(int i=queue->front+1;i<queue->rear;i++)
     printf("%d\n",queue->arr[i]);
 }
 
