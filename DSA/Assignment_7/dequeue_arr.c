@@ -146,6 +146,11 @@ int main()
     Queue *queue=createQueue(n);
 
     for(int i=0;i<n;i++)
+    {
+        printf("Enter element:");
+        scanf("%d",&ele);
+        
+    }
     
     return 0;
 }
