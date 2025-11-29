@@ -68,5 +68,5 @@ int dequeue(Queue *queue)
         printf("Queue Underflow!\n");
         return -1;
     }
-    
+    Node *del=queue->front;
 }
