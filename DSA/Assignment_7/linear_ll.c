@@ -56,7 +56,7 @@ void enqueue(Queue *queue, int data)
     }
     else
     {
+        queue->rear->next=newNode;
         queue->rear=newNode;
-        
     }
 }
