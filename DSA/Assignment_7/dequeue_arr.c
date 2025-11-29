@@ -123,3 +123,7 @@ int peekRear(Queue *queue)
     return queue->arr[queue->rear];
 }
 
+void print_queue(Queue *queue)
+{
+    if(isEmpty )
+}
