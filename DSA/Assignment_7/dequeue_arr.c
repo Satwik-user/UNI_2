@@ -139,6 +139,7 @@ void print_queue(Queue *queue)
 
 int main()
 {
+    int n, ele;
     
     
     return 0;
