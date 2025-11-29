@@ -72,3 +72,8 @@ int peek(Queue *queue)
     return queue->arr[queue->front];
 }
 
+void print_queue(Queue *queue)
+{
+    if(isEmpty(queue))
+    
+}
