@@ -40,5 +40,6 @@ void enqueue(Queue *queue, int data)
     else
     queue->rear=(queue->rear+1)%queue->cap;
 
+    queue->arr[queue->rear]=data;
     
 }
