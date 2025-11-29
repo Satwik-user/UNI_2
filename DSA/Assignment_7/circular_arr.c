@@ -15,3 +15,4 @@ Queue *createQueue(int cap)
     queue->front=queue->rear=-1;
     queue->arr=(int *)malloc(cap*sizeof(int));
 }
+
