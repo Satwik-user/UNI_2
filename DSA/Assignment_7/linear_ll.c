@@ -60,3 +60,12 @@ void enqueue(Queue *queue, int data)
     }
     queue->size++;
 }
+
+int dequeue(Queue *queue)
+{
+    if(isEmpty(queue))
+    {
+        printf("Queue Underflow!\n");
+        return 
+    }
+}
