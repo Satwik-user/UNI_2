@@ -125,5 +125,6 @@ int peekRear(Queue *queue)
 
 void print_queue(Queue *queue)
 {
-    if(isEmpty )
+    if(isEmpty(queue))
+    {}
 }
