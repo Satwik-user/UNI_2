@@ -48,5 +48,6 @@ void enqueue(Queue *queue, int data)
         printf("Queue Overflow!\n");
         return;
     }
-    Node *newNode=createNode(data)
+    Node *newNode=createNode(data);
+    
 }
