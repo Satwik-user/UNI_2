@@ -36,7 +36,9 @@ void enqueue(Queue *queue, int data)
     }
 
     if(isEmpty(queue))
-    {
-        
-    }
+    queue->front=queue->rear=0;
+    else
+    queue->rear=(queue->rear+1)%queue->cap;
+
+    
 }
