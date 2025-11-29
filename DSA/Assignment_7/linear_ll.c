@@ -30,3 +30,4 @@ Queue *createQueue(int cap)
     newQueue->head=newQueue->rear=NULL;
     return newQueue;
 }
+
