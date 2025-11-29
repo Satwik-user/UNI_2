@@ -123,7 +123,8 @@ int main()
     int del=dequeue(queue);
     printf("Deleted element from queue:%d",del);
 
-    //Peek of top element 
+    //Peek of top element from queue
+    
     
     return 0;
 }
