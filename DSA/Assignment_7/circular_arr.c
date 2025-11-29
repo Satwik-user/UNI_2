@@ -104,6 +104,7 @@ int main()
     //Deleltion operation of Queue
     int del1=dequeue(queue);
     int del2=dequeue(queue);
+    printf("Deleted elements of queue:%d %d\n",del1, del2);
     
 
     return 0;
