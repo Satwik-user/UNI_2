@@ -37,4 +37,6 @@ int isEmpty(Queue *queue)
 }
 
 int isFull(Queue *queue)
-{}
+{
+    return queue->size>=queue->cap;
+}
