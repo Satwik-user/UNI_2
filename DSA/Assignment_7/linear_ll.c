@@ -110,6 +110,8 @@ int main()
     scanf("%d",&n);
     
     Queue *queue=createQueue(n);
+
+    
     
     return 0;
 }
