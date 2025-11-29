@@ -35,7 +35,7 @@ void enqueue(Queue *queue, int data)
         printf("Queue is full\n");
         return;
     }
-    queue->arr[queue->rear]=data;
+    queue->arr[queue->rear++]=data;
 }
 
 void dequeue(Queue *queue)
