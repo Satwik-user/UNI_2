@@ -111,6 +111,8 @@ int main()
     printf("Top element of queue:%d\n",top);
 
     //Display of modified Queue
+    printf("Modified Queue:");
+    print_queue(queue);
 
     return 0;
 }
