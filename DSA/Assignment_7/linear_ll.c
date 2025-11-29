@@ -107,6 +107,8 @@ int main()
 {
     int n;
     printf("Enter size of queue:");
+    sacnf("%d",&n);
+    
     
     return 0;
 }
