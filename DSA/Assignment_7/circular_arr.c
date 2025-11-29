@@ -76,6 +76,9 @@ void print_queue(Queue *queue)
 {
     if(isEmpty(queue))
     {
-        
+        printf("Empty Queue!\n");
+        return;
     }
+
+    
 }
