@@ -69,4 +69,7 @@ int dequeue(Queue *queue)
         return -1;
     }
     Node *del=queue->front;
+    int data=del->data;
+
+    
 }
