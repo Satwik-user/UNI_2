@@ -20,3 +20,9 @@ Node *createNode(int data)
     newNode->next=NULL;
     return newNode;
 }
+
+Queue *createQueue(int cap)
+{
+    Queue *newQueue=(Queue *)malloc(sizeof(Queue));
+    newQueue->cap=cap
+}
