@@ -58,4 +58,5 @@ void enqueue(Queue *queue, int data)
         queue->rear->next=newNode;
         queue->rear=newNode;
     }
+    queue->size++;
 }
