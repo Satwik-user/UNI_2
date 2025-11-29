@@ -53,5 +53,6 @@ int dequeue(Queue *queue)
 
     int data=queue->arr[queue->front];
 
-    
+    if(queue->front==queue->rear)
+    queue->front=queue->rear=-1;
 }
