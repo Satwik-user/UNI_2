@@ -140,7 +140,8 @@ void print_queue(Queue *queue)
 int main()
 {
     int n, ele;
-    
+    printf("Enter sze of queue:");
+    scanf("%d",&n);
     
     return 0;
 }
