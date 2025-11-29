@@ -87,6 +87,9 @@ void print_queue(Queue *queue)
 
 int main()
 {
+    int n;
+    printf("Enter size of queue:");
+    scanf("%d",&n);
     
     
     return 0;
