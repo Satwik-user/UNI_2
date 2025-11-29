@@ -63,5 +63,8 @@ int dequeue(Queue *queue)
 
 int peek(Queue *queue)
 {
-    
+    if(isEmpty(queue))
+    {
+        
+    }
 }
