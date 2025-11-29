@@ -69,5 +69,5 @@ int peek(Queue *queue)
         return -1;
     }
 
-    
+    return queue->arr[queue->rear];
 }
