@@ -42,6 +42,8 @@ void insertFront(Queue *queue, int data)
     else
     queue->front=(queue->front-1+queue->cap)%queue->cap;
 
+    
+
     queue->size++;
 }
 
@@ -69,5 +71,5 @@ int delFront(Queue *queue)
         return -1;
     }
 
-    int del=
+    int data=queue->arr[]
 }
