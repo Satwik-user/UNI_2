@@ -127,6 +127,8 @@ void print_queue(Queue *queue)
 {
     if(isEmpty(queue))
     {
-        printf("Empty queue")
+        printf("Empty queue!\n");
+        return;
     }
+    
 }
