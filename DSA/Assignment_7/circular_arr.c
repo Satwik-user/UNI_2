@@ -82,4 +82,12 @@ void print_queue(Queue *queue)
 
     for(int i=queue->front;i<=queue->rear;i++)
     printf("%d ",queue->arr[i]);
+    printf("\n");
+}
+
+int main()
+{
+    
+    
+    return 0;
 }
