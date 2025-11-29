@@ -60,3 +60,8 @@ void insertRear(Queue *queue, int data)
 
     queue->size++;
 }
+
+int delFront(Queue *queue)
+{
+    if(isEmpty())
+}
