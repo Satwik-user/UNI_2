@@ -65,6 +65,9 @@ int peek(Queue *queue)
 {
     if(isEmpty(queue))
     {
-        printf("Queue is Empty!\n")
+        printf("Queue is Empty!\n");
+        return -1;
     }
+
+    
 }
