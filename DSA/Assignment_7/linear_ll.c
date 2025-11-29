@@ -13,3 +13,7 @@ typedef struct Queue
     struct Queue *rear;
 }Queue;
 
+Node *createNode(int cap)
+{
+    
+}
