@@ -42,3 +42,6 @@ int isFull(Queue *queue)
 }
 
 void enqueue(int data)
+{
+    
+}
