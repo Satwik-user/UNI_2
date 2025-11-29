@@ -59,6 +59,7 @@ void insertRear(Queue *queue, int data)
     else
     queue->rear=(queue->rear-1)%queue->cap;
 
+    queue->arr[queue->rear]=data;
     queue->size++;
 }
 
@@ -70,5 +71,55 @@ int delFront(Queue *queue)
         return -1;
     }
 
-    int data=queue->arr[]
+    int data=queue->arr[queue->front];
+
+    if(queue->front==queue->rear)
+    queue->front=queue->rear=-1;
+    else
+    queue->front=(queue->front-1)%queue->cap;
+
+    queue->size--;
+    return data;
 }
+
+int delRear(Queue *queue)
+{
+    if(isEmpty(queue))
+    {
+        printf("Queue Underflow!\n");
+        return -1;
+    }
+
+    int data=queue->arr[queue->rear];
+
+    if(queue->front==queue->rear)
+    queue->front=queue->rear=-1;
+    else
+    queue->rear=(queue->rear-1+queue->cap)%queue->cap;
+
+    queue->size--;
+    return data;
+}
+
+int peekFront(Queue *queue)
+{
+    if(isEmpty(queue))
+    {
+        printf("Empty queue!\n");
+        return -1;
+    }
+
+    return queue->arr[queue->front];
+}
+
+int peekRear(Queue *queue)
+{
+    if(isEmpty(queue))
+    {
+        printf("Empty queue\n");
+        return -1;
+    }
+
+    return queue->arr[queue->rear];
+}
+
