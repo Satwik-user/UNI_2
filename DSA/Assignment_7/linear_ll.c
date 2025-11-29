@@ -9,8 +9,9 @@ typedef struct Node
 typedef struct Queue
 {
     int cap;
-    struct Queue *head;
-    struct Queue *rear;
+    int size;
+    struct Node *head;
+    struct Node *rear;
 }Queue;
 
 Node *createNode(int data)
@@ -24,5 +25,8 @@ Node *createNode(int data)
 Queue *createQueue(int cap)
 {
     Queue *newQueue=(Queue *)malloc(sizeof(Queue));
-    newQueue->cap=cap
+    newQueue->cap=cap;
+    newQueue->size=0;
+    newQueue->head=newQueue->rear=NULL;
+    return newQueue;
 }
