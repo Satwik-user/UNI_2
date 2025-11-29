@@ -153,7 +153,35 @@ int main()
         insertRear(queue, ele);
     }
 
-    
+    //Insertion at front of Queue
+    printf("Enter element for insertion at front:");
+    scanf("%d",&ele);
+    insertFront(queue, ele);
+
+    //Insertion at rear of Queue
+    printf("Enter element for insertion at rear:");
+    scanf("%d",&ele);
+    insertRear(queue, ele);
+
+    //Deletion at front of Queue
+    int data=delFront(queue);
+    printf("Deleted element from front of queue:%d\n",data);
+
+    //Deletion at rear of Queue
+    data=delRear(queue);
+    printf("Deleted element from rear of queue:%d\n",&data);
+
+    //Peek front element of Queue
+    data=peekFront(queue);
+    printf("Current front element of queue:%d\n",data);
+
+    //Peek rear element of Queue
+    data=peekRear(queue);
+    printf("Current rear element of queue:%d\n",data);
+
+    //Display of modified Queue
+    printf("Modified Queue:");
+    print_queue(queue);
     
     return 0;
 }
