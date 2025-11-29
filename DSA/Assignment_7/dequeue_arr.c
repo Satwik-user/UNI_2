@@ -44,3 +44,8 @@ void insertFront(Queue *queue, int data)
 
     queue->size++;
 }
+
+void insertRear(Queue *queue, int data)
+{
+    if()
+}
