@@ -17,3 +17,7 @@ Queue *createQueue(int cap)
     return queue;
 }
 
+int isEmpty(Queue *queue)
+{
+    
+}
