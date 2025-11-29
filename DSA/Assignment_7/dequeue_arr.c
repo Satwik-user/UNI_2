@@ -42,5 +42,5 @@ void insertFront(Queue *queue, int data)
     else
     queue->front=(queue->front-1+queue->cap)%queue->cap;
 
-    
+    queue->size++;
 }
