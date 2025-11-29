@@ -45,7 +45,7 @@ void dequeue(Queue *queue)
         printf("Queue is empty\n");
         return;
     }
-    queue->head++;
+    queue->arr[queue->head++];
 }
 
 int peek(Queue *queue)
