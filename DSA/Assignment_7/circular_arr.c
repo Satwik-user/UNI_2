@@ -87,7 +87,7 @@ void print_queue(Queue *queue)
 
 int main()
 {
-    int n;
+    int n, ele;
     printf("Enter size of queue:");
     scanf("%d",&n);
 
@@ -95,7 +95,9 @@ int main()
 
     for(int i=0;i<n;i++)
     {
-        
+        printf("Enter element:");
+        scanf("%d",&ele);
+        enqueue(queue, ele);
     }
 
 
