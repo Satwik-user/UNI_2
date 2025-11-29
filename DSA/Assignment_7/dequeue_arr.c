@@ -149,7 +149,7 @@ int main()
     {
         printf("Enter element:");
         scanf("%d",&ele);
-        
+        insertRear(queue, ele);
     }
     
     return 0;
