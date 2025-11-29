@@ -127,7 +127,9 @@ int main()
     int top=peek(queue);
     printf("Top element of queue:%d\n",top);
 
-    //Di
+    //Display of modified queue
+    printf("Modified Queue:");
+    
     
     return 0;
 }
