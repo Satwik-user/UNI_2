@@ -38,7 +38,7 @@ void insertFront(Queue *queue, int data)
     }
 
     if(isEmpty(queue))
-    {
-        
-    }
+    queue->front=queue->rear=0;
+    else
+    queue->front=(queue->front-1+queue->cap)%queue->cap;
 }
