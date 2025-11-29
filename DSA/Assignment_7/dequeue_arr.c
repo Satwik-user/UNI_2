@@ -29,3 +29,5 @@ int isFull(Queue *queue)
     return queue->size==queue->cap;
 }
 
+void insertFront(Queue *queue, int data)
+{}
