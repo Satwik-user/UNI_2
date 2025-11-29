@@ -25,7 +25,7 @@ int isEmpty(Queue *queue)
 
 int isFull(Queue *queue)
 {
-    return queue->rear==queue->cap;
+    return queue->rear==queue->cap-1;
 }
 
 void enqueue(Queue *queue, int data)
