@@ -56,5 +56,7 @@ void insertRear(Queue *queue, int data)
     if(isEmpty(queue))
     queue->front=queue->rear=0;
     else
-    queue->front
+    queue->rear=(queue->rear-1)%queue->cap;
+
+    queue->size++;
 }
