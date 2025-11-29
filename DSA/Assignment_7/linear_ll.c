@@ -96,5 +96,9 @@ void print_queue(Queue *queue)
     }
     Node *temp=queue->front;
     while(temp!=NULL)
-    
+    {
+        printf("%d ",temp->data);
+        temp=temp->next;
+    }
+    printf("\n");
 }
