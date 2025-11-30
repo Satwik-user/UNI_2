@@ -107,7 +107,8 @@ void display(Queue *queue)
 
 int main()
 {
-    
+    int n, ele;
+    printf("Enter size of priority queue:")
     
     return 0;
 }
