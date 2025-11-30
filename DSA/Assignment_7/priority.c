@@ -70,6 +70,7 @@ int dequeue(Queue *queue)
         printf("Queue Underflow!\n");
         return -1;
     }
-    int del=queue->front->data;
+    Node *del=queue->front;
+    int data=del->data;
     
 }
