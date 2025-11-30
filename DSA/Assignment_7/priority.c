@@ -64,4 +64,10 @@ void enqueue(Queue *queue, int data, int pri)
 }
 
 int dequeue(Queue *queue)
-{}
+{
+    if(isEmpty(queue))
+    {
+        printf("Queue Underflow!\n");
+        
+    }
+}
