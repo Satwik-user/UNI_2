@@ -50,7 +50,7 @@ int dequeueA(Queue *queue)
     return data;
 }
 
-void enqueueB(Queue *queue)
+void enqueueB(Queue *queue, int data)
 {
     if(queue->rearA=queue->rearB-1)
     {
@@ -59,5 +59,8 @@ void enqueueB(Queue *queue)
     }
     if(queue->frontB==queue->cap && queue->rearB==queue->cap)
     queue->frontB=queue->rearB=queue->cap-1;
-    e
+    else
+    queue->rearB--;
+
+    queue->arr[queue->rearB]=data;
 }
