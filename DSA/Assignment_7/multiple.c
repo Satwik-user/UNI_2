@@ -11,4 +11,5 @@ typedef struct Queue
 Queue *createQueue(int cap)
 {
     Queue *newQueue=(Queue *)malloc(sizeof(Queue));
+    
 }
