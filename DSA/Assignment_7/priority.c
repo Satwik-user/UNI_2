@@ -108,7 +108,12 @@ void display(Queue *queue)
 int main()
 {
     int n, ele;
-    printf("Enter size of priority queue:")
+    printf("Enter size of priority queue:");
+    scanf("%d",&n);
+    
+    Queue *queue=creaeteQueue(n);
+
+    //
     
     return 0;
 }
