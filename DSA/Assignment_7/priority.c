@@ -107,7 +107,7 @@ void display(Queue *queue)
 
 int main()
 {
-    int n, ele;
+    int n, ele, pri;
     printf("Enter size of priority queue:");
     scanf("%d",&n);
     
@@ -116,8 +116,11 @@ int main()
     //Formation of Queue
     for(int i=0;i<n;i++)
     {
-        printf("Enter element and priority:");
+        printf("Enter element and its priority:");
+        scanf("%d",&ele, &pri);
+        enqueue(queue, ele, pri);
     }
+    
     
     return 0;
 }
