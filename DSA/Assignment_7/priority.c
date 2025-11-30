@@ -15,7 +15,7 @@ typedef struct Queue
     struct Node *rear;
 }Queue;
 
-Node *createNode(int data)
+Node *createNode(int data, int priority)
 {
     Node *newNode=(Node *)malloc(sizeof(Node));
     newNode->data=data;
