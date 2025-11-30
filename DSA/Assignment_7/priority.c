@@ -56,7 +56,7 @@ void enqueue(Queue *queue, int data, int pri)
     else
     {
         Node *temp=queue->front;
-        while(temp->next!=NULL && temp->next->pri<=pri)
+        while(temp->next!=NULL && temp->pri<=pri)
         temp=temp->next;
         newNode->next=temp->next;
         temp->next=newNode;
