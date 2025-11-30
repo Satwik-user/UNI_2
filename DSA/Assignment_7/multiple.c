@@ -69,6 +69,8 @@ int dequeueB(Queue *queue)
 {
     if(queue->frontB==queue->cap-1)
     {
-        printf("Queue B Underflow")
+        printf("Queue B Underflow!\n");
+        return -1;
     }
+    if
 }
