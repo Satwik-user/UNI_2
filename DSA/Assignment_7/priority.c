@@ -120,7 +120,8 @@ int main()
         scanf("%d",&ele, &pri);
         enqueue(queue, ele, pri);
     }
-    
+
+    //
     
     return 0;
 }
