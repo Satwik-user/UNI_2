@@ -41,5 +41,10 @@ int dequeueA(Queue *queue)
         return -1;
     }
     int data=queue->arr[queue->frontA];
+
+    if(queue->frontA==queue->rearA)
+    queue->frontA=queue->rearA=-1;
+    else
+    queue->frontA=(queue->frontA-1)%queue->cap;
     
 }
