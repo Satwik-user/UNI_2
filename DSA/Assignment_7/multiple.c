@@ -11,5 +11,8 @@ typedef struct Queue
 Queue *createQueue(int cap)
 {
     Queue *newQueue=(Queue *)malloc(sizeof(Queue));
+    newQueue->cap=cap;
+    newQueue->frontA=newQueue->rearA=-1;
+    newQueue->frontB=newQueue->rearB=cap;
     
 }
