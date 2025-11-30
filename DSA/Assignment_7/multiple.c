@@ -49,3 +49,9 @@ int dequeueA(Queue *queue)
 
     return data;
 }
+
+void enqueueB(Queue *queue)
+{
+    if(queue->rearA=queue->rearB-1)
+    
+}
