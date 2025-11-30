@@ -64,3 +64,11 @@ void enqueueB(Queue *queue, int data)
 
     queue->arr[queue->rearB]=data;
 }
+
+int dequeueB(Queue *queue)
+{
+    if(queue->frontB==queue->cap-1)
+    {
+        printf("Queue B Underflow")
+    }
+}
