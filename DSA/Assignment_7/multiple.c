@@ -8,3 +8,7 @@ typedef struct Queue
     int rearA, rearB;
 }Queue;
 
+Queue *createQueue(int cap)
+{
+    i
+}
