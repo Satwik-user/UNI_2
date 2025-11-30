@@ -24,7 +24,7 @@ Node *createNode(int data, int priority)
     return newNode;
 }
 
-Queue *createQueueint cap)
+Queue *createQueue(int cap)
 {
-
+    
 }
