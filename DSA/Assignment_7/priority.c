@@ -72,5 +72,8 @@ int dequeue(Queue *queue)
     }
     Node *del=queue->front;
     int data=del->data;
+
+    queue->front=queue->front->next;
+    free(del);
     
 }
