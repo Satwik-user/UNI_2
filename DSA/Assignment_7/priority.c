@@ -102,4 +102,5 @@ void display(Queue *queue)
         printf("%d ",temp->data);
         temp=temp->next;
     }
+    printf("\n");
 }
