@@ -130,7 +130,8 @@ int main()
     printf("Highest priority element in queue:%d\n",data);
 
     //Display of entire Queue based on priority
-    
+    printf("Prioriyt Queue:");
+    display()
     
     return 0;
 }
