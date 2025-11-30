@@ -89,3 +89,11 @@ int peek(Queue *queue)
     return queue->front->data;
 }
 
+void display(Queue *queue)
+{
+    if(isEmpty(queue))
+    {
+        printf("Queue is empty!\n");
+        return 
+    }
+}
