@@ -131,7 +131,7 @@ int main()
 
     //Display of entire Queue based on priority
     printf("Prioriyt Queue:");
-    display()
+    display(queue);
     
     return 0;
 }
