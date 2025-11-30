@@ -96,5 +96,6 @@ void display(Queue *queue)
         printf("Queue is empty!\n");
         return;
     }
+    Node *temp=queue->front;
     
 }
