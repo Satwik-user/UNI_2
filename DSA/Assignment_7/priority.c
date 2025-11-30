@@ -75,6 +75,15 @@ int dequeue(Queue *queue)
 
     queue->front=queue->front->next;
     free(del);
-    
+
     return data;
+}
+
+int peek(Queue *queue)
+{
+    if(isEmpty(queue))
+    {
+        printf("Queue is empty!\n");
+        return -1;
+    }
 }
