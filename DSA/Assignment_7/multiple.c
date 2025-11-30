@@ -32,3 +32,4 @@ void enqeueA(Queue *queue, int data)
 
     queue->arr[queue->rearA]=data;
 }
+
