@@ -122,6 +122,7 @@ int main()
     }
 
     //Extraction of elements based on priority
+    int data=dequeue(queue);
     
     
     return 0;
