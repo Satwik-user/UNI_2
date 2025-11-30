@@ -75,5 +75,6 @@ int dequeue(Queue *queue)
 
     queue->front=queue->front->next;
     free(del);
+    
     return data;
 }
