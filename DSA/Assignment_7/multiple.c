@@ -25,5 +25,8 @@ void enqeueA(Queue *queue, int data)
         printf("Queue A Overflow!\n");
         return;
     }
-    
+    if(queue->frontA==-1 && queue->rearA==-1)
+    {
+        
+    }
 }
