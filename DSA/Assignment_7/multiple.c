@@ -20,5 +20,10 @@ Queue *createQueue(int cap)
 
 void enqeueA(Queue *queue, int data)
 {
+    if(queue->rearA=queue->rearB-1)
+    {
+        printf("Queue A Overflow!\n");
+        return;
+    }
     
 }
