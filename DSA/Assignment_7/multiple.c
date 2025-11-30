@@ -53,5 +53,8 @@ int dequeueA(Queue *queue)
 void enqueueB(Queue *queue)
 {
     if(queue->rearA=queue->rearB-1)
-    
+    {
+        printf("Queue B Overflow!\n");
+        return
+    }
 }
