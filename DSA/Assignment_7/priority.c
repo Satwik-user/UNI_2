@@ -43,7 +43,13 @@ int isFull(Queue *queue)
     return queue->size==queue->cap;
 }
 
-void enqueue(Queue *queue, int data)
+void enqueue(Queue *queue, int data, int pri)
 {
-    
+    if(isFull(queue))
+    {
+        printf("Queue Overflow!\n");
+        return;
+    }
+    Node *newNode=createNode(data, pri);
+
 }
