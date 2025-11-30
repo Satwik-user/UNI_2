@@ -94,6 +94,7 @@ void display(Queue *queue)
     if(isEmpty(queue))
     {
         printf("Queue is empty!\n");
-        return 
+        return;
     }
+    
 }
