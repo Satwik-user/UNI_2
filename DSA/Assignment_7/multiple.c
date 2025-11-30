@@ -18,3 +18,7 @@ Queue *createQueue(int cap)
     return newQueue;
 }
 
+void enqeueA(Queue *queue, int data)
+{
+    
+}
