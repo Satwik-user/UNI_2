@@ -15,7 +15,7 @@ typedef struct Queue
     struct Node *rear;
 }Queue;
 
-Node *createNode(int cap)
+Node *createNode(int data)
 {
     
 }
