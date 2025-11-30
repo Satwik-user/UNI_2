@@ -23,3 +23,4 @@ Node *createNode(int data, int priority)
     newNode->next=NULL;
     return newNode;
 }
+
