@@ -38,6 +38,7 @@ int dequeueA(Queue *queue)
     if(queue->frontA==-1)
     {
         printf("Queue A Underflow!\n");
-        return;
+        return -1;
     }
+    
 }
