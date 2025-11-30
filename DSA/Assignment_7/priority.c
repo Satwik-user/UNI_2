@@ -129,7 +129,7 @@ int main()
     data=peek(queue);
     printf("Highest priority element in queue:%d\n",data);
 
-    //Display of entire queue based on priority
+    //Display of entire Queue based on priority
     
     
     return 0;
