@@ -40,5 +40,6 @@ int dequeueA(Queue *queue)
         printf("Queue A Underflow!\n");
         return -1;
     }
+    int data=queue->arr[queue->frontA];
     
 }
