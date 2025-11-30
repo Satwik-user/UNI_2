@@ -57,5 +57,7 @@ void enqueueB(Queue *queue)
         printf("Queue B Overflow!\n");
         return;
     }
-    
+    if(queue->frontB==queue->cap && queue->rearB==queue->cap)
+    queue->frontB=queue->rearB=queue->cap-1;
+    e
 }
