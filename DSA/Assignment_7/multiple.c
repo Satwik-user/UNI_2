@@ -46,5 +46,6 @@ int dequeueA(Queue *queue)
     queue->frontA=queue->rearA=-1;
     else
     queue->frontA=(queue->frontA-1)%queue->cap;
+
     
 }
