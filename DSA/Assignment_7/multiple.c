@@ -26,7 +26,9 @@ void enqeueA(Queue *queue, int data)
         return;
     }
     if(queue->frontA==-1 && queue->rearA==-1)
-    {
-        
-    }
+    queue->frontA=queue->rearA=0;
+    else
+    queue->rearA++;
+
+    queue->arr[queue->rearA]=data
 }
