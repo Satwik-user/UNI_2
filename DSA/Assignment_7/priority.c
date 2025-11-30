@@ -123,6 +123,8 @@ int main()
 
     //Extraction of elements based on priority
     int data=dequeue(queue);
+    printf("Element extracted based on priority sequence:%d\n",data);
+
     
     
     return 0;
