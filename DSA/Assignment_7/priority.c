@@ -26,5 +26,7 @@ Node *createNode(int data, int priority)
 
 Queue *createQueue(int cap)
 {
+    Queue *newQueue=(Queue *)malloc(sizeof(Queue));
+    newQueue->cap=cap;
     
 }
