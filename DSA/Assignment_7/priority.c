@@ -37,3 +37,8 @@ int isEmpty(Queue *queue)
 {
     return queue->front==NULL;
 }
+
+int isFull(Queue *queue)
+{
+    return queue->size==queue->cap;
+}
