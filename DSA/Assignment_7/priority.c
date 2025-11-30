@@ -96,8 +96,5 @@ void display(Queue *queue)
         printf("Queue is empty!\n");
         return;
     }
-    for(int i=queue->front;i<=queue->rear;i++)
-    {
-        
-    }
+    
 }
