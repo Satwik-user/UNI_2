@@ -28,5 +28,7 @@ Queue *createQueue(int cap)
 {
     Queue *newQueue=(Queue *)malloc(sizeof(Queue));
     newQueue->cap=cap;
-    
+    newQueue->size=0;
+    newQueue->front=newQueue->rear=NULL;
+    return newQueue;
 }
