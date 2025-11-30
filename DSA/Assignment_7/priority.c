@@ -43,3 +43,5 @@ int isFull(Queue *queue)
     return queue->size==queue->cap;
 }
 
+void enqueue(Queue *queue, int data)
+{}
