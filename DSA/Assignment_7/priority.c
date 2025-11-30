@@ -125,7 +125,7 @@ int main()
     int data=dequeue(queue);
     printf("Element extracted based on priority sequence:%d\n",data);
 
-    //Peek 
+    //Peek highest priority element in Queue
     
     return 0;
 }
