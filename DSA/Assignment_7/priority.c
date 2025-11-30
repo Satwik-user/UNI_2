@@ -88,3 +88,4 @@ int peek(Queue *queue)
     }
     return queue->front->data;
 }
+
