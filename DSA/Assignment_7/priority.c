@@ -68,6 +68,7 @@ int dequeue(Queue *queue)
     if(isEmpty(queue))
     {
         printf("Queue Underflow!\n");
-        
+        return -1;
     }
+    
 }
