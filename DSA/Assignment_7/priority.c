@@ -35,5 +35,5 @@ Queue *createQueue(int cap)
 
 int isEmpty(Queue *queue)
 {
-    
+    return queue->front==-1;
 }
