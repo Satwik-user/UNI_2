@@ -52,7 +52,5 @@ void enqueue(Queue *queue, int data, int pri)
     }
     Node *newNode=createNode(data, pri);
     if(queue->rear==NULL)
-    {
-        
-    }
+    queue->front=queue->rear=newNode;
 }
