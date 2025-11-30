@@ -121,7 +121,8 @@ int main()
         enqueue(queue, ele, pri);
     }
 
-    //Extraction of elements based on pri
+    //Extraction of elements based on priority
+    
     
     return 0;
 }
