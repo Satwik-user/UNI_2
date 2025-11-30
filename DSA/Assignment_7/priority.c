@@ -62,3 +62,6 @@ void enqueue(Queue *queue, int data, int pri)
         temp->next=newNode;
     }
 }
+
+int dequeue(Queue *queue)
+{}
