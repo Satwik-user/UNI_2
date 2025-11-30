@@ -33,3 +33,10 @@ void enqeueA(Queue *queue, int data)
     queue->arr[queue->rearA]=data;
 }
 
+int dequeueA(Queue *queue)
+{
+    if(queue->frontA==-1)
+    {
+        printf("Queue A Underflow!\n")
+    }
+}
