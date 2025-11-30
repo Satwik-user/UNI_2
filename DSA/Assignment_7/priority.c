@@ -126,6 +126,10 @@ int main()
     printf("Element extracted based on priority sequence:%d\n",data);
 
     //Peek highest priority element in Queue
+    data=peek(queue);
+    printf("Highest priority element in queue:%d\n",data);
+
+    //
     
     return 0;
 }
