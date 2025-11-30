@@ -99,6 +99,7 @@ void display(Queue *queue)
     Node *temp=queue->front;
     while(temp!=NULL)
     {
+        printf("%d ",temp->data);
         
     }
 }
