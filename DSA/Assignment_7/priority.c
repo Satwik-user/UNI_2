@@ -24,3 +24,7 @@ Node *createNode(int data, int priority)
     return newNode;
 }
 
+Queue *createQueueint cap)
+{
+
+}
