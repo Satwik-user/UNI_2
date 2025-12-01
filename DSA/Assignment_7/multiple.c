@@ -161,7 +161,9 @@ int main()
     del=dequeueA(queue);
     printf("Deleted element from Queue A:%d\n",del);
 
-    //Delete from Q
+    //Delete from Queue B
+    del=dequeue(queue);
+    p
     
     return 0;
 }
