@@ -147,7 +147,8 @@ int main()
         enqueueA(queue, ele);
     }
 
-    //Formation of 
+    //Formation of Queue B
+    
     
     return 0;
 }
