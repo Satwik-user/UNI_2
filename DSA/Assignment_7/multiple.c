@@ -146,6 +146,8 @@ int main()
         scanf("%d",&ele);
         enqueueA(queue, ele);
     }
+
+    //Formation of 
     
     return 0;
 }
