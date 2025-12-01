@@ -132,7 +132,9 @@ void displayB(Queue *queue)
 int main()
 {
     int n, ele;
-    printf("Enter size of queue:")
+    printf("Enter size of queue:");
+    scanf("%d",&n);
+    
     
     return 0;
 }
