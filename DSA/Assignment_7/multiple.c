@@ -131,14 +131,15 @@ void displayB(Queue *queue)
 
 int main()
 {
-    int n, ele;
+    int n, n1, n2, ele;
     printf("Enter total size of queue:");
     scanf("%d",&n);
 
     Queue *queue=createQueue(n);
 
     //Formation of Queue A
-    
+    printf("Enter size of Queue A:");
+    scanf("%d",&n1);
     
     return 0;
 }
