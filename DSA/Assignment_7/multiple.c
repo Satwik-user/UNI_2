@@ -159,7 +159,9 @@ int main()
 
     //Delete from Queue A
     del=dequeueA(queue);
-    printf("Deleted element from Queue A:%d\n",del)
+    printf("Deleted element from Queue A:%d\n",del);
+
+    //d
     
     return 0;
 }
