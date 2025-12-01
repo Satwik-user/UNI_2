@@ -134,6 +134,8 @@ int main()
     int n, ele;
     printf("Enter size of queue:");
     scanf("%d",&n);
+
+    Queue *queue=createQueue(n);
     
     
     return 0;
