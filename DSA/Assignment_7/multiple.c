@@ -18,7 +18,7 @@ Queue *createQueue(int cap)
     return newQueue;
 }
 
-void enqeueA(Queue *queue, int data)
+void enqueueA(Queue *queue, int data)
 {
     if(queue->rearA=queue->rearB-1)
     {
@@ -143,7 +143,8 @@ int main()
     for(int i=0;i<n1;i++)
     {
         printf("Enter element for Queue A:");
-        scanf("%d",&ele)
+        scanf("%d",&ele);
+        enqueueA(queue, ele);
     }
     
     return 0;
