@@ -89,5 +89,10 @@ int peekA(Queue *queue)
         return -1;
     }
     
-    return queue->arr[queue->frontA]
+    return queue->arr[queue->frontA];
+}
+
+int peekB(Queue *queue)
+{
+    
 }
