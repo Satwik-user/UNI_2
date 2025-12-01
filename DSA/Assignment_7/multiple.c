@@ -141,5 +141,6 @@ int main()
     printf("Enter size of Queue A:");
     scanf("%d",&n1);
     
+    
     return 0;
 }
