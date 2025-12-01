@@ -172,6 +172,8 @@ int main()
     //Peek top element of Queue B
     ele=peekB(queue);
     printf("Top element of Queue B:%d\n",ele);
+
+    /
     
     return 0;
 }
