@@ -131,7 +131,7 @@ void displayB(Queue *queue)
 
 int main()
 {
-    int n, n1, n2, ele;
+    int n, n1, n2, ele, del;
     printf("Enter total size of queue:");
     scanf("%d",&n);
 
@@ -158,6 +158,7 @@ int main()
     }
 
     //Delete from Queue A
+    del=dequeueA(queue);
     
     
     return 0;
