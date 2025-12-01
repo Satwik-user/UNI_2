@@ -165,7 +165,8 @@ int main()
     del=dequeue(queue);
     printf("Deleted element from Queue B:%d\n",del);
 
-    //Peek of top eleme
+    //Peek of top element of Queue A
+    
     
     return 0;
 }
