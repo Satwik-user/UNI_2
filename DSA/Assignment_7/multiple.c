@@ -174,6 +174,7 @@ int main()
     printf("Top element of Queue B:%d\n",ele);
 
     //Desplay of Queue A
+    printf("Queue A:");
     
     
     return 0;
