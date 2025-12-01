@@ -75,4 +75,5 @@ int dequeueB(Queue *queue)
     int data=queue->arr[queue->frontB];
     if(queue->frontB==queue->rearB)
     queue->frontB=queue->rearB=queue->cap;
+    
 }
