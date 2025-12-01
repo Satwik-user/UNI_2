@@ -173,7 +173,8 @@ int main()
     ele=peekB(queue);
     printf("Top element of Queue B:%d\n",ele);
 
-    /
+    //Desplay of Queue A
+    
     
     return 0;
 }
