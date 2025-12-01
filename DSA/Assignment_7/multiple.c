@@ -82,4 +82,6 @@ int dequeueB(Queue *queue)
 }
 
 void displayA(Queue *queue)
-{}
+{
+    
+}
