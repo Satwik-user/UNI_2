@@ -175,7 +175,11 @@ int main()
 
     //Desplay of Queue A
     printf("Queue A:");
-    
+    displayA(queue);
+
+    //Display of Queue B
+    printf("Queue B:");
+    displayB(queue);
     
     return 0;
 }
