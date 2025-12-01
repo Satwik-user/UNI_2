@@ -132,7 +132,7 @@ void displayB(Queue *queue)
 int main()
 {
     int n, ele;
-    
+    printf("Enter size of queue:")
     
     return 0;
 }
