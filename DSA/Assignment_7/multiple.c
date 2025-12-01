@@ -77,4 +77,6 @@ int dequeueB(Queue *queue)
     queue->frontB=queue->rearB=queue->cap;
     else
     queue->frontB++;
+
+    return data;
 }
