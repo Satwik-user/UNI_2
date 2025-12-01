@@ -163,7 +163,9 @@ int main()
 
     //Delete from Queue B
     del=dequeue(queue);
-    p
+    printf("Deleted element from Queue B:%d\n",del);
+
+    //Peek o
     
     return 0;
 }
