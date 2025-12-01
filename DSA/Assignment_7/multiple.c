@@ -137,7 +137,8 @@ int main()
 
     Queue *queue=createQueue(n);
 
-    //Formation of Queue
+    //Formation of Queue A
+    
     
     return 0;
 }
