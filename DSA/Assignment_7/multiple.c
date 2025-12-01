@@ -81,7 +81,12 @@ int dequeueB(Queue *queue)
     return data;
 }
 
-int peek(Queue *queue)
+int peekA(Queue *queue)
 {
+    if(queue->frontA==-1)
+    {
+        printf("Queue is empty!\n");
+        return -1;
+    }
     
 }
