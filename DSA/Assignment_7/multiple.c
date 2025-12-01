@@ -151,6 +151,10 @@ int main()
     printf("Enter size of Queue B:");
     scanf("%d",&n2);
     for(int i=0;i<n2;i++)
+    {
+        printf("Enter lement for Queue B:");
+        
+    }
     
     return 0;
 }
