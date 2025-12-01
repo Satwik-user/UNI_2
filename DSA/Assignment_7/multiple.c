@@ -131,7 +131,7 @@ void displayB(Queue *queue)
 
 int main()
 {
-    int n, n1, n2, ele, del;
+    int n, n1, n2, ele;
     printf("Enter total size of queue:");
     scanf("%d",&n);
 
@@ -158,15 +158,20 @@ int main()
     }
 
     //Delete from Queue A
-    del=dequeueA(queue);
-    printf("Deleted element from Queue A:%d\n",del);
+    ele=dequeueA(queue);
+    printf("Deleted element from Queue A:%d\n",ele);
 
     //Delete from Queue B
-    del=dequeue(queue);
-    printf("Deleted element from Queue B:%d\n",del);
+    ele=dequeue(queue);
+    printf("Deleted element from Queue B:%d\n",ele);
 
     //Peek of top element of Queue A
-    
+    ele=peekA(queue);
+    printf("Top element ofQueue A:%d\n",ele);
+
+    //Peek top element of Queue B
+    ele=peekB(queue);
+    printf("Top element of Queue B:%d\n",ele);
     
     return 0;
 }
