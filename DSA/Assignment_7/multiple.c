@@ -150,7 +150,7 @@ int main()
     //Formation of Queue B
     printf("Enter size of Queue B:");
     scanf("%d",&n2);
-    for(int i=0;i<n2;i)
+    for(int i=0;i<n2;i++)
     
     return 0;
 }
