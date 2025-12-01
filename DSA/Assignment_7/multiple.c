@@ -154,8 +154,10 @@ int main()
     {
         printf("Enter lement for Queue B:");
         scanf("%d",&ele);
-        
+        enqueueB(queue, ele);
     }
+
+    //
     
     return 0;
 }
