@@ -45,7 +45,7 @@ int dequeueA(Queue *queue)
     if(queue->frontA==queue->rearA)
     queue->frontA=queue->rearA=-1;
     else
-    queue->frontA=(queue->frontA-1)%queue->cap;
+    queue->frontA++;
 
     return data;
 }
@@ -72,5 +72,7 @@ int dequeueB(Queue *queue)
         printf("Queue B Underflow!\n");
         return -1;
     }
-    if
+    int data=queue->arr[queue->frontB];
+    if(queue->frontB==queue->rearB)
+    queue->frontB=queue->rearB=queue->cap;
 }
