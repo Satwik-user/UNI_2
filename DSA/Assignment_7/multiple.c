@@ -88,5 +88,8 @@ int peekA(Queue *queue)
         printf("Queue is empty!\n");
         return -1;
     }
+    for(int i=queue->frontA;i<=queue->rearB;i++)
+    printf("%d ",queue->arr[i]);
+
     
 }
