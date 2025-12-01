@@ -157,7 +157,8 @@ int main()
         enqueueB(queue, ele);
     }
 
-    //
+    //Delete from Queue A
+    
     
     return 0;
 }
