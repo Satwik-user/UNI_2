@@ -85,7 +85,7 @@ int peekA(Queue *queue)
 {
     if(queue->frontA==-1)
     {
-        printf("Queue is empty!\n");
+        printf("Queue A is empty!\n");
         return -1;
     }
     
@@ -94,5 +94,38 @@ int peekA(Queue *queue)
 
 int peekB(Queue *queue)
 {
-    
+    if(queue->frontB==-1)
+    {
+        printf("Queue B is empty!\n");
+        return -1;
+    }
+
+    return queue->arr[queue->frontB];
 }
+
+void displayA(Queue *queue)
+{
+    if(queue->frontA==-1)
+    {
+        printf("Queue A is empty!\n");
+        return;
+    }
+    for(int i=queue->frontA;i<=queue->rearA;i++)
+    printf("%d ",queue->arr[i]);
+
+    printf("\n");
+}
+
+void displayB(Queue *queue)
+{
+    if(queue->frontB==-1)
+    {
+        printf("Queue B is empty!\n");
+        return;
+    }
+    for(int i=queue->frontB;i<=queue->rearB;i++)
+    printf("%d ",queue->arr[i]);
+
+    printf("\n");
+}
+
