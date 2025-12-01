@@ -141,7 +141,10 @@ int main()
     printf("Enter size of Queue A:");
     scanf("%d",&n1);
     for(int i=0;i<n1;i++)
-    
+    {
+        printf("Enter element for Queue A:");
+        scanf("%d",&ele)
+    }
     
     return 0;
 }
