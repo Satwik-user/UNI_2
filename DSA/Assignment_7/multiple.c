@@ -131,6 +131,7 @@ void displayB(Queue *queue)
 
 int main()
 {
+    int n, ele;
     
     
     return 0;
