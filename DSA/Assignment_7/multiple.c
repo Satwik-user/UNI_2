@@ -140,6 +140,7 @@ int main()
     //Formation of Queue A
     printf("Enter size of Queue A:");
     scanf("%d",&n1);
+    for(int i=0;i<n1;i++)
     
     
     return 0;
