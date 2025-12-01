@@ -81,7 +81,7 @@ int dequeueB(Queue *queue)
     return data;
 }
 
-void displayA(Queue *queue)
+int peek(Queue *queue)
 {
     
 }
