@@ -10,6 +10,7 @@ class Factorial_method
     
     public static void main(String args[])
     {
-        int n =
+        int n = 5;
+        
     }
 }
