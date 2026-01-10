@@ -1,4 +1,4 @@
 class Factorial
 {
-    p
+    public static void main()
 }
