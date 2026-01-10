@@ -12,5 +12,8 @@ class Factorial_main
 
 class Factorial_class
 {
-    public static void main()
+    public static void main(String args[])
+    {
+        
+    }
 }
