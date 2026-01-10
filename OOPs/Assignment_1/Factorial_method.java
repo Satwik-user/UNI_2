@@ -8,5 +8,8 @@ class Factorial_method
         return f;
     }
     
-    public static void main()
+    public static void main(String args[])
+    {
+        
+    }
 }
