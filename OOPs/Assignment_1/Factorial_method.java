@@ -9,5 +9,4 @@ class Factorial_method
     }
     
     public static void main()
-    
 }
