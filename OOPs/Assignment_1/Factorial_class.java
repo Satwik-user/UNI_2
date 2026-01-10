@@ -1,4 +1,4 @@
-class Factorial
+class Factorial_main
 {
     public int factorial(int n)
     {
