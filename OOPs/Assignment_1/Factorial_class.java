@@ -16,6 +16,6 @@ class Factorial_class
     {
         int n = 5;
         int fact = Factorial_main(n);
-        System.out.println("")
+        System.out.println("Factorial")
     }
 }
