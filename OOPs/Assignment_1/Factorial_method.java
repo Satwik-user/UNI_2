@@ -12,6 +12,6 @@ class Factorial_method
     {
         int n = 5;
         int fact = Factorial_method.factorial(n);
-        System.out.println("Factoi")
+        System.out.println("Factorial ")
     }
 }
