@@ -8,5 +8,6 @@ class Factorial_method
         return f;
     }
     
-    public static vois main()
+    public static void main()
+    
 }
