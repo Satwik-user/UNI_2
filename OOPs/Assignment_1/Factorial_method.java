@@ -1,6 +1,6 @@
 class Factorial_method
 {
-    public int factorial(int n)
+    public static int factorial(int n)
     {
         for(int i=1; i<=n; i++)
         f *= i;
