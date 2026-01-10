@@ -4,6 +4,6 @@ class Factorial
     {
         int n = 5, f = 1;
         for(int i=0; i<n; i++)
-        f*
+        f 
     }
 }
