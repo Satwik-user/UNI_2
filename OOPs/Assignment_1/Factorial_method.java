@@ -4,6 +4,7 @@ class Factorial_method
     {
         for(int i=1; i<=n; i++)
         f *= i;
-        
+
+        return 
     }
 }
