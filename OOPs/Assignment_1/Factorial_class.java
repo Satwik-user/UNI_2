@@ -12,5 +12,5 @@ class Factorial_main
 
 class Factorial_class
 {
-    public s
+    public static void main()
 }
