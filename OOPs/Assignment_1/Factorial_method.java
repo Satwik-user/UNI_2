@@ -1,4 +1,5 @@
 class Factorial_method
 {
-    public int Factorial()
+    public int Factorial(int n)
+    
 }
