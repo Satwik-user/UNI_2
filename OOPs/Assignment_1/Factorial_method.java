@@ -1,1 +1,2 @@
 class Factorial_method
+{}
