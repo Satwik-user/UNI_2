@@ -1,4 +1,4 @@
 class Factorial_class
 {
-    public static 
+    public int factorial()
 }
