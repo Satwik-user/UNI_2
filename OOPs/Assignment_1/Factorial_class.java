@@ -10,4 +10,7 @@ class Factorial_main
     }
 }
 
-class Factorial_
+class Factorial_class
+{
+    public s
+}
