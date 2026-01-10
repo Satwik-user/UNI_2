@@ -1,1 +1,4 @@
 class Factorial_class
+{
+    
+}
