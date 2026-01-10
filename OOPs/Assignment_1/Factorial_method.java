@@ -1,1 +1,1 @@
-class Factorial_
+class Factorial_method
