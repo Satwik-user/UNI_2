@@ -11,6 +11,6 @@ class Factorial_method
     public static void main(String args[])
     {
         int n = 5;
-        Factorial_method.
+        Factorial_method.Factorial
     }
 }
