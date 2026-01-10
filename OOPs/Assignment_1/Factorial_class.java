@@ -10,4 +10,4 @@ class Factorial_main
     }
 }
 
-class Factorial
+class Factorial_
