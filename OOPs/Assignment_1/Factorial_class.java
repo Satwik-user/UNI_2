@@ -15,7 +15,7 @@ class Factorial_class
     public static void main(String args[])
     {
         int n = 5;
-        int fact = Factorial_main(n);
+        int fact = Factorial_main.factorrial(n);
         System.out.println("Factorial = " + fact);
     }
 }
