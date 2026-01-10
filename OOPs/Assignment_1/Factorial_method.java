@@ -1,1 +1,1 @@
-class 
+class Factorial_m
