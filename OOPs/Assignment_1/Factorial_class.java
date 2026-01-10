@@ -10,4 +10,4 @@ class Factorial_class
     }
 }
 
-class 
+class print
