@@ -1,4 +1,4 @@
 class Factorial_method
 {
-    public 
+    public int 
 }
