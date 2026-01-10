@@ -1,1 +1,1 @@
-class Factorial_cla
+class Factorial_class
