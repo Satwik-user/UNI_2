@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+class Swap
+{
+    public static int swap(int a, int b)
+    {
+        int temp = a;
+        a = b;
+        b = temp;
+
+        return a, b;
+    }
+
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+        int n1 = sc.nextInt();
+        int n2 = sc.nextInt();
+
+        int a
+    }
+}
