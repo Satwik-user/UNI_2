@@ -11,6 +11,6 @@ class Even_odd
         if(n % 2 == 0)
         System.out.println("Even number");
         else
-        S
+        System.out.println("Odd number");
     }
 }
