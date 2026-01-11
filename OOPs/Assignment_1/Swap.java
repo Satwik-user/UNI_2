@@ -17,6 +17,6 @@ class Swap
         int n1 = sc.nextInt();
         int n2 = sc.nextInt();
 
-        int a
+        
     }
 }
