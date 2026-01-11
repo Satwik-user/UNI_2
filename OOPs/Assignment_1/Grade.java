@@ -18,6 +18,7 @@ class Grade
         System.out.println("Grade D");
         else if(marks >= 40 && marks < 60)
         System.out.println("Grade E");
-        else if(marks < )
+        else if(marks < 40)
+        
     }
 }
