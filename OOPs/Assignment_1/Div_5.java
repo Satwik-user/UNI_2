@@ -1,3 +1,6 @@
 import java.util.Scanner;
 
-class Div
+class Div_5
+{
+    pu
+}
