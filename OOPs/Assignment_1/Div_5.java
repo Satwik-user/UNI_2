@@ -10,6 +10,7 @@ class Div_5
 
         if(n % 5 == 0)
         System.out.println("Number is divisible ny 5!");
-        e
+        else
+        
     }
 }
