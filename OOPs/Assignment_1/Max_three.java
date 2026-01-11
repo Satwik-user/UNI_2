@@ -5,6 +5,6 @@ class Max_three
     public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);
-        int 
+        System.out.println()
     }
 }
