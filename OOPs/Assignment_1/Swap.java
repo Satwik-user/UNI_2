@@ -13,6 +13,6 @@ class Swap
         a = b;
         b = temp;
 
-        System.out.println("Swapped a and b = " + a + '' + b);
+        System.out.println("Swapped a and b = " + a + ' ' + b);
     }
 }
