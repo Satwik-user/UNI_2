@@ -11,6 +11,7 @@ class Swap
 
         int temp = a;
         a = b;
+        b = temp;
         
         System.out.println("Swapped a and b = " + a + b);
     }
