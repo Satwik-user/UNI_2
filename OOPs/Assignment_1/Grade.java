@@ -15,6 +15,7 @@ class Grade
         else if(marks >= 70 && marks < 80)
         System.out.println("Grade C");
         else if(marks >= 60 && marks < 70)
-        System.out.println("Grade D")  
+        System.out.println("Grade D");
+        e
     }
 }
