@@ -10,7 +10,7 @@ class Leap
 
         if(year % 4 == 0)
         {
-            if(year)
+            if(year %100)
         }
     }
 }
