@@ -8,6 +8,6 @@ class Grade
         System.out.print("Enter marks:");
         int marks = sc.nextInt();
 
-        if(marks > )
+        if(marks > =)
     }
 }
