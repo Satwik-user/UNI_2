@@ -10,6 +10,7 @@ class Swap
         int b = sc.nextInt();
 
         int temp = a;
+        a = b;
         
         System.out.println("Swapped a and b = " + a + b);
     }
