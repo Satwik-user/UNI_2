@@ -2,5 +2,5 @@ import java.util.Scanner;
 
 class Evem_odd
 {
-    public ev
+    public even_odd
 }
