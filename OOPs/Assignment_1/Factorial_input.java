@@ -19,6 +19,6 @@ class Factorial_input
         int n = sc.nextInt();
 
         int fact = factorial(n);
-        System.out.println("Factorial = " + fact)
+        System.out.println("Factorial = " + fact);
     }
 }
