@@ -11,6 +11,7 @@ class Max_three
         int c = sc.nextInt();
 
         if(a > b && a > c)
-        System.out.pritnln(a + "is the maximum number")
+        System.out.pritnln(a + "is the maximum number");
+        else if()
     }
 }
