@@ -8,6 +8,8 @@ class Max_three
         System.out.print("Enter three number:");
         int a = sc.nextInt();
         int b = sc.nextInt();
-        i
+        int c = sc.nextInt();
+
+        
     }
 }
