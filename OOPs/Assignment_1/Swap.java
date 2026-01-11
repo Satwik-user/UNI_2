@@ -13,9 +13,9 @@ class Swap
     {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
-        int n2 = sc.nextInt();
+        int b = sc.nextInt();
 
-        swap(n1, n2);
+        swap(a, n2);
         System.out.println("Swapped a and b = " + a + b);
     }
 }
