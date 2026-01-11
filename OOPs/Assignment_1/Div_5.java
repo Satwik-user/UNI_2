@@ -8,6 +8,9 @@ class Div_5
         System.out.print("Enter a number:");
         int n = sc.nextInt();
 
-        if()
+        if(n % 5 == 0)
+        {
+            
+        }
     }
 }
