@@ -4,6 +4,7 @@ class Max_three
 {
     public static void main(String args[])
     {
-        S
+        Scanner sc = new Scanner(System.in);
+        
     }
 }
