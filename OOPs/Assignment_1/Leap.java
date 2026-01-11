@@ -2,5 +2,8 @@ import java.util.Scanner;
 
 class Leap
 {
-    public static void main()
+    public static void main(String args[])
+    {
+        
+    }
 }
