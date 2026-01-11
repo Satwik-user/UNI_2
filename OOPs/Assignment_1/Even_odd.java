@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Evem_odd
+class Even_odd
 {
     public static int even_odd
 }
