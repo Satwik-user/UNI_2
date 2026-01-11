@@ -15,7 +15,7 @@ class Swap
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        swap(a, n2);
+        swap(a, b);
         System.out.println("Swapped a and b = " + a + b);
     }
 }
