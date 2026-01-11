@@ -6,6 +6,6 @@ class Div_5
     {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number:");
-        i
+        int n = 
     }
 }
