@@ -9,8 +9,6 @@ class Div_5
         int n = sc.nextInt();
 
         if(n % 5 == 0)
-        {
-            
-        }
+        System.out.println("")
     }
 }
