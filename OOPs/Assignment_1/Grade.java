@@ -10,6 +10,6 @@ class Grade
 
         if(marks >= 90)
         System.out.println("Grade A");
-        else if()
+        else if(marks >)
     }
 }
