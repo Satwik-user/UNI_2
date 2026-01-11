@@ -5,6 +5,6 @@ class Leap
     public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);
-        int year = 
+        int year = sc.nextInt()
     }
 }
