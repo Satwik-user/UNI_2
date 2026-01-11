@@ -4,6 +4,7 @@ class Leap
 {
     public static void main(String args[])
     {
-        Scanner sc = new Scanner(Syste.in)
+        Scanner sc = new Scanner(System.in);
+        
     }
 }
