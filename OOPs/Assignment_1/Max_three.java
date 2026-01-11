@@ -10,6 +10,7 @@ class Max_three
         int b = sc.nextInt();
         int c = sc.nextInt();
 
-        if(a > b &7 a > c)
+        if(a > b && a > c)
+        
     }
 }
