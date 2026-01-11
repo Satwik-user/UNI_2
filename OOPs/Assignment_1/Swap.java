@@ -7,8 +7,6 @@ class Swap
         int temp = a;
         a = b;
         b = temp;
-
-        return a, b;
     }
 
     public static void main(String args[])
