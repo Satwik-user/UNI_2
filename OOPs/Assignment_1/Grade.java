@@ -9,6 +9,6 @@ class Grade
         int marks = sc.nextInt();
 
         if(marks >= 90)
-        
+        System.out.println("")
     }
 }
