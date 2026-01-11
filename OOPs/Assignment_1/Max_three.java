@@ -12,6 +12,6 @@ class Max_three
 
         if(a > b && a > c)
         System.out.pritnln(a + "is the maximum number");
-        else if()
+        else if(b > a &)
     }
 }
