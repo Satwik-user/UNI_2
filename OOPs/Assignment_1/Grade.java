@@ -6,6 +6,6 @@ class Grade
     {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter marks:");
-        
+        int marks 
     }
 }
