@@ -9,6 +9,8 @@ class Even_odd
         int n = sc.nextInt();
 
         if(n % 2 == 0)
-        System.out.println("")
+        System.out.println("Even number");
+        else
+        S
     }
 }
