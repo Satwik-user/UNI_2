@@ -14,6 +14,6 @@ class Grade
         System.out.print("Grade B");
         else if(marks >= 70 && marks < 80)
         System.out.println("Grade C");
-        else if(marks >= )
+        else if(marks >= 60 && marks < )
     }
 }
