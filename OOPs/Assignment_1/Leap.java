@@ -9,6 +9,8 @@ class Leap
         int year = sc.nextInt();
 
         if((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
-        System.out.println("")
+        System.out.println("Leap Year!");
+        else
+        
     }
 }
