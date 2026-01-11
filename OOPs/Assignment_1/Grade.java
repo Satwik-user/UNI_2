@@ -4,6 +4,7 @@ class Grade
 {
     public static vois main(String args[])
     {
-        Scanner sc = new S
+        Scanner sc = new Scanner(System.in);
+        
     }
 }
