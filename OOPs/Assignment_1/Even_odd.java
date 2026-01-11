@@ -8,6 +8,6 @@ class Even_odd
         System.out.print("Enter a number:");
         int n = sc.nextInt();
 
-        
+        if(n %)
     }
 }
