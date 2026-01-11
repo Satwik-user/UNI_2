@@ -1,3 +1,3 @@
 import java.util.Scanner;
 
-class 
+class Grade
