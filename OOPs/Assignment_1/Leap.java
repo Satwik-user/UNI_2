@@ -8,6 +8,6 @@ class Leap
         System.out.print("Enter year:");
         int year = sc.nextInt();
 
-        if(year % 4 == 0 )
+        if((year % 4 == 0))
     }
 }
