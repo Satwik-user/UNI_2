@@ -12,7 +12,7 @@ class Swap
     public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);
-        S
+        System.out.print()
         int a = sc.nextInt();
         int b = sc.nextInt();
 
