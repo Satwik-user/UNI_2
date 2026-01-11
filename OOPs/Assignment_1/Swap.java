@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class Swap
 {
-    public static int swap(int a, int b)
+    public static void swap(int a, int b)
     {
         int temp = a;
         a = b;
