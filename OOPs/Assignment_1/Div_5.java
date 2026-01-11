@@ -4,6 +4,7 @@ class Div_5
 {
     public static void main(String args[])
     {
-        int 
+        Scanner sc = new Scanner(System.in);
+        
     }
 }
