@@ -9,7 +9,7 @@ class Div_5
         int n = sc.nextInt();
 
         if(n % 5 == 0)
-        System.out.println("Number is divisible ny 5!");
+        System.out.println("Number is divisible by 5!");
         else
         System.out.println("NUmber is not divisible by 5");
     }
