@@ -1,1 +1,1 @@
-import java.util.SCanner
+import java.util.Scanner
