@@ -6,6 +6,7 @@ class Max_three
     {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter three number:");
-        int a = 
+        int a = sc.nextInt();
+        int b
     }
 }
