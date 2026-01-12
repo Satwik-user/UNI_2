@@ -1,4 +1,4 @@
-class Factorial_main
+class Factorial_calc
 {
     int factorial(int n)
     {
