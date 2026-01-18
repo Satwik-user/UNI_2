@@ -1,3 +1,6 @@
 import java.util.Scanner;
 
-class 
+class array
+{
+    public static void main
+}
