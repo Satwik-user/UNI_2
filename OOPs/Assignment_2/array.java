@@ -6,6 +6,6 @@ class array
     {
         Scanner sc = new Scanner(System.in);
 
-    
+        
     }
 }
