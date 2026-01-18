@@ -2,5 +2,5 @@ import java.util.Scanner;
 
 class array
 {
-    public static void main
+    public static void main()
 }
