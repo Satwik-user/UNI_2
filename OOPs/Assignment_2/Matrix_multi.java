@@ -20,7 +20,8 @@ class Matrix_multi
         System.out.println("Enter array 2 elements:");
         for(int i=0; i<n; i++)
         {
-            for()
+            for(int j=0; j<m; j++)
+            
         }
     }
 }
