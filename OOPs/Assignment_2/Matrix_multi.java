@@ -16,6 +16,6 @@ class Matrix_multi
             arr[i][j] = sc.nextInt();
         }
 
-        int 
+        int multi[]
     }
 }
