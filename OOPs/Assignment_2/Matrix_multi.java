@@ -41,7 +41,7 @@ class Matrix_multi
             for(int j=0; j<n; j++)
             System.out.print(multi[i][j] + " ");
 
-            System.out.println()
+            System.out.println();
         }
     }
 }
