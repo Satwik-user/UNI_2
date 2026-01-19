@@ -31,8 +31,10 @@ class Matrix_multi
             {
                 multi[i][j] = 0;
                 for(int k=0; k<m; k++)
-                multi[i][j] += arr1[i][k] * arr2[]
+                multi[i][j] += arr1[i][k] * arr2[k][j];
             }
         }
+
+        
     }
 }
