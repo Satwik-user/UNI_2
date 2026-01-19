@@ -14,6 +14,6 @@ class array
 
         System.out.println("Array elements:");
         for(int i=0; i<n; i++)
-        System.out.print(arr[i] + ' ');
+        System.out.print('' + arr[i] + ' ');
     }
 }
