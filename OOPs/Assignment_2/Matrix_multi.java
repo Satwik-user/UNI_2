@@ -27,7 +27,7 @@ class Matrix_multi
         int multi[][] = new int[m][n];
         for(int i=0; i<n; i++)
         {
-            for(int j=0; j<n; j++)
+            for(int j=0; j<m; j++)
             {
                 multi[i][j] = 0;
                 for(int k=0; k<m; k++)
