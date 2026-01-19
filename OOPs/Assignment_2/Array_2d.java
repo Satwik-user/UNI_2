@@ -5,6 +5,6 @@ class Array_2d
     {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter size of rows and columns:");
-        
+        n = 
     }
 }
