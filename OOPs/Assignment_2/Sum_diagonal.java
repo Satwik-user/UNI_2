@@ -9,5 +9,6 @@ class Sum_diagonal
         int m = sc.nextInt();
 
         int arr[][] = new int[n][m];
+        for
     }
 }
