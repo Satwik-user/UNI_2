@@ -24,7 +24,8 @@ class Sum_2d
         System.out.println("Enter array 2 elements:");
         for(int i=0; i<n2; i++)
         {
-            for(int j=0; j<)
+            for(int j=0; j<m2; j++)
+            arr2[i]
         }
     }
 }
