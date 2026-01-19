@@ -9,9 +9,10 @@ class Sum_diagonal
         int m = sc.nextInt();
 
         int arr[][] = new int[n][m];
+        System.out.println("Em")
         for(int i=0; i<n; i++)
         {
-            
+
         }
     }
 }
