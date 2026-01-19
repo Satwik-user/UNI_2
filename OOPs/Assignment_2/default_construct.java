@@ -1,4 +1,3 @@
-// default_construct.java
 class Factorial_calc
 {
     Factorial_calc()
