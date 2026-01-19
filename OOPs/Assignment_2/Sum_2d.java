@@ -20,10 +20,10 @@ class Sum_2d
         System.out.println("Enter array 2 elements:");
         for(int i=0; i<n; i++)
         {
-            for(int j=0; j<m2; j++)
+            for(int j=0; j<m; j++)
             arr2[i][j] = sc.nextInt();
         }
 
-        int sum[][] = new int[]
+        int sum[][] = new int[n]
     }
 }
