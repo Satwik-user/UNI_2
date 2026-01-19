@@ -8,6 +8,6 @@ class Array_2d
         int n = sc.nextInt();
         int m = sc.nextInt();
 
-        int arr[][] = new int()
+        int arr[][] = new int[n]
     }
 }
