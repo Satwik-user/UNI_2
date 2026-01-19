@@ -36,6 +36,8 @@ class Sum_2d
         {
             for(int j=0; j<m; j++)
             System.out.println(sum[i][j] + "");
+
+            System.out.println();
         }
     }
 }
