@@ -8,6 +8,6 @@ class Matrix_multi
         int n = sc.nextInt();
         int m = sc.nextInt();
 
-        
+        int arr[]
     }
 }
