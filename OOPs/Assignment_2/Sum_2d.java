@@ -16,10 +16,6 @@ class Sum_2d
             arr1[i][j] = sc.nextInt();
         }
 
-        System.out.pritnln("Enter size of rows and columns(Array 2):");
-        int n2 = sc.nextInt();
-        int m2 = sc.nextInt();
-
         int arr2[][] = new int[n2][m2];
         System.out.println("Enter array 2 elements:");
         for(int i=0; i<n2; i++)
