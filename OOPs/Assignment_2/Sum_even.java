@@ -4,6 +4,6 @@ class Sum_even
     public static void main()
     {
         Scanner sc = new Scanner(System.in);
-        int 
+        System.out
     }
 }
