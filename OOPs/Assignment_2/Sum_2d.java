@@ -21,5 +21,6 @@ class Sum_2d
         int m2 = sc.nextInt();
 
         int arr2[]
-[] = next int[]    }
+[] = next int[n2]    }[m2];
+
 }
