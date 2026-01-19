@@ -25,6 +25,7 @@ class Matrix_multi
         }
 
         int multi[][] = new int[m][n];
-        for(int i=0; i<)
+        for(int i=0; i<m; i++)
+        
     }
 }
