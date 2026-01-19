@@ -5,7 +5,7 @@ class array
     public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);
-        System.out.pritn
+        System.out.print()
         int n = sc.nextInt();
 
         for(int i=0; i<n; i++)
