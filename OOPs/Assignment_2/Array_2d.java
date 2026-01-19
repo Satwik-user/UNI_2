@@ -9,6 +9,12 @@ class Array_2d
         int m = sc.nextInt();
 
         int arr[][] = new int[n][m];
-        for()
+        for(int i=0; i<n; i++)
+        {
+            for(int j=0; j<m; j++)
+            {
+                
+            }
+        }
     }
 }
