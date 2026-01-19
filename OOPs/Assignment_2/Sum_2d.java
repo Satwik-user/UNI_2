@@ -9,7 +9,7 @@ class Sum_2d
         int m = sc.nextInt();
 
         int arr[][] = new int[n][m];
-        System.out.println("Enter ")
+        System.out.println("Enter array elements:");
         for(int i=0; i<n; i++)
         {
             for(int j=0; j<m; j++)
