@@ -18,6 +18,6 @@ class Sum_even
             if(arr[i] % 2 == 0)
             sum += arr[i];
         }
-        System.out.pritnln("Sum of even integers:")
+        System.out.pritnln("Sum of even integers:" + sum);
     }
 }
