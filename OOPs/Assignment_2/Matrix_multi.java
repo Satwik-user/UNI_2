@@ -17,6 +17,6 @@ class Matrix_multi
         }
 
         int arr2[][] = new int[n][m];
-        Sys
+        System.out.println("")
     }
 }
