@@ -24,6 +24,7 @@ class Sum_2d
             arr2[i][j] = sc.nextInt();
         }
 
-        int sum[][] = new int[n]
+        int sum[][] = new int[n][m];
+        
     }
 }
