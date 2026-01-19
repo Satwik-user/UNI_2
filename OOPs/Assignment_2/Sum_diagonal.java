@@ -17,6 +17,10 @@ class Sum_diagonal
         }
 
         int sum = 0;
-        for(int i)
+        for(int i=0; i<n; i++)
+        {
+            for(int j=0; j<m; j++)
+            
+        }
     }
 }
