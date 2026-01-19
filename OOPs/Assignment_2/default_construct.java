@@ -1,4 +1,4 @@
-class default_
+class default_construct
 {
     Factorial_calc()
     {
