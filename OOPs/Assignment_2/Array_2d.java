@@ -19,7 +19,8 @@ class Array_2d
         System.out.println("Array elements:");
          for(int i=0; i<n; i++)
          {
-            for(int )
+            for(int j=0; j<m; j++)
+            
          }
     }
 }
