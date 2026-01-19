@@ -18,6 +18,7 @@ class Matrix_multi
 
         int arr2[][] = new int[n][m];
         System.out.println("Enter array 2 elements:");
-        for(int i=0)
+        for(int i=0; i<n; i++)
+        
     }
 }
