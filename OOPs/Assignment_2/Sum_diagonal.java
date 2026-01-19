@@ -25,6 +25,6 @@ class Sum_diagonal
                 sum += arr[i][j];
             }
         }
-        System.out.println("Sum of diagonal elements:")
+        System.out.println("Sum of diagonal elements:" + sum);
     }
 }
