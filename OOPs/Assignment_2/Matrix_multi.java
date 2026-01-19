@@ -17,6 +17,6 @@ class Matrix_multi
         }
 
         int arr2[][] = new int[n][m];
-        System.out.println("Enter array 2 elemtn")
+        System.out.println("Enter array 2 elem")
     }
 }
