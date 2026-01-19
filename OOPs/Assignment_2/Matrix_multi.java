@@ -8,7 +8,7 @@ class Matrix_multi
         int n = sc.nextInt();
         int m = sc.nextInt();
 
-        int arr[][] = new int[n][m];
+        int arr1[][] = new int[n][m];
         System.out.println("Enter array elements:");
         for(int i=0; i<n; i++)
         {
