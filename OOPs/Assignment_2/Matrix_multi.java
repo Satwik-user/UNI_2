@@ -29,7 +29,7 @@ class Matrix_multi
         {
             for(int j=0; j<n; j++)
             {
-                multi[]
+                multi[i][j] = 
             }
         }
     }
