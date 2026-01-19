@@ -2,19 +2,16 @@ class Factorial_calc
 {
     int number;
 
-    // Default constructor
     Factorial_calc()
     {
         number = 0;
     }
 
-    // Parameterized constructor
     Factorial_calc(int n)
     {
         number = n;
     }
 
-    // Returning value from method
     int factorial(int n)
     {
         int f = 1;
@@ -23,14 +20,12 @@ class Factorial_calc
         return f;
     }
 
-    // Call by value
     void callByValue(int n)
     {
         n = n + 10;
         System.out.println("Inside callByValue: " + n);
     }
 
-    // Call by reference
     void callByReference(Factorial_calc obj)
     {
         obj.number = obj.number + 10;
