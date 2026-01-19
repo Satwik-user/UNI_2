@@ -1,5 +1,5 @@
 import java.util.Scanner;
 class Matrix_multi
 {
-    c
+    public static void mian()
 }
