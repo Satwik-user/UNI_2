@@ -27,5 +27,7 @@ class Sum_2d
             for(int j=0; j<m2; j++)
             arr2[i][j] = sc.nextInt();
         }
+
+        
     }
 }
