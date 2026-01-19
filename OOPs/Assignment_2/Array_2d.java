@@ -3,7 +3,7 @@ class Array_2d
 {
     public static void main(String args[])
     {
-        Scanenr sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         
     }
 }
