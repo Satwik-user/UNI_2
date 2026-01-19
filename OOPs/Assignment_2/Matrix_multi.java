@@ -15,5 +15,7 @@ class Matrix_multi
             for(int j=0; j<m; j++)
             arr[i][j] = sc.nextInt();
         }
+
+        
     }
 }
