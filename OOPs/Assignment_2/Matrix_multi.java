@@ -3,6 +3,6 @@ class Matrix_multi
 {
     public static void main(String args[])
     {
-        S
+        Scanner sc = new Scanner
     }
 }
