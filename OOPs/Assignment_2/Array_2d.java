@@ -16,7 +16,7 @@ class Array_2d
             arr[i][j] = sc.nextInt();
         }
 
-        System.out.println("Array e")
+        System.out.println("Array elements:");
          for(int )
     }
 }
