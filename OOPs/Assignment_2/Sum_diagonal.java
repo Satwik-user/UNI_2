@@ -22,7 +22,7 @@ class Sum_diagonal
             for(int j=0; j<m; j++)
             {
                 if(i == j)
-                
+                sum += 
             }
         }
     }
