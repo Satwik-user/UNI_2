@@ -17,6 +17,5 @@ class Sum_2d
         }
 
         System.out.pritnln("Enter size of rows and columns(Array 2):")
-    };
-    
+    }
 }
