@@ -6,6 +6,6 @@ class default_construct
     }
     public static void main(String args[])
     {
-        new 
+        new default_construct();
     }
 }
