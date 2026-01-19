@@ -5,6 +5,9 @@ class Array_2d
     {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter size of rows and columns:");
-        int n = sc.nextInt()l
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+
+        
     }
 }
