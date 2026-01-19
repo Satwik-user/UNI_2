@@ -7,6 +7,7 @@ class Sum_even
         System.out.print("Enter array size:");
         int n = sc.nextInt();
 
-        int arr[]
+        int arr[] = new int[n];
+        for(int i=0; i<)
     }
 }
