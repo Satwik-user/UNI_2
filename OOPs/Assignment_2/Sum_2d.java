@@ -22,6 +22,6 @@ class Sum_2d
 
         int arr2[][] = new int[n2][m2];
         System.out.println("Enter array 2 elements:");
-        
+        for(int i=0; i<n2)
     }
 }
