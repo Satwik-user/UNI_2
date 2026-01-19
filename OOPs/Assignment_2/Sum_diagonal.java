@@ -3,6 +3,6 @@ class Sum_diagonal
 {
     public static void main(String args[])
     {
-        Scand
+        Scanner sc = new Scanner()
     }
 }
