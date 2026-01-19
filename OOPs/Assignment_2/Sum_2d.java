@@ -5,6 +5,6 @@ class Sum_2d
     {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter size of rows and columns:");
-        
+        S
     }
 }
