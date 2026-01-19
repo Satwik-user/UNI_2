@@ -25,7 +25,7 @@ class Sum_2d
         for(int i=0; i<n2; i++)
         {
             for(int j=0; j<m2; j++)
-            arr2[i]
+            arr2[i][j]
         }
     }
 }
