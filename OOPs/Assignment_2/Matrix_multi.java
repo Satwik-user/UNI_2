@@ -3,6 +3,7 @@ class Matrix_multi
 {
     public static void main(String args[])
     {
-        Scanner sc = new Scanner
+        Scanner sc = new Scanner(System.in);
+        
     }
 }
