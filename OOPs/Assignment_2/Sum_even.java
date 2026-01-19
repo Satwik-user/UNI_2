@@ -10,6 +10,6 @@ class Sum_even
         int arr[] = new int[n];
         System.out.println("Enter array elements:");
         for(int i=0; i<n; i++)
-        arr[i]
+        arr[i] = sc.nextInt();
     }
 }
