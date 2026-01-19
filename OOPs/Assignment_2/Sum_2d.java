@@ -4,7 +4,7 @@ class Sum_2d
     public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter size of rows and columns:");
+        System.out.println("Enter size of rows and columns(Array 1):");
         int n1 = sc.nextInt();
         int m1 = sc.nextInt();
 
