@@ -16,7 +16,7 @@ class Sum_diagonal
             arr[i][j] = sc.nextInt();
         }
 
-        i
-        for()
+        int sum = 0;
+        for(int i)
     }
 }
