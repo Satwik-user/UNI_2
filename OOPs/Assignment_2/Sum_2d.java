@@ -16,6 +16,6 @@ class Sum_2d
             arr[i][j] = sc.nextInt();
         }
 
-        System.out.pritnln("")
+        System.out.pritnln("Enter size of rows and colums")
     }
 }
