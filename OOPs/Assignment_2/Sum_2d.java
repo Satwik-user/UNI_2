@@ -8,6 +8,6 @@ class Sum_2d
         int n = sc.nextInt();
         int m = sc.nextInt();
 
-        int
+        int arr[][]
     }
 }
