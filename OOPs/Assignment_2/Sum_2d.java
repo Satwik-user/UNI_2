@@ -18,6 +18,8 @@ class Sum_2d
 
         System.out.pritnln("Enter size of rows and columns(Array 2):");
         int n2 = sc.nextInt();
-        int m2
+        int m2 = sc.nextInt();
+
+        int 
     }
 }
