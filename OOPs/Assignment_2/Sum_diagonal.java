@@ -25,5 +25,6 @@ class Sum_diagonal
                 sum += arr[i][j];
             }
         }
+        System.out.println("")
     }
 }
