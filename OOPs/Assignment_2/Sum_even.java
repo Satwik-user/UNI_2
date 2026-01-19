@@ -8,7 +8,7 @@ class Sum_even
         int n = sc.nextInt();
 
         int arr[] = new int[n];
-        System.out.println()
+        System.out.println("Enter array elements:")
         for(int i=0; i<n; i++)
         
     }
