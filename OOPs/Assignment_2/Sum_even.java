@@ -8,6 +8,7 @@ class Sum_even
         int n = sc.nextInt();
 
         int arr[] = new int[n];
-        for(int i=0; i<)
+        for(int i=0; i<n; i++)
+        
     }
 }
