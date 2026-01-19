@@ -8,9 +8,11 @@ class array
         System.out.print("Enter array size:");
         int n = sc.nextInt();
 
+        
+
         for(int i=0; i<n; i++)
         {
-            
+
         }
     }
 }
