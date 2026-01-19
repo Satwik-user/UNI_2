@@ -1,6 +1,6 @@
 class default_construct
 {
-    default_constructer()
+    default_constructor()
     {
         System.out.println("Factorial_calc object created");
     }
