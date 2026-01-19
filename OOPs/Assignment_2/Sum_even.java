@@ -5,6 +5,8 @@ class Sum_even
     {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter array size");
+        int n = sc.nextInt();
+
         
     }
 }
