@@ -32,6 +32,10 @@ class Sum_2d
         }
 
         System.out.println("Sum of two arrays:");
-        for()
+        for(int i=0; i<n; i++)
+        {
+            for(int j=0; j<m; j++)
+            System.out.println("")
+        }
     }
 }
