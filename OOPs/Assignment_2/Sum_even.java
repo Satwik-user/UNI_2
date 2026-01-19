@@ -1,2 +1,9 @@
 import java.util.Scanner;
-class Sum
+class Sum_even
+{
+    public static void main()
+    {
+        Scanner sc = new Scanner(System.in);
+        int 
+    }
+}
