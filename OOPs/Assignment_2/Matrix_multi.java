@@ -35,6 +35,7 @@ class Matrix_multi
             }
         }
 
-        System.out.println("")
+        System.out.println("Multiplied array:");
+        
     }
 }
