@@ -4,7 +4,8 @@ class Sum_diagonal
     public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter size of rows and cxo")
         int n = sc.nextInt();
-        
+
     }
 }
