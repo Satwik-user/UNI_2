@@ -35,7 +35,7 @@ class Sum_2d
         for(int i=0; i<n; i++)
         {
             for(int j=0; j<m; j++)
-            System.out.println(sum[i][j] + "");
+            System.out.print(sum[i][j] + "");
 
             System.out.println();
         }
