@@ -6,6 +6,6 @@ class Sum_diagonal
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter size of rows and columns:");
         int n = sc.nextInt();
-        
+        int m =
     }
 }
