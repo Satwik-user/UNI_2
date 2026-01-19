@@ -13,6 +13,6 @@ class array
         arr[i] = sc.nextInt();
 
         System.out.println("Array elements:");
-        
+        for(int i = 0)
     }
 }
