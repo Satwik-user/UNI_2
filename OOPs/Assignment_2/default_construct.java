@@ -1,4 +1,4 @@
-class Factorial_calc
+class default_
 {
     Factorial_calc()
     {
