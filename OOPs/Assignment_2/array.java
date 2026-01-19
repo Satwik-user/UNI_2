@@ -8,7 +8,7 @@ class array
         System.out.print("Enter array size:");
         int n = sc.nextInt();
 
-        int arr[]
+        int arr[n] 
         for(int i=0; i<n; i++)
         {
 
