@@ -31,7 +31,7 @@ class Matrix_multi
             {
                 multi[i][j] = 0;
                 for(int k=0; k<m; k++)
-                multi[i][j] +=
+                multi[i][j] += 
             }
         }
     }
