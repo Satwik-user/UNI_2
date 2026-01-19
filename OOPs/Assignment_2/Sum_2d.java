@@ -27,7 +27,8 @@ class Sum_2d
         int sum[][] = new int[n][m];
         for(int i=0; i<n; i++)
         {
-            for(int j=0; j<m;)
+            for(int j=0; j<m; j++)
+            
         }
     }
 }
