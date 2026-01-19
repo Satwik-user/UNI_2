@@ -1,4 +1,4 @@
-import java.util.SCanner;
+import java.util.Scanner;
 class Sum_diagonal
 {
     public static void main(String args[])
