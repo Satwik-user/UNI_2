@@ -10,8 +10,8 @@ class array
 
         int arr[] = new int[n];
         for(int i=0; i<n; i++)
-        {
-            arr[]
-        }
+        arr[i] = sc.nextInt();
+
+        
     }
 }
