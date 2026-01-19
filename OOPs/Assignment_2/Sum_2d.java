@@ -13,7 +13,7 @@ class Sum_2d
         for(int i=0; i<n1; i++)
         {
             for(int j=0; j<m1; j++)
-            arr[i][j] = sc.nextInt();
+            arr1[i][j] = sc.nextInt();
         }
 
         System.out.pritnln("Enter size of rows and columns(Array 2):");
