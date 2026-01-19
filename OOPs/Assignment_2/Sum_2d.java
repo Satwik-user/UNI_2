@@ -6,7 +6,7 @@ class Sum_2d
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter size of rows and columns:");
         int n1 = sc.nextInt();
-        int m = sc.nextInt();
+        int m1 = sc.nextInt();
 
         int arr[][] = new int[n][m];
         System.out.println("Enter array elements:");
