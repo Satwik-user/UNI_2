@@ -25,5 +25,6 @@ class Matrix_multi
         }
 
         int multi[][] = new int[m][n];
+        System.out.
     }
 }
