@@ -16,6 +16,7 @@ class Array_2d
             arr[i][j] = sc.nextInt();
         }
 
+    
          for(int )
     }
 }
