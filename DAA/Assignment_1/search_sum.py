@@ -4,4 +4,6 @@ print("Enter elements in sorted order")
 for i in range(n):
     arr.append(int(input("Enter element:")))
 
-left = 0, right = n-1, 
+left = 0, right = n-1, f = 1
+while left < right:
+    if 
