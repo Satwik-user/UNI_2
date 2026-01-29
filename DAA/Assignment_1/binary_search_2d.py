@@ -1,2 +1,2 @@
-row = int(input("Enter number of elements:"))
+row = int(input("Enter number of rows:"))
 col = int(input("Enter "))
