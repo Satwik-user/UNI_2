@@ -4,3 +4,4 @@ arr = []
 print("Enter sorted elements")
 for i in range(n):
     arr.append(int(input("Enter element:")))
+
