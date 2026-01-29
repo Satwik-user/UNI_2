@@ -10,7 +10,7 @@ int main()
     scanf("%d", &X);
 
     int arr[n];
-    printf("Enter elements in sorted order|n");
+    printf("Enter elements in sorted order\n");
     for(int i=0; i<n; i++)
     {
         printf("Enter element:");
