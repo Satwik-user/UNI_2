@@ -6,7 +6,7 @@ search_ele = int(input("Enter search element:"))
 print("Enter sorted elements")
 arr = []
 for i in range(row):
-    row = []
+    row_l = []
     for j in range(col):
         row.append(int(input("Enter element:")))
     arr.append(row)
