@@ -31,5 +31,7 @@ int main()
         right = mid -1;
     }
     
+    if(f == 1)
+    
     return 0;
 }
