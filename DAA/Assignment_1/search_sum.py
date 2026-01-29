@@ -6,4 +6,4 @@ for i in range(n):
 
 left = 0, right = n-1, f = 1
 while left < right:
-    if 
+    sum = arr[left ]
