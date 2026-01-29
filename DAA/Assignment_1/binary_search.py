@@ -16,4 +16,5 @@ while(left <= right):
     elif arr[mid] < search_ele:
         left = mid + 1
     else:
+        right = mid - 1
         
