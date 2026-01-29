@@ -5,6 +5,8 @@ int main()
     printf("Enter number of rows and columns:");
     scanf("%d %d", &row, &col);
 
+    printf("E")
+
     int arr[row][col];
     printf("Enter sorted elements");
     for(int i=0; i<row; i++)
