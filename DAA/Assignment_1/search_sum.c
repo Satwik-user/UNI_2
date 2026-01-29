@@ -35,7 +35,7 @@ int main()
     if(f == 1)
     printf("%d and %d sums up to %d", arr[left], arr[right], X);
     else
-    pritn
+    printf("Sum not found!");
 
     return 0;
 }
