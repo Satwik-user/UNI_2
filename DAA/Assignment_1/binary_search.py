@@ -8,7 +8,7 @@ for i in range(n):
 left = 0
 right = n-1
 f = 0
-while(left <= right:
+while left <= right:
     mid = int(left + (right - left) / 2)
     if arr[mid] == search_ele:
         f = 1
