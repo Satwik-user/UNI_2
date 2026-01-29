@@ -18,4 +18,4 @@ while left < right:
         right -= 1
 
 if f == 1:
-    print("")
+    print(f"{}")
