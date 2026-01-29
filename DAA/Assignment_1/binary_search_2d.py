@@ -3,3 +3,4 @@ col = int(input("Enter number of columns:"))
 
 search_ele = int(input("Enter search element:"))
 
+arr
