@@ -16,8 +16,15 @@ int main()
     printf("Enter search element:");
     scanf("%d", &search_ele);
 
-    int left = 0, right = 0, f = 1;
-    while()
+    int left = 0, right = n-1, f = 0;
+    while(left < right)
+    {
+        int mid = left + (right - left) / 2;
+        if(mid == search_ele)
+        {
+            
+        }
+    }
     
     return 0;
 }
