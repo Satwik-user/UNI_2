@@ -20,4 +20,4 @@ while left <= right:
     c = mid % col
     cur = arr[r][col]
 
-    if l
+    if cur == search_ele:
