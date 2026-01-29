@@ -20,7 +20,7 @@ int main()
     while(left <= right)
     {
         mid = left + (right - left) / 2;
-        if(mid == search_ele)
+        if(arr[mid] == search_ele)
         {
             f = 1;
             break;
