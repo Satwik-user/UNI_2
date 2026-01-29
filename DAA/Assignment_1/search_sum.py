@@ -10,4 +10,6 @@ left = 0, right = n-1, f = 1
 while left < right:
     sum = arr[left] + arr[right]
     if sum == X:
-        
+        f = 1
+        break
+    e
