@@ -15,4 +15,4 @@ left = 0
 right = row*col-1
 f = 0
 while left <= right:
-    mid = l
+    mid = left + ()
