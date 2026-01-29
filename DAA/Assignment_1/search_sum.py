@@ -12,4 +12,5 @@ while left < right:
     if sum == X:
         f = 1
         break
-    e
+    elif sum < X:
+        left
