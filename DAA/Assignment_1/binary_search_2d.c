@@ -1,26 +1,26 @@
 #include <stdio.h>
 int main()
 {
-    int n, m;
+    int row, col;
     printf("Enter number of rows and columns:");
-    scanf("%d %d", &n, &m);
+    scanf("%d %d", &row, &col);
 
-    int arr[n][m];
+    int arr[row][col];
     printf("Enter sorted elements");
-    for(int i=0; i<n; i++)
+    for(int i=0; i<row; i++)
     {
-        for(int j=0; j<m; j++)
+        for(int j=0; j<col; j++)
         {
             printf("Enter element:");
             scanf("%d", &arr[i][j]);
         }
     }
 
-    int left = 0, right = m*n-1, f = 0;
+    int left = 0, right = col*row-1, f = 0;
     while(left <= right)
     {
         int mid = left + (right - left) / 2;
-        int r = mid / m;
+        int r = mid / col;
     }
     
     return 0;
