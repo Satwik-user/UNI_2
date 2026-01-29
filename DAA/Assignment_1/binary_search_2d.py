@@ -18,4 +18,4 @@ while left <= right:
     mid = left + (right - left) / 2
     r = mid / col
     c = mid % col
-    cur =
+    cur = arr[]
