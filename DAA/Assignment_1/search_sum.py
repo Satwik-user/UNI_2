@@ -1,5 +1,6 @@
 n = int(input("Enter number of elements:"))
 arr = []
+X = int(input("Enter search sum number:"))
 print("Enter elements in sorted order")
 for i in range(n):
     arr.append(int(input("Enter element:")))
