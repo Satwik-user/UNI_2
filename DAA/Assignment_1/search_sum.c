@@ -15,7 +15,9 @@ int main()
 
     int left = 0, right = n-1, f = 0;
     while(left < right)
-    
+    {
+        
+    }
 
     return 0;
 }
