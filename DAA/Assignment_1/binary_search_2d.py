@@ -1,1 +1,1 @@
-n = int(input("Enter number of elements:"))
+row = int(input("Enter number of elements:"))
