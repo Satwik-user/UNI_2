@@ -16,4 +16,6 @@ while left < right:
         left += 1
     else:
         right -= 1
-        
+
+if f == 1:
+    print("")
