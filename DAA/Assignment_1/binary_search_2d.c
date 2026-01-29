@@ -16,7 +16,8 @@ int main()
         }
     }
 
-    int left = 0, right = m*n
+    int left = 0, right = m*n-1;
+    
     
     return 0;
 }
