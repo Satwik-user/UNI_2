@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int row, col;
+    int row, col, search_ele;
     printf("Enter number of rows and columns:");
     scanf("%d %d", &row, &col);
 
@@ -22,9 +22,9 @@ int main()
         int mid = left + (right - left) / 2;
         int r = mid / col;
         int c = mid % col;
-        int cur = a
+        int cur = arr[r][c];
         
-        if()
+        if(cur == )
     }
     
     return 0;
