@@ -16,8 +16,8 @@ right = row*col-1
 f = 0
 while left <= right:
     mid = left + (right - left) / 2
-    r = int(mid / col)
-    c = int(mid % col)
+    r = mid / col
+    c = mid % col
     cur = arr[r][c]
 
     if cur == search_ele:
