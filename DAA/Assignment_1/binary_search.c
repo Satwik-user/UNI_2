@@ -14,6 +14,7 @@ int main()
     }
 
     printf("Enter search element:");
+    scanf("%d", &search_ele);
     
     
     return 0;
