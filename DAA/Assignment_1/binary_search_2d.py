@@ -29,4 +29,4 @@ while left <= right:
         right = mid - 1
 
 if f == 1:
-    print("Element fiund at position")
+    print("Element fiund at position ")
