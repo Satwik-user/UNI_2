@@ -17,7 +17,7 @@ int main()
     scanf("%d", &search_ele);
 
     int left = 0, right = n-1, mid, f = 0;
-    while(left < right)
+    while(left <= right)
     {
         mid = left + (right - left) / 2;
         if(mid == search_ele)
