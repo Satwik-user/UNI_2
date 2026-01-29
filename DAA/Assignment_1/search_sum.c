@@ -13,7 +13,7 @@ int main()
         scanf("%d", &arr[i]);
     }
 
-    int left = 0, right = n-1;
+    int left = 0, right = n-1, f = 0;
     
 
     return 0;
