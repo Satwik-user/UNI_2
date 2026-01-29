@@ -6,7 +6,8 @@ int main()
     scanf("%d", &n);
 
     printf("Enter elements in sorted order:");
-    
+    for(int i=0; i<n; i++)
+    {}
     
     return 0;
 }
