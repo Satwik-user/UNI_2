@@ -8,7 +8,7 @@ arr = []
 for i in range(row):
     row_l = []
     for j in range(col):
-        row.append(int(input("Enter element:")))
+        row_l.append(int(input("Enter element:")))
     arr.append(row)
 
 left = 0
