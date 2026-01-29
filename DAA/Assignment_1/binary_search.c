@@ -3,7 +3,9 @@ int main()
 {
     int n;
     printf("Enter number of elements:");
-    scanf("%d", &)
+    scanf("%d", &n);
+
+    
     
     return 0;
 }
