@@ -8,3 +8,5 @@ for i in range(n):
 left = 0
 right = n-1
 f = 0
+while(left <= right):
+    mid = left + ()
