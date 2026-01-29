@@ -27,3 +27,6 @@ while left <= right:
         left = mid + 1
     else:
         right = mid - 1
+
+if f == 1:
+    print("")
