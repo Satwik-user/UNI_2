@@ -15,3 +15,5 @@ while(left <= right):
         break
     elif arr[mid] < search_ele:
         left = mid + 1
+    else:
+        
