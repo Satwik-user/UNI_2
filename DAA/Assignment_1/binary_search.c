@@ -28,7 +28,7 @@ int main()
         else if(arr[mid] < search_ele)
         left = mid + 1;
         else
-        right = mid -1;
+        right = mid - 1;
     }
     
     if(f == 1)
