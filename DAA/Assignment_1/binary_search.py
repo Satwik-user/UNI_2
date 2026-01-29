@@ -5,3 +5,5 @@ print("Enter sorted elements")
 for i in range(n):
     arr.append(int(input("Enter element:")))
 
+left = 0
+right = n-1
