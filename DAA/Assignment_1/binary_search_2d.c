@@ -6,7 +6,7 @@ int main()
     scanf("%d %d", &row, &col);
 
     printf("Enter search element:");
-    scanf("%d", &)
+    scanf("%d", &search_ele);
 
     int arr[row][col];
     printf("Enter sorted elements");
@@ -27,7 +27,8 @@ int main()
         int c = mid % col;
         int cur = arr[r][c];
         
-        if(cur == )
+        if(cur == search_ele)
+        
     }
     
     return 0;
