@@ -20,10 +20,15 @@ int main()
     int left = 0, right = n-1, f = 0;
     while(left < right)
     {
-        if(arr[left] + arr[right] == X)
+        int sum = arr[left] + arr[right];
+        if(sum == X)
         {
-            
+            f = 1;
+            break;
         }
+        else if(sum < X)
+        left++;
+        
     }
 
     return 0;
