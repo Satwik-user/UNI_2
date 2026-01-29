@@ -16,4 +16,4 @@ right = row*col-1
 f = 0
 while left <= right:
     mid = left + (right - left) / 2
-    
+    r = 
