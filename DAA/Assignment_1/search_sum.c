@@ -5,6 +5,10 @@ int main()
     printf("Enter number of elements:");
     scanf("%d", &n);
 
+    int X;
+    printf("Enter search sum number:");
+    scanf("%d", &X);
+
     int arr[n];
     printf("Enter elements in sorted order:");
     for(int i=0; i<n; i++)
@@ -16,7 +20,10 @@ int main()
     int left = 0, right = n-1, f = 0;
     while(left < right)
     {
-        
+        if(arr[left] + arr[right] == X)
+        {
+            
+        }
     }
 
     return 0;
