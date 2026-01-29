@@ -8,6 +8,9 @@ int main()
     int arr[n];
     printf("Enter elements in sorted orsder:");
     for(int i=0; i<n; i++)
+    {
+        
+    }
 
     return 0;
 }
