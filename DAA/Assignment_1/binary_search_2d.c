@@ -28,7 +28,11 @@ int main()
         int cur = arr[r][c];
         
         if(cur == search_ele)
-        
+        {
+            f = 1;
+            break;
+        }
+        else if()
     }
     
     return 0;
