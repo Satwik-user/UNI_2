@@ -22,8 +22,13 @@ int main()
         int mid = left + (right - left) / 2;
         if(mid == search_ele)
         {
-            
+            f = 1;
+            break;
         }
+        else if(mid < search_ele)
+        left++;
+        else
+        right--;
     }
     
     return 0;
