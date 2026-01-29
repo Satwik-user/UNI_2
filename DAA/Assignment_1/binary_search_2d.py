@@ -6,4 +6,4 @@ search_ele = int(input("Enter search element:"))
 arr = [row][col]
 for i in range(row):
     for j in range(col):
-        arr.append()
+        row
