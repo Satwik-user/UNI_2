@@ -9,7 +9,7 @@ for i in range(row):
     row_l = []
     for j in range(col):
         row_l.append(int(input("Enter element:")))
-    arr.append(row)
+    arr.append(row_l)
 
 left = 0
 right = row*col-1
