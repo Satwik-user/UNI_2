@@ -6,6 +6,7 @@ int main()
     scanf("%d %d", &n, &m);
 
     int arr[n][m];
+    printf("Enter sorted elements");
     for(int i=0; i<n; i++)
     {
         for(int j=0; j<m; j++)
