@@ -29,6 +29,6 @@ while left <= right:
         right = mid - 1
 
 if f == 1:
-    print("Element fiund at position", mid)
+    print("Element found at position", mid)
 else:
     print("Element not found!")
