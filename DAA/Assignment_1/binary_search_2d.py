@@ -21,3 +21,5 @@ while left <= right:
     cur = arr[r][col]
 
     if cur == search_ele:
+        f = 1
+        b
