@@ -34,7 +34,8 @@ int main()
         }
         else if(cur < search_ele)
         left = mid + 1;
-        
+        else
+        right 
     }
     
     return 0;
