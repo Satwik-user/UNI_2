@@ -28,8 +28,12 @@ int main()
         }
         else if(sum < X)
         left++;
-        
+        else
+        right++;
     }
+
+    if(f == 1)
+    
 
     return 0;
 }
