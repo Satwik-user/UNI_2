@@ -33,7 +33,7 @@ int main()
     }
 
     if(f == 1)
-    
+    printf("%d and %d sums up to %d", arr[left], arr[right], X);
 
     return 0;
 }
