@@ -19,10 +19,10 @@ int main()
         }
     }
 
-    int left = 0, right = col*row-1, f = 0;
+    int left = 0, right = col*row-1, mid, f = 0;
     while(left <= right)
     {
-        int mid = left + (right - left) / 2;
+        mid = left + (right - left) / 2;
         int r = mid / col;
         int c = mid % col;
         int cur = arr[r][c];
@@ -40,6 +40,8 @@ int main()
 
     if(f == 1)
     printf("Elemnt found at position %d\n", mid);
+    else
+    printf("Element not found!");
     
     return 0;
 }
