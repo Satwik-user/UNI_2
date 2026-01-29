@@ -11,3 +11,5 @@ for i in range(row):
         row.append(int(input("Enter element:")))
     arr.append(row)
 
+left = 0
+right = 
