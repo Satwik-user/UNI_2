@@ -19,7 +19,7 @@ int main()
     int left = 0, right = n-1, f = 0;
     while(left < right)
     {
-        int mid = left + (right - left) / 2;
+        mid = left + (right - left) / 2;
         if(mid == search_ele)
         {
             f = 1;
@@ -32,6 +32,9 @@ int main()
     }
     
     if(f == 1)
+    printf("Element found at position %d\n", mid);
+    else
+    printf("Element not found!\n");
     
     return 0;
 }
