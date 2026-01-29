@@ -21,6 +21,10 @@ int main()
     {
         int mid = left + (right - left) / 2;
         int r = mid / col;
+        int c = mid % col;
+        int 
+        
+        if()
     }
     
     return 0;
