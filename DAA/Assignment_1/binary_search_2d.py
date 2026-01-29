@@ -26,4 +26,4 @@ while left <= right:
     elif cur < search_ele:
         left = mid + 1
     else:
-        
+        right 
