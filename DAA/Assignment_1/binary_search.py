@@ -9,4 +9,6 @@ left = 0
 right = n-1
 f = 0
 while(left <= right):
-    mid = left + ()
+    mid = left + (right - left) / 2
+    if arr[mid] == search_ele:
+        
