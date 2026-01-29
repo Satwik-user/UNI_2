@@ -16,8 +16,11 @@ int main()
         }
     }
 
-    int left = 0, right = m*n-1;
-    
+    int left = 0, right = m*n-1, f = 0;
+    while(left <= right)
+    {
+        int mid = 
+    }
     
     return 0;
 }
