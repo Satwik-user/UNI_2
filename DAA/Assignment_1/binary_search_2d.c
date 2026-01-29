@@ -37,7 +37,9 @@ int main()
         else
         right = mid - 1;
     }
-    
+
+    if(f == 1)
+    printf("")
     
     return 0;
 }
