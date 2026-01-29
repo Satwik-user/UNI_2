@@ -21,4 +21,4 @@ while left <= right:
 if f == 1:
     print("Element found at position ", mid)
 else:
-    print("Element not ound!")
+    print("Element not found!")
