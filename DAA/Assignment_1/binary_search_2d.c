@@ -9,7 +9,7 @@ int main()
     scanf("%d", &search_ele);
 
     int arr[row][col];
-    printf("Enter sorted elements");
+    printf("Enter sorted elements\n");
     for(int i=0; i<row; i++)
     {
         for(int j=0; j<col; j++)
