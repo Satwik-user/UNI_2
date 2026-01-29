@@ -8,4 +8,4 @@ for i in range(row):
     row = []
     for j in range(col):
         row.append(int(input("Enter element:")))
-    arr
+    arr.append()
