@@ -11,4 +11,7 @@ f = 0
 while(left <= right):
     mid = left + (right - left) / 2
     if arr[mid] == search_ele:
-        
+        f = 1
+        break
+    elif arr[mid] < search_ele:
+        left = mid + 1
