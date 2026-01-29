@@ -14,4 +14,6 @@ while left < right:
         break
     elif sum < X:
         left += 1
+    else:
+        right -= 1
         
