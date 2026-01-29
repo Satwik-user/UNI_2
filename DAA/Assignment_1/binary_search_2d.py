@@ -17,4 +17,5 @@ f = 0
 while left <= right:
     mid = left + (right - left) / 2
     r = mid / col
-    c = 
+    c = mid % col
+    
