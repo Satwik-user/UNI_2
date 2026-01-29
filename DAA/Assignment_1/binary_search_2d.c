@@ -39,7 +39,7 @@ int main()
     }
 
     if(f == 1)
-    printf("Elemnt found at position %d\n", mid);
+    printf("Element found at position %d\n", mid);
     else
     printf("Element not found!");
     
