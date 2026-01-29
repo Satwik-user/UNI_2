@@ -3,8 +3,9 @@ col = int(input("Enter number of columns:"))
 
 search_ele = int(input("Enter search element:"))
 
-arr = [][]
+arr = []
 for i in range(row):
     row = []
     for j in range(col):
-        row.append(int())
+        row.append(int(input("Enter element:")))
+    arr
