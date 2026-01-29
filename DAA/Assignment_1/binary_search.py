@@ -1,1 +1,1 @@
-n = int(input("Em"))
+n = int(input("Enter "))
