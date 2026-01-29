@@ -12,4 +12,5 @@ for i in range(row):
     arr.append(row)
 
 left = 0
-right = row*col
+right = row*col-1
+f = 0
