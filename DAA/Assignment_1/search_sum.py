@@ -18,4 +18,4 @@ while left < right:
         right -= 1
 
 if f == 1:
-    print(f"{arr[left]} and {arr[right]} sums")
+    print(f"{arr[left]} and {arr[right]} sums up to ")
