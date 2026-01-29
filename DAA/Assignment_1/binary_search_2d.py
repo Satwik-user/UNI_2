@@ -22,4 +22,6 @@ while left <= right:
 
     if cur == search_ele:
         f = 1
-        b
+        break
+    elif cur < search_ele:
+        left = mid +
