@@ -9,7 +9,7 @@ int main()
     printf("Enter elements in sorted orsder:");
     for(int i=0; i<n; i++)
     {
-        
+        printf("Enter element:")
     }
 
     return 0;
