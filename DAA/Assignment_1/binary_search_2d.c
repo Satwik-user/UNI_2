@@ -39,7 +39,7 @@ int main()
     }
 
     if(f == 1)
-    printf("")
+    printf("Elemnt found at position %d\n", mid);
     
     return 0;
 }
