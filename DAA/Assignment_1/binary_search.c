@@ -26,7 +26,7 @@ int main()
             break;
         }
         else if(mid < search_ele)
-        left++;
+        left = mid + 1;
         else
         right--;
     }
