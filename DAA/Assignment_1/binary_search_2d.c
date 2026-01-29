@@ -19,7 +19,7 @@ int main()
     int left = 0, right = m*n-1, f = 0;
     while(left <= right)
     {
-        int mid = 
+        int mid = left + (right - left) - 1;
     }
     
     return 0;
