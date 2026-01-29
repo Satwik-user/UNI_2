@@ -22,7 +22,7 @@ int main()
         int mid = left + (right - left) / 2;
         int r = mid / col;
         int c = mid % col;
-        int 
+        int cur = a
         
         if()
     }
