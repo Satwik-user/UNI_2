@@ -6,7 +6,7 @@ int main()
     scanf("%d %d", &row, &col);
 
     printf("Enter search element:");
-    scanf("")
+    scanf("%d", &)
 
     int arr[row][col];
     printf("Enter sorted elements");
