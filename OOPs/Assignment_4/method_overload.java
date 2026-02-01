@@ -1,6 +1,6 @@
 class Method_overload
 {
-    public shape
+    public 
     public static void main(String args[])
     {
 
