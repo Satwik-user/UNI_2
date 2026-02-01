@@ -1,6 +1,6 @@
 class Method_overload
 {
-    public pen()
+    public shape
     public static void main(String args[])
     {
 
