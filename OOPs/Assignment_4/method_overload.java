@@ -4,6 +4,8 @@ class Method_overload
     {
         System.out.println("Ink colour is " + (a + b));
     }
+
+    public void 
     public static void main(String args[])
     {
 
