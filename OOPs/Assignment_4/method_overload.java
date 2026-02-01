@@ -1,6 +1,6 @@
 class Method_overload
 {
-    public 
+    public pen
     public static void main(String args[])
     {
 
