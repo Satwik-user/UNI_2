@@ -10,7 +10,10 @@ class Method_overload
         System.out.println("Sum: " + (a + b + c));
     }
 
-    public void add()
+    public void add(double a, double b)
+    {
+        
+    }
     public static void main(String args[])
     {
         Method_overload calc = new Method_overload();
