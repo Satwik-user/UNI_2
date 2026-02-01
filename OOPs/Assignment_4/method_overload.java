@@ -12,6 +12,7 @@ class Method_overload
 
     public static void main(String args[])
     {
-        Method_overload calc = 
+        Method_overload calc = new Method_overload();
+        
     }
 }
