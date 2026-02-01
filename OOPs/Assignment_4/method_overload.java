@@ -7,7 +7,7 @@ class Method_overload
 
     public int add(int a, int b, int c)
     {
-        System.out.println("Sum: " + (a + b + c));
+        return a + b + c;
     }
 
     public int add(double a, double b)
