@@ -10,7 +10,7 @@ class Method_overload
         return a + b + c;
     }
 
-    public int add(double a, double b)
+    public double add(double a, double b)
     {
         System.out.println(Sum)
     }
