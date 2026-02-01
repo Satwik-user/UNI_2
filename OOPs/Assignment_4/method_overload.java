@@ -12,7 +12,7 @@ class Method_overload
 
     public void add(double a, double b)
     {
-        System.out.pritnl
+        System.out.println
     }
     public static void main(String args[])
     {
