@@ -5,7 +5,10 @@ class Method_overload
         System.out.println("Ink colour is " + (a + b));
     }
 
-    public void add(int a, int )
+    public void add(int a, int b, int c)
+    {
+        
+    }
     public static void main(String args[])
     {
 
