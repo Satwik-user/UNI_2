@@ -2,7 +2,7 @@ class Method_overload
 {
     public void add(int a, int b)
     {
-        return a = 
+        return a + b;
     }
 
     public void add(int a, int b, int c)
