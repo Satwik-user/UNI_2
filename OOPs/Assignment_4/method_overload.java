@@ -1,6 +1,6 @@
 class Method_overload
 {
-    public void pen(int blue)
+    public void multi(int blue)
     {
         this.
         System.out.println("Ink colour is " + )
