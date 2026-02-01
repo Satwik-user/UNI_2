@@ -2,7 +2,7 @@ class Method_overload
 {
     public pen(int blue)
     {
-        System.out.prinln()
+        System.out.println()
     }
     public static void main(String args[])
     {
