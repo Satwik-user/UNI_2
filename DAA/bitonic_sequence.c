@@ -19,6 +19,7 @@ int main()
         else
         {
             bitonic_point = i;
+            break;
         }
     }
 
