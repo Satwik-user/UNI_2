@@ -23,5 +23,7 @@ int main()
         }
     }
 
+    printf("Bitonic found at %dth index\n", bitonic_point);
+
     return 0;
 }
