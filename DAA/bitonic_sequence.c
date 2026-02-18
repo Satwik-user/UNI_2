@@ -17,9 +17,7 @@ int main()
         if(arr[i] < arr[i+1])
         continue;
         else
-        {
-            printf("Bitonic point at: %d\n", i);
-        }
+        printf("Bitonic point at: %d\n", i);
     }
 
     return 0;
