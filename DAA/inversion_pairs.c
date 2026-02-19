@@ -29,4 +29,6 @@ long merge_count(int arr[], int l, int r, int m)
     arr[k++] = L[i++];
     while(j < n2)
     arr[k++] = R[j++];
+
+    return inv;
 }
