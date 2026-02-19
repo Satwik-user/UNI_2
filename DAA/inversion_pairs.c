@@ -33,7 +33,7 @@ long merge_count(int arr[], int l, int r, int m)
     return inv;
 }
 
-void merge_sort_count(int arr[], int l, int r)
+long merge_sort_count(int arr[], int l, int r)
 {
-    
+
 }
