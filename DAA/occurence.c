@@ -31,6 +31,7 @@ int main()
             while(r <= n && arr[r] == X)
             count++;
         }
+        
     }
     
     free(arr);
