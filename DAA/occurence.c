@@ -12,7 +12,11 @@ int main()
         scanf("%d", arr[i]);
     }
 
-    printf("Enter search element:")
+    int X;
+    printf("Enter search element:");
+    scanf("%d", &X);
+
+
     
     return 0;
 }
