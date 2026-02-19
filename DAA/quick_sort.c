@@ -35,7 +35,7 @@ void quick_sort(int arr[], int l, int r)
     if(l < r)
     {
         int pivot = partition(arr, l, r);
-        quick_sort(arr, l, pivot);
+        quick_sort(arr, l, pivot - 1);
         quick_sort(arr, pivot + 1, r);
     }
 }
