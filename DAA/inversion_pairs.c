@@ -24,4 +24,9 @@ long merge_count(int arr[], int l, int r, int m)
             inv += n1 - i;
         }
     }
+
+    while(i < n1)
+    arr[k++] = L[i++];
+    while(j < n2)
+    arr[k++] = R[j++];
 }
