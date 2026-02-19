@@ -19,12 +19,15 @@ int partition(int arr[], int l, int r)
         swap(&arr[i], &arr[j]);
     }
     swap(&arr[pivot], &arr[j]);
+    return j;
 }
 
 void quick_sort(int arr[], int l, int r)
 {
     if(l < r)
     {
-        
+        int pivot = partition(arr, l, r);
+        quick_sort(arr, l, pivot);
+        quick_sort(arr, pivot, r);
     }
 }
