@@ -27,6 +27,9 @@ int main()
             l = mid - 1, r = mid + 1;
 
             while(l >= 0 && arr[l] == X)
+            {
+                
+            }
             count++;
 
             while(r < n && arr[r] == X)
