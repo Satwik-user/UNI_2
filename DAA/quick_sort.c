@@ -31,3 +31,12 @@ void quick_sort(int arr[], int l, int r)
         quick_sort(arr, pivot, r);
     }
 }
+
+int main()
+{
+    int n;
+    printf("ENter size of array:");
+    scanf("%d", &n);
+    
+    return 0;
+}
