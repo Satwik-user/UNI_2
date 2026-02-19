@@ -28,7 +28,7 @@ int main()
 
             while(l >= 0 && arr[l] == X)
             {
-
+                
             }
 
             while(r < n && arr[r] == X)
