@@ -11,5 +11,6 @@ long merge_count(int arr[], int l, int r, int m)
     R[j] = arr[m + j + 1];
 
     long inv = 0;
+    int i=0, j = 0, k = l;
     
 }
