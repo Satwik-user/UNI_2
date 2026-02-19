@@ -36,6 +36,8 @@ int main()
         else
         r = mid - 1;
     }
+
+    printf("Occurences of %d in array: %d\n", X, count);
     
     free(arr);
     return 0;
