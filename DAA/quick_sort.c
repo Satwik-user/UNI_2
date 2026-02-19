@@ -18,11 +18,6 @@ int partition(int arr[], int l, int r)
         i++;
 
         while(j >= l)
-        {
-            if(arr[j] < pivot)
-            break;
-            j--;
-        }
         if(i < j)
         swap(&arr[i], &arr[j]);
     }
