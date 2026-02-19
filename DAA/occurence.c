@@ -16,7 +16,7 @@ int main()
     printf("Enter search element:");
     scanf("%d", &X);
 
-    int l = 0, r = n-1, mid;
+    int l = 0, r = n-1, mid, count = 0;
     while(l <= r)
     {
         mid = l + (r - l) / 2;
