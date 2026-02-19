@@ -23,7 +23,7 @@ int partition(int arr[], int l, int r)
 
         while(j >= l)
         {
-            if(arr[j] < arr[pivot])
+            if(arr[j] < pivot)
             break;
             j--;
         }
