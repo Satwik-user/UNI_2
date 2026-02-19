@@ -15,5 +15,8 @@ int partition(int arr[], int l, int r)
         {
             j++;
         }while(arr[j] > arr[pivot]);
+        if(i < j)
+        swap(&arr[i], &arr[j]);
     }
+    
 }
