@@ -35,8 +35,10 @@ void quick_sort(int arr[], int l, int r)
 int main()
 {
     int n;
-    printf("ENter size of array:");
+    printf("Enter size of array:");
     scanf("%d", &n);
+
+    
     
     return 0;
 }
