@@ -17,6 +17,7 @@ int main()
     scanf("%d", &X);
 
     int l = 0, r = n-1, mid;
+    while(l )
     
     free(arr);
     return 0;
