@@ -22,7 +22,7 @@ int partition(int arr[], int l, int r)
         do
         {
             j--;
-        }while(arr[j] > arr[pivot]);
+        }while(j arr[j] > arr[pivot]);
         if(i < j)
         swap(&arr[i], &arr[j]);
     }
