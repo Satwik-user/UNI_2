@@ -45,6 +45,8 @@ int main()
         printf("Enter element:");
         scanf("%d", &arr[i]);
     }
+
+    
     
     return 0;
 }
