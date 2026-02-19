@@ -30,7 +30,7 @@ int partition(int arr[], int l, int r)
         if(i < j)
         swap(&arr[i], &arr[j]);
     }
-    swap(&arr[pivot], &arr[j]);
+    swap(&arr[l], &arr[j]);
     return j;
 }
 
