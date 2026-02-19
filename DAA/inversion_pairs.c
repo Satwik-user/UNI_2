@@ -9,5 +9,7 @@ long merge_count(int arr[], int l, int r, int m)
     L[i] = arr[l + i];
     for(int j=0; j<n2; j++)
     R[j] = arr[m + j + 1];
+
+    long inv = 0;
     
 }
