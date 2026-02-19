@@ -23,6 +23,7 @@ int main()
         if(arr[mid] == X)
         {
             count = 1;
+            int l = mid - 1, r = mid + 1;
             
         }
     }
