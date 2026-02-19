@@ -14,7 +14,7 @@ int partition(int arr[], int l, int r)
     int i = l, j = r;
     while(i < j)
     {
-        do
+        while(1)
         {
             i++;
         }while(i <= r && arr[i] < arr[pivot]);
