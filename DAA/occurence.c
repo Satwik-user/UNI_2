@@ -20,7 +20,10 @@ int main()
     while(l <= r)
     {
         mid = l + (r - l) / 2;
-        
+        if(arr[mid] == X)
+        {
+            
+        }
     }
     
     free(arr);
