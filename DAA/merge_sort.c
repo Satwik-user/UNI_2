@@ -43,7 +43,7 @@ void merge_sort(int arr[], int l, int r)
 int main()
 {
     int n;
-    prinf("Enter size of array:");
+    printf("Enter size of array:");
     scanf("%d", &n);
 
     int arr[n];
