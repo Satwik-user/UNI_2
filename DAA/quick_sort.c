@@ -47,6 +47,8 @@ int main()
     }
 
     quick_sort(arr, 0, n-1);
+
+    printf("Sorted elements:");
     
     
     return 0;
