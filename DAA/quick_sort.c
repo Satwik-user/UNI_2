@@ -19,10 +19,10 @@ int partition(int arr[], int l, int r)
             i++;
         }while(i <= r && arr[i] < arr[pivot]);
 
-        do
+        while(j >= l && arr[j] > arr[pivot])
         {
             j--;
-        }while(j >= l && arr[j] > arr[pivot]);
+        }
         if(i < j)
         swap(&arr[i], &arr[j]);
     }
