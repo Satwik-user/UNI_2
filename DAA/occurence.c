@@ -33,7 +33,9 @@ int main()
             }
 
             while(r < n && arr[r] == X)
-            count++;
+            {
+                
+            }
 
             break;
         }
