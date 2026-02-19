@@ -3,7 +3,8 @@
 
 void swap(int *a, int *b)
 {
-
+    int temp = *a;
+    
 }
 
 int partition(int arr[], int l, int r)
