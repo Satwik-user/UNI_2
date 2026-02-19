@@ -20,6 +20,7 @@ long merge_count(int arr[], int l, int r, int m)
         arr[k++] = L[i++];
         else
         {
+            arr[k++] = R[j++];
             
         }
     }
