@@ -43,5 +43,7 @@ long merge_sort_count(int arr[], int l, int r)
         inv += merge_sort_count(arr, mid+1, r);
         
         inv += merge_count(arr, l, r, mid);
+
+        return inv;
     }
 }
