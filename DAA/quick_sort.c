@@ -21,3 +21,7 @@ int partition(int arr[], int l, int r)
     swap(&arr[pivot], &arr[j]);
 }
 
+void quick_sort(int arr[], int l, int r)
+{
+    
+}
