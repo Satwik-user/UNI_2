@@ -22,7 +22,8 @@ int main()
         mid = l + (r - l) / 2;
         if(arr[mid] == X)
         {
-            int count = 1;
+            count = 1;
+            
         }
     }
     
