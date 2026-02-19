@@ -17,7 +17,11 @@ int main()
     scanf("%d", &X);
 
     int l = 0, r = n-1, mid;
-    while(l )
+    while(l <= r)
+    {
+        mid = l + (r - l) / 2;
+        
+    }
     
     free(arr);
     return 0;
