@@ -29,7 +29,7 @@ int main()
             while(l >= 0 && arr[l] == X)
             count++;
 
-            while(r <= n && arr[r] == X)
+            while(r < n && arr[r] == X)
             count++;
 
             break;
