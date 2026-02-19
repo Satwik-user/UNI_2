@@ -39,6 +39,7 @@ long merge_sort_count(int arr[], int l, int r)
     if(l < r)
     {
         int mid = l + (r - l) / 2;
-        
+        inv += merge_sort_count(arr, l, mid);
+
     }
 }
