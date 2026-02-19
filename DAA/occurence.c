@@ -16,7 +16,7 @@ int main()
     printf("Enter search element:");
     scanf("%d", &X);
 
-    int l = 
+    int l = 0, 
     
     free(arr);
     return 0;
