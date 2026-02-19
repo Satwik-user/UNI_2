@@ -60,7 +60,7 @@ int main()
         scanf("%d", &arr[i]);
     }
 
-    printf("No of inversion pairs: %d\n", merge_sort_count(arr, 0, n-1));
+    printf("No of inversion pairs: %ld\n", merge_sort_count(arr, 0, n-1));
     
     return 0;
 }
