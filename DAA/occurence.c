@@ -31,7 +31,10 @@ int main()
             while(r <= n && arr[r] == X)
             count++;
         }
-        
+        else if(arr[mid] < X)
+        l = mid + 1;
+        else
+        r = mid - 1;
     }
     
     free(arr);
