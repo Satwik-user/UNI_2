@@ -31,7 +31,15 @@ int main()
     ratio[i] = profit[i] / weight[i];
 
     for(int i=0; i<n; i++)
-    {}
+    {
+        if(cap == 0)
+        break;
+
+        else
+        {
+            
+        }
+    }
     
     return 0;
 }
