@@ -15,6 +15,8 @@ int main()
 
     item *items;
     items = malloc(n * sizeof(int));
+
+    
     
     free(items);
     return 0;
