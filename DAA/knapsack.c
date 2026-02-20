@@ -51,6 +51,7 @@ int main()
         if(cap == 0)
         break;
 
+        if(items[i].weight < cap)
         
     }
     
