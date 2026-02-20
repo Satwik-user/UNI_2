@@ -26,7 +26,7 @@ int main()
 
     float cap;
     printf("Enter capacity of sack:");
-    sacnf("%f", &cap);
+    scanf("%f", &cap);
 
     for(int i=0; i<n; i++)
     items[i].ratio = items[i].profit / items[i].weight;
