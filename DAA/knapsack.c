@@ -34,7 +34,8 @@ int main()
             if(items[j].ratio < items[j + 1].ratio)
             {
                 float temp = items[j].ratio;
-                
+                items[j].ratio = items[j + 1].ratio;
+                items[j + 1].ratio = temp;
             }
         }
     }
