@@ -26,6 +26,8 @@ int main()
 
     for(int i=0; i<n; i++)
     items[i].ratio = items[i].profit / items[i].weight;
+
+    
     
     free(items);
     return 0;
