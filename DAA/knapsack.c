@@ -52,7 +52,8 @@ int main()
 
         if(items[i].weight < cap)
         {
-
+            cap -= items[i].weight;
+            total_profit += items[i].profit;
         }
     }
     
