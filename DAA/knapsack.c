@@ -58,6 +58,7 @@ int main()
         }
         else
         {
+            fraction = cap / items[i].weight;
             
         }
     }
