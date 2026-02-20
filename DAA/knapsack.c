@@ -15,7 +15,7 @@ int main()
         scanf("%d", &weight[i]);
     }
 
-    printf("ENter profit array:\n");
+    printf("Enter profit array:\n");
     for(int i=0; i<n; i++)
     {
         printf("Enter profit array elements:");
@@ -26,7 +26,7 @@ int main()
     for(int i=0; i<n; i++)
     ratio[i] = profit[i] / weight[i];
 
-    
+
     
     return 0;
 }
