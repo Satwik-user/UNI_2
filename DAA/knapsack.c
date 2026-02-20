@@ -22,6 +22,9 @@ int main()
 
     printf("Enter profit array:");
     for(int i=0; i<n; i++)
+    scanf("%d", &items[i].profit);
+
+    for(int i=0; i<n; i++)
     
     
     free(items);
