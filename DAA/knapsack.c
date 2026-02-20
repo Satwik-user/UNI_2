@@ -8,11 +8,18 @@ int main()
     int *weight = (int *)malloc(n * sizeof(int));
     int *profit = (int *)malloc(n * sizeof(int));
 
-    printf("Enter weight array:");
+    printf("Enter weight array:\n");
     for(int i=0; i<n; i++)
     {
         printf("Enter weight array elements:");
         scanf("%d", &weight[i]);
+    }
+
+    printf("ENter profit array:\n");
+    for(int i=0; i<n; i++)
+    {
+        printf("Enter profit array elements:");
+        scanf("%d", &pr)
     }
     
     return 0;
