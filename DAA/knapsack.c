@@ -40,7 +40,10 @@ int main()
         }
     }
 
-    
+    for(int i=0; i<n; i++)
+    {
+        
+    }
     
     free(items);
     return 0;
