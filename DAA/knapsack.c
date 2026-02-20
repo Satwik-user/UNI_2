@@ -56,6 +56,10 @@ int main()
             total_profit += items[i].profit;
             printf("Addded weight %.2f of profit %.2f, capacity left: %.2f\n");
         }
+        else
+        {
+            
+        }
     }
     
     free(items);
