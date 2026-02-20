@@ -22,6 +22,8 @@ int main()
         scanf("%d", &profit[i]);
     }
 
+    printf("Enter maximum capacity of sack:");
+
     int *ratio = (int *)malloc(n * sizeof(int));
     for(int i=0; i<n; i++)
     ratio[i] = profit[i] / weight[i];
