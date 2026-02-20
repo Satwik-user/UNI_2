@@ -21,7 +21,8 @@ int main()
     scanf("%d", &items[i].weight);
 
     printf("Enter profit array:");
-    for(int i=0; i<n; )
+    for(int i=0; i<n; i++)
+    
     
     free(items);
     return 0;
