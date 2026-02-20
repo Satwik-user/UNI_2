@@ -22,7 +22,9 @@ int main()
         scanf("%d", &profit[i]);
     }
 
+    int cap;
     printf("Enter maximum capacity of sack:");
+    scanf("%d", &cap);
 
     int *ratio = (int *)malloc(n * sizeof(int));
     for(int i=0; i<n; i++)
