@@ -24,9 +24,9 @@ int main()
     for(int i=0; i<n; i++)
     scanf("%d", &items[i].profit);
 
-    int cap;
+    float cap;
     printf("Enter capacity of sack:");
-    sacnf("%d", &cap);
+    sacnf("%f", &cap);
 
     for(int i=0; i<n; i++)
     items[i].ratio = items[i].profit / items[i].weight;
@@ -54,6 +54,7 @@ int main()
         {
             cap -= items[i].weight;
             total_profit += items[i].profit;
+            printf("Addded weight %.2f of profit %.2f, capacity left: %.2f\n");
         }
     }
     
