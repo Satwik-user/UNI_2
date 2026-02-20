@@ -24,6 +24,9 @@ int main()
     for(int i=0; i<n; i++)
     scanf("%d", &items[i].profit);
 
+    int cap;
+    printf("Enter capacity of sack");
+
     for(int i=0; i<n; i++)
     items[i].ratio = items[i].profit / items[i].weight;
 
@@ -40,9 +43,14 @@ int main()
         }
     }
 
+
+
     for(int i=0; i<n; i++)
     {
-        
+        if(cap == 0)
+        break;
+
+
     }
     
     free(items);
