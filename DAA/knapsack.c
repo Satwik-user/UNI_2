@@ -22,7 +22,7 @@ int main()
         scanf("%d", &profit[i]);
     }
 
-    
+    int *ratio = (int *)malloc(n * sizeof(i))
     
     return 0;
 }
