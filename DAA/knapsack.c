@@ -51,7 +51,7 @@ int main()
         if(cap == 0)
         break;
 
-
+        
     }
     
     free(items);
