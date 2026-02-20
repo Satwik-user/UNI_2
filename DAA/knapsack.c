@@ -25,7 +25,7 @@ int main()
     scanf("%d", &items[i].profit);
 
     for(int i=0; i<n; i++)
-    
+    items[i].ratio = items[i].profit / items[i].weight;
     
     free(items);
     return 0;
