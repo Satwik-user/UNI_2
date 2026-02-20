@@ -17,7 +17,7 @@ int main()
     items = malloc(n * sizeof(int));
 
     for(int i=0; i<n; i++)
-    
+    scanf("%d", &items[i].weight);
     
     free(items);
     return 0;
