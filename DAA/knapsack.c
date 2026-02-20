@@ -19,8 +19,10 @@ int main()
     for(int i=0; i<n; i++)
     {
         printf("Enter profit array elements:");
-        scanf("%d", &pr)
+        scanf("%d", &profit[i]);
     }
+
+    
     
     return 0;
 }
