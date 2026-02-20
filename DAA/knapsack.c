@@ -31,7 +31,10 @@ int main()
     {
         for(int j=0; j<n-i-1; j++)
         {
-            
+            if(items[j].ratio < items[j + 1].ratio)
+            {
+                
+            }
         }
     }
     
