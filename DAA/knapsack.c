@@ -59,7 +59,7 @@ int main()
         else
         {
             float fraction = cap / items[i].weight;
-            
+            total_profit = fraction * items[i].profit;
         }
     }
     
