@@ -54,12 +54,13 @@ int main()
         {
             cap -= items[i].weight;
             total_profit += items[i].profit;
-            printf("Addded weight %.2f of profit %.2f, capacity left: %.2f\n");
+            printf("Addded weight %.2f of profit %.2f, capacity left: %.2f\n", items[i].weight, items[i].profit, cap);
         }
         else
         {
             float fraction = cap / items[i].weight;
             total_profit += fraction * items[i].profit;
+            printf("Added fractional weight %.2f of profit %.2f, capacity left: 0\n", fraction, items[i].profit * fraction)
         }
     }
     
