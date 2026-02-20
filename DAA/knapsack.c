@@ -19,7 +19,7 @@ int main()
 
     printf("Enter weight array:");
     for(int i=0; i<n; i++)
-    scanf("%d", &items[i].weight);
+    scanf("%f", &items[i].weight);
 
     printf("Enter profit array:");
     for(int i=0; i<n; i++)
