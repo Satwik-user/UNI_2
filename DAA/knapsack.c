@@ -10,7 +10,10 @@ int main()
 
     printf("Enter weight array:");
     for(int i=0; i<n; i++)
-    
+    {
+        printf("Enter weight array elements:");
+        scanf("%d", &weight[i]);
+    }
     
     return 0;
 }
