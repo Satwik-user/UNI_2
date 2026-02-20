@@ -52,7 +52,9 @@ int main()
         break;
 
         if(items[i].weight < cap)
-        
+        {
+            
+        }
     }
     
     free(items);
