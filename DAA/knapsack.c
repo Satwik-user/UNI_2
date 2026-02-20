@@ -34,11 +34,8 @@ int main()
     {
         if(cap == 0)
         break;
-
-        else
-        {
-            
-        }
+        
+        
     }
     
     return 0;
