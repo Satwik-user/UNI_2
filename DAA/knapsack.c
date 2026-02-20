@@ -60,7 +60,7 @@ int main()
         {
             float fraction = cap / items[i].weight;
             total_profit += fraction * items[i].profit;
-            printf("Added fractional weight %.2f of profit %.2f, capacity left: 0\n", fraction, items[i].profit * fraction)
+            printf("Added fractional weight %.2f of profit %.2f, capacity left: 0\n", fraction, items[i].profit * fraction);
         }
     }
     
