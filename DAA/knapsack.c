@@ -24,7 +24,7 @@ int main()
 
     int *ratio = (int *)malloc(n * sizeof(int));
     for(int i=0; i<n; i++)
-    
+    ratio[i] = profit[i] / weight[i];
     
     return 0;
 }
