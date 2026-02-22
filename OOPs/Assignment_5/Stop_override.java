@@ -5,4 +5,4 @@ class Base
         System.out.println("This is Base Class Method!");
     }
 }
-class Child extends 
+class Child extends C
