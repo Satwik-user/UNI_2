@@ -22,6 +22,6 @@ Result merge(Result left, Result right)
     if(left.min < right.min)
     {
         res.min = left.min;
-        
+        res.secon
     }
 }
