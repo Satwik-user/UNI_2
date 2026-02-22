@@ -20,6 +20,7 @@ class Circle_point
 {
     public static void main(String args[])
     {
-        Circle onj = new
+        Circle obj = new Circle();
+        
     }
 }
