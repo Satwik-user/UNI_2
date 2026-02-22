@@ -6,6 +6,6 @@ class static_method
     }
     public static void main(String args[])
     {
-        static
+        static_method.
     }
 }
