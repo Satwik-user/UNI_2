@@ -25,7 +25,7 @@ class Circle_point
         Scanner sc = new Scanner(System.in);
         Point p = new Point();
         System.out.println("Enter coordinates of centre and point on circumference:");
-        x1 = sc.nextInt();
+        int x1 = sc.nextInt();
         y1 = sc.nextInt();
         x2 = sc.nextInt();
         y2 = sc.nextInt();
