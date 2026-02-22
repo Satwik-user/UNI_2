@@ -4,6 +4,6 @@ class Static_keyword
     public static void main(String args[])
     {
         university = "IEM";
-        System.out.println(university)
+        System.out.println(university);
     }
 }
