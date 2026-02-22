@@ -11,6 +11,6 @@ class Employee
     double gross()
     {
         double tax = (15 / 100) * this.basic_salary;
-        return basic_salary - tax;
+        return this.basic_salary - tax;
     }
 }
