@@ -5,7 +5,7 @@ class Student
         System.out.print("Student is from college ");
     }
 }
-class Student_clg extends 
+class Student_clg extends Student
 {
     void display_clg()
     {
