@@ -13,3 +13,7 @@ class Child_1 extends Base
         System.out.println("#1 level of inheritance of " + b.display);
     }
 }
+class Child_2 extends Base
+{
+    void c
+}
