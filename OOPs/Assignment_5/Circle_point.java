@@ -17,3 +17,6 @@ class Circle extends Point
 }
 
 class Circle_point
+{
+    publi
+}
