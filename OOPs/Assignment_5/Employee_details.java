@@ -26,6 +26,6 @@ class Employee_salary
         double salary = sc.nextInt();
 
         Employee emp = new Employee();
-        
+        emp.gross()
     }
 }
