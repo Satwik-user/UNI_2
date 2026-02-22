@@ -24,11 +24,13 @@ class Circle_point
     {
         Scanner sc = new Scanner(System.in);
         Circle c = new Circle();
+        
         System.out.println("Enter coordinates of centre and point on circumference:");
         int x1 = sc.nextInt();
         int y1 = sc.nextInt();
         int x2 = sc.nextInt();
         int y2 = sc.nextInt();
+
         c.coordinates(x1, x2, y1, y2);
         System.out.println("Area of the circle= " + c.area());
     }
