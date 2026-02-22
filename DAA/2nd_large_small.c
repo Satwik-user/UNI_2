@@ -27,6 +27,6 @@ Result merge(Result left, Result right)
     else
     {
         res.min = right.min;
-        res.secondMin = (right.secondMin < left.min)? right.secondMin: left.min
+        res.secondMin = (right.secondMin < left.min)? right.secondMin: left.min;
     }
 }
