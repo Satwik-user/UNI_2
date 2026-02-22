@@ -1,4 +1,5 @@
 class Student_clg
 {
-    voi display()
+    void display()
+    {}
 }
