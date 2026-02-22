@@ -18,6 +18,6 @@ class Employee_salary
 {
     public static void main(String args[])
     {
-        S
+        Scanner 
     }
 }
