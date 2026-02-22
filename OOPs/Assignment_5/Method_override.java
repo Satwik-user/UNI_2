@@ -6,3 +6,6 @@ class Base
     }
 }
 class Child
+{
+    
+}
