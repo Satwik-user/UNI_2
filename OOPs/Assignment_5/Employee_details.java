@@ -25,7 +25,7 @@ class Employee_salary
         String name = sc.nextInt();
         double salary = sc.nextInt();
 
-        Employee emp = new Employee();
+        Employee emp = new Employee(id);
         emp.gross()
     }
 }
