@@ -12,7 +12,7 @@ class Circle extends Point
 {
     double area()
     {
-        return Math.pow((this.x1 - x2), 2) + Math.pow((y1 - y2), 2);
+        return Math.pow((this.x1 - this.x2), 2) + Math.pow((this.y1 - y2), 2);
     }
 }
 
