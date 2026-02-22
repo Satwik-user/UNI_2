@@ -9,6 +9,7 @@ class Child_1 extends Base
 {
     void child_display_1()
     {
-        base b = new Base()
+        Base b = new Base();
+        
     }
 }
