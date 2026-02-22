@@ -27,3 +27,11 @@ int partition(int arr[], int l, int r)
     return j;
 }
 
+int quick_select(int arr[], int l, int r)
+{
+    int mid = l + (r - l) / 2;
+    if(l < r)
+    {
+        
+    }
+}
