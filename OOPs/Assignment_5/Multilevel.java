@@ -23,3 +23,4 @@ class Child_2 extends Base
         System.out.println("#2 level of inheritance of " + b.display);
     }
 }
+class Multilevel
