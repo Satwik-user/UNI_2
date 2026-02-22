@@ -5,3 +5,4 @@ class Student_clg
         System.out.print("Student is from college ");
     }
 }
+class Student 
