@@ -12,3 +12,7 @@ class Child extends Base
         System.out.println("This is Child Class Method!");
     }
 }
+CLASS sTOP_OVERRIDE
+{
+    
+}
