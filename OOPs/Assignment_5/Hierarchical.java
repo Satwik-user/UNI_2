@@ -25,5 +25,6 @@ class Child_2 extends Base
 }
 class Heirarchical
 {
+    public static void main()
     
 }
