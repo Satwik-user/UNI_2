@@ -12,6 +12,6 @@ class Circle extends Point
 {
     double area()
     {
-        return 
+        return ()
     }
 }
