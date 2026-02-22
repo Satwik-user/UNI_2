@@ -4,6 +4,6 @@ class Static_implement
     {
         static String university = "UEM";
         System.out.println(university);
-        static String
+        university = 
     }
 }
