@@ -60,6 +60,7 @@ int main()
     printf("Median element:%d\n", arr[median]);
     if(median - 1 >= 0)
     printf("Left Neighbour:%d\n", arr[median - 1]);
+    if(median + 1 <= n)
     printf("Right Neighbour:%d\n", arr[median + 1]);
     
     return 0;
