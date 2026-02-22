@@ -22,8 +22,8 @@ class Employee_salary
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter employee id, name, basic salary:");
         String id = sc.nextLine();
-        String name = sc.nextline();
-        double salary = sc.nextInt();
+        String name = sc.nextLine();
+        double salary = sc.nextDouble();
 
         Employee emp = new Employee(id, name, salary);
         System.out.println("Gross Salary of Employee+ " + emp.gross());
