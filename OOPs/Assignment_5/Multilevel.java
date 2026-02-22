@@ -28,6 +28,6 @@ class Multilevel
     public static void main(String args[])
     {
         Child_2 c2 = new Child_2();
-        c2.
+        c2.chil
     }
 }
