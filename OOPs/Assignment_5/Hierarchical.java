@@ -20,5 +20,6 @@ class Child_2 extends Base
     {
         Base b = new Base();
         System.out.println("Accessing #1 ");
+        
     }
 }
