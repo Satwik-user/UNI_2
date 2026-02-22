@@ -24,3 +24,6 @@ class Child_2 extends Base
     }
 }
 class Multilevel
+{
+    public static void main
+}
