@@ -8,6 +8,7 @@ class Multiple
 {
     public static void main(String args[])
     {
-        Child 
+        Child c = new Child();
+        c.
     }
 }
