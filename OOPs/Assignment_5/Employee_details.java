@@ -20,6 +20,6 @@ class Employee_salary
     public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);
-        Sytem
+        Sytem.out.pritnln()
     }
 }
