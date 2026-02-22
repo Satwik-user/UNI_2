@@ -24,7 +24,8 @@ class Circle_point
         Scanner sc = new Scanner(System.in);
         Point p = new Point();
         System.out.println("Enter coordinates of centre and point on circumference:");
-        x1 = 
+        x1 = sc.nextInt();
+        
 
         Circle obj = new Circle();
         System.out.println("Area of the circle ")
