@@ -7,5 +7,6 @@ class Student
 }
 class Student_clg
 {
-    void display
+    void display_clg()
+    
 }
