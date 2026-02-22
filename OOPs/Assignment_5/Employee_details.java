@@ -16,5 +16,8 @@ class Employee
 }
 class Employee_salary
 {
-    public static v
+    public static void main(String args[])
+    {
+        S
+    }
 }
