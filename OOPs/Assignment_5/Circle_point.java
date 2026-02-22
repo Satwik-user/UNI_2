@@ -21,7 +21,8 @@ class Circle_point
     public static void main(String args[])
     {
         Point p = new Point();
-        System.out.println("Enter coordinates of centre and point on circumference:")
+        System.out.println("Enter coordinates of centre and point on circumference:");
+        
         Circle obj = new Circle();
         System.out.println("Area of the circle ")
     }
