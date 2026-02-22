@@ -7,7 +7,7 @@ class Employee
     {
         this.emp_id = emp_id;
         this.emp_name = emp_name;
-        this.basic_salaray = basic_salary;
+        this.basic_salary = basic_salary;
     }
     double gross()
     {
