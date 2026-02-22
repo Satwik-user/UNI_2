@@ -24,4 +24,8 @@ Result merge(Result left, Result right)
         res.min = left.min;
         res.secondMin = (left.secondMin < right.min)? left.secondMin: right.min;
     }
+    else
+    {
+        
+    }
 }
