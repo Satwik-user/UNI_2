@@ -1,4 +1,4 @@
-class Student_clg
+class Student
 {
     void display()
     {
