@@ -8,3 +8,7 @@ void swap(int *a, int *b)
     *b = temp;
 }
 
+int partition(int arr[], int l, int r)
+{
+    
+}
