@@ -8,6 +8,7 @@ typedef struct
 Result merge(Result left, Result right)
 {
     Result res;
+    
     if(left.max > right.max)
     {
         res.max = left.max;
