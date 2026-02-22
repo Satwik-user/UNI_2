@@ -12,6 +12,6 @@ class Circle extends Point
 {
     double area()
     {
-        return Math.pow(())
+        return Math.pow((x1 - x2))
     }
 }
