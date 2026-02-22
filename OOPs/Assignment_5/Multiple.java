@@ -6,4 +6,4 @@ class Base_2
 {
 
 }
-class Child extends Base
+class Child extends Base_1 extends Base_2
