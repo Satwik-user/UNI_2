@@ -4,6 +4,4 @@ class Student_clg
     {
         System.out.print("Student is from college ");
     }
-    public static void main(String args[])
-    
 }
