@@ -2,6 +2,7 @@ class Base
 {
     void display()
     {
-        System.out.println("This is Base Class Me")
+        System.out.println("This is Base Class Method!");
     }
 }
+class Child
