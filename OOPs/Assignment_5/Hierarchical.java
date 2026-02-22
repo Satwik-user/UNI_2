@@ -14,4 +14,4 @@ class Child_1 extends Base
         b.display()
     }
 }
-class 
+class Child
