@@ -13,4 +13,9 @@ Result merge(Result left, Result right)
         res.max = left.max;
         res.secondMax = (left.secondMax > right.max)? left.secondMax: right.max;
     }
+    else
+    {
+        res.max = right.max;
+        res.secondMax = (right.secondMax > left.max)? right.secondMax: left.max;
+    }
 }
