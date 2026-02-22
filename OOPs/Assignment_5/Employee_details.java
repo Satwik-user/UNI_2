@@ -21,6 +21,7 @@ class Employee_salary
     {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter employee id, name, basic salary:");
-        String id = 
+        String id = sc.nextInt();
+        String 
     }
 }
