@@ -10,6 +10,6 @@ class Employee
     }
     double gross()
     {
-        
+        double tax = 
     }
 }
