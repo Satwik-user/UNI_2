@@ -7,5 +7,5 @@ class Base
 }
 class Child_1
 {
-    void 
+    void child_display
 }
