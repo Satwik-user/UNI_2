@@ -7,5 +7,8 @@ typedef struct
 
 Result merge(Result left, Result right)
 {
-    
+    if(left.max < right.max)
+    {
+        
+    }
 }
