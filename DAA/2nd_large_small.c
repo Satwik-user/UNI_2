@@ -5,3 +5,7 @@ typedef struct
     int min, secondMin;
 }Result;
 
+Result merge(Result left, Result right)
+{
+    
+}
