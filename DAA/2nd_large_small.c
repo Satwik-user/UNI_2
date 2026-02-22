@@ -36,4 +36,4 @@ Result merge(Result left, Result right)
 }
 
 Result secondExtreme(int arr[], int l, int r)
-{}
+{
