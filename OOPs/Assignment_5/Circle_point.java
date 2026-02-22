@@ -18,5 +18,5 @@ class Circle extends Point
 
 class Circle_point
 {
-    public static v
+    public static void main()
 }
