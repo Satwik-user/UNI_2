@@ -1,4 +1,4 @@
 class Base
 {
-    final 
+    final void display()
 }
