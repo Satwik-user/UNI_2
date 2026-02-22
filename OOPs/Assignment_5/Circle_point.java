@@ -27,8 +27,8 @@ class Circle_point
         System.out.println("Enter coordinates of centre and point on circumference:");
         int x1 = sc.nextInt();
         int y1 = sc.nextInt();
-        x2 = sc.nextInt();
-        y2 = sc.nextInt();
+        int x2 = sc.nextInt();
+        int y2 = sc.nextInt();
         p.coordinates(x1, x2, y1, y2);
 
         Circle c = new Circle();
