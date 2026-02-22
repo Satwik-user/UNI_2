@@ -2,4 +2,4 @@ class Static_implement
 {
     public static String university = "UEM";
 }
-class Satic_
+class Satic_keyword()
