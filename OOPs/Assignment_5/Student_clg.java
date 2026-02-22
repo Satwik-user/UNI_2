@@ -11,4 +11,5 @@ class Student_clg
     {
         System.out.println("UEM");
     }
+    
 }
