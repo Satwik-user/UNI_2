@@ -13,6 +13,6 @@ class Student_clg extends Student
     }
     public static void main(String args[])
     {
-        
+        Student 
     }
 }
