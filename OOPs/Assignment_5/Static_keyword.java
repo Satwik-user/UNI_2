@@ -4,7 +4,7 @@ class Static_keyword
     {
         static String university = "UEM";
         System.out.println(university);
-        university = "IEM";
+        String university = "IEM";
         System.out.println(univeresity);
     }
 }
