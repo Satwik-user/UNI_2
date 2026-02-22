@@ -9,6 +9,6 @@ class Student_clg
 {
     void display_clg()
     {
-        System.out.pr
+        System.out.println()
     }
 }
