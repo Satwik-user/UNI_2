@@ -23,4 +23,4 @@ class Child_2 extends Base
         b.display();
     }
 }
-c
+class Heirarchical
