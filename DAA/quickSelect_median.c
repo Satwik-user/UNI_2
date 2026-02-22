@@ -37,6 +37,7 @@ int quick_select(int arr[], int l, int r)
         return pivot;
         else if(pivot < mid)
         quick_select(arr, pivot + 1, r);
-        
+        else
+        quick_select(arr, l, pivot - 1);
     }
 }
