@@ -3,7 +3,7 @@ class Employee
 {
     String emp_id, emp_name;
     double basic_salary;
-    void Employee(String emp_id, String emp_name, idouble basic_salary)
+    void Employee(String emp_id, String emp_name, double basic_salary)
     {
         this.emp_id = emp_id;
         this.emp_name = emp_name;
