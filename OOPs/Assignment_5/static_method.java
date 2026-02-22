@@ -1,4 +1,4 @@
 class static_method
 {
-    public 
+    public static 
 }
