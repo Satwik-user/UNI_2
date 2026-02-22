@@ -27,6 +27,6 @@ class Multilevel
 {
     public static void main(String args[])
     {
-        
+        Child_2 c2
     }
 }
