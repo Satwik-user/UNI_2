@@ -30,7 +30,7 @@ class Circle_point
         y2 = sc.nextInt();
         p.coordinates(x1, x2, y1, y2);
 
-        Circle obj = new Circle();
+        Circle c = new Circle();
         System.out.println("Area of the circle= " + )
     }
 }
