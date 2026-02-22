@@ -8,4 +8,7 @@ class Point
         this.y2 = y2;
     }
 }
-class 
+class Circle
+{
+    
+}
