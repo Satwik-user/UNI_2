@@ -1,4 +1,4 @@
-class Static_implement
+class Static_keyword
 {
     public static void main(String args[])
     {
