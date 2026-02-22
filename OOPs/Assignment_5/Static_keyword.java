@@ -1,5 +1,5 @@
 class Static_keyword
 {
-    public static university = "UEM";
-    
+    public static Strig university = "UEM";
+
 }
