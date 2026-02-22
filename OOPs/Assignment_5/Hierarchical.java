@@ -10,6 +10,7 @@ class Child_1 extends Base
     void child_display()
     {
         Base b = new Base();
-        System.out.print("Called the child class through ")
+        System.out.print("Accessing #1 ");
+        
     }
 }
