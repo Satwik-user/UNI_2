@@ -5,4 +5,4 @@ class Base
         System.out.println("Base class!");
     }
 }
-class 
+class Child_1
