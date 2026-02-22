@@ -28,7 +28,7 @@ class Circle_point
         y1 = sc.nextInt();
         x2 = sc.nextInt();
         y2 = sc.nextInt();
-        p.coordinates(x1, )
+        p.coordinates(x1, x2, y1, y2);
 
         Circle obj = new Circle();
         System.out.println("Area of the circle ")
