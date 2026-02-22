@@ -22,7 +22,7 @@ class Child_2 extends Base
         Child_1 c1 = new Child_1();
         c1.child_display_1();
         System.out.println("#2 level of inheritance of ");
-        b
+        b.display();
     }
 }
 class Multilevel
