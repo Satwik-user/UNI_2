@@ -16,6 +16,6 @@ class Stop_override
 {
     public static void main(String args[])
     {
-        Base 
+        Base obj = new Child()
     }
 }
