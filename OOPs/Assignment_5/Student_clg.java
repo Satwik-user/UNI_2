@@ -11,5 +11,8 @@ class Student_clg
     {
         System.out.println("UEM");
     }
-    public static void main()
+    public static void main(String args[])
+    {
+        
+    }
 }
