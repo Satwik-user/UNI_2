@@ -19,6 +19,7 @@ class Child_2 extends Base
     {
         Base b = new Base();
         Child_1 c1 = new Child_1();
-        c1.child_display
+        c1.child_display_1;
+        
     }
 }
