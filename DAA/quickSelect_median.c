@@ -43,4 +43,12 @@ int quick_select(int arr[], int l, int r)
 }
 
 int main()
-{}
+{
+    int n;
+    printf("Enter size of array:");
+    scanf("%d", &n);
+
+    int *arr = (int *)malloc(n * sizeof(int))
+    
+    return 0;
+}
