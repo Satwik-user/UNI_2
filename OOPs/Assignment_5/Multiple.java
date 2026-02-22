@@ -6,4 +6,4 @@ class Base_2
 {
 
 }
-class 
+class Child
