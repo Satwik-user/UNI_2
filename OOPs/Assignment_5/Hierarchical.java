@@ -27,6 +27,6 @@ class Heirarchical
 {
     public static void main(String args[])
     {
-        Child
+        Child_1 
     }
 }
