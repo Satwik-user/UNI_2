@@ -20,7 +20,7 @@ Result merge(Result left, Result right)
         res.secondMax = (right.secondMax > left.max)? right.secondMax: left.max;
     }
 
-    
+
     if(left.min < right.min)
     {
         res.min = left.min;
@@ -31,4 +31,7 @@ Result merge(Result left, Result right)
         res.min = right.min;
         res.secondMin = (right.secondMin < left.min)? right.secondMin: left.min;
     }
+
+    return res;
 }
+
