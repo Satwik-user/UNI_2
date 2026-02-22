@@ -5,7 +5,7 @@ class Base
         System.out.println("Base class!");
     }
 }
-class Child_1 extends 
+class Child_1 extends Base
 {
     void child_display()
     {
