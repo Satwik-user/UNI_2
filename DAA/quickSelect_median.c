@@ -35,5 +35,8 @@ int quick_select(int arr[], int l, int r)
         int pivot = partition(arr, l, r);
         if(pivot == mid)
         return pivot;
+        else if(pivot < mid)
+        quick_select(arr, pivot + 1, r);
+        
     }
 }
