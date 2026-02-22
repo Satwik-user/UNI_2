@@ -1,1 +1,4 @@
-class S
+class Student_clg
+{
+    
+}
