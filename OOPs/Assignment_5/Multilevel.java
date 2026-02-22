@@ -7,5 +7,8 @@ class Base
 }
 class Child_1 extends Base
 {
-    void child_display()
+    void child_display_1()
+    {
+        base b = new Base()
+    }
 }
