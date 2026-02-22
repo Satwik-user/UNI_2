@@ -23,6 +23,6 @@ class Employee_salary
         System.out.print("Enter employee id, name, basic salary:");
         String id = sc.nextInt();
         String name = sc.nextInt();
-        double 
+        double bas
     }
 }
