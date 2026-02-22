@@ -14,5 +14,5 @@ class Child extends Base
 }
 class Stop_override
 {
-    
+    public static void main()
 }
