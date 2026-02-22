@@ -2,6 +2,6 @@ class Base
 {
     final void display()
     {
-        System.out.
+        System.out.pritnln()
     }
 }
