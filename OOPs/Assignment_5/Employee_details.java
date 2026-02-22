@@ -14,3 +14,4 @@ class Employee
         return this.basic_salary - tax;
     }
 }
+class Empl
