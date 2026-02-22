@@ -26,6 +26,6 @@ class Employee_salary
         double salary = sc.nextInt();
 
         Employee emp = new Employee(id, name, salary);
-        System.out.println("Gross Salary of Employee: ")
+        System.out.println("Gross Salary of Employee+ " + )
     }
 }
