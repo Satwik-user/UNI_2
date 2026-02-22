@@ -11,6 +11,6 @@ class Child_1 extends Base
     {
         Base b = new Base();
         System.out.print("Accessing #1 ");
-        b.display
+        b.display()
     }
 }
