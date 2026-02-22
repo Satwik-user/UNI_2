@@ -4,6 +4,6 @@ class Employee
     double basic_salary;
     void input(emp_id, emp_name, basic_salary)
     {
-        
+        this.emp
     }
 }
