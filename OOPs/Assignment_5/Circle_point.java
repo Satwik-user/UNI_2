@@ -1,4 +1,4 @@
 class Point
 {
-    
+    int 
 }
