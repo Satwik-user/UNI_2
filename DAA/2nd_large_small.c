@@ -41,6 +41,7 @@ Result secondExtreme(int arr[], int l, int r)
 
     if(l == r)
     {
+        res.max = res.min = arr[l];
         
     }
 }
