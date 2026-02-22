@@ -20,7 +20,8 @@ class Circle_point
 {
     public static void main(String args[])
     {
-        Point 
+        Point p = new Point();
+        
         Circle obj = new Circle();
         System.out.println("Area of the circle ")
     }
