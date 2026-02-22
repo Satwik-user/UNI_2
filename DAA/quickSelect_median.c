@@ -32,6 +32,7 @@ int quick_select(int arr[], int l, int r)
     int mid = l + (r - l) / 2;
     if(l < r)
     {
+        int pivot = partition(arr, l, r);
         
     }
 }
