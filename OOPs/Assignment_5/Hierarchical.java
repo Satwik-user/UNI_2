@@ -9,7 +9,7 @@ class Child_1 extends Base
 {
     void child_display()
     {
-        
+        Base 
         System.out.println("")
     }
 }
