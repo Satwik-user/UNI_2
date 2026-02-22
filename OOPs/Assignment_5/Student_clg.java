@@ -5,4 +5,7 @@ class Student
         System.out.print("Student is from college ");
     }
 }
-class Student 
+class Student_clg
+{
+    void display
+}
