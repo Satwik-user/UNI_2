@@ -8,4 +8,7 @@ class Base
 class Child extends Base
 {
     void display()
+    {
+        System.out.println("This i")
+    }
 }
