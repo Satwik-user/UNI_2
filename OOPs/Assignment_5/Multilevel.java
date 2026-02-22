@@ -17,6 +17,7 @@ class Child_2 extends Base
 {
     void child_display_2()
     {
-        Base
+        Base b = new Base();
+        
     }
 }
