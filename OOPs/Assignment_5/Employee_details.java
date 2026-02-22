@@ -8,5 +8,5 @@ class Employee
         this.emp_name = emp_name;
         this.basic_salaray = basic_salary;
     }
-    double 
+    double gross()
 }
