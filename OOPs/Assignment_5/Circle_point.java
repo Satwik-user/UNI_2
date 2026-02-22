@@ -8,7 +8,7 @@ class Point
         this.y2 = y2;
     }
 }
-class Circle
+class Circle extends point
 {
     double area()
 }
