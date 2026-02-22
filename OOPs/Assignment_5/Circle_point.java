@@ -10,5 +10,5 @@ class Point
 }
 class Circle
 {
-    
+    int area
 }
