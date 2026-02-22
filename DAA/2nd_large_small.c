@@ -39,5 +39,8 @@ Result secondExtreme(int arr[], int l, int r)
 {
     Result res;
 
-    
+    if(l == r)
+    {
+        
+    }
 }
