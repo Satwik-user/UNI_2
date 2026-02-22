@@ -10,8 +10,8 @@ class Child_1 extends Base
     void child_display_1()
     {
         Base b = new Base();
-        b.display();
         System.out.println("#1 level of inheritance of ");
+        
     }
 }
 class Child_2 extends Base
