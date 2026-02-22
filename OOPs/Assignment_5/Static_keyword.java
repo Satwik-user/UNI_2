@@ -1,4 +1,5 @@
 class Static_keyword
 {
-    public static university = "UEM"
+    public static university = "UEM";
+    
 }
