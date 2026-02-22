@@ -7,7 +7,7 @@ class Student
 }
 class Student_clg extends Student
 {
-    void display_clg()
+    static void display_clg()
     {
         System.out.println("UEM");
     }
