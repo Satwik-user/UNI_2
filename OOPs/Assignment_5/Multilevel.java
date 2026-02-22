@@ -18,6 +18,7 @@ class Child_2 extends Base
     void child_display_2()
     {
         Base b = new Base();
-        Child_1 c1 = n
+        Child_1 c1 = new Child_1();
+        
     }
 }
