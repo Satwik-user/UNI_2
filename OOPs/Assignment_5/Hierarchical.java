@@ -17,4 +17,7 @@ class Child_1 extends Base
 class Child_2 extends Base
 {
     void child_display()
+    {
+        
+    }
 }
