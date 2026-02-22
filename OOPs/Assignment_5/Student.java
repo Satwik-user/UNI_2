@@ -1,2 +1,1 @@
-class Student
-{}
+class S
