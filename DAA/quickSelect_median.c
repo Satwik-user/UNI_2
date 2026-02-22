@@ -24,5 +24,5 @@ int partition(int arr[], int l, int r)
         swap(&arr[i], &arr[j]);
     }
     swap(&arr[l], &arr[j]);
-    return arr[j];
+    return j;
 }
