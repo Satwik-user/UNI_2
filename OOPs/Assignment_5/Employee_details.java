@@ -1,5 +1,5 @@
 class Employee
 {
     String emd_id, emp_name;
-    double 
+    double basic_salary;
 }
