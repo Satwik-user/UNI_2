@@ -57,7 +57,7 @@ int main()
 
     int median = quick_select(arr, 0, n - 1);
 
-    printf("Neighbours of median element:\n");
+    printf("Median element:\n");
     printf("Left Neighbour:%d\n", arr[median - 1]);
     printf("Right Neighbour:%d\n", arr[median + 1]);
     
