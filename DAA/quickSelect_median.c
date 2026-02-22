@@ -27,17 +27,17 @@ int partition(int arr[], int l, int r)
     return j;
 }
 
-int quick_select(int arr[], int l, int r, int mid)
+int quick_select(int arr[], int l, int r, int k)
 {
     if(l <= r)
     {
         int pivot = partition(arr, l, r);
-        if(pivot == mid)
+        if(pivot == k)
         return pivot;
-        else if(pivot < mid)
-        return quick_select(arr, pivot + 1, r, mid);
+        else if(pivot < k)
+        return quick_select(arr, pivot + 1, r, k);
         else
-        return quick_select(arr, l, pivot - 1, mid);
+        return quick_select(arr, l, pivot - 1, k);
     }
     return -1;
 }
@@ -56,13 +56,16 @@ int main()
     }
 
     int mid = n / 2;
+
     int median = quick_select(arr, 0, n - 1, mid);
+    int left_n = quick_select(arr, 0, n - 1, mid - 1);
+    int right_n = quick_select(arr, 0, n - 1, mid + 1);
 
     printf("Median element:%d\n", arr[median]);
     if(median - 1 >= 0)
-    printf("Left Neighbour:%d\n", arr[median - 1]);
+    printf("Left Neighbour:%d\n", arr[left_n]);
     if(median + 1 < n)
-    printf("Right Neighbour:%d\n", arr[median + 1]);
+    printf("Right Neighbour:%d\n", arr[right_n]);
     
     return 0;
 }
