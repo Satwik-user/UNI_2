@@ -2,7 +2,7 @@ class Base
 {
     void display()
     {
-        System.out.println("Base Class!");
+        System.out.println("Base Class");
     }
 }
 class Child_1 extends Base
@@ -10,6 +10,6 @@ class Child_1 extends Base
     void child_display_1()
     {
         Base b = new Base();
-        
+
     }
 }
