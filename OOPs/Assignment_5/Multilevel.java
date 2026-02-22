@@ -5,4 +5,4 @@ class Base
         System.out.println("Base Class!");
     }
 }
-class Child_1
+class Child_1 extends
