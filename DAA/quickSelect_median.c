@@ -39,6 +39,7 @@ int quick_select(int arr[], int l, int r, int mid)
         else
         return quick_select(arr, l, pivot - 1, mid);
     }
+    return -1;
 }
 
 int main()
