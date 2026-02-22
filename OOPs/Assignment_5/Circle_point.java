@@ -27,6 +27,7 @@ class Circle_point
         x1 = sc.nextInt();
         y1 = sc.nextInt();
         x2 = sc.nextInt();
+        y2 = sc.nextInt();
         
 
         Circle obj = new Circle();
