@@ -12,3 +12,10 @@ class Child extends Base
         System.out.println("This is Child Class Method!");
     }
 }
+class Method_override
+{
+    public static void main(String args[])
+    {
+        
+    }
+}
