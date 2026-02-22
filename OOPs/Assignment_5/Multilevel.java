@@ -7,5 +7,5 @@ class Base
 }
 class Child_1 extends Base
 {
-    c
+    void display
 }
