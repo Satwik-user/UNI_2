@@ -4,5 +4,8 @@ class static_method
     {
         System.out.println("Static method called!");
     }
-    public static void main()
+    public static void main(String args[])
+    {
+        
+    }
 }
