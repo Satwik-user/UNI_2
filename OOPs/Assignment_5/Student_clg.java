@@ -15,6 +15,6 @@ class Student_clg extends Student
     {
         Student s1 = new Student();
         s1.display();
-        display_clg()
+        display_clg();
     }
 }
