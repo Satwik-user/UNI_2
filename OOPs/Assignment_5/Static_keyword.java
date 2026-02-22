@@ -1,4 +1,4 @@
-class Static_keyword
+class Static_implement
 {
     public static String university = "UEM";
     public static void main(String args[])
