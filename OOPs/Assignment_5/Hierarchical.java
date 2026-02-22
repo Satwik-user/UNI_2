@@ -7,5 +7,8 @@ class Base
 }
 class Child_1
 {
-    void child_display
+    void child_display()
+    {
+        System.out.println("")
+    }
 }
