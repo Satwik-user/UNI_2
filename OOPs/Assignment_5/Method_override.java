@@ -9,6 +9,6 @@ class Child extends Base
 {
     void display()
     {
-        System.out
+        System.out.println()
     }
 }
