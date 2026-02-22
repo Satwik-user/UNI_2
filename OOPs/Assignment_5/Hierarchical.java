@@ -31,6 +31,6 @@ class Heirarchical
         Child_2 c2 = new Child_2();
 
         c1.child_display();
-        c2.child_display()
+        c2.child_display();
     }
 }
