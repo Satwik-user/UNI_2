@@ -29,8 +29,6 @@ class Circle_point
         int x2 = sc.nextInt();
         int y2 = sc.nextInt();
         p.coordinates(x1, x2, y1, y2);
-
-        Circle c = new Circle();
         System.out.println("Area of the circle= " + c.area());
     }
 }
