@@ -7,5 +7,8 @@ class Base
 }
 class Child
 {
-    
+    void display()
+    {
+        System.out
+    }
 }
