@@ -1,4 +1,4 @@
 class Static_keyword
 {
-    public static 
+    public static university = 
 }
