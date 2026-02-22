@@ -22,7 +22,7 @@ class Employee_salary
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter employee id, name, basic salary:");
         String id = sc.nextLine();
-        String name = sc.nextInt();
+        String name = sc.nextline();
         double salary = sc.nextInt();
 
         Employee emp = new Employee(id, name, salary);
