@@ -18,5 +18,8 @@ class Circle extends Point
 
 class Circle_point
 {
-    public static void main()
+    public static void main(String args[])
+    {
+        
+    }
 }
