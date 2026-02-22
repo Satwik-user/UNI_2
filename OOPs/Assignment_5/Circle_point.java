@@ -21,6 +21,6 @@ class Circle_point
     public static void main(String args[])
     {
         Circle obj = new Circle();
-        
+        System.out.println("Area of the circle ")
     }
 }
