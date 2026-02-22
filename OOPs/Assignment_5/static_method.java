@@ -1,4 +1,5 @@
 class static_method
 {
-    public s
+    public static void display
+    
 }
