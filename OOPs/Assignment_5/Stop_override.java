@@ -2,6 +2,6 @@ class Base
 {
     final void display()
     {
-        System.out.pritnln()
+        System.out.println("This is ")
     }
 }
