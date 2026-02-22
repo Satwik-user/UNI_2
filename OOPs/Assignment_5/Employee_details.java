@@ -9,4 +9,7 @@ class Employee
         this.basic_salaray = basic_salary;
     }
     double gross()
+    {
+        
+    }
 }
