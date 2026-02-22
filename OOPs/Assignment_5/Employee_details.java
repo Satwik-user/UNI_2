@@ -24,6 +24,7 @@ class Employee_salary
         String id = sc.nextInt();
         String name = sc.nextInt();
         double salary = sc.nextInt();
+
         
     }
 }
