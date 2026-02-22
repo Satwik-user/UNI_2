@@ -1,4 +1,5 @@
 class Employee
 {
-    String emd+id
+    String emd_id, emp_name;
+    
 }
