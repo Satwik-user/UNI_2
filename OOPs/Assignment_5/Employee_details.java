@@ -20,6 +20,6 @@ class Employee_salary
     public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter employee id, name, basic salary:");
+        System.out.print("Enter employee id, name, basic salary:");
     }
 }
