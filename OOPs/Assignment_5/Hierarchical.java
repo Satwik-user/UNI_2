@@ -18,6 +18,6 @@ class Child_2 extends Base
 {
     void child_display()
     {
-        
+        Base b = new Base
     }
 }
