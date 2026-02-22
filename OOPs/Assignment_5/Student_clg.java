@@ -8,5 +8,7 @@ class Student
 class Student_clg
 {
     void display_clg()
-    
+    {
+        System.out.pr
+    }
 }
