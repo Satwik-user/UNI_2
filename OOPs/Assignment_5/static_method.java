@@ -6,6 +6,6 @@ class static_method
     }
     public static void main(String args[])
     {
-        static_method.void();
+        static_method.display();
     }
 }
