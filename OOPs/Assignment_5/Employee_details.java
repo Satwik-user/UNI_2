@@ -14,4 +14,7 @@ class Employee
         return this.basic_salary - tax;
     }
 }
-class Employee_salar
+class Employee_salary
+{
+    public static v
+}
