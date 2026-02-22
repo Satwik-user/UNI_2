@@ -4,5 +4,5 @@ class Static_implement
 }
 class Satic_keyword
 {
-    
+    public static void main()
 }
