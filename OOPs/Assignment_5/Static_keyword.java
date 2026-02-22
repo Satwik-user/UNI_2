@@ -1,1 +1,4 @@
-class Static_key
+class Static_keyword
+{
+    
+}
