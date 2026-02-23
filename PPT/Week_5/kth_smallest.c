@@ -22,8 +22,10 @@ int main()
             arr[j + 1] = arr[j];
             j--;
         }
-        key = arr[j];
+        arr[j + 1] = key;
     }
+
+    
     
     return 0;
 }
