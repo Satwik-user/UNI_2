@@ -2,7 +2,9 @@
 #include <stdlib.h>
 int main()
 {
-    int n
+    int n;;
+    printf("Enter array:");
+    scanf("%d", &n);
     
     return 0;
 }
