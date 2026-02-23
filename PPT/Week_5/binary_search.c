@@ -7,7 +7,11 @@ int main()
     scanf("%d", &n);
 
     int *arr = (int *)malloc(n * sizeof(int));
-    
+    printf("Enter sorted array:");
+    for(int i=0; i<n; i++)
+    {
+        printf("Enter element:")
+    }
     
     return 0;
 }
