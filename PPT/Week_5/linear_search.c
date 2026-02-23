@@ -22,8 +22,13 @@ int main()
         {
             f = 1;
             break;
-        
+        }
     }
+
+    if(f == 1)
+    printf("Element found in array!");
+    else
+    printf("Element not found in array");
     
     return 0;
 }
