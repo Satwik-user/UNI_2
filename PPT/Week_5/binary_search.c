@@ -18,6 +18,10 @@ int main()
     scanf("%d", &key);
 
     int left = 0, right = n - 1, mid;
+    while(left <= right)
+    {
+        
+    }
     
     return 0;
 }
