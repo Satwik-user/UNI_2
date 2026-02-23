@@ -23,7 +23,7 @@ class Child_2 extends Base
         b.display();
     }
 }
-class Heirarchical
+class Hierarchical
 {
     public static void main(String args[])
     {
