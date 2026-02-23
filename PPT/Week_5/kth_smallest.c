@@ -2,5 +2,7 @@
 #include <stdlib.h>
 int main()
 {
-    reut
+    
+    
+    return 0;
 }
