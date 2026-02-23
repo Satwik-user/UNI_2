@@ -13,7 +13,7 @@ int main()
         scanf("%d", &arr[i]);
     }
 
-    
+    for(int i=0; i<)
     
     return 0;
 }
