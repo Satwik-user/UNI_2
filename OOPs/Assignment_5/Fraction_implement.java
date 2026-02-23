@@ -7,3 +7,6 @@ class Fraction
 }
 
 class Fraction_implement
+{
+    public static void main()
+}
