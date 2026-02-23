@@ -1,4 +1,4 @@
 class Fraction
 {
-    int numerator
+    int numerator, denominator
 }
