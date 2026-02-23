@@ -2,6 +2,6 @@ class Fraction
 {
     Fraction(numerator, denominator)
     {
-        System.out.println("")
+        System.out.println()
     }
 }
