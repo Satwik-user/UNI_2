@@ -31,8 +31,7 @@ int main()
     for(int i=0; i<n; i++)
     {
         if(i == k)
-        printf("kth ")
-    }
+        printf("kth smallest element in array:%d\
     
     return 0;
 }
