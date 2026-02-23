@@ -19,7 +19,7 @@ int main()
         int j = i - 1;
         while(j >= 0 && arr[j] > key)
         {
-            if()
+            arr[j + 1] = arr[]
         }
     }
     
