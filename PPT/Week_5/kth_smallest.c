@@ -1,2 +1,5 @@
 #include <stdio.h>
-#iclude
+#include <stdlib.h>
+{
+    int main()
+}
