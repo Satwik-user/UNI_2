@@ -6,7 +6,7 @@ int main()
     printf("Enter array:");
     scanf("%d", &n);
 
-    
+    printf("Enter search key:");
     
     return 0;
 }
