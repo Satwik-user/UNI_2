@@ -13,6 +13,9 @@ int main()
         scanf("%d", &arr[i]);
     }
 
+    printf("Enter search key:");
+    scanf("%d", &key);
+
     for(int i=0; i<n; i++)
     {
         if(arr[i] == key)
