@@ -1,6 +1,6 @@
 class Fraction
 {
-    Fraction(numerator, denominator)
+    Fraction(int numerator, denominator)
     {
         System.out.println("Fraction:" + numerator / denominator);
     }
