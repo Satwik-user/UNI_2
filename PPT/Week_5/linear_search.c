@@ -5,6 +5,8 @@ int main()
     int n;
     printf("Enter array:");
     scanf("%d", &n);
+
+    
     
     return 0;
 }
