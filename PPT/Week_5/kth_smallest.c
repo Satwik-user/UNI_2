@@ -9,7 +9,8 @@ int main()
     int *arr = (int *)malloc(n * sizeof(int));
     for(int i=0; i<n; i++)
     {
-        printf("")
+        printf("Enter element:");
+        scanf("%d", )
     }
     
     return 0;
