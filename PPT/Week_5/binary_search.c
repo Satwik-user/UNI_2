@@ -2,7 +2,7 @@
 #include <stdlib.h>
 int main()
 {
-    int n;
+    int n, key;
     printf("Enter size of array:");
     scanf("%d", &n);
     
