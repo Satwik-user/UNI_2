@@ -14,7 +14,7 @@ class Child_1 extends Base
         b.display();
     }
 }
-class Child_2 extends Base
+class Child_2 extends Child_1
 {
     void child_display_2()
     {
