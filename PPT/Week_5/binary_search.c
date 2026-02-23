@@ -27,8 +27,12 @@ int main()
             break;
         }
         else if(key < mid)
+        right = mid - 1;
+        else
         left = mid + 1;
     }
+
+    if(f == 1)
     
     return 0;
 }
