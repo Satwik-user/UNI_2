@@ -15,7 +15,9 @@ int main()
 
     for(int i=1; i<n; i++)
     {
-        int k =
+        int key = arr[i];
+        int j = i - 1;
+        while()
     }
     
     return 0;
