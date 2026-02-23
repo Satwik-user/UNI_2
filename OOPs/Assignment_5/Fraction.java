@@ -2,7 +2,7 @@ class Fraction
 {
     Fraction(int numerator, int denominator)
     {
-        System.out.println("Fraction:" + numerator / denominator);
+        System.out.println("Fraction:" + (numerator / denominator);
     }
     public static void main(String args[])
     {
