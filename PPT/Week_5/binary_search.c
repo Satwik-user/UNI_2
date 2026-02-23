@@ -20,7 +20,11 @@ int main()
     int left = 0, right = n - 1, mid;
     while(left <= right)
     {
-        
+        mid = left + (right - left) / 2;
+        if(mid == key)
+        {
+            
+        }
     }
     
     return 0;
