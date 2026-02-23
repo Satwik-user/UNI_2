@@ -15,7 +15,7 @@ int main()
 
     for(int i=1; i<n; i++)
     {
-        
+        int key = arr[i];
     }
     
     return 0;
