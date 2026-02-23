@@ -28,10 +28,7 @@ int main()
         arr[j + 1] = key;
     }
 
-    for(int i=0; i<n; i++)
-    {
-        if(i == k)
-        printf("kth smallest element in array:%d\
+    printf("")
     
     return 0;
 }
