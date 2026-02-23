@@ -26,9 +26,9 @@ int main()
     }
 
     if(f == 1)
-    printf("Element found in array!");
+    printf("Element found in array!\n");
     else
-    printf("Element not found in array");
+    printf("Element not found in array\n");
     
     return 0;
 }
