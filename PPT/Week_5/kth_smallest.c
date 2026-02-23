@@ -28,7 +28,7 @@ int main()
         arr[j + 1] = key;
     }
 
-    printf("")
+    printf("kth smallest element in array: %d\n", arr[k]);
     
     return 0;
 }
