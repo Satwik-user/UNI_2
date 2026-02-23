@@ -14,7 +14,7 @@ int main()
     }
 
     printf("Enter k:");
-    scanf("%d")
+    scanf("%d", &k);
 
     for(int i=1; i<n; i++)
     {
@@ -28,7 +28,11 @@ int main()
         arr[j + 1] = key;
     }
 
-    printf()
+    for(int i=0; i<n; i++)
+    {
+        if(i == k)
+        printf("kth ")
+    }
     
     return 0;
 }
