@@ -2,7 +2,7 @@
 #include <stdlib.h>
 int main()
 {
-    int n, key;
+    int n, key, f = 0;
     printf("Enter array:");
     scanf("%d", &n);
 
@@ -18,7 +18,11 @@ int main()
 
     for(int i=0; i<n; i++)
     {
-        
+        if(arr[i] == key)
+        {
+            f = 1;
+            break;
+        }
     }
     
     return 0;
