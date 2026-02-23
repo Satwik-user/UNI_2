@@ -5,3 +5,5 @@ class Fraction
         System.out.println("Fraction:" + numerator / denominator);
     }
 }
+
+class Fraction_implement
