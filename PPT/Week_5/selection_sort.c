@@ -25,6 +25,11 @@ int main()
         arr[min_idx] = arr[i];
         arr[i] = temp;
     }
+
+    for(int i=0; i<n; i++)
+    {
+        
+    }
     
     return 0;
 }
