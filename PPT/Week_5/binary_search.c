@@ -34,7 +34,8 @@ int main()
 
     if(f == 1)
     printf("Element found in array!");
-    e
+    else
+    printf("Element not found in array");
     
     return 0;
 }
