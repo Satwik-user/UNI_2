@@ -2,7 +2,7 @@
 #include <stdlib.h>
 int main()
 {
-    int n;
+    int n, k;
     printf("Enter size of array:");
     scanf("%d", &n);
 
@@ -12,6 +12,9 @@ int main()
         printf("Enter element:");
         scanf("%d", &arr[i]);
     }
+
+    printf("Enter k:");
+    scanf("%d")
 
     for(int i=1; i<n; i++)
     {
