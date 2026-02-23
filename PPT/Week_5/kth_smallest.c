@@ -17,7 +17,10 @@ int main()
     {
         int key = arr[i];
         int j = i - 1;
-        while(j >= 0 && )
+        while(j >= 0 && arr[j] > key)
+        {
+            if()
+        }
     }
     
     return 0;
