@@ -22,7 +22,7 @@ int main()
         {
             f = 1;
             break;
-        }
+        
     }
     
     return 0;
