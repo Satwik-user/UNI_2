@@ -1,6 +1,6 @@
 class Fraction
 {
-    Fraction(numerator)
+    Fraction(numerator, denominator)
     {
         return numerator / denominator;
     }
