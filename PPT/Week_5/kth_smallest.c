@@ -6,7 +6,11 @@ int main()
     printf("Enter size of array:");
     scanf("%d", &n);
 
-    int *arr = (int *)malloc()
+    int *arr = (int *)malloc(n * sizeof(int));
+    for(int i=0; i<n; i++)
+    {
+        printf("")
+    }
     
     return 0;
 }
