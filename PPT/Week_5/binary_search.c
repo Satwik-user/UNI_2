@@ -14,6 +14,9 @@ int main()
         scanf("%d", &arr[i]);
     }
 
+    printf("Enter search key:");
+    scanf("%d", &key);
+
     
     
     return 0;
