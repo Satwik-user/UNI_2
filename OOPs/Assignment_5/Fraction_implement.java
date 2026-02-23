@@ -8,5 +8,8 @@ class Fraction
 
 class Fraction_implement
 {
-    public static void main()
+    public static void main(String args[])
+    {
+        
+    }
 }
