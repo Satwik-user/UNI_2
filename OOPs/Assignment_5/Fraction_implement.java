@@ -12,6 +12,6 @@ class Fraction_implement
     {
         Fraction f1 = new Fraction(2, 3);
         Fraction f2 = new Fraction(3, 4);
-        
+        Fraction f3 = new 
     }
 }
