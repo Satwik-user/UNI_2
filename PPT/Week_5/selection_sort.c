@@ -26,6 +26,7 @@ int main()
         arr[i] = temp;
     }
 
+    printf("Sorted Array:\n");
     for(int i=0; i<n; i++)
     
     
