@@ -9,7 +9,7 @@ int main()
     printf("Enter search key:");
     scanf("%d", &key);
 
-    
+    int *arr = (int *)malloc(n * sizeof(n));
     for(int i=0; i<n; i++)
     
     return 0;
