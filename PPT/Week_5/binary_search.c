@@ -17,13 +17,14 @@ int main()
     printf("Enter search key:");
     scanf("%d", &key);
 
-    int left = 0, right = n - 1, mid;
+    int left = 0, right = n - 1, mid, f = 0;
     while(left <= right)
     {
         mid = left + (right - left) / 2;
         if(mid == key)
         {
-            
+            f = 1;
+            break;
         }
     }
     
