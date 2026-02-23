@@ -24,6 +24,9 @@ int main()
         }
         arr[j + 1] = key;
     }
+
+    printf("Sorted Array:\n");
+    
     
     return 0;
 }
