@@ -17,7 +17,7 @@ int main()
     {
         int key = arr[i];
         int j = i - 1;
-        while()
+        while(j >= 0 && )
     }
     
     return 0;
