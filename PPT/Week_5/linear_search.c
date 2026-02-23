@@ -7,6 +7,9 @@ int main()
     scanf("%d", &n);
 
     printf("Enter search key:");
+    scanf("%d", &key);
+
+    
     
     return 0;
 }
