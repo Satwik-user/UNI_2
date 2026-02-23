@@ -10,6 +10,6 @@ class Fraction_implement
 {
     public static void main(String args[])
     {
-        
+        Fraction 
     }
 }
