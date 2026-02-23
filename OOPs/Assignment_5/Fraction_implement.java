@@ -1,7 +1,7 @@
 class Fraction
 {
     int numerator, denominator;
-    Fraction()
+    Fraction(numerator)
     {
         return numerator / denominator;
     }
