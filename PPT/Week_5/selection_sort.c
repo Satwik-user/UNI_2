@@ -21,6 +21,7 @@ int main()
             if(arr[j] < arr[min_idx])
             min_idx = j;
         }
+        
     }
     
     return 0;
