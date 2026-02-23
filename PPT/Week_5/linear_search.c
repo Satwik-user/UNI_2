@@ -6,9 +6,6 @@ int main()
     printf("Enter array:");
     scanf("%d", &n);
 
-    printf("Enter search key:");
-    scanf("%d", &key);
-
     int *arr = (int *)malloc(n * sizeof(int));
     for(int i=0; i<n; i++)
     {
