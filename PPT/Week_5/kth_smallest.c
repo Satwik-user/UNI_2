@@ -22,7 +22,7 @@ int main()
             arr[j + 1] = arr[j];
             j--;
         }
-        
+        key = arr[j];
     }
     
     return 0;
