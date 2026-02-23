@@ -33,6 +33,8 @@ int main()
     }
 
     if(f == 1)
+    printf("Element found in array!");
+    e
     
     return 0;
 }
