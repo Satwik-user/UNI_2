@@ -9,7 +9,7 @@ int main()
     printf("Enter search key:");
     scanf("%d", &key);
 
-    
+    for(int i=0; i<n; )
     
     return 0;
 }
