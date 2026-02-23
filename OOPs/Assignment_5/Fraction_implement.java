@@ -3,6 +3,6 @@ class Fraction
     int numerator, denominator;
     Fraction
     {
-        return 
+        return numerator / denomi
     }
 }
