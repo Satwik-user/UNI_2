@@ -17,7 +17,7 @@ int main()
     printf("Enter search key:");
     scanf("%d", &key);
 
-    
+    int left = 0, right = n - 1, mid;
     
     return 0;
 }
