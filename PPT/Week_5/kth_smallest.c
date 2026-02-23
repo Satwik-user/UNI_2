@@ -25,7 +25,7 @@ int main()
         arr[j + 1] = key;
     }
 
-    
+    printf()
     
     return 0;
 }
