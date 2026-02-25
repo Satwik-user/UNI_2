@@ -37,7 +37,7 @@ def main():
 
     arr = merge(L, R, n)
 
-    print("Median of sorted arrays:", median(arr))
+    print("Median of sorted arrays:", median(arr, n))
 
 if __name__ == "__main__":
     main()
