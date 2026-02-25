@@ -15,4 +15,4 @@ def main():
 
     arr = []
     for i in range(n):
-        arr.append()
+        arr.append(int(input("")))
