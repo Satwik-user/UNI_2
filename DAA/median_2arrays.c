@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int merge(int *L, int *R, int n)
+int* merge(int *L, int *R, int n)
 {
     int *arr = (int *)malloc(2*n * sizeof(int));
 
