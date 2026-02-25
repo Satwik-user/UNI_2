@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void bucketSort(int arr[], int n) {
+void bucketSort(int arr[], int n)
+{
     int *bucket = (int *)calloc(n, sizeof(int));
     
     for(int i = 0; i < n; i++)
