@@ -31,4 +31,4 @@ def main():
 
     print("Sorted: ", end = '')
     for i in range(n):
-        
+        print(arr[])
