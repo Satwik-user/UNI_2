@@ -1,2 +1,3 @@
 def bucketSort(arr, n):
-    bucket = [0]
+    bucket = [0] * n
+    
