@@ -17,5 +17,9 @@ void merge(int L[], int R[], int n)
 
 int median(int arr[], int n)
 {
-    
+    int m;
+    if(n % 2 == 0)
+    m = (n + 1) / 2;
+    else
+    m = n / 2;
 }
