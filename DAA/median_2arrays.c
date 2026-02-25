@@ -31,7 +31,9 @@ int main()
     int n;
     printf("Enter size of both arrays:");
     scanf("%d", &n);
-    
+
+    int *L = (int *)malloc(n * sizeof(int));
+    int *R = (int *)malloc(n * sizeof(int));)
     
     return 0;
 }
