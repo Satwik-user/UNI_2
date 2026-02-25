@@ -41,6 +41,7 @@ int main()
         printf("Enter element of array 1:");
         scanf("%d", &L[i]);
     }
+    printf("\n");
     for(int i=0; i<n; i++)
     {
         printf("Enter element of array 2:");
