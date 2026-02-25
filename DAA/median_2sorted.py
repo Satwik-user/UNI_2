@@ -24,4 +24,4 @@ def median(arr, n):
     return m
 
 def main():
-    
+    n = int(input("Enter "))
