@@ -30,4 +30,5 @@ def main():
     R = []
     for i in range(n):
         L.append(int(input("Enter element:")))
-    
+    for i in range(n):
+        
