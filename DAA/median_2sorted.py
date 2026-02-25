@@ -33,4 +33,6 @@ def main():
     for i in range(n):
         R.append(int(input("Enter element:")))
 
-    arr = merge()
+    arr = merge(L, R, n)
+
+    
