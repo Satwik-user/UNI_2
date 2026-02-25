@@ -21,4 +21,5 @@ def main():
     for i in range(n):
         print(arr[i], end = '')
 
-        
+    max = arr[0]
+    for i in range()
