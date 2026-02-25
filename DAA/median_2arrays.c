@@ -35,7 +35,11 @@ int main()
     int *L = (int *)malloc(n * sizeof(int));
     int *R = (int *)malloc(n * sizeof(int));
     for(int i=0; i<n; i++)
-    
+    {
+        printf("Enter element of array 1:");
+        scanf("%d", &L[i]);
+    }
+    for(int i=0; i<)
     
     return 0;
 }
