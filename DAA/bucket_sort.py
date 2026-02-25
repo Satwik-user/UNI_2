@@ -29,4 +29,4 @@ def main():
 
     bucketSort(arr, max)
 
-    print()
+    print("Sorted: ")
