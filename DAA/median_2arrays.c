@@ -33,7 +33,9 @@ int main()
     scanf("%d", &n);
 
     int *L = (int *)malloc(n * sizeof(int));
-    int *R = (int *)malloc(n * sizeof(int));)
+    int *R = (int *)malloc(n * sizeof(int));
+    for(int i=0; i<n; i++)
+    
     
     return 0;
 }
