@@ -9,7 +9,7 @@ void bucketSort(int arr[], int n)
         bucket[arr[i]]++;
     
     int index = 0;
-    for(int i = 0; i < 10; i++)
+    for(int i = 0; i < n; i++)
         for(int j = 0; j < bucket[i]; j++)
             arr[index++] = i;
 }
