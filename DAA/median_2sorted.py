@@ -11,4 +11,4 @@ def merge(L, R, n):
         else:
             arr[k] = R[j]
             k += 1
-            j =
+            j += 1
