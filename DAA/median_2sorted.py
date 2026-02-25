@@ -37,3 +37,5 @@ def main():
 
     print("Median of sorted arrays:", median(arr))
 
+if __name__ == "__main__":
+    main()
