@@ -9,3 +9,6 @@ def bucketSort(arr, n):
         for j in range(bucket[i]):
             arr[index] = i
             index += 1
+
+def main():
+    
