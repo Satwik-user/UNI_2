@@ -12,3 +12,4 @@ def merge(L, R, n):
             arr[k] = R[j]
             k += 1
             j += 1
+        
