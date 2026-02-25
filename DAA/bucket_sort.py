@@ -27,4 +27,5 @@ def main():
             max = arr[i]
 
     bucketSort(arr, max)
-    
+
+    print()
