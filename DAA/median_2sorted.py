@@ -9,7 +9,6 @@ def merge(L, R, n):
             i += 1
         else:
             arr.append(R[j])
-            k += 1
             j += 1
         
     return arr
