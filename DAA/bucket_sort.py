@@ -29,4 +29,6 @@ def main():
 
     bucketSort(arr, max)
 
-    print("Sorted: ")
+    print("Sorted: ", end = '')
+    for i in range(n):
+        
