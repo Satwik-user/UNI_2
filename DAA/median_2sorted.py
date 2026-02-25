@@ -13,4 +13,4 @@ def merge(L, R, n):
             k += 1
             j += 1
         
-        return arr
+    return arr
