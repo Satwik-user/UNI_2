@@ -11,7 +11,7 @@ int* merge(int *L, int *R, int n)
         if(L[i] < R[j])
         arr[k++] = L[i++];
         else
-        arr[k++] = L[j++];
+        arr[k++] = R[j++];
     }
     
     return arr;
