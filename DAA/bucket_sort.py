@@ -17,7 +17,7 @@ def main():
     for i in range(n):
         arr.append(int(input("Enter element:")))
 
-    print("Original: ", end = '')
+    print("Original:", end = ' ')
     for i in range(n):
         print(arr[i], end = ' ')
     print()
