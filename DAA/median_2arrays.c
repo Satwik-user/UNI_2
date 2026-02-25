@@ -47,6 +47,7 @@ int main()
         printf("Enter element of array 2:");
         scanf("%d", &R[i]);
     }
+    printf("\n");
 
     int *arr = merge(L, R, n);
     
