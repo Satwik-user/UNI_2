@@ -28,6 +28,9 @@ int median(int arr[], int n)
 
 int main()
 {
+    int n;
+    printf("Enter size of both arrays:");
+    scanf("%d", &n);
     
     
     return 0;
