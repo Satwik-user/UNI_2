@@ -48,6 +48,7 @@ int main()
     }
 
     int *arr = merge(L, R, n);
+
     
     
     return 0;
