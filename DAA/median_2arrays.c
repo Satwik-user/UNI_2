@@ -48,8 +48,8 @@ int main()
     }
 
     int *arr = merge(L, R, n);
-
     
+    printf("Median of sorted arrays: %d", median(arr, n));
     
     return 0;
 }
