@@ -21,3 +21,7 @@ void merge(int L[], int R[], int l, int r)
     arr[k++] = R[j++];
 }
 
+int median(int arr[])
+{
+    
+}
