@@ -25,4 +25,4 @@ def main():
     for i in range(n):
         if arr[i] < max:
             max = arr[i]
-            
+    bucketSort(a)
