@@ -11,7 +11,7 @@ def partition(arr, l, r):
             j -= 1
         
         if i < j:
-            swap(arr, i, j)
+            arr[i]
     
     arr[l], arr[j] = arr[j], arr[l]
     return j
