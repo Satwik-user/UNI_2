@@ -14,5 +14,3 @@ def merge(L, R, n):
             j += 1
         
         return arr
-    
-    
