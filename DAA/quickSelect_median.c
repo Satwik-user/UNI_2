@@ -53,7 +53,7 @@ int main()
     {
         printf("Enter element:");
         scanf("%d", &arr[i]);
-    }
+    }printf("\n");
 
     int mid = n / 2;
 
