@@ -11,4 +11,5 @@ def bucketSort(arr, n):
             index += 1
 
 def main():
-    n = int(input("Enetr "))
+    n = int(input("Enetr array size:"))
+    
