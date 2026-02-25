@@ -19,4 +19,4 @@ def main():
 
     print("Original: ", end = '')
     for i in range(n):
-        print("")
+        print(arr[i], end = '')
