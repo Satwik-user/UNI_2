@@ -5,4 +5,4 @@ def merge(L, R, n):
     k = 0
     while i < n and j < n:
         if L[i] < R[j]:
-            arr[]
+            arr[k] = 
