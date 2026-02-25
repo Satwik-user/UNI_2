@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void merge(int L[], int R[], int n)
+int merge(int L[], int R[], int n)
 {
     int *arr = (int *)malloc(2*n * sizeof(int));
 
@@ -45,7 +45,7 @@ int main()
         scanf("%d", &R[i]);
     }
 
-    
+    int *arr = merge(*L, *R, n);
     
     return 0;
 }
