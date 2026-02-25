@@ -5,7 +5,6 @@ def merge(L, R, n):
     while i < n and j < n:
         if L[i] < R[j]:
             arr.append(L[i])
-            k += 1
             i += 1
         else:
             arr.append(R[j])
