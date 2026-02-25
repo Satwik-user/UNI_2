@@ -11,4 +11,4 @@ def bucketSort(arr, n):
             index += 1
 
 def main():
-    n = int(inpnut))
+    n = int(inpnt("E"))
