@@ -22,4 +22,6 @@ def main():
         print(arr[i], end = '')
 
     max = arr[0]
-    for i in range()
+    for i in range(n):
+        if arr[i] < max:
+            
