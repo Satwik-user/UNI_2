@@ -35,4 +35,4 @@ def main():
 
     arr = merge(L, R, n)
 
-    print()
+    print("Median of sorted arrays:")
