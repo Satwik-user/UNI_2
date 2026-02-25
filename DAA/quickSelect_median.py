@@ -34,6 +34,7 @@ def main():
     for i in range(n):
         arr.append(int(input("Enter element: ")))
     
+    
     mid = n // 2
     
     median = quick_select(arr, 0, n - 1, mid)
