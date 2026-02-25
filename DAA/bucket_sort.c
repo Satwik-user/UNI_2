@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 void bucketSort(int arr[], int n) {
     int bucket[10] = {0};
