@@ -30,8 +30,13 @@ int main()
     printf("Original: ");
     for(int i = 0; i < n; i++) printf("%d ", arr[i]);
     
-    
-    bucketSort(arr, n);
+    int max = arr[0];
+    for(int i=0; i<n; i++)
+    {
+        if(arr[i] < max)
+        max = arr[i];
+    }
+    bucketSort(arr, max);
     
     printf("\nSorted: ");
     for(int i = 0; i < n; i++) printf("%d ", arr[i]);
