@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 void bucketSort(int arr[], int n) {
-    int bucket[10] = {0};
+    int *bucket = (int *)calloc(n, sizeof(int));
     
     for(int i = 0; i < n; i++)
         bucket[arr[i]]++;
