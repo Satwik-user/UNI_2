@@ -9,7 +9,7 @@ def merge(L, R, n):
             k += 1
             i += 1
         else:
-            arr[k] = R[j]
+            arr[k]R[j])
             k += 1
             j += 1
         
