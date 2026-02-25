@@ -32,3 +32,5 @@ def main():
         L.append(int(input("Enter element:")))
     for i in range(n):
         R.append(int(input("Enter element:")))
+
+    
