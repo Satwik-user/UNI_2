@@ -19,7 +19,7 @@ def main():
 
     print("Original: ", end = '')
     for i in range(n):
-        print(arr[i], end = '')
+        print(arr[i], end = ' ')
     print()
 
     max = arr[0]
