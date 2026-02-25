@@ -29,7 +29,7 @@ def main():
 
     bucketSort(arr, max)
 
-    print("Sorted: ", end = '')
+    print("Sorted:", end = ' ')
     for i in range(n):
         print(arr[i], end = '')
     print()
