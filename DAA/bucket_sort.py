@@ -31,4 +31,8 @@ def main():
 
     print("Sorted: ", end = '')
     for i in range(n):
-        print(arr[i])
+        print(arr[i], end = '')
+    print()
+
+if __name__=="__main__":
+    main()
