@@ -33,6 +33,7 @@ def main():
     print()
     for i in range(n):
         R.append(int(input("Enter element of array 2:")))
+    print()
 
     arr = merge(L, R, n)
 
