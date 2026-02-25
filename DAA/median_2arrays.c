@@ -4,6 +4,7 @@
 void merge(int L[], int R[], int l, int r)
 {
     int *arr = (int *)malloc((l + r) * sizeof(int));
+
     int i = 0, j = 0, k = 0;
     while(i < l && j < r)
     {
@@ -12,5 +13,8 @@ void merge(int L[], int R[], int l, int r)
         else
         arr[k++] = L[j++];
     }
-
+    
+    while(i < l)
+    arr[k++] = L[i++];
+    
 }
