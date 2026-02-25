@@ -14,8 +14,11 @@ void bucketSort(int arr[], int n) {
 }
 
 int main() {
-    int arr[] = {5, 2, 8, 1, 9, 2, 7, 3, 5, 1};
-    int n = 10;
+    int n;
+    printf("Enter array size:");
+    scanf("%d", &n);
+
+    int *arr = (int *)
     
     printf("Original: ");
     for(int i = 0; i < n; i++) printf("%d ", arr[i]);
