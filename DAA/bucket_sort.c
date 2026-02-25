@@ -19,8 +19,6 @@ int main() {
     scanf("%d", &n);
 
     int *arr = (int *)malloc(n * sizeof(int));
-
-    
     
     printf("Original: ");
     for(int i = 0; i < n; i++) printf("%d ", arr[i]);
