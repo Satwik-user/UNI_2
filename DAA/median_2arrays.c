@@ -14,7 +14,7 @@ int* merge(int *L, int *R, int n)
         arr[k++] = L[j++];
     }
     
-    return *arr;
+    return arr;
 }
 
 int median(int arr[], int n)
