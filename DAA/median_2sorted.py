@@ -16,4 +16,5 @@ def merge(L, R, n):
     return arr
 
 def median(arr, n):
-    
+    if n % 2 == 0:
+        m = 
