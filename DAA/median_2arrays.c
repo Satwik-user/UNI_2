@@ -26,3 +26,9 @@ int median(int arr[], int n)
     return m;
 }
 
+int main()
+{
+    
+    
+    return 0;
+}
