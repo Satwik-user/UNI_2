@@ -29,7 +29,7 @@ def main():
     L = []
     R = []
     for i in range(n):
-        L.append(int(input("Enter element:")))
+        L.append(int(input("Enter element of array 1:")))
     for i in range(n):
         R.append(int(input("Enter element:")))
 
