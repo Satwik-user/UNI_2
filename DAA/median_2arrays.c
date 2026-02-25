@@ -44,6 +44,8 @@ int main()
         printf("Enter element of array 2:");
         scanf("%d", &R[i]);
     }
+
+    
     
     return 0;
 }
