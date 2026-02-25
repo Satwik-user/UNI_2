@@ -24,4 +24,5 @@ def median(arr, n):
     return m
 
 def main():
-    n = int(input("Enter size of "))
+    n = int(input("Enter size of both arrays:"))
+    
