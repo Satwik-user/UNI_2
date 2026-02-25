@@ -47,7 +47,7 @@ int main()
         scanf("%d", &R[i]);
     }
 
-    int *arr = merge(L, R, n);
+    int *arr = merge(&L, &R, n);
     
     printf("Median of sorted arrays: %d", median(arr, n));
     
