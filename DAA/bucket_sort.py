@@ -27,7 +27,7 @@ def main():
         if arr[i] > max:
             max = arr[i]
 
-    bucketSort(arr, max)
+    bucketSort(arr, max + 1)
 
     print("Sorted:", end = ' ')
     for i in range(n):
