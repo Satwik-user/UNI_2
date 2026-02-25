@@ -19,4 +19,6 @@ def median(arr, n):
     if n % 2 == 0:
         m = (n + 1) / 2
     else:
-        m = n / 
+        m = n / 2
+
+    return m
