@@ -29,4 +29,5 @@ def main():
     L = []
     R = []
     for i in range(n):
-        L.append(int(input()))
+        L.append(int(input("Enter element:")))
+    
