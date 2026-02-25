@@ -5,4 +5,6 @@ def bucketSort(arr, n):
         bucket[arr[i]] += 1
 
     index = 0
-    for i in range(n)L
+    for i in range(n):
+        for j in range(bucket[i]):
+            
