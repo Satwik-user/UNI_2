@@ -31,7 +31,7 @@ def main():
     for i in range(n):
         L.append(int(input("Enter element of array 1:")))
     for i in range(n):
-        R.append(int(input("Enter element:")))
+        R.append(int(input("Enter element of array 2:")))
 
     arr = merge(L, R, n)
 
