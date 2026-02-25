@@ -1,7 +1,7 @@
 def bucketSort(arr, n):
     bucket = [0] * n
 
-    for i in range(n):
+    for i in range(len(arr)):
         bucket[arr[i]] += 1
 
     index = 0
