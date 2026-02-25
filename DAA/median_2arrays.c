@@ -22,4 +22,6 @@ int median(int arr[], int n)
     m = (n + 1) / 2;
     else
     m = n / 2;
+
+    return m;
 }
