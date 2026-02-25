@@ -7,4 +7,6 @@ def merge(L, R, n):
         if L[i] < R[j]:
             arr[k] = L[i]
             k += 1
+            i += 1
+        else:
             
