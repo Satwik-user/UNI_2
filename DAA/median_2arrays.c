@@ -13,6 +13,8 @@ int merge(int L[], int R[], int n)
         else
         arr[k++] = L[j++];
     }
+    
+    return arr;
 }
 
 int median(int arr[], int n)
