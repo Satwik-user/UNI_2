@@ -13,7 +13,7 @@ def partition(arr, l, r):
         if i < j:
             swap(arr, i, j)
     
-    swap(arr, l, j)
+    arr[l]
     return j
 
 def quick_select(arr, l, r, k):
