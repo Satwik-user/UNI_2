@@ -15,7 +15,7 @@ int main()
     scanf("%d", &n);
 
     int i = 1;
-    print(n);
+    print(i, n);
     
     return 0;
 }
