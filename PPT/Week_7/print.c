@@ -7,3 +7,9 @@ int print(int n)
     printf("%d", n);
     return print(n-1);
 }
+int main()
+{
+    int 
+    
+    return 0;
+}
