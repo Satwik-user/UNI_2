@@ -15,6 +15,7 @@ int main()
 
     int i = 1;
     print(i, n);
+    printf("\n");
     
     return 0;
 }
