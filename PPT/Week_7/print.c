@@ -11,7 +11,8 @@ int main()
 {
     int n;
     pritnf("Enter a number:");
-    scanf("%d", )
+    scanf("%d", &n);
+    
     
     return 0;
 }
