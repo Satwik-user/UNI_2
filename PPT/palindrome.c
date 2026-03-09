@@ -1,2 +1,2 @@
 #include <stdio.h>
-char *rev(int )
+char *rev(char )
