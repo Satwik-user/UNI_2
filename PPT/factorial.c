@@ -1,5 +1,5 @@
 #include <stdio.h>
 int fact(int n)
 {
-    if()
+    if(n <= 1)
 }
