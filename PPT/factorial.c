@@ -12,7 +12,7 @@ int main()
     printf("Enter a number:");
     scanf("%d", &n);
 
-    printf("")")
+    printf("Factorial: %d", fact(n));
     
     return 0;
 }
