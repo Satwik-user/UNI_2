@@ -9,7 +9,9 @@ int print(int n)
 }
 int main()
 {
-    int 
+    int n;
+    pritnf("Enter a number:");
+    scanf("%d", )
     
     return 0;
 }
