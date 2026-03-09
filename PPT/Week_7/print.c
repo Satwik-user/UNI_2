@@ -6,7 +6,7 @@ int print(int n)
     return 0;
 
     printf("%d", &i);
-    return print(n-1);
+    return print(n+1);
 }
 int main()
 {
