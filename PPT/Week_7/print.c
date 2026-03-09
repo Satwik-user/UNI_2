@@ -4,7 +4,7 @@ int print(int i, int n)
     if(i == n + 1)
     return 0;
 
-    printf("%d", i);
+    printf("%d ", i);
     return print(++i, n);
 }
 int main()
