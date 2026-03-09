@@ -12,7 +12,7 @@ int main()
     printf("Enter a number:");
     scanf("%d", &n);
 
-    printf("Fibonacci nth term: ")
+    printf("Fibonacci nth term: %d\n", fibo(n));
     
     return 0;
 }
