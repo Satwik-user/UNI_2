@@ -10,7 +10,7 @@ int print(int n)
 int main()
 {
     int n;
-    pritnf("Enter a number:");
+    printf("Enter a number:");
     scanf("%d", &n);
 
     print(n);
