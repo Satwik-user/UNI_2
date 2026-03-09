@@ -1,7 +1,8 @@
 #include <stdio.h>
 int print(int n)
 {
-    if(n == 0)
+    i = 1;
+    if(i == )
     return 0;
 
     return print(n-1);
