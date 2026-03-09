@@ -1,2 +1,2 @@
 #include <stdio.h>
-char *palind
+char *rev()
