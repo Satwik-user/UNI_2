@@ -9,7 +9,8 @@ int fibo(int n)
 int main()
 {
     int n;
-    printf()
+    printf("Enter a number:");
+    scanf("%d", &n);
     
     return 0;
 }
