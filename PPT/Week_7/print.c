@@ -12,7 +12,8 @@ int main()
     int n;
     pritnf("Enter a number:");
     scanf("%d", &n);
-    
+
+    print(n);
     
     return 0;
 }
