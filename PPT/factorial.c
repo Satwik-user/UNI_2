@@ -7,3 +7,12 @@ int fact(int n)
     return n * fact(n - 1);
 }
 int main()
+{
+    int n;
+    printf("Enter a number:");
+    scanf("%d", &n);
+
+    printf("")")
+    
+    return 0;
+}
