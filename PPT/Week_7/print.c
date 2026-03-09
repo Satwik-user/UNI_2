@@ -1,8 +1,7 @@
 #include <stdio.h>
 int print(int i, int n)
 {
-    int i = 1;
-    if(i == n)
+    if(i == n + 1)
     return 0;
 
     printf("%d", i);
