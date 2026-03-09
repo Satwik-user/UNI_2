@@ -1,12 +1,12 @@
 #include <stdio.h>
-int print(int n)
+int print(int i, int n)
 {
     int i = 1;
     if(i == n)
     return 0;
 
     printf("%d", i);
-    return print(n+1);
+    return print(i+1, n);
 }
 int main()
 {
