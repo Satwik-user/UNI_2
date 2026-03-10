@@ -1,4 +1,3 @@
-// 1. FINAL VARIABLE - Cannot be changed once assigned
 class FinalVariable {
     final int MAX_VALUE = 100;
     
