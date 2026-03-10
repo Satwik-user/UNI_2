@@ -6,7 +6,6 @@ class FinalVariable {
     }
 }
 
-// 2. FINAL METHOD - Cannot be overridden
 class Parent {
     final void importantMethod() {
         System.out.println("This method cannot be overridden");
