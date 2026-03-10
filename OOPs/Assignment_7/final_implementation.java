@@ -20,9 +20,7 @@ class Parent {
 }
 
 class Child extends Parent {
-    // ❌ ERROR: Cannot override final method
-    // void importantMethod() { }
-    
+
     @Override
     void normalMethod() {
         System.out.println("Child overrides normal method");
