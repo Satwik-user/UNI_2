@@ -37,8 +37,7 @@ final class ImmutableClass {
     void display() { System.out.println("Data: " + data); }
 }
 
-// ❌ ERROR: Cannot extend final class
-// class SubClass extends ImmutableClass { }
+
 
 public class final_implementation {
     public static void main(String args[]) {
