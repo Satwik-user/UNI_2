@@ -3,7 +3,6 @@ class FinalVariable {
     
     void testFinalVar() {
         System.out.println("MAX_VALUE: " + MAX_VALUE);
-        // MAX_VALUE = 200;  // ❌ ERROR - Cannot change final variable
     }
 }
 
