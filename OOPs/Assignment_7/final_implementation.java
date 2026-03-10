@@ -20,7 +20,6 @@ class Parent {
 }
 
 class Child extends Parent {
-
     @Override
     void normalMethod() {
         System.out.println("Child overrides normal method");
