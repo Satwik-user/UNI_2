@@ -10,6 +10,7 @@ int main()
     for(int j=0; j<col; j++)
     scanf("%d", dist[i][j]);
 
+    for(int k=0; k<col; k++)
     
 
     return 0;
