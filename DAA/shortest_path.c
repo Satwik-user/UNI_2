@@ -3,7 +3,9 @@ int main()
 {
     int m, n;
     printf("Enter size of rows and columns:");
-    scanf("%d %d", &m, )
+    scanf("%d %d", &m, &n);
+
+    
     
     return 0;
 }
