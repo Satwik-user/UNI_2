@@ -1,20 +1,21 @@
 #include <stdio.h>
+#include <limits.h>
 int main()
 {
-    int row, col;
+    int n;
     printf("Enter size of rows and columns:");
-    scanf("%d %d", &row, &col);
+    scanf("%d", &n);
 
-    int dist[row][col];
-    for(int i=0; i<row; i++)
-    for(int j=0; j<col; j++)
+    int dist[n][n];
+    for(int i=0; i<n; i++)
+    for(int j=0; j<n; j++)
     scanf("%d", dist[i][j]);
 
-    for(int k=0; k<col; k++)
+    for(int k=0; k<n; k++)
     {
-        for(int i=0; i<col; i++)
+        for(int i=0; i<n; i++)
         {
-            for(int j=0; j<col; j++)
+            for(int j=0; j<n; j++)
             {
                 if(dist[i][k] + dist[k][j] < dist[i][j])
                 dist[i][j] = dist[i][k] + dist[k][j];
@@ -22,11 +23,14 @@ int main()
         }
     }
 
-    for(int i=0; i<col; i++)
+    for(int i=0; i<n; i++)
     {
-        for(int j=0; j<col; j++)
+        for(int j=0; j<n; j++)
         {
-            
+            if(dist[i][j] == INT_MAX)
+            printf("INT_MAX");
+            else
+            printf("%d", dist[i][j]);
         }
     }
 
