@@ -32,6 +32,7 @@ int main()
             else
             printf("%d", dist[i][j]);
         }
+        printf("\n");
     }
 
     return 0;
