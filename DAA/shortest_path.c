@@ -9,7 +9,7 @@ int main()
     int dist[n][n];
     for(int i=0; i<n; i++)
     for(int j=0; j<n; j++)
-    scanf("%d", dist[i][j]);
+    scanf("%d", &dist[i][j]);
 
     for(int k=0; k<n; k++)
     {
