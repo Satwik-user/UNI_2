@@ -11,7 +11,15 @@ int main()
     scanf("%d", dist[i][j]);
 
     for(int k=0; k<col; k++)
-    {}
+    {
+        for(int i=0; i<col; i++)
+        {
+            for(int j=0; j<col; j++)
+            {
+                
+            }
+        }
+    }
 
     return 0;
 }
