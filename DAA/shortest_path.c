@@ -16,7 +16,8 @@ int main()
         {
             for(int j=0; j<col; j++)
             {
-                
+                if(dist[i][k] + dist[k][j] < dist[i][j])
+                dist[i][j] = dist[i][k] + dist[k][j];
             }
         }
     }
