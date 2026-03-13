@@ -3,7 +3,7 @@
 int main()
 {
     int n;
-    printf("Enter size of rows and columns:");
+    printf("Enter size of matrix");
     scanf("%d", &n);
 
     int dist[n][n];
