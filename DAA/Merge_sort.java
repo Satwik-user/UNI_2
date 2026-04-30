@@ -1,1 +1,1 @@
-class Merge
+class Merge_sort
