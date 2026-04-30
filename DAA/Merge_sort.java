@@ -1,4 +1,4 @@
 class Merge_sort
 {
-    public 
+    void 
 }
