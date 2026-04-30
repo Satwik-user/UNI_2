@@ -4,7 +4,7 @@ class Merge_sort
     {
         int n1 = m - l + 1;
         int n2 = r - m;
-        int A[] = new int[]
+        int A[] = new int[n1]
         for(int i=0; i<n1; i++)
 
     }
