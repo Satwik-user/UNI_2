@@ -1,4 +1,4 @@
 class Merge_sort
 {
-    void merge()
+    void merge(int arr[],)
 }
