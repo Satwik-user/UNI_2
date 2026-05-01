@@ -36,6 +36,7 @@ class Merge_sort
         while(l < h)
         {
             int mid = (l + h) / 2;
+            
         }
     }
 }
