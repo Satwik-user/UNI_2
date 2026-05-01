@@ -41,4 +41,6 @@ class Merge_sort
             merge(arr, l, mid, h);
         }
     }
+
+    public static void main()
 }
