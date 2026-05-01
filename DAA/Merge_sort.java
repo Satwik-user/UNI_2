@@ -15,7 +15,7 @@ class Merge_sort
         int i = 0, j = 0, k = l;
         while(i < n1 && j < n2)
         {
-            
+            if()
         }
     }
 }
