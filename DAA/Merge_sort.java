@@ -54,7 +54,9 @@ class Merge_sort
         for(int i=0; i<n; i++)
         {
             System.out.println("Enter element:");
-            arr[i] = 
+            arr[i] = sc.nextInt();
         }
+
+        
     }
 }
