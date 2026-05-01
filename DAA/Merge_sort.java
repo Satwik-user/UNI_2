@@ -16,7 +16,7 @@ class Merge_sort
         while(i < n1 && j < n2)
         {
             if(L[i] < R[j])
-            arr[k] = L[i]
+            arr[k] = L[i++]
         }
     }
 }
