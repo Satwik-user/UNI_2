@@ -36,7 +36,8 @@ class Merge_sort
         while(l < h)
         {
             int mid = (l + h) / 2;
-            merge_sort(arr, l, mid)
+            merge_sort(arr, l, mid);
+            merge-sort()
         }
     }
 }
