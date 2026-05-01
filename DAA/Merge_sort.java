@@ -1,3 +1,4 @@
+
 class Merge_sort
 {
     void merge(int arr[], int l, int m, int h)
@@ -46,6 +47,6 @@ class Merge_sort
     {
         Scanner sc = new Scanner(System.in);
 
-        
+
     }
 }
