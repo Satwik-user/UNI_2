@@ -58,7 +58,7 @@ class Merge_sort
         }
 
         Merge_sort obj = new Merge_sort();
-        merge_sort(arr, 0, n-1);
+        obj.merge_sort(arr, 0, n-1);
 
         System.out.println("Sorted Array:");
         for(int i=0; i<n; i++)
