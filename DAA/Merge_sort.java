@@ -32,4 +32,7 @@ class Merge_sort
     }
 
     void merge_sort(int arr[], int l, int h)
+    {
+        
+    }
 }
