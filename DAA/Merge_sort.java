@@ -37,7 +37,7 @@ class Merge_sort
         {
             int mid = (l + h) / 2;
             merge_sort(arr, l, mid);
-            merge-sort()
+            merge_sort()
         }
     }
 }
