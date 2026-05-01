@@ -24,6 +24,6 @@ class Merge_sort
             k++;
         }
 
-        while()
+        while(i< )
     }
 }
