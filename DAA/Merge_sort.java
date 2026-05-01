@@ -57,6 +57,6 @@ class Merge_sort
             arr[i] = sc.nextInt();
         }
 
-        merge_sort(arr, 0, )
+        merge_sort(arr, 0, n-1)
     }
 }
