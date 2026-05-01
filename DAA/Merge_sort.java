@@ -53,7 +53,7 @@ class Merge_sort
         int arr[] = new int[n];
         for(int i=0; i<n; i++)
         {
-            System.out.println("Enter element:");
+            System.out.print("Enter element:");
             arr[i] = sc.nextInt();
         }
 
