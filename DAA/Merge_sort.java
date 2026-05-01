@@ -7,6 +7,7 @@ class Merge_sort
         int L[] = new int[n1];
         int H[] = new int[n2];
         for(int i=0; i<n1; i++)
-        L[i] = arr[l + i]
+        L[i] = arr[l + i];
+        
     }
 }
