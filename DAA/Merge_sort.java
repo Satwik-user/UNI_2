@@ -19,7 +19,7 @@ class Merge_sort
             arr[k] = L[i++];
 
             else
-            arr
+            arr[k]
         }
     }
 }
