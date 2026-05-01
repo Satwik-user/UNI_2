@@ -1,4 +1,4 @@
-import java.util
+import java.util.s
 class Merge_sort
 {
     void merge(int arr[], int l, int m, int h)
