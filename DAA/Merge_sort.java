@@ -12,7 +12,7 @@ class Merge_sort
         for(int i=0; i<n2; i++)
         R[i] = arr[m + i + 1];
 
-        int i = 0, j = 0, k = 
+        int i = 0, j = 0, k = l;
         while()
     }
 }
