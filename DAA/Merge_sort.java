@@ -35,7 +35,7 @@ class Merge_sort
     {
         while(l < h)
         {
-            int mid = ()
+            int mid = (l + h)
         }
     }
 }
