@@ -50,6 +50,7 @@ class Merge_sort
         System.out.println("Enter the size of array:");
         int n = sc.nextInt();
 
-        int arr[] = new int[n]
+        int arr[] = new int[n];
+        
     }
 }
