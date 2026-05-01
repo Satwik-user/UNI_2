@@ -1,4 +1,4 @@
-import java.util.s
+import java.util.Scanner
 class Merge_sort
 {
     void merge(int arr[], int l, int m, int h)
