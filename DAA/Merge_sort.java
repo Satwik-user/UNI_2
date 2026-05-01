@@ -47,6 +47,6 @@ class Merge_sort
     {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter ")
+        System.out.println("Enter the size")
     }
 }
