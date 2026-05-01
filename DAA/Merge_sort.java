@@ -51,6 +51,6 @@ class Merge_sort
         int n = sc.nextInt();
 
         int arr[] = new int[n];
-        
+        for(i)
     }
 }
