@@ -25,6 +25,7 @@ class Merge_sort
         }
 
         while(i < n1)
-        arr[k++] = L[i++]
+        arr[k++] = L[i++];
+        
     }
 }
