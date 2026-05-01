@@ -59,6 +59,7 @@ class Merge_sort
 
         merge_sort(arr, 0, n-1);
 
-        System.out.println("Sorted Array:")
+        System.out.println("Sorted Array:");
+        for()
     }
 }
