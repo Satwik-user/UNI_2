@@ -31,5 +31,5 @@ class Merge_sort
         arr[k++] = R[j++];
     }
 
-    void merge_sort(int arr[], int )
+    void merge_sort(int arr[], int l, int h)
 }
