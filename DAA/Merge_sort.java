@@ -47,6 +47,7 @@ class Merge_sort
     {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter the size")
+        System.out.println("Enter the size of array:");
+        
     }
 }
