@@ -20,7 +20,8 @@ class Merge_sort
 
             else
             arr[k] = R[j++];
-            
+
+            k++;
         }
     }
 }
