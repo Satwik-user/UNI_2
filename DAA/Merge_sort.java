@@ -13,6 +13,6 @@ class Merge_sort
         R[i] = arr[m + i + 1];
 
         int i = 0, j = 0, k = l;
-        while(i < n1 && j)
+        while(i < n1 && j < )
     }
 }
