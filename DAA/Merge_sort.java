@@ -9,6 +9,8 @@ class Merge_sort
         for(int i=0; i<n1; i++)
         L[i] = arr[l + i];
         for(int i=0; i<n2; i++)
-        R[i] = arr[m + i + 1]
+        R[i] = arr[m + i + 1];
+
+        
     }
 }
