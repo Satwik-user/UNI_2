@@ -34,7 +34,7 @@ class Merge_sort
 
     void merge_sort(int arr[], int l, int h)
     {
-        if(l < h)
+        while(l < h)
         {
             int mid = (l + h) / 2;
             merge_sort(arr, l, mid);
