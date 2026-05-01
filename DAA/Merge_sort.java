@@ -44,6 +44,6 @@ class Merge_sort
 
     public static void main(String arge[])
     {
-        Scanner sc = new Scanner()
+        Scanner sc = new Scanner(System.in)
     }
 }
