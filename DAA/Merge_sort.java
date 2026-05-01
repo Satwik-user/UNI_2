@@ -60,6 +60,6 @@ class Merge_sort
         merge_sort(arr, 0, n-1);
 
         System.out.println("Sorted Array:");
-        for(int i)
+        for(int i=0; i<n; i++)
     }
 }
