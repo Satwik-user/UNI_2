@@ -57,7 +57,7 @@ class Merge_sort
             arr[i] = sc.nextInt();
         }
 
-        Merge_sort obj = Mer
+        Merge_sort obj = new Merge_sort();
         merge_sort(arr, 0, n-1);
 
         System.out.println("Sorted Array:");
