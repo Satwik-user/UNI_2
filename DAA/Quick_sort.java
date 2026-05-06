@@ -30,5 +30,8 @@ class Quick_sort
     void quickSort(int arr[], int l, int h)
     {
         if(l < h)
+        {
+            
+        }
     }
 }
