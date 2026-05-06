@@ -59,3 +59,4 @@ class Quick_sort
         System.out.print(arr[i] + " ");
     }
 }
+}
