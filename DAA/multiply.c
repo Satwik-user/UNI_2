@@ -6,7 +6,7 @@ int main()
     scanf("%d %d %d %d", &n1, &m1, &n2, m2);
 
     printf("Enter 1st matrx:\n");
-    for(int i=0; i<n1; n1++)
+    for(int i=0; i<n1; U)
     
     return 0;
 }
