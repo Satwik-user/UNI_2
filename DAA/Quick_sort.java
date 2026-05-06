@@ -7,4 +7,6 @@ class Quick_sort
         arr[a] = arr[b];
         arr[b] = temp;
     }
+
+    
 }
