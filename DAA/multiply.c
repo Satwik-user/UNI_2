@@ -30,6 +30,12 @@ int main()
 
     int C[n1][m2];
     for(int i=0; i<n1; i++)
+    {
+        for(int j=0; j<m2; j++)
+        {
+            
+        }
+    }
     
     return 0;
 }
