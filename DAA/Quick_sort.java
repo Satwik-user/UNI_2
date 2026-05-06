@@ -32,7 +32,8 @@ class Quick_sort
         if(l < h)
         {
             int pivot = partition(arr, l, h);
-            quickSort(arr, l, pivot-1)
+            quickSort(arr, l, pivot-1);
+            q
         }
     }
 }
