@@ -48,7 +48,7 @@ class Quick_sort
         for(int i=0; i<n; i++)
         {
             System.out.print("Enter element:");
-            int arr[i] = sc.nextInt();
+            arr[i] = sc.nextInt();
         }
 
         quickSort(arr, 0, n-1);
