@@ -12,6 +12,9 @@ class Quick_sort
     {
         int pivot = arr[l];
         int i = l + 1, j = h;
-        
+        while(i < j)
+        {
+            
+        }
     }
 }
