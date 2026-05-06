@@ -51,6 +51,6 @@ class Quick_sort
             int arr[i] = sc.nextInt();
         }
 
-        quickSort(arr, )
+        quickSort(arr, l)
     }
 }
