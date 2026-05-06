@@ -51,7 +51,8 @@ class Quick_sort
             arr[i] = sc.nextInt();
         }
 
-        quickSort(arr, 0, n-1);
+        Quick_sort obj = new Quick_sort();
+        obj.quickSort(arr, 0, n-1);
         
         System.out.print("Sorted List:");
         for(int i=0; i<n; i++)
