@@ -37,5 +37,5 @@ class Quick_sort
         }
     }
 
-    
+    public static void main()
 }
