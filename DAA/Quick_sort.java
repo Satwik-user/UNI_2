@@ -8,5 +8,5 @@ class Quick_sort
         b = temp;
     }
 
-    
+\
 }
