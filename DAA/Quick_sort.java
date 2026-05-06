@@ -11,6 +11,6 @@ class Quick_sort
     int partition(int arr[], int l, int h)
     {
         int pivot = arr[l];
-        int 
+        int i = 
     }
 }
