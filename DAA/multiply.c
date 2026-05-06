@@ -34,7 +34,8 @@ int main()
         for(int j=0; j<m2; j++)
         {
             C[i][j] = 0;
-            
+            for(int k=0; k<m1; k++)
+            C[i][j] += A[i][k] * B[k][j];
         }
     }
     
