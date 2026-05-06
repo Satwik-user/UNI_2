@@ -55,6 +55,6 @@ class Quick_sort
         
         System.out.print("Sorted List:");
         for(int i=0; i<n; i++)
-        System.out.print("")
+        System.out.print(arr[i]);
     }
 }
