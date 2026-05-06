@@ -8,5 +8,5 @@ class Quick_sort
         arr[b] = temp;
     }
 
-    
+    void 
 }
