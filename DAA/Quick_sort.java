@@ -1,5 +1,5 @@
 import java.util.Scanner;
 class Quick_sort
 {
-    void swap(int arr[], int )
+    void swap(int arr[], int a, int b)
 }
