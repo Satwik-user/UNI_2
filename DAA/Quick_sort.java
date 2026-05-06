@@ -27,7 +27,7 @@ class Quick_sort
         return j;
     }
 
-    void quickSort(int arr[], int l, int h)
+    static void quickSort(int arr[], int l, int h)
     {
         if(l < h)
         {
