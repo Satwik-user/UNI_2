@@ -33,7 +33,7 @@ class Quick_sort
         {
             int pivot = partition(arr, l, h);
             quickSort(arr, l, pivot-1);
-            quickSort(arr, pivot+1, h)
+            quickSort(arr, pivot+1, h);
         }
     }
 }
