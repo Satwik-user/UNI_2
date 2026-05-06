@@ -20,7 +20,7 @@ class Quick_sort
             while(j >= l && arr[j] > pivot)
             j--;
 
-            
+            if(i < j)
         }
     }
 }
