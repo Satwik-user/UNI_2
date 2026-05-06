@@ -18,6 +18,9 @@ class Quick_sort
             i++;
 
             while(j >= l && arr[j] > pivot)
+            j--;
+
+            
         }
     }
 }
