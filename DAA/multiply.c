@@ -40,7 +40,7 @@ int main()
     }
 
     printf("Resultant Matrix:");
-    
+    for(int i=0; i<n1; i++)
     
     return 0;
 }
