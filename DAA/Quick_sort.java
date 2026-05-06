@@ -21,7 +21,8 @@ class Quick_sort
             j--;
 
             if(i < j)
-            swap(arr, i, j)
+            swap(arr, i, j);
         }
+        swap()
     }
 }
