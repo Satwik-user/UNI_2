@@ -54,6 +54,7 @@ class Quick_sort
         quickSort(arr, 0, n-1);
         
         System.out.print("Sorted List:");
+        for(int i=0; i<n; i++)
         
     }
 }
