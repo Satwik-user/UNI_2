@@ -39,6 +39,7 @@ int main()
         }
     }
 
+    printf("Resultant Matrix:");
     
     
     return 0;
