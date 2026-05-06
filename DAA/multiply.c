@@ -23,9 +23,11 @@ int main()
         for(int j=0; j<m2; j++)
         {
             printf("Enter element:");
-            scanf("")
+            scanf("%d", B[i][j]);
         }
     }
+
+    
     
     return 0;
 }
