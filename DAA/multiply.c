@@ -44,6 +44,7 @@ int main()
     {
         for(int j=0; j<m2; j++)
         {
+            printf("%d ", C[i][j]);
             
         }
     }
