@@ -7,4 +7,6 @@ class Quick_sort
         a = b;
         b = temp;
     }
+
+    
 }
