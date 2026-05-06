@@ -19,6 +19,13 @@ int main()
 
     printf("Enter 2nd matrix:\n");
     for(int i=0; i<n2; i++)
+    {
+        for(int j=0; j<m2; j++)
+        {
+            printf("Enter element:");
+            scanf("")
+        }
+    }
     
     return 0;
 }
