@@ -43,6 +43,7 @@ class Quick_sort
 
         System.out.print("Enter size of array:");
         int n = sc.nextInt();
-        
+
+        for(int i=0)
     }
 }
