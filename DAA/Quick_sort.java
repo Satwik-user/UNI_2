@@ -31,7 +31,7 @@ class Quick_sort
     {
         if(l < h)
         {
-            int pivot = partition(arr, l, h)
+            int pivot = partition(arr, l, h);
             
         }
     }
