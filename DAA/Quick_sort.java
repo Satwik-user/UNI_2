@@ -8,5 +8,5 @@ class Quick_sort
         arr[b] = temp;
     }
 
-    int partition(int arr[], )
+    int partition(int arr[], int l, int h)
 }
