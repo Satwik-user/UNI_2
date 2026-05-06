@@ -42,6 +42,6 @@ class Quick_sort
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter size of array:");
-        
+        int n = sc.
     }
 }
