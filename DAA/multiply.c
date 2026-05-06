@@ -16,6 +16,9 @@ int main()
             scanf("%d", A[i][j]);
         }
     }
+
+    printf("Enter 2nd matrix:\n");
+    
     
     return 0;
 }
