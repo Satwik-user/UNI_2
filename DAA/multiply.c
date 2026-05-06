@@ -18,7 +18,7 @@ int main()
     }
 
     printf("Enter 2nd matrix:\n");
-    
+    for(int i=0; i<n2; i++)
     
     return 0;
 }
