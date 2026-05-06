@@ -26,4 +26,6 @@ class Quick_sort
         swap(arr, l, j);
         return j;
     }
+
+    
 }
