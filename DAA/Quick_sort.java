@@ -23,6 +23,6 @@ class Quick_sort
             if(i < j)
             swap(arr, i, j);
         }
-        swap()
+        swap(arr, )
     }
 }
