@@ -42,7 +42,7 @@ int main()
     printf("Resultant Matrix:");
     for(int i=0; i<n1; i++)
     for(int j=0; j<m2; j++)
-    printf("%d ", &C[i][j]);
+    printf("%d ", C[i][j]);
     
     return 0;
 }
