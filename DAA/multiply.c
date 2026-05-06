@@ -38,6 +38,8 @@ int main()
             C[i][j] += A[i][k] * B[k][j];
         }
     }
+
+    
     
     return 0;
 }
