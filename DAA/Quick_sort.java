@@ -3,6 +3,7 @@ class Quick_sort
 {
     void swap(int arr[], int a, int b)
     {
-        int temp = a
+        int temp = a;
+        
     }
 }
