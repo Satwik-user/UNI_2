@@ -27,5 +27,5 @@ class Quick_sort
         return j;
     }
 
-    void quickSort(arr[], )
+    void quickSort(int arr[], int l, int h)
 }
