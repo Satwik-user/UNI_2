@@ -15,6 +15,8 @@ class Quick_sort
         while(i < j)
         {
             while(i <= h && arr[i] < pivot)
+            i++;
+            
         }
     }
 }
