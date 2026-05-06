@@ -29,7 +29,7 @@ int main()
 
 
     int C[n1][m2];
-    for(int i=0; i<n1)
+    for(int i=0; i<n1; i++)
     
     return 0;
 }
