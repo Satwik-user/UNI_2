@@ -28,6 +28,7 @@ int main()
     }
 
 
+    int C[n1][m2];
     
     
     return 0;
