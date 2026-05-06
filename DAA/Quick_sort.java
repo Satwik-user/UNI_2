@@ -45,5 +45,8 @@ class Quick_sort
         int n = sc.nextInt();
 
         for(int i=0; i<n; i++)
+        {
+            
+        }
     }
 }
