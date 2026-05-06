@@ -13,7 +13,7 @@ int main()
         for(int j=0; j<m1; j++)
         {
             printf("Enter element:");
-            scanf("%d", A[i][j]);
+            scanf("%d", &A[i][j]);
         }
     }
 
@@ -23,7 +23,7 @@ int main()
         for(int j=0; j<m2; j++)
         {
             printf("Enter element:");
-            scanf("%d", B[i][j]);
+            scanf("%d", &B[i][j]);
         }
     }
 
