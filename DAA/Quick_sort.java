@@ -14,7 +14,7 @@ class Quick_sort
         int i = l + 1, j = h;
         while(i < j)
         {
-            while(i <= )
+            while(i <= h && )
         }
     }
 }
