@@ -53,6 +53,7 @@ class Quick_sort
 
         quickSort(arr, 0, n-1);
         
-        System.out.print("Sorted List:")
+        System.out.print("Sorted List:");
+        
     }
 }
