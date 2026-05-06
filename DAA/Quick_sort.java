@@ -9,4 +9,7 @@ class Quick_sort
     }
 
     int partition(int arr[], int l, int h)
+    {
+        
+    }
 }
