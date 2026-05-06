@@ -46,7 +46,7 @@ int main()
         {
             printf("%d ", C[i][j]);
         }
-        
+        printf("\n");
     }
     
     return 0;
