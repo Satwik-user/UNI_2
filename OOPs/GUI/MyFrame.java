@@ -4,6 +4,7 @@ public class MyFrame
 {
     public static void main(String args[])
     {
-        JFrame f = new JFrame
+        JFrame f = new JFrame("My First Frame");
+        
     }
 }
