@@ -8,6 +8,6 @@ public class MyFrame
 
         f.setSize(400, 300);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        f.
+        f.setVisible()
     }
 }
