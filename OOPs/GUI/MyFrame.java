@@ -7,7 +7,8 @@ public class MyFrame
         JFrame f = new JFrame("My First Frame");
 
         f.setSize(400, 300);
-        f.setDefaultCloseOperation(JFrame.CLOSE_ON_EXIT);
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
+
     }
 }
