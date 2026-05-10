@@ -7,6 +7,6 @@ public class MyFrame
         JFrame f = new JFrame("My First Frame");
 
         f.setSize(400, 300);
-        f.setDefault
+        f.setDefaultCloseOperation()
     }
 }
