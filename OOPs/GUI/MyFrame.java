@@ -6,6 +6,7 @@ public class MyFrame
     {
         JFrame f = new JFrame("My First Frame");
 
-        f.setSize()
+        f.setSize(400, 300);
+        f.
     }
 }
